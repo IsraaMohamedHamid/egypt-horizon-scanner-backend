@@ -7,7 +7,7 @@ const {
   getIssueById,
   updateIssue,
   deleteIssue
-} = require("../Controller/Dimensions and Pillars/issueController");
+} = require("../Controller/Digital Avatar/issueController");
 
 ///---------------------- LIBRARIES ----------------------///
 const express = require("express");

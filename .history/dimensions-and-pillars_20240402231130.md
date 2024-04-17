@@ -1,7 +1,7 @@
 my-node-project/
 │
 ├── models/
-|   └── Dimensions and Pillars
+|   └── Digital Avatar
 |      ├── dimension.js
 |      ├── dimensionDefinition.js
 |      ├── issue.js

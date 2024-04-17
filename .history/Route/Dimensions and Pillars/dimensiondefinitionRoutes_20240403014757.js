@@ -7,7 +7,7 @@ const {
   getDimensionDefinitionById,
   updateDimensionDefinition,
   deleteDimensionDefinition
-} = require("../../Controller/Dimensions and Pillars/dimensionController");
+} = require("../../Controller/Digital Avatar/dimensionController");
 
 ///---------------------- LIBRARIES ----------------------///
 const express = require("express");

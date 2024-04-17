@@ -1,0 +1,3083 @@
+{
+  "Dimensions": [
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "GDP, current prices",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline, bar chart",
+      "Source": "IMF"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Inflation rate",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline, bar chart",
+      "Source": "CAPMAS"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Number of youth led SMEs",
+      "Type": "Quantitative and Qualitative",
+      "Data Visualization": "Quantitative and Qualitative",
+      "Source": "Multiple"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "% of job creation",
+      "Type": "Qualitative",
+      "Data Visualization": "Info box",
+      "Source": "Economic Research Forum"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Unemployment rate and gender breakdown",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline, bar chart",
+      "Source": "CAPMAS, World Bank"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Exchange Rate in the parallel market",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline, bar chart",
+      "Source": "EG Currency"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Central Bank Announcements",
+      "Type": "Qualitative",
+      "Data Visualization": "Info box",
+      "Source": "Central Bank of Egypt and Social Media",
+      "Notes": "Any government policies/announcements by the Central Bank related to foreign currency and/or imports and exports.\r\n"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Commodities affected prices: wheat and fuel prices",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline, bar chart",
+      "Source": "WFP"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Balance of trade, Export , Import, External debet, Trade growth",
+      "Type": "Quantitative",
+      "Data Visualization": "line chart",
+      "Source": "World Integrated Trade Solution"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Ukraine Index: Tracking developments in the Ukraine war",
+      "Type": "Quantitative and Qualitative",
+      "Data Visualization": "line chart, bar chart, info box",
+      "Source": "the Brookings Institution and The Washington Post",
+      "Notes": "the Indext compiles security, economic, and political data presented in graphic form about the Ukraine conflict"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Production volume of main crops in Egypt",
+      "Type": "Quantitative and Qualitative",
+      "Data Visualization": "Line bar, info box and GIS Map",
+      "Source": "USDA and International Production Assessment Division"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Egypt: Distribution of employment by economic sector from 2011 to 2021",
+      "Type": "Quantitative",
+      "Data Visualization": "bar chart",
+      "Source": "Statista",
+      "Notes": "need to subscribe for access to full data "
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Distribution of employment in Egypt as of June 2023, by sector",
+      "Type": "Quantitative",
+      "Data Visualization": "Pie chart",
+      "Source": "Statista",
+      "Notes": "need to subscribe for access to full data "
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Insuarnce indicator: Gross written premium (GWP)",
+      "Type": "Quantitative",
+      "Data Visualization": "bar chart",
+      "Source": "Statista"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Commodities affected (Q and %): wheat and fuel local production vs imports; local demand and grow by how much",
+      "Type": "Quantitative ",
+      "Data Visualization": "Inside out pie chart",
+      "Source": "UNCTAD, CAPMAS"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Support for youth entrepreneurs ",
+      "Type": "Quantitative and Qualitative",
+      "Data Visualization": "Pie chart and info box",
+      "Source": "Multiple"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Impact on women farmers and businesses",
+      "Type": "Qualitative",
+      "Data Visualization": "Info box",
+      "Source": "Wilson Center and ILO"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Food Security: Moderate, severe, moderate or severe and gender breakdown",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline or bar chart",
+      "Source": "FAO"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Wheat flour, sugar, rice and vegetable oil",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline or bar chart",
+      "Source": "WFP"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Egyptian Sustainable Tourism Portal",
+      "Type": "Qualitative",
+      "Data Visualization": "Infobox",
+      "Source": "Government Knowledge Hub"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Women involvement in eco-tourism",
+      "Type": "Qualitative",
+      "Data Visualization": "Infobox",
+      "Source": "AFDB, Awimnews",
+      "Notes": "Examples to be shown"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Medical tourism Index",
+      "Type": "Quantitative ",
+      "Data Visualization": "Bar chart",
+      "Source": "Medical tourism Index"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Main staple prices (Wheat flour, sugar, rice and vegetable oil)",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline or bar chart",
+      "Source": "WFP"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Crops Production",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline or bar chart",
+      "Source": "FAO"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Number of women working in official energy units & leading projects on cleaner production",
+      "Type": "Quantitative and Qualitative",
+      "Data Visualization": "Bar chart and info box",
+      "Source": "World Bank, EBRD, UNESCWA"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Number of health startups and firms and gender breakdown",
+      "Type": "Qualitative and quantitative",
+      "Data Visualization": "Pie chart and info box",
+      "Source": "Multiple"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Number of Ownership of transactional accounts (bank accounts, Egypt Post accounts, mobile wallets, and prepaid cards)\r\nNumber of Prepaid Cards\r\nNumber of Mobile Wallets\r\nNumber of financial access points\r\n",
+      "Type": "Qualitative and quantitative",
+      "Data Visualization": "info box and column chart",
+      "Source": "Central Bank of Egypt"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "financial inclusion index",
+      "Type": "Quantitative",
+      "Data Visualization": "info box and bubbles",
+      "Source": "principal financial group"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Multiple Indicators, Multiple Causes” (MIMIC)",
+      "Type": "Qualitative and quantitative",
+      "Data Visualization": "info box",
+      "Source": "International Journal of Business Management and Economic Research",
+      "Notes": "The MIMIC approach explicitly considers several causes, as well as the multiple effects of the informal economy. The methodology makes use of the associations between the observable causes and the observable effects of an unobserved variable, in this case, the informal economy, to estimate the unobserved factor itself"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Capital investment, percent of GDP",
+      "Type": "quantitative",
+      "Data Visualization": "info box and column chart and timeline",
+      "Source": "\r\nThe global economy"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Egypt Foreign Direct Investment",
+      "Type": "quantitative",
+      "Data Visualization": "Area chart and timeline",
+      "Source": "ceicdata\r\nCentral Bank of Egypt"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Total, private and public investments:\r\nTotal new establishments and expansions\r\nNet FDI in Egypt\r\nTop 5 Net FDI countries in Egypt",
+      "Type": "quantitative",
+      "Data Visualization": "Column chart and timeline",
+      "Source": "Central Bank of Egypt"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Economic development",
+      "Indicators": "Enablers for SMEs in the renewable energy sector",
+      "Type": "Qualitative ",
+      "Data Visualization": "Info box",
+      "Source": "Multiple"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Energy",
+      "Indicators": "Energy (Electricity, Transportation, Tourism and refineries)",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline, bar chart",
+      "Source": "RECREE"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Energy",
+      "Indicators": "Agriculture %of supply of natural resources, hydro, renewable and fuel etc.",
+      "Type": "Quantitative ",
+      "Data Visualization": "Pie chart",
+      "Source": "RCREEE"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Energy",
+      "Indicators": "Fuel",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline, bar chart",
+      "Source": "RECREE"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Energy",
+      "Indicators": "Domestic %of supply of natural resources, hydro, renewable and fuel etc.",
+      "Type": "Quantitative ",
+      "Data Visualization": "Pie chart",
+      "Source": "RCREEE and World Bank"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Energy",
+      "Indicators": "Industry %of supply of natural resources, hydro, renewable and fuel etc.",
+      "Type": "Quantitative ",
+      "Data Visualization": "Pie chart",
+      "Source": "RCREEE and IRENA"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Energy",
+      "Indicators": "Number of women trained on using renewable energy",
+      "Type": "Quantitative and Qualitative",
+      "Data Visualization": "Bar chart and info box",
+      "Source": "EBRD"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Energy",
+      "Indicators": "The phase model for energy transitions towards renewables-based low-carbon energy systems in the MENA countries \r\nElectricity Generation",
+      "Type": "Qualitative and quantitative",
+      "Data Visualization": "Info box, Pie chart, timeline",
+      "Source": "FRIEDRICH-EBERT-STIFTUNG",
+      "Notes": "focusing on the energy sector (low-carbon energy system mode and electricity generation) to measure the state of green transition"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Energy",
+      "Indicators": "Investment in renewable energy (firm, % or number)",
+      "Type": "Quantitative",
+      "Data Visualization": "Bar chart ",
+      "Source": "Multiple"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Energy",
+      "Indicators": "Energy Production (GW)",
+      "Type": "Quantitative",
+      "Data Visualization": "bar chart",
+      "Source": "New & Renewable Energy Authority"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Energy",
+      "Indicators": "Renewable Energy Market",
+      "Type": "Quantitative",
+      "Data Visualization": "bar chart",
+      "Source": "New & Renewable Energy Authority"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Indicators": "Agriculture Innovation Project: Geographical and gender breakdown",
+      "Type": "Qualitative ",
+      "Data Visualization": "Info box",
+      "Source": "Main source",
+      "Notes": "Partnerships cluster: need to contact the main source to use their data"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Indicators": "Enabling technologies for farmers examples",
+      "Type": "Qualitative ",
+      "Data Visualization": "Info box",
+      "Source": "Multiple"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Indicators": "Digital Readiness",
+      "Type": "Quantitative",
+      "Data Visualization": "Column chart",
+      "Source": "CISCO and MCIT"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Indicators": "Crops Production: Enabling technologies for farmers examples",
+      "Type": "Qualitative ",
+      "Data Visualization": "Info box",
+      "Source": "Multiple"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Indicators": "Adapting technology in the education system",
+      "Type": "Qualitative",
+      "Data Visualization": "Infobox",
+      "Source": "Multiple"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Indicators": "Number of healthcare tech startups",
+      "Type": "Quantitative ",
+      "Data Visualization": "Bar chart",
+      "Source": "IFC and Tracxn"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Indicators": "Digital infrastructure in tourist locations",
+      "Type": "Quantitative ",
+      "Data Visualization": "Pie chart, bar chart and timeline",
+      "Source": "JIL and Egypt Today"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Indicators": "Digital food solutions",
+      "Type": "Qualitative ",
+      "Data Visualization": "Info box",
+      "Source": "Multiple"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Indicators": "Number of the Financial inclusion\r\nNumber of Fintech and digital inancial services \r\nGlobal innovation Index\r\nglobal Fintech startups ecosystem \r\nAfrican Fintech ecosystem \r\nAfrican Fintech investment ecosystem \r\nMENA Fintech ecosystem",
+      "Type": " quantitative",
+      "Data Visualization": "column chart and timeline",
+      "Source": "Central Bank of Egypt",
+      "Notes": "CBE consider the total number for each mentioned indicator as the tool for measuring the innovative finance state\r\nFinancial inclusion regularly refer to individuals who are financially included"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Indicators": "Digital & Connectivity Indicators",
+      "Type": "Quantitative",
+      "Data Visualization": "Column chart and timeline",
+      "Source": "Statista Market Insights"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Indicators": "using Digital Economy Eountry Assessment (DECA) that measures the digital economy across 5 pillars including Digital infrastructure, Digital skills, Digital platforms, Digital financial services and Digital entrepreneurship",
+      "Type": "Qualitative and quantitative",
+      "Data Visualization": "info box",
+      "Source": "World Bank Group",
+      "Notes": "Using the DECA model that includes the mentioned 5 pillars which are reflected as indicators to measure the state of digitalization"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Indicators": "global Fintech startups ecosystem",
+      "Type": "Quantitative",
+      "Data Visualization": "column chart and timeline",
+      "Source": "Central Bank of Egypt",
+      "Notes": "CBE consider the total number for each mentioned indicator as the tool for measuring the innovative finance state\r\nFinancial inclusion regularly refer to individuals who are financially included"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Indicators": "African Fintech startups ecosystem",
+      "Type": "Quantitative",
+      "Data Visualization": "column chart and timeline",
+      "Source": "Central Bank of Egypt",
+      "Notes": "CBE consider the total number for each mentioned indicator as the tool for measuring the innovative finance state\r\nFinancial inclusion regularly refer to individuals who are financially included"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Indicators": "African Fintech investment ecosystem",
+      "Type": "Quantitative",
+      "Data Visualization": "column chart and timeline",
+      "Source": "Central Bank of Egypt",
+      "Notes": "CBE consider the total number for each mentioned indicator as the tool for measuring the innovative finance state\r\nFinancial inclusion regularly refer to individuals who are financially included"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Indicators": "Digital Quality of Life index",
+      "Type": "Quantitative",
+      "Data Visualization": "bar chart",
+      "Source": "Statista",
+      "Notes": "need to subscribe for access to full data "
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Indicators": "Global Innovation Index\r\nSIS announcement",
+      "Type": "Quantitative",
+      "Data Visualization": "column chart and timeline",
+      "Source": "SIS \r\nWIPO",
+      "Notes": "SIS announcement included the innovation index as an indicator for innovative education and the progress in the scientific research"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Indicators": " MENA Fintech startups ecosystem",
+      "Type": "Quantitative",
+      "Data Visualization": "column chart and timeline",
+      "Source": "Central Bank of Egypt",
+      "Notes": "CBE consider the total number for each mentioned indicator as the tool for measuring the innovative finance state\r\nFinancial inclusion regularly refer to individuals who are financially included"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Indicators": "Fintech for women",
+      "Type": "Quantitative and Qualitative",
+      "Data Visualization": "Quantitative and Qualitative",
+      "Source": "Beam Exchange"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Transparency and efficient government institutions",
+      "Indicators": "SIS announcement",
+      "Type": "Qualitative",
+      "Data Visualization": "Info box",
+      "Source": "SIS ",
+      "Notes": "SIS announcement included the innovation index as an indicator for innovative education and the progress in the scientific research "
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Transparency and efficient government institutions",
+      "Indicators": "Ease of doing business ",
+      "Type": "Quantitative ",
+      "Data Visualization": "Donut chart, bar chart",
+      "Source": "World Bank"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Transparency and efficient government institutions",
+      "Indicators": "The Egyptian Governorates Competitiveness Index",
+      "Type": "Qualitative",
+      "Data Visualization": "Info box",
+      "Source": "The Egyptian National Competitiveness Council"
+    },
+    {
+      "Dimension": "Gross written premium (GWP)",
+      "Pillars": "Transparency and efficient government institutions",
+      "Indicators": "The Single government services card and number of participants",
+      "Type": "Quantitative and Qualitative",
+      "Data Visualization": "Bar chart and info box",
+      "Source": "Ministry of Communications and Information Technology"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "Security Incidents (S)",
+      "Type": "Qualitative and quantitative",
+      "Data Visualization": "Timeline, bar chart, map",
+      "Source": "ACLED",
+      "Notes": "Countires to focus on other than Egypt (S, R) would be Palestine (R), Sudan (R), Libya (S), Ethiopia (W), GCC (S), US (S) and the EU (R). Sources would include using keywords that include Egypt for the political research and anything that would affect Egypt political situation based on the indicators and countries mentioned.\r\n"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "Laws and policies concerning GBV (S) ",
+      "Type": "Qualitative",
+      "Data Visualization": "Info box",
+      "Source": "UNHCR, UNDP and Egypt Today"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "Refugees (R)",
+      "Type": "Qualitative and quantitative",
+      "Data Visualization": "Timeline, bar chart, map",
+      "Source": "UNHCR and IOM"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "Laws and policies concerning GBV for refugees (R) ",
+      "Type": "Qualitative",
+      "Data Visualization": "Info box",
+      "Source": "UNHCR and UNDP"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "Political representation/quotas for women",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline, bar chart",
+      "Source": "Multiple"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "Political representation/quotas for youth",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline, bar chart",
+      "Source": "OHCHR and Ahram Online"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "Women's financial inclusion services",
+      "Type": "Quantitative ",
+      "Data Visualization": "Bar chart",
+      "Source": "UN Women and Euro Money"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "GDP per capita",
+      "Type": "Quantitative",
+      "Data Visualization": "line chart, timeline",
+      "Source": "the World bank, International Monetary Fund"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "Household income",
+      "Type": "Qualitative",
+      "Data Visualization": "Info box",
+      "Source": "CAPMAS"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "The Tamween food subsidy system",
+      "Type": "Quantitative and Qualitative",
+      "Data Visualization": "Timeline, bar chart and info box",
+      "Source": "IFPRI"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "Impact of childcare subsidies on women's employment",
+      "Type": "Quantitative and Qualitative",
+      "Data Visualization": "Bar chart and info box",
+      "Source": "World Bank, J-PAL"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "Number of women farmers affected by rainfalls and heatwaves ",
+      "Type": "Quantitative ",
+      "Data Visualization": "Bar chart or timeline",
+      "Source": "Multiple",
+      "Notes": "This can be measured indirectly. 1- % of women working in agriculture (we can focus on rural areas). 2- agriculture loss because of heatwaves and rainfalls."
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "Empowering women in agricultural mitigations examples",
+      "Type": "Qualitative ",
+      "Data Visualization": "Info box",
+      "Source": "Multiple"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "Population and gender breakdown",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline",
+      "Source": "OCHA"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "The program and innovative implementation (e.g. digital registration or cash-based transfers using e-wallets)\r\nThe timeline \r\nThe budget\r\nThe goals (including number of targeted people and gender breakdown) \r\nActors (e.g. the government, international organizations…etc) and the donors\r\n",
+      "Type": "Qualitative and quantitative",
+      "Data Visualization": "Info box and timeline (number of people and years)",
+      "Source": "Their source",
+      "Notes": "Partnerships cluster: need to contact the main source to use their data"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "Egypt's population divided into governorates",
+      "Type": "Quantitative",
+      "Data Visualization": "Map",
+      "Source": "CAPMAS"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "Demographics of Egypt",
+      "Type": "Quantitative and Qualitative",
+      "Data Visualization": "info box",
+      "Source": "CAPMAS"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "Insuarnce indicator: Average Gross Written Insurance per Capita",
+      "Type": "Quantitative",
+      "Data Visualization": "bar chart",
+      "Source": "Statista ",
+      "Notes": "need to subscribe for access to full data "
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Indicators": "The program and number of innovative interventions \r\nThe timeline \r\nThe budget\r\nThe goals (including number of targeted people and gender breakdown) \r\nActors (e.g. the government, international organizations…etc) and the donors\r\n",
+      "Type": "Qualitative and quantitative",
+      "Data Visualization": "Info box and timeline (number of people and years)",
+      "Source": "Their source",
+      "Notes": "Partnerships cluster: need to contact the main source to use their data"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Health",
+      "Indicators": "Private vs public hospitals",
+      "Type": "Qualitative and quantitative",
+      "Data Visualization": "Pie chart and info box",
+      "Source": "Statista",
+      "Notes": "Find original source"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Health",
+      "Indicators": "Malnutrition indicators",
+      "Type": "Qualitative",
+      "Data Visualization": "info box",
+      "Source": "Global Nutrition Report",
+      "Notes": "The indicators stunting, wasting, overweight and underweight are used to measure nutritional imbalance. Child growth is internationally recognized as an important indicator of nutritional status and health in populations."
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Health",
+      "Indicators": "Mortality rates and gender breakdown",
+      "Type": "Quantitative ",
+      "Data Visualization": "Piechart ",
+      "Source": "WHO"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Health",
+      "Indicators": "HIV AIDS rates",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline",
+      "Source": "UNAIDS"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Health",
+      "Indicators": "Vaccination coverage for Egypt",
+      "Type": "Quantitative ",
+      "Data Visualization": "Bubbles ",
+      "Source": "WHO",
+      "Notes": "% for all available diseases up to the latest year available"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Health",
+      "Indicators": "The number of health facilities",
+      "Type": "Qualitative",
+      "Data Visualization": "Info box",
+      "Source": "SIS"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Health",
+      "Indicators": "The number of beds",
+      "Type": "Qualitative",
+      "Data Visualization": "Info box",
+      "Source": "SIS"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Health",
+      "Indicators": "Number of doctors per patient",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline or piechart",
+      "Source": "WHO"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Health",
+      "Indicators": "Number of available nurses and doctors gender breakdown",
+      "Type": "Quantitative ",
+      "Data Visualization": "Pie chart",
+      "Source": "Statista, Wilson Center and WHO"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Health",
+      "Indicators": "Life expectancy and gender breakdown",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline or piechart",
+      "Source": "HDI and WHO"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Education and training",
+      "Indicators": "Literacy rates and gender breakdown",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline or piechart",
+      "Source": "UNICEF, World Bank"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Education and training",
+      "Indicators": "Average years of school and gender breakdown",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline or piechart",
+      "Source": "Human development Index, World Bank"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Education and training",
+      "Indicators": "Out of school children and gender breakdown ",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline or piechart",
+      "Source": "UNESCO"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Education and training",
+      "Indicators": "Completion rates, primary and secondary schools and gender breakdown",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline or piechart",
+      "Source": "World Bank"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Education and training",
+      "Indicators": "Number of total enrollment of university students in Egypt in 2021/2022, by sector",
+      "Type": "Quantitative",
+      "Data Visualization": "bar chart",
+      "Source": "Statista",
+      "Notes": "need to subscribe for access to full data "
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Education and training",
+      "Indicators": "Pupil-teacher ratio, primary",
+      "Type": "Quantitative",
+      "Data Visualization": "line chart, timeline",
+      "Source": "the World bank"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Education and training",
+      "Indicators": "Number of technical and vocational education and training graduates in Egypt as of 2021/2022, by specialty and gender",
+      "Type": "Quantitative",
+      "Data Visualization": "bar chart",
+      "Source": "Statista",
+      "Notes": "need to subscribe for access to full data "
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Culture",
+      "Indicators": "Tourist expenditure in Egypt\r\nNumber of tourist arrivals from Europe\r\nNumber of jobs in the travel and tourism sector",
+      "Type": " quantitative",
+      "Data Visualization": " column chart and timeline",
+      "Source": "Statista",
+      "Notes": "need to subscribe for access to full data "
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Culture",
+      "Indicators": "Number of tourist arrivals from Europe ",
+      "Type": "quantitative",
+      "Data Visualization": " column chart and timeline",
+      "Source": "Statista ",
+      "Notes": "need to subscribe for access to full data "
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Culture",
+      "Indicators": "Number of jobs in the travel and tourism sector",
+      "Type": "quantitative",
+      "Data Visualization": " column chart and timeline",
+      "Source": "Statista ",
+      "Notes": "need to subscribe for access to full data "
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Indicators": "Water Issues (W)",
+      "Type": "Qualitative and quantitative",
+      "Data Visualization": "Timeline, bar chart, map",
+      "Source": "Climate Diplomacy"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Indicators": "Rising sea levels",
+      "Type": "Quantitative ",
+      "Data Visualization": "Timeline, bar chart",
+      "Source": "USAID",
+      "Notes": "Data source can't be located and/or UNEP"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Indicators": "Coastal destinations and coral reefs",
+      "Type": "Qualitative",
+      "Data Visualization": "Infobox",
+      "Source": "Enterprise",
+      "Notes": "Data source can't be located and/or UNEP"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Indicators": "Vegetation index, rainfalls and heatwaves",
+      "Type": "Quantitative ",
+      "Data Visualization": "Map",
+      "Source": "WFP"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Indicators": "Projects to combat the effect of rainfalls and heatwaves",
+      "Type": "Qualitative ",
+      "Data Visualization": "Info box",
+      "Source": "Multiple"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Indicators": "wind speed and wind direction",
+      "Type": "quantitative",
+      "Data Visualization": "GIS map",
+      "Source": "windy.app"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Indicators": "Conventional resources: comprising the Nile river water, deep groundwater,rainfall and ﬂash ﬂoods, and desalination.\r\nNon-conventional resources: comprising the shallow groundwater in the Nilevalley and delta, reusing of agricultural drainage water and treatment of wastew-ater since they are not considered as independent water resources and cannotexplicitly be added to the share of the fresh water in Egypt",
+      "Type": "Qualitative and quantitative",
+      "Data Visualization": "info box and column chart and timeline",
+      "Source": "Research Gate"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Indicators": "salinity indices\r\nImaging Spectroscopy\r\nstatistical techniques\r\n",
+      "Type": "Qualitative and quantitative",
+      "Data Visualization": "GIS map, info box, line chart",
+      "Source": "MDPI- Resaerch Gate",
+      "Notes": "Statistical techniques indicator is based on statical class used to examine and predict rates related to the salinity \r\nUsing Image Spectroscopy to map the saline soil"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Indicators": "Achieving Sustainable Economic Growth and Low-Emission Development in Various Sectors\r\nEnhancing Adaptive Capacity and Resilience to Climate Change and Alleviating the Associated Negative Impacts\r\nEnhancing Climate Change Action Governance\r\nEnhancing Climate Financing Infrastructure \r\nEnhancing Scientific Research, Technology Transfer, Knowledge Management and Awareness to Combat Climate Change",
+      "Type": "Qualitative",
+      "Data Visualization": "Info box",
+      "Source": "Minstry of Invironement- Egypt National Climate Change Strategy 2050",
+      "Notes": "measuring the green transition through the mentioned main 5 objectives with setting separate indicators for each main objective"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Indicators": "SCALA and National Climate Strategy",
+      "Type": "Qualitative ",
+      "Data Visualization": "Info box",
+      "Source": "Their source",
+      "Notes": "Partnerships cluster: need to contact the main source to use their data"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Indicators": "Imaging Spectroscopy",
+      "Type": "Qualitative and quantitative",
+      "Data Visualization": "GIS map",
+      "Source": "MDPI- Resaerch Gate",
+      "Notes": "Using Image Spectroscopy to map the saline soil  "
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Indicators": "statistical techniques",
+      "Type": "Qualitative and quantitative",
+      "Data Visualization": "info box, line chart",
+      "Source": "MDPI- Resaerch Gate",
+      "Notes": "Statistical techniques indicator is based on statical class used to examine and predict rates related to the salinity "
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Indicators": "Mean soil erosion rate, Share of Agricultural area under severe erosion",
+      "Type": "Quantitative and Qualitative",
+      "Data Visualization": "GIS Map and info box",
+      "Source": "OINT RESEARCH CENTRE"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Indicators": "Areas of mangroves in Red sea",
+      "Type": "Qualitative",
+      "Data Visualization": "info box",
+      "Source": "RED SEA PROJECT™"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Indicators": "Biodiversity Habitat Index",
+      "Type": "Qualitative",
+      "Data Visualization": "info box",
+      "Source": "environmental performance index",
+      "Notes": "indicator which estimates the effects of habitat loss, degradation, and fragmentation on the expected retention of terrestrial biodiversity"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Indicators": "The Global ecosystem restoration index",
+      "Type": "Qualitative",
+      "Data Visualization": "info box",
+      "Source": "Global Biodiversity Change Indicators"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Indicators": "Carbon dioxide emissions in 2019/2020, by sector",
+      "Type": "Quantitative",
+      "Data Visualization": "bar chart",
+      "Source": "Statista",
+      "Notes": "need to subscribe for access to full data "
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Indicators": "Non-conventional resources: comprising the shallow groundwater in the Nilevalley and delta, reusing of agricultural drainage water and treatment of waste water since they are not considered as independent water resources and cannot explicitly be added to the share of the fresh water in Egypt",
+      "Type": "Qualitative and quantitative",
+      "Data Visualization": "info box and column chart and timeline",
+      "Source": "Research Gate"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Urban development",
+      "Indicators": "Africa infrastructure development index",
+      "Type": "quantitative",
+      "Data Visualization": "Columnchart and timeline",
+      "Source": "Statista",
+      "Notes": "need to subscribe for access to full data "
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Urban development"
+    }
+  ],
+  "Dimensions Definitions": [
+    {
+      "Term": "Dimensions ",
+      "Definition ": "The matrix is comprised of 3 dimensions/categories:Economic, Social & Environmental. These are the main umbrellas on which the assessment is based. "
+    },
+    {
+      "Term": "Pillar",
+      "Definition ": "A dimension can be expressed by using a number of criteria or pillars. Each dimension is divided into 2-4 pillars."
+    },
+    {
+      "Term": "Indicators",
+      "Definition ": "The indicators are selected to assess the impact of the pillars. They are used to measure change in each dimension."
+    },
+    {
+      "Term": "Type",
+      "Definition ": "Type of data used for each indicator (i.e. qualitative, quantitative, or both) "
+    },
+    {
+      "Term": "Data Visualization",
+      "Definition ": "How the indicator data is presented (e.g. pie chart, timeline) "
+    },
+    {
+      "Term": "Source",
+      "Definition ": "The source/s where each indicator's data will be acquired from "
+    },
+    {
+      "Term": "Notes",
+      "Definition ": "Any comments regarding the indicator, data visualisation, data acquisition or the sources"
+    },
+    {
+      "Term": "Economic dimension",
+      "Definition ": "Achieving high, sustainable, and inclusive economic growth through a competitive, diversified, and knowledge-based economy that generates productive jobs and rising incomes."
+    },
+    {
+      "Term": "Social Dimension",
+      "Definition ": "Promoting social justice, inclusion, and empowerment for all Egyptians through quality healthcare, education, culture, and protection for vulnerable groups."
+    },
+    {
+      "Term": "Environmental Dimension",
+      "Definition ": "Integrating environmental sustainability across all sectors to efficiently preserve natural resources, mitigate pollution and climate risks, and promote sustainable development."
+    },
+    {
+      "Term": "Dimensions "
+    },
+    {
+      "Term": "Economic dimension",
+      "Definition ": "Includes the following pillars: Economic Development, Energy, Knowledge, innovation & scientific research, and Transparency & efficient government institutions."
+    },
+    {
+      "Term": "Social Dimension",
+      "Definition ": "Includes the following pillars: Social Justice, Health, Education & Training, and culture"
+    },
+    {
+      "Term": "Environmental Dimension",
+      "Definition ": "Includes the following pillars: Environment, and Urban Development"
+    },
+    {
+      "Term": "Sources:"
+    },
+    {
+      "Term": "https://pdf.usaid.gov/pdf_docs/PNABB190.pdf"
+    },
+    {
+      "Term": "http://www.guidelines.kaowarsom.be/annex_dimension"
+    },
+    {
+      "Term": "Egypt 2030 - SDS Egypt 2030"
+    }
+  ],
+  "Issues": [
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Issues title": "Egypt's neighbouring countries and partners",
+      "Issues main source ": "Atlantic Council",
+      "Source category": "Think Tank",
+      "Link": "https://www.atlanticcouncil.org/in-depth-research-reports/report/egypt-stability-gcc-priority/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #Egypt'sneighbouringcountriesandpartners, #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions",
+      "Other sources that could be helpful ": "https://www.10tooba.org/en/"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Issues title": "Egypt's neighbouring countries and partners",
+      "Issues main source ": "Ahram Online",
+      "Source category": "Newspaper",
+      "Link": "https://english.ahram.org.eg/NewsContent/1/1234/446336/Egypt/Foreign-Affairs/GCC-expresses-support-for-Egypt;s-national-securit.aspx",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #Egypt'sneighbouringcountriesandpartners, #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions",
+      "Other sources that could be helpful ": "https://futures.issafrica.org/geographic/countries/egypt/"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Issues title": "Egypt's neighbouring countries and partners",
+      "Issues main source ": "University of California",
+      "Source category": "Academic Institution ",
+      "Link": "https://online.ucpress.edu/caa/article-abstract/13/1/23/109261/Egyptian-National-Security-and-the-Perils-of?redirectedFrom=fulltext",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #Egypt'sneighbouringcountriesandpartners, #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions",
+      "Other sources that could be helpful ": "https://reliefweb.int/country/egy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Issues title": "Egypt's neighbouring countries and partners",
+      "Issues main source ": "Atalayar",
+      "Source category": "News and analysis platform",
+      "Link": "https://www.atalayar.com/en/articulo/politics/libyas-instability-threatens-egypt/20230308164045182089.html",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #Egypt'sneighbouringcountriesandpartners, #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions",
+      "Other sources that could be helpful ": "https://country.eiu.com/egypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Issues title": "Egypt's neighbouring countries and partners",
+      "Issues main source ": "Carnegie Endowment",
+      "Source category": "Think Tank",
+      "Link": "https://carnegieendowment.org/2021/11/04/navigating-democracy-security-dilemma-in-u.s.-foreign-policy-lessons-from-egypt-india-and-turkey-pub-85701",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #Egypt'sneighbouringcountriesandpartners, #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Issues title": "Egypt's neighbouring countries and partners",
+      "Issues main source ": "Arab Center Washington DC",
+      "Source category": "Research Institute ",
+      "Link": "https://arabcenterdc.org/resource/impacting-elusive-transitions-egypts-policy-toward-sudan-and-libya/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #Egypt'sneighbouringcountriesandpartners, #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Security Incidents (S)",
+      "Issues title": "Palestine, Sudan and EU policy",
+      "Issues main source ": "Time",
+      "Source category": "Magazine",
+      "Link": "https://time.com/6330904/palestinians-gaza-fear-permanent-expulsion/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions #sudan #palestine #EUrefugeespolicy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Security Incidents (S)",
+      "Issues title": "Palestine, Sudan and EU policy",
+      "Issues main source ": "Financial Times",
+      "Source category": "Newspaper",
+      "Link": "https://www.ft.com/content/100bcbe1-8cd8-4864-b726-691feabdff4e",
+      "Notes for data acquisition protocol": "Unknown",
+      "Column2": "Paid/Subscription?",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions #sudan #palestine #EUrefugeespolicy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Security Incidents (S)",
+      "Issues title": "Palestine, Sudan and EU policy",
+      "Issues main source ": "EU Observer",
+      "Source category": "Newspaper",
+      "Link": "https://euobserver.com/migration/157595",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Column2": "Paid/Subscription?",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions #sudan #palestine #EUrefugeespolicy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Security Incidents (S)",
+      "Issues title": "Palestine, Sudan and EU policy",
+      "Issues main source ": "Human Rights Watch",
+      "Source category": "International non-governmental organization",
+      "Link": "https://www.hrw.org/news/2023/12/19/eu-egypt-support-risks-complicity-abuses",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions #sudan #palestine #EUrefugeespolicy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Security Incidents (S)",
+      "Issues title": "Palestine, Sudan and EU policy",
+      "Issues main source ": "Ahram Online",
+      "Source category": "Newspaper",
+      "Link": "https://english.ahram.org.eg/News/503292.aspx",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions #sudan #palestine #EUrefugeespolicy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Security Incidents (S)",
+      "Issues title": "Palestine, Sudan and EU policy",
+      "Issues main source ": "Foreign Policy",
+      "Source category": "Magazine",
+      "Link": "https://foreignpolicy.com/2023/10/20/egypt-gaza-israel-economics-sisi-palestinians-refugee-crisis/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Column2": "Paid/Subscription?",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions #sudan #palestine #EUrefugeespolicy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Security Incidents (S)",
+      "Issues title": "Palestine, Sudan and EU policy",
+      "Issues main source ": "Reliefweb",
+      "Source category": "Humanitarian information portal",
+      "Link": "https://reliefweb.int/report/egypt/unhcr-egypt-fact-sheet-october-2023",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions #sudan #palestine #EUrefugeespolicy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Security Incidents (S)",
+      "Issues title": "Palestine, Sudan and EU policy",
+      "Issues main source ": "Refugees International",
+      "Source category": "Independent humanitarian organization",
+      "Link": "https://www.refugeesinternational.org/reports-briefs/sudan-in-crisis-improving-the-response-for-sudanese-refugees-in-egypt/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions #sudan #palestine #EUrefugeespolicy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Security Incidents (S)",
+      "Issues title": "Palestine, Sudan and EU policy",
+      "Issues main source ": "Africa News",
+      "Source category": "News Network",
+      "Link": "https://www.africanews.com/2023/06/19/eu-allocates-22m-to-egypt-in-the-face-of-sudanese-refugee-crisis//",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions #sudan #palestine #EUrefugeespolicy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Security Incidents (S)",
+      "Issues title": "Palestine, Sudan and EU policy",
+      "Issues main source ": "Ahram Online",
+      "Source category": "Newspaper",
+      "Link": "https://english.ahram.org.eg/NewsContentP/26/504611/War-in-Sudan/Sudan-crisis-Major-influx-of-refugees,-dire-humani.aspx",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions #sudan #palestine #EUrefugeespolicy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Security Incidents (S)",
+      "Issues title": "Palestine, Sudan and EU policy",
+      "Issues main source ": "Egypt State Information Service",
+      "Source category": "Government Agency",
+      "Link": "https://www.sis.gov.eg/Story/182051/Sisi-Egypt-has-received-over-200%2C000-Sudanese-refugees?lang=en-us",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions #sudan #palestine #EUrefugeespolicy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Security Incidents (S)",
+      "Issues title": "Palestine, Sudan and EU policy",
+      "Issues main source ": "Fast Company",
+      "Source category": "Magazine",
+      "Link": "https://fastcompanyme.com/impact/egypt-is-dealing-with-an-economic-crisis-and-refugee-influx-can-it-cope/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions #sudan #palestine #EUrefugeespolicy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Security Incidents (S)",
+      "Issues title": "Palestine, Sudan and EU policy",
+      "Issues main source ": "The Cairo Review",
+      "Source category": "Journal",
+      "Link": "https://www.thecairoreview.com/tahrir-forum/crisis-in-sudan-what-does-it-mean-for-egypt/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions #sudan #palestine #EUrefugeespolicy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Security Incidents (S)",
+      "Issues title": "Palestine, Sudan and EU policy",
+      "Issues main source ": "NPR",
+      "Source category": "Nonprofit organization",
+      "Link": "https://www.npr.org/2023/12/12/1218388766/egypt-israel-gaza-palestinians-hamas",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions #sudan #palestine #EUrefugeespolicy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Security Incidents (S)",
+      "Issues title": "Palestine, Sudan and EU policy",
+      "Issues main source ": "AP News",
+      "Source category": "News agency",
+      "Link": "https://apnews.com/article/palestinian-jordan-egypt-israel-refugee-502c06d004767d4b64848d878b66bd3d",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions #sudan #palestine #EUrefugeespolicy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Security Incidents (S)",
+      "Issues title": "Palestine, Sudan and EU policy",
+      "Issues main source ": "Fortune",
+      "Source category": "Magazine",
+      "Link": "https://fortune.com/2023/10/22/will-egypt-take-palestinian-refugees-from-gaza-israel-hamas-war/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions #sudan #palestine #EUrefugeespolicy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Security Incidents (S)",
+      "Issues title": "Palestine, Sudan and EU policy",
+      "Issues main source ": "The New Arab",
+      "Source category": "News agency",
+      "Link": "https://www.newarab.com/analysis/egypt-pushing-back-against-israels-gaza-refugee-plans",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions #sudan #palestine #EUrefugeespolicy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Security Incidents (S)",
+      "Issues title": "Palestine, Sudan and EU policy",
+      "Issues main source ": "Euronews",
+      "Source category": "News agency",
+      "Link": "https://www.euronews.com/2023/06/19/eu-allocates-20-million-to-help-egypt-manage-influx-of-refugees-fleeing-sudan",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptianpartners #egyptiansecurity #egyptgeopoliticaltensions #sudan #palestine #EUrefugeespolicy"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Economic issues",
+      "Issues main source ": "Carnegie Endowment",
+      "Source category": "Think Tank",
+      "Link": "https://carnegieendowment.org/sada/90581",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Economic issues",
+      "Issues main source ": "Reuters",
+      "Source category": "News agency",
+      "Link": "https://www.reuters.com/world/middle-east/how-deep-are-egypts-economic-troubles-2023-03-03/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Economic issues",
+      "Issues main source ": "Reuters",
+      "Source category": "News agency",
+      "Link": "https://www.reuters.com/world/africa/egypt-growth-seen-slowing-currency-slipping-further-2023-10-19/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Economic issues",
+      "Issues main source ": "Daily News Egypt",
+      "Source category": "Newspaper",
+      "Link": "https://www.dailynewsegypt.com/2023/10/10/imf-lowers-egypts-gdp-growth-forecast-for-2023-2024/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Economic issues",
+      "Issues main source ": "BNP Paribas",
+      "Source category": "Financial services company",
+      "Link": "https://economic-research.bnpparibas.com/Media-Library/en-US/Difficult-Egyptian-economy-3/30/2023,c39365",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Unemployment",
+      "Issues main source ": "UNICEF",
+      "Source category": "Humanitarian aid organization\r\n",
+      "Link": "https://www.unicef.org/egypt/media/10841/file/Youth%20Unemployment%20in%20Egypt%20(English).pdf",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Unemployment",
+      "Issues main source ": "Ahram Online",
+      "Source category": "Newspaper",
+      "Link": "https://english.ahram.org.eg/News/512306.aspx",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Unemployment",
+      "Issues main source ": "The Economic Research Forum",
+      "Source category": "Regional Network",
+      "Link": "https://theforum.erf.org.eg/2023/04/04/demographic-pressures-on-the-egyptian-labour-market/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Exchange rate and foreign currency",
+      "Issues main source ": "Mada Masr",
+      "Source category": "Newspaper",
+      "Link": "https://www.madamasr.com/en/2023/07/27/news/u/amid-foreign-currency-shortage-egypt-launches-new-high-interest-dollar-savings-certificates/",
+      "Notes for data acquisition protocol": "Error",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Exchange rate and foreign currency",
+      "Issues main source ": "BNP Paribas",
+      "Source category": "Financial services company",
+      "Link": "https://economic-research.bnpparibas.com/html/en-US/Egypt-Dark-prospects-10/16/2023,48999",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Exchange rate and foreign currency",
+      "Issues main source ": "BNN Bloomberg",
+      "Source category": "Media Company",
+      "Link": "https://www.bnnbloomberg.ca/major-egypt-banks-suspend-debit-card-use-in-foreign-currency-1.1982193",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Exchange rate and foreign currency",
+      "Issues main source ": "Reuters",
+      "Source category": "News agency",
+      "Link": "https://www.reuters.com/markets/currencies/egyptian-banks-suspend-debit-card-use-foreign-currency-2023-10-05/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Exchange rate and foreign currency",
+      "Issues main source ": "Coface",
+      "Source category": "Trade credit insurance company\r\n",
+      "Link": "https://www.coface.com/news-economy-and-insights/egypt-no-relief-for-the-foreign-currency-squeeze",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Exchange rate and foreign currency",
+      "Issues main source ": "CNBC",
+      "Source category": "News agency",
+      "Link": "https://www.cnbc.com/2023/04/05/the-egyptian-pound-is-amongst-the-worst-performing-currencies-in-2023.html",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Exchange rate and foreign currency",
+      "Issues main source ": "Egypt Today",
+      "Source category": "Magazine",
+      "Link": "https://www.egypttoday.com/Article/3/126314/Egypt%E2%80%99s-economy-and-IMF-agreement-amid-exchange-rate-uncertainty",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Exchange rate and foreign currency",
+      "Issues main source ": "International Crisis Group",
+      "Source category": "Nonprofit non-governmental organization",
+      "Link": "https://www.crisisgroup.org/middle-east-north-africa/north-africa/egypt/eygpt-in-the-balance",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Exchange rate and foreign currency",
+      "Issues main source ": "Financial Times",
+      "Source category": "Newspaper",
+      "Link": "https://www.ft.com/content/b69bbce2-11e1-4da8-9608-b7af2a6fd329",
+      "Notes for data acquisition protocol": "Unknown",
+      "Column2": "Paid/Subscription?",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Exchange rate and foreign currency",
+      "Issues main source ": "Reuters",
+      "Source category": "News agency",
+      "Link": "https://www.reuters.com/world/middle-east/egypt-seen-keeping-interest-rates-hold-thursday-2023-12-18/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Column2": "Paid/Subscription?",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Exchange rate and foreign currency",
+      "Issues main source ": "Reuters",
+      "Source category": "News agency",
+      "Link": "https://www.reuters.com/markets/currencies/egypt-restricts-foreign-currency-credit-card-use-2023-10-17/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Column2": "Paid/Subscription?",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Exchange rate and foreign currency",
+      "Issues main source ": "Ahram Online",
+      "Source category": "Newspaper",
+      "Link": "https://english.ahram.org.eg/NewsContent/3/12/514128/Business/Economy/Explainer-Egypt-achieves-no-tangible-progress-in--.aspx",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Exchange rate and foreign currency",
+      "Issues main source ": "Bloomberg",
+      "Source category": "News agency",
+      "Link": "https://www.bloomberg.com/news/articles/2023-08-01/egypt-s-currency-squeeze-worsens-as-banks-foreign-buffers-sink",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Column2": "Paid/Subscription?",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Exchange rate and foreign currency",
+      "Issues main source ": "American University in Egypt",
+      "Source category": "Academic Institution",
+      "Link": "https://www.aucegypt.edu/news/examining-egyptian-economy",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Exchange rate and foreign currency",
+      "Issues main source ": "Switzerland Global Enterprise",
+      "Source category": "Private association",
+      "Link": "https://www.s-ge.com/en/article/export-knowhow/2023-e-egypt-c4-foreign-currency-lack?ct",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Exchange rate and foreign currency",
+      "Issues main source ": "Bloomberg",
+      "Source category": "News agency",
+      "Link": "https://www.bloomberg.com/news/articles/2023-10-09/major-egypt-banks-suspend-debit-card-use-in-foreign-currency",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Column2": "Paid/Subscription?",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Green jobs ",
+      "Issues main source ": "The Economic Research Forum",
+      "Source category": "Regional Network",
+      "Link": "https://erf.org.eg/publications/green-jobs-and-the-future-of-work-in-egypt-a-focus-on-the-agriculture-and-renewable-energy-sectors/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Water-Energy-Food nexus",
+      "Issues main source ": "Adasa, American Univesity in Cairo",
+      "Source category": "Academic Institution",
+      "Link": "https://aps.aucegypt.edu/en/articles/961/managing-water-energy-and-food-nexus-in-egypt",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "High food prices",
+      "Issues main source ": "NPR",
+      "Source category": "Nonprofit Organization",
+      "Link": "https://www.npr.org/2023/05/13/1176043847/people-struggle-to-afford-food-in-egypts-economic-crisis",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Food security and global trade challenges",
+      "Issues main source ": "The Swedish Institute of  International Affairs, UI",
+      "Source category": "Research Institute ",
+      "Link": "https://www.ui.se/globalassets/ui.se-eng/publications/ui-publications/2023/ui-brief-food-insecurity-egypt.pdf",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Food security and global trade challenges",
+      "Issues main source ": "Friedrich Naumann Foundation",
+      "Source category": "Government foundation ",
+      "Link": "https://www.freiheit.org/middle-east-and-north-africa/food-security-policies-jordan-tunisia-and-egypt",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Food security and global trade challenges",
+      "Issues main source ": "Siani",
+      "Source category": "International Network",
+      "Link": "https://www.siani.se/news-story/egypts-food-system/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Food security and global trade challenges",
+      "Issues main source ": "Zawya",
+      "Source category": "News agency",
+      "Link": "https://www.zawya.com/en/economy/north-africa/egypt-ensures-food-security-amid-global-trade-challenges-idyh5qsw",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Wheat shortage and high prices",
+      "Issues main source ": "Frontiers",
+      "Source category": "News agency",
+      "Link": "https://www.frontiersin.org/articles/10.3389/fsufs.2023.1137526/full",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Wheat shortage and high prices",
+      "Issues main source ": "Reuters",
+      "Source category": "News agency",
+      "Link": "https://www.reuters.com/markets/commodities/egypt-defers-payments-wheat-imports-amid-dollar-crunch-2023-05-25/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Column2": "Paid/Subscription?",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Wheat shortage and high prices",
+      "Issues main source ": "AP News",
+      "Source category": "News agency",
+      "Link": "https://apnews.com/article/middle-east-food-security-grain-russia-ukraine-6e2ac48ce38f233feb23e6583c70ce95",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Wheat shortage and high prices",
+      "Issues main source ": "Arab Center Washington DC",
+      "Source category": "Research Institute ",
+      "Link": "https://arabcenterdc.org/resource/egypt-has-broken-its-social-contract-with-its-citizens/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Wheat shortage and high prices",
+      "Issues main source ": "Asharq Al-Awsat",
+      "Source category": "Newspaper",
+      "Link": "https://english.aawsat.com/home/article/4270876/egypt-relies-local-wheat-production-increases-procurement-price-50",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Wheat shortage and high prices",
+      "Issues main source ": "MERIP",
+      "Source category": "Nonprofit Organization",
+      "Link": "https://merip.org/2023/02/the-ukraine-war-grain-trade-and-bread-in-egypt/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Wheat shortage and high prices",
+      "Issues main source ": "US Embassy in Egypt",
+      "Source category": "Diplomatic mission",
+      "Link": "https://eg.usembassy.gov/why-it-matters-to-revive-the-black-sea-grain-initiative/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Wheat shortage and high prices",
+      "Issues main source ": "The Washington Institute for Near East Policy",
+      "Source category": "Think Tank",
+      "Link": "https://www.washingtoninstitute.org/policy-analysis/bread-egypt-politics-social-unrest-and-state-stability",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Sugar crisis",
+      "Issues main source ": "Ahram Online",
+      "Source category": "Newspaper",
+      "Link": "https://english.ahram.org.eg/NewsContent/50/1201/513077/AlAhram-Weekly/Egypt/Containing-the-sugar-crisis.aspx",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Sugar crisis",
+      "Issues main source ": "The National News",
+      "Source category": "Newspaper",
+      "Link": "https://www.thenationalnews.com/mena/egypt/2023/11/30/egypt-sugar-price-cost/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Sugar crisis",
+      "Issues main source ": "Ahram Online",
+      "Source category": "Newspaper",
+      "Link": "https://english.ahram.org.eg/NewsContent/3/12/513848/Business/Economy/Egyptian-PM-calls-for-regular-reports-on-sugar-pri.aspx",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Sugar crisis",
+      "Issues main source ": "Egyptian Streets",
+      "Source category": "Newspaper",
+      "Link": "https://egyptianstreets.com/2023/12/19/sugar-scarcity-in-egypt-leads-to-275-price-hike-minister-vows-resolution/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Sugar crisis",
+      "Issues main source ": "Egypt Business Directory",
+      "Source category": "Online Directory",
+      "Link": "https://www.egypt-business.com/news/details/2351-is-egypts-sugar-crisis-over/431037",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Sugar crisis",
+      "Issues main source ": "Enterprise",
+      "Source category": "News agency",
+      "Link": "https://www.enterprise.news/news/story/280b9a88-c11d-4f40-a8a1-c5fd5aeee897/Gov%E2%80%99t%20taps%20sugar%20reserves%20to%20calm%20soaring%20prices",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Sugar crisis",
+      "Issues main source ": "Mada Masr",
+      "Source category": "Newspaper",
+      "Link": "https://www.madamasr.com/en/2023/12/09/feature/economy/unsweetened-days-how-the-sugar-crisis-was-stirred-by-government-policy-missteps/",
+      "Notes for data acquisition protocol": "Error",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Sugar crisis",
+      "Issues main source ": "BNN ",
+      "Source category": "Newspaper",
+      "Link": "https://bnnbreaking.com/breaking-news/economy/egypt-sees-drop-in-sugar-prices-amidst-global-market-changes/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Sugar crisis",
+      "Issues main source ": "NASDAQ",
+      "Source category": "Stock Market Index",
+      "Link": "https://www.nasdaq.com/articles/egypt-considers-price-controls-to-mitigate-soaring-sugar-prices",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Heatwaves reduce crops",
+      "Issues main source ": "The Africa Report",
+      "Source category": "Magazine",
+      "Link": "https://www.theafricareport.com/309507/egypt-farmers-bear-brunt-of-climate-change-and-dam-project/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Heatwaves reduce crops",
+      "Issues main source ": "Fresh Plaza",
+      "Source category": "Global trade media platform",
+      "Link": "https://www.freshplaza.com/europe/article/9519200/egyptian-producers-brace-for-heat-wave-threatening-crops-this-weekend/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Column2": "Paid/Subscription?",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Heatwaves reduce crops",
+      "Issues main source ": "The National News",
+      "Source category": "Newspaper",
+      "Link": "https://www.thenationalnews.com/mena/egypt/2023/07/27/heatwave-reduces-egypts-mango-crop/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Climate change obstacles",
+      "Issues main source ": "Carnegie Endowment",
+      "Source category": "Think Tank",
+      "Link": "https://carnegieendowment.org/2023/10/26/climate-change-in-egypt-opportunities-and-obstacles-pub-90854",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "High number of doctors resign ",
+      "Issues main source ": "Ahram Online",
+      "Source category": "Newspaper",
+      "Link": "https://english.ahram.org.eg/NewsContent/1/1236/483877/Egypt/Health/Recordhigh-number-of-doctors-resign-from-Egypt%E2%80%99s-p.aspx",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Sovereign Green bond allocation",
+      "Issues main source ": "Ministry of Finance",
+      "Source category": "Government agency\r\n",
+      "Link": "https://assets.mof.gov.eg/files/a3362b50-574c-11ec-9145-6f33c8bd6a26.pdf",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Sustainable finance",
+      "Issues main source ": "IFC and Sustainable Finance and Banking Network",
+      "Source category": "International financial corporation",
+      "Link": "https://www.sbfnetwork.org/wp-content/uploads/pdfs/2021_Global_Progress_Report_Downloads/2021_Country_Progress_Report_Egypt.pdf",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "the insufficient marketing efforts for MICE tourism",
+      "Issues main source ": "Journal of Association of Arab Universities for Tourism and Hospitality",
+      "Source category": "Academic institution",
+      "Link": "https://jaauth.journals.ekb.eg/article_53949_c4141994d6c63398ab5a85990749d373.pdf",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "structural and cyclical determinants in Egypt for acessing to finance",
+      "Issues main source ": "Economic Research Forum",
+      "Source category": "Regional Economic Network",
+      "Link": "https://theforum.erf.org.eg/2020/07/07/access-finance-egypt-structural-cyclical-determinants/",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Exclusion of the Egyptian SMEs in the banking system",
+      "Issues main source ": "DAI",
+      "Source category": "international development company",
+      "Link": "https://www.dai.com/our-work/projects/egypt-technical-assistance-improving-access-to-finance-by-facilitating-business-expansion-of-promising-and-growing-small-and-medium-enterprises",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Lack of access to data,  financial and technical support for the private sector",
+      "Issues main source ": "Ahram Online",
+      "Source category": "Newspaper",
+      "Link": "https://english.ahram.org.eg/NewsContent/3/12/514179/Business/Economy/Egypt-launches-a-new-financing-and-technical-platf.aspx",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Illegal informal employment",
+      "Issues main source ": "Ahram Online",
+      "Source category": "Newspaper",
+      "Link": "https://english.ahram.org.eg/News/505338.aspx",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "losses of the national economy",
+      "Issues main source ": "Ahram Online",
+      "Source category": "Newspaper",
+      "Link": "https://english.ahram.org.eg/NewsContent/50/1201/484053/AlAhram-Weekly/Egypt/Egypt-Integrating-the-informal-economy.aspx#:~:text=The%20informal%20economy%20is%20estimated,3%20billion%20versus%20the%20LE1.",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "low efficiency of public investment",
+      "Issues main source ": "The World Bank, Africa Region and Poverty Reduction and Economic Management Network",
+      "Source category": "Policy Research Working Paper",
+      "Link": "https://www.pempal.org/sites/pempal/files/attachments/diagnostic-framework-for-assessing-public-investment-management_eng.pdf",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Hard currency shortage devaluation and decrease domestic demand",
+      "Issues main source ": "The Tahrir Institute for Middle East Policy",
+      "Source category": "Regional nonprofit organization",
+      "Link": "https://timep.org/2023/01/12/neither-public-nor-private-egypt-without-a-viable-engine-for-growth/",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Egyptian Foreign Policy: Opportunities and Challenges in 2024",
+      "Issues main source ": "Information and Decision Support Center",
+      "Source category": "Think Tank",
+      "Link": "https://idsc.gov.eg/upload/DocumentLibraryIssues/AttachmentA/8937/Egyptian%20Foreign%20Policy-%20Opportunities%20and%20Challenges%20in%202024.pdf",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Logistics in Africa: Status, Challenges & Routes for Egyptian Exports.",
+      "Issues main source ": "Central Bank of Egypt- African Cooperation Sector.",
+      "Source category": "Government agency",
+      "Link": "https://www.cbe.org.eg/-/media/project/cbe/listing/publication/2024/logistics_english.pdf",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "challenges of Egyptian food exports to EU, US",
+      "Issues main source ": "Daily News Egypt",
+      "Source category": "Newspaper",
+      "Link": "https://www.dailynewsegypt.com/2023/09/24/food-export-council-holds-symposium-on-challenges-of-food-exports-to-eu-us/",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Water scarcity and food production",
+      "Issues main source ": "Alternative Policy Solutions-American University in Egypt",
+      "Source category": "Academic institution",
+      "Link": "https://aps.aucegypt.edu/en/articles/969/the-egyptian-water-dilemma-navigating-through-a-thirsty-future",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Lack of adequate funding to transition into green growth",
+      "Issues main source ": "INTERNATIONAL JOURNAL OF HUMANITIES AND LANGUAGE RESEARCH",
+      "Source category": "Academic Journal",
+      "Link": "https://ijhlr.journals.ekb.eg/article_303612_ded48912d42333fc6aa577d6e0827d49.pdf",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Possible disconnects between the Governmentâ€™s macro policy aims for the green transition as well as the on-ground perceptions,  concerns, and experiences of private sector actors",
+      "Issues main source ": "AUC knowledge fountain",
+      "Source category": "Academic institution",
+      "Link": "https://fount.aucegypt.edu/cgi/viewcontent.cgi?article=3198&context=etds",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Economic development",
+      "Column1": "Water Issues (W)",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Energy",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Natural gas and wheat supply",
+      "Issues main source ": "Reuters",
+      "Source category": "News agency",
+      "Link": "https://www.reuters.com/world/africa/egypts-stumbling-economy-faces-new-pressures-gaza-crisis-2023-11-10/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Energy",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Natural gas and wheat supply",
+      "Issues main source ": "Fitch Solutions",
+      "Source category": "Financial information services firm",
+      "Link": "https://www.fitchsolutions.com/bmi/oil-gas/declining-gas-production-egypt-underlines-need-further-discoveries-18-07-2023",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Column2": "Paid/Subscription?",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Energy",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Natural gas and wheat supply",
+      "Issues main source ": "Ahram Online",
+      "Source category": "Newspaper",
+      "Link": "https://english.ahram.org.eg/NewsContent/3/12/506233/Business/Economy/Lower-natural-gas-exports-widen-Egypt;s-trade-defi.aspx",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Energy",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Natural gas and wheat supply",
+      "Issues main source ": "Fitch Solutions",
+      "Source category": "Financial information services firm",
+      "Link": "https://www.fitchsolutions.com/bmi/power/egypts-low-gas-production-risk-gas-powered-electricity-generation-22-09-2023",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Column2": "Paid/Subscription?",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Energy",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Natural gas and wheat supply",
+      "Issues main source ": "BNP Paribas",
+      "Source category": "Financial services company",
+      "Link": "https://economic-research.bnpparibas.com/html/en-US/Eastern-Mediterranean-Natural-regional-overview-7/11/2023,48783",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Energy",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Natural gas and wheat supply",
+      "Issues main source ": "Enterprise",
+      "Source category": "News agency",
+      "Link": "https://enterprise.news/news/edition?id=2e0f7c27-4e0d-4058-b879-bb6374bfc14e&prev=false",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Energy",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Natural gas and wheat supply",
+      "Issues main source ": "Ahram Online",
+      "Source category": "Newspaper",
+      "Link": "https://english.ahram.org.eg/News/510926.aspx",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Energy",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Natural gas and wheat supply",
+      "Issues main source ": "Nature Briefing",
+      "Source category": "Journal",
+      "Link": "https://www.nature.com/articles/s41598-023-43883-4",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Energy",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Natural gas and wheat supply",
+      "Issues main source ": "World-grain",
+      "Source category": "Grain news and analysis medium",
+      "Link": "https://www.world-grain.com/articles/19294-egypts-wheat-stocks-projected-at-20-year-low",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Energy",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Rising fuel prices",
+      "Issues main source ": "Bloomberg",
+      "Source category": "News agency",
+      "Link": "https://www.bloomberg.com/news/articles/2023-03-02/cash-strapped-egypt-raises-fuel-prices-to-ease-subsidy-burden",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Column2": "Paid/Subscription?",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Energy",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Natural gas decline and power cuts",
+      "Issues main source ": "Reuters",
+      "Source category": "News agency",
+      "Link": "https://www.reuters.com/markets/commodities/egypts-natural-gas-production-declines-power-cuts-bite-2023-08-07/#:~:text=CAIRO%2C%20Aug%207%20(Reuters),as%20a%20regional%20energy%20hub.",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Column2": "Paid/Subscription?",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Energy",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Natural gas decline and power cuts",
+      "Issues main source ": "Business Forward, American Univesity in Cairo",
+      "Source category": "Academic Institution",
+      "Link": "https://businessforwardauc.com/2023/08/13/egypts-electricity-crisis-a-looming-threat-to-tourism/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Energy",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Natural gas decline and power cuts",
+      "Issues main source ": "Mada Masr",
+      "Source category": "Newspaper",
+      "Link": "https://www.madamasr.com/en/2023/07/27/news/u/egypt-announces-emergency-measures-to-deal-with-energy-crisis/",
+      "Notes for data acquisition protocol": "Error",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Energy",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Natural gas decline and power cuts",
+      "Issues main source ": "Ahram Online",
+      "Source category": "Newspaper",
+      "Link": "https://english.ahram.org.eg/News/505290.aspx",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Energy",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Natural gas decline and power cuts",
+      "Issues main source ": "Human Rights Watch",
+      "Source category": "International non-governmental organization",
+      "Link": "https://www.hrw.org/news/2023/08/08/egypt-electricity-cutbacks-threaten-rights",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Energy",
+      "Column1": "Water Issues (W)",
+      "Issues title": "Water-Energy-Food nexus",
+      "Issues main source ": "Adasa, American Univesity in Cairo",
+      "Source category": "Academic Institution",
+      "Link": "https://aps.aucegypt.edu/en/articles/961/managing-water-energy-and-food-nexus-in-egypt",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Issues title": "Funding Fintech",
+      "Issues main source ": "Al Arabiya News",
+      "Source category": "News Agency",
+      "Link": "https://english.alarabiya.net/business/banking-and-finance/2022/03/20/Egypt-state-banks-setting-up-85-mln-fintech-innovation-fund-to-boost-sector",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #securityinegypt, #egyptianneighbours #egyptiansecurity #ethiopia #niladam #waterinegypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Issues title": "innovate financing tools for the energy sector",
+      "Issues main source ": "Daily News Egypt",
+      "Source category": "Newspaper",
+      "Link": "https://www.dailynewsegypt.com/2023/10/24/egypt-seeks-innovative-financing-for-renewable-energy-projects-under-nwfe-programme/"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Issues title": "Digital Infrastructure",
+      "Issues main source ": "American Chamber of Commerce in Egypt",
+      "Source category": "Nonprofit corporation",
+      "Link": "https://www.amcham.org.eg/publications/industry-insight/issue/41/harnessing-digital-egypt"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Knowledge, innovation and scientific research",
+      "Issues title": "digital government services",
+      "Issues main source ": "Business Today Egypt",
+      "Source category": "Magazine",
+      "Link": "https://www.businesstodayegypt.com/Article/1/3188/Egypt-s-digital-transformation-revolutionizes-access-to-government-services"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Transparency and efficient government institutions",
+      "Issues title": "The excessive bureaucracy and limited access to credit for the private investment",
+      "Issues main source ": "Business Today Egypt",
+      "Source category": "Magazine",
+      "Link": "https://www.businesstodayegypt.com/Article/7/3083/Navigating-Investment-Challenges-Egypt%E2%80%99s-Endeavors-to-Promote-The-Business-Climate#:~:text=%E2%80%9CThe%20main%20challenges%20facing%20investors,financial%20burden%20on%20foreign%20investors."
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Transparency and efficient government institutions",
+      "Issues title": "governemtal changes",
+      "Issues main source ": "BBC",
+      "Source category": "News agency",
+      "Link": "https://www.bbc.com/arabic/trending-62542856"
+    },
+    {
+      "Dimension": "Economic Dimension",
+      "Pillars": "Transparency and efficient government institutions",
+      "Issues title": "Targetting issues",
+      "Issues main source ": "Human Rights Watch",
+      "Source category": "International non-governmental organization",
+      "Link": "https://www.hrw.org/report/2023/06/13/automated-neglect/how-world-banks-push-allocate-cash-assistance-using-algorithms",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Column1": "%of supply of natural resources, hydro, renewable and fuel etc.",
+      "Issues title": "High food prices",
+      "Issues main source ": "NPR",
+      "Source category": "Nonprofit Organization",
+      "Link": "https://www.npr.org/2023/05/13/1176043847/people-struggle-to-afford-food-in-egypts-economic-crisis",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #renewableenergyegypt #naturalgasegypt #naturalgasdeclineegypt #powercutsegypt #poweregypt #electricityegypt"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Column1": "%of supply of natural resources, hydro, renewable and fuel etc.",
+      "Issues title": "Adopt a gender-sensitive approach to climate change",
+      "Issues main source ": "Alternative Policy Solutions-American University in Egypt",
+      "Source category": "Academic institution",
+      "Link": "https://api-aps.aucegypt.edu//uploads/articlesAttachments/1668674088pdfGender%20into%20Climate%20Change%20Policies%20and%20Actions%20English%20-2.pdf",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #renewableenergyegypt #naturalgasegypt #naturalgasdeclineegypt #powercutsegypt #poweregypt #electricityegypt"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Column1": "%of supply of natural resources, hydro, renewable and fuel etc.",
+      "Issues title": "Wheat shortage and high prices",
+      "Issues main source ": "Frontiers",
+      "Source category": "News agency",
+      "Link": "https://www.frontiersin.org/articles/10.3389/fsufs.2023.1137526/full",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #renewableenergyegypt #naturalgasegypt #naturalgasdeclineegypt #powercutsegypt #poweregypt #electricityegypt"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Column1": "%of supply of natural resources, hydro, renewable and fuel etc.",
+      "Issues title": "Wheat shortage and high prices",
+      "Issues main source ": "Reuters",
+      "Source category": "News agency",
+      "Link": "https://www.reuters.com/markets/commodities/egypt-defers-payments-wheat-imports-amid-dollar-crunch-2023-05-25/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Column2": "Paid/Subscription?",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #renewableenergyegypt #naturalgasegypt #naturalgasdeclineegypt #powercutsegypt #poweregypt #electricityegypt"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Column1": "%of supply of natural resources, hydro, renewable and fuel etc.",
+      "Issues title": "Wheat shortage and high prices",
+      "Issues main source ": "AP News",
+      "Source category": "News agency",
+      "Link": "https://apnews.com/article/middle-east-food-security-grain-russia-ukraine-6e2ac48ce38f233feb23e6583c70ce95",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #renewableenergyegypt #naturalgasegypt #naturalgasdeclineegypt #powercutsegypt #poweregypt #electricityegypt"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Column1": "%of supply of natural resources, hydro, renewable and fuel etc.",
+      "Issues title": "Wheat shortage and high prices",
+      "Issues main source ": "Arab Center Washington DC",
+      "Source category": "Research Institute ",
+      "Link": "https://arabcenterdc.org/resource/egypt-has-broken-its-social-contract-with-its-citizens/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #renewableenergyegypt #naturalgasegypt #naturalgasdeclineegypt #powercutsegypt #poweregypt #electricityegypt"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Issues title": "Wheat shortage and high prices",
+      "Issues main source ": "Asharq Al-Awsat",
+      "Source category": "Newspaper",
+      "Link": "https://english.aawsat.com/home/article/4270876/egypt-relies-local-wheat-production-increases-procurement-price-50",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Issues title": "Wheat shortage and high prices",
+      "Issues main source ": "MERIP",
+      "Source category": "Nonprofit Organization",
+      "Link": "https://merip.org/2023/02/the-ukraine-war-grain-trade-and-bread-in-egypt/",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Issues title": "Wheat shortage and high prices",
+      "Issues main source ": "US Embassy in Egypt",
+      "Source category": "Diplomatic mission",
+      "Link": "https://eg.usembassy.gov/why-it-matters-to-revive-the-black-sea-grain-initiative/",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Issues title": "Wheat shortage and high prices",
+      "Issues main source ": "The Washington Institute for Near East Policy",
+      "Source category": "Think Tank",
+      "Link": "https://www.washingtoninstitute.org/policy-analysis/bread-egypt-politics-social-unrest-and-state-stability",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Issues title": "Overpopulation",
+      "Issues main source ": "Egypt State Information Service",
+      "Source category": "Government agency",
+      "Link": "https://www.sis.gov.eg/Story/185585/Egypt-launches-national-strategy-to-curb-overpopulation?lang=en-us",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Issues title": "Overpopulation",
+      "Issues main source ": "Egypt State Information Service",
+      "Source category": "Government agency",
+      "Link": "https://sis.gov.eg/Story/181674/National-Dialogue-identifies-6-root-causes-of-overpopulation-in-Egypt?lang=en-us",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Social justice",
+      "Issues title": "Targetting issues",
+      "Issues main source ": "Human Rights Watch",
+      "Source category": "International non-governmental organization",
+      "Link": "https://www.hrw.org/report/2023/06/13/automated-neglect/how-world-banks-push-allocate-cash-assistance-using-algorithms",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Health",
+      "Issues title": "Stigma and discrimination against HIV",
+      "Issues main source ": "BMC Health Services Research",
+      "Source category": "Journal",
+      "Link": "https://bmchealthservres.biomedcentral.com/articles/10.1186/s12913-023-09676-1",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Health",
+      "Issues title": "High number of doctors resign ",
+      "Issues main source ": "Ahram Online",
+      "Source category": "Newspaper",
+      "Link": "https://english.ahram.org.eg/NewsContent/1/1236/483877/Egypt/Health/Recordhigh-number-of-doctors-resign-from-Egypt%E2%80%99s-p.aspx",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Health",
+      "Issues title": "Health issues",
+      "Issues main source ": "The Cairo Review",
+      "Source category": "Journal",
+      "Link": "https://www.thecairoreview.com/essays/egypt-an-economic-growth-success-yet-a-health-failure/",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Education and training",
+      "Issues title": "Challenges Facing the Implementation of Education for Sustainable Development in Egypt",
+      "Issues main source ": "Heliopolis University for Sustainable Development,",
+      "Source category": "Private University",
+      "Link": "https://www.hu.edu.eg/wp-content/uploads/2020/11/BRANDING-THE-GREEN-EDUCATION-4-3.pdf"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Education and training",
+      "Issues title": "Student density in classrooms",
+      "Issues main source ": "Fanack",
+      "Source category": "Media Organization",
+      "Link": "https://fanack.com/society/features-insights/the-education-crisis-in-egypt-between-reality-and-hopes~229614/"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Education and training",
+      "Issues title": "School system caution threatening losing control",
+      "Issues main source ": "Research Institute of Medical Entomology",
+      "Source category": "Research institute",
+      "Link": "https://rime.gov.eg/the-challenges-of-innovation-in-education/"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Education and training",
+      "Issues title": "Problem of Illiteracy",
+      "Issues main source ": "Draya",
+      "Source category": "Public Policy Forum",
+      "Link": "https://draya-eg.org/en/2023/05/22/reading-about-problem-of-illiteracy-in-egypt-indicators-and-proposals/",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Culture"
+    },
+    {
+      "Dimension": "SOCIAL DIMENSION",
+      "Pillars": "Culture"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Column1": "Population",
+      "Issues title": "Overpopulation",
+      "Issues main source ": "Egypt State Information Service",
+      "Source category": "Government agency",
+      "Link": "https://www.sis.gov.eg/Story/185585/Egypt-launches-national-strategy-to-curb-overpopulation?lang=en-us",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #overpopulationegypt"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Column1": "Population",
+      "Issues title": "Overpopulation",
+      "Issues main source ": "Egypt State Information Service",
+      "Source category": "Government agency",
+      "Link": "https://sis.gov.eg/Story/181674/National-Dialogue-identifies-6-root-causes-of-overpopulation-in-Egypt?lang=en-us",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #overpopulationegypt"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Column1": "Literacy rates",
+      "Issues title": "Rising sea levels",
+      "Issues main source ": "The Tahrir Institute",
+      "Source category": "Nonprofit organization",
+      "Link": "https://timep.org/2023/03/13/urbanism-in-egypt-under-threat-amid-impacts-of-climate-change/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #illeteracyegypt"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Column1": "Average years of school",
+      "Issues title": "Rising sea levels",
+      "Issues main source ": "Reliefweb",
+      "Source category": "Humanitarian information portal",
+      "Link": "https://reliefweb.int/report/egypt/climate-and-mobility-case-study-january-2023-alexandria-egypt-al-max",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Column1": "Out of school children",
+      "Issues title": "Rising sea levels",
+      "Issues main source ": "Politico",
+      "Source category": "Media Company",
+      "Link": "https://www.politico.eu/article/red-sea-project-neom-coral-egypt-israel-saudi-arabia-climate-change-cop27/",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Column1": "Completion rates, primary and secondary schools",
+      "Issues title": "Water-Energy-Food nexus",
+      "Issues main source ": "Adasa, American Univesity in Cairo",
+      "Source category": "Academic Institution",
+      "Link": "https://aps.aucegypt.edu/en/articles/961/managing-water-energy-and-food-nexus-in-egypt",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "Food security and global trade challenges",
+      "Issues main source ": "The Swedish Institute of  International Affairs, UI",
+      "Source category": "Research Institute ",
+      "Link": "https://www.ui.se/globalassets/ui.se-eng/publications/ui-publications/2023/ui-brief-food-insecurity-egypt.pdf",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "Food security and global trade challenges",
+      "Issues main source ": "Friedrich Naumann Foundation",
+      "Source category": "Government foundation ",
+      "Link": "https://www.freiheit.org/middle-east-and-north-africa/food-security-policies-jordan-tunisia-and-egypt",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "Food security and global trade challenges",
+      "Issues main source ": "Siani",
+      "Source category": "International Network",
+      "Link": "https://www.siani.se/news-story/egypts-food-system/",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "Food security and global trade challenges",
+      "Issues main source ": "Zawya",
+      "Source category": "News agency",
+      "Link": "https://www.zawya.com/en/economy/north-africa/egypt-ensures-food-security-amid-global-trade-challenges-idyh5qsw",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "Heatwaves reduce crops",
+      "Issues main source ": "The Africa Report",
+      "Source category": "Magazine",
+      "Link": "https://www.theafricareport.com/309507/egypt-farmers-bear-brunt-of-climate-change-and-dam-project/",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "Heatwaves reduce crops",
+      "Issues main source ": "Fresh Plaza",
+      "Source category": "Global trade media platform",
+      "Link": "https://www.freshplaza.com/europe/article/9519200/egyptian-producers-brace-for-heat-wave-threatening-crops-this-weekend/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Column2": "Paid/Subscription?"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "Heatwaves reduce crops",
+      "Issues main source ": "The National News",
+      "Source category": "Newspaper",
+      "Link": "https://www.thenationalnews.com/mena/egypt/2023/07/27/heatwave-reduces-egypts-mango-crop/",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "Climate change obstacles",
+      "Issues main source ": "Carnegie Endowment",
+      "Source category": "Think Tank",
+      "Link": "https://carnegieendowment.org/2023/10/26/climate-change-in-egypt-opportunities-and-obstacles-pub-90854"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Column1": "Mortality rates",
+      "Issues title": "Climate change obstacles",
+      "Issues main source ": "Carnegie Endowment",
+      "Source category": "Think Tank",
+      "Link": "https://carnegieendowment.org/2023/10/26/climate-change-in-egypt-opportunities-and-obstacles-pub-90855",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "Water management challenges",
+      "Issues main source ": "Fanack water",
+      "Source category": "Media Organization",
+      "Link": "https://water.fanack.com/egypt/water-management-challenges-in-egypt/"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "Water scarcity and food production",
+      "Issues main source ": "Alternative Policy Solutions-American University in Egypt",
+      "Source category": "Academic institution",
+      "Link": "https://aps.aucegypt.edu/en/articles/969/the-egyptian-water-dilemma-navigating-through-a-thirsty-future"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "Water scarcity and food production",
+      "Issues main source ": "Alternative Policy Solutions-American University in Egypt",
+      "Source category": "Academic institution",
+      "Link": "https://aps.aucegypt.edu/en/articles/969/the-egyptian-water-dilemma-navigating-through-a-thirsty-future"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "Raising sea levels make Delta a vulnerable hotspot",
+      "Issues main source ": "The Tahrir Institute for Middle East Policy",
+      "Source category": "Regional nonprofit organization",
+      "Link": "https://timep.org/2021/12/22/2021-in-review-timeps-most-read-articles/"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "seasonal soil salinity and land degradation",
+      "Issues main source ": "Engineering Research Journal",
+      "Source category": "Academic Journal",
+      "Link": "https://erj.journals.ekb.eg/article_302137.html"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "Plastic waste mismanagement in Egypt",
+      "Issues main source ": "Ahram Online",
+      "Source category": "Newspaper",
+      "Link": "https://english.ahram.org.eg/NewsContentP/50/462083/AlAhram-Weekly/Egypt-warned-on-plastic.aspx"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "Biodiversity challenges in Egypt",
+      "Issues main source ": "Convention on Biological Diversity- UN Invironmnet",
+      "Source category": "International Development organization",
+      "Link": "https://www.cbd.int/countries/profile?country=eg"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Column1": "Hepatits C, HIV and immunization",
+      "Issues title": "Nile Dam",
+      "Issues main source ": "BBC",
+      "Source category": "News agency",
+      "Link": "https://www.bbc.com/news/world-africa-66771155",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #HIVstigmaegypt #HIVdiscriminationegypt"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Column1": "Number of doctors per patient",
+      "Issues title": "Nile Dam",
+      "Issues main source ": "ABC News",
+      "Source category": "News agency",
+      "Link": "https://abcnews.go.com/US/alternative-egypt-worries-climate-change-dam-project-threaten/story?id=98481819",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #doctorsresignationegypt "
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Column1": "Life expectancy",
+      "Issues title": "Nile Dam",
+      "Issues main source ": "World Politics Review",
+      "Source category": "News and analysis platform",
+      "Link": "https://www.worldpoliticsreview.com/ethiopia-dam-nile-egypt/",
+      "Notes for data acquisition protocol": "Text/PDF",
+      "Column2": "Paid/Subscription?",
+      "Word Dictionary : Search Terms": "Include Linkedin, Facebook and Instagram: #healthissuesegypt"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "Nile Dam",
+      "Issues main source ": "The Conversation",
+      "Source category": "Nonprofit media outlet",
+      "Link": "https://theconversation.com/egypt-and-ethiopia-are-finally-working-on-a-water-deal-what-that-means-for-other-nile-river-states-210255",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "Nile Dam",
+      "Issues main source ": "AP News",
+      "Source category": "News agency",
+      "Link": "https://apnews.com/article/ethiopia-egypt-nile-water-dispute-143261644df90d9762a3392c300a4e27",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "Nile Dam",
+      "Issues main source ": "BBC",
+      "Source category": "News agency",
+      "Link": "https://www.bbc.com/news/world-africa-66776733",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Environment",
+      "Issues title": "Nile Dam",
+      "Issues main source ": "Reuters",
+      "Source category": "News agency",
+      "Link": "https://www.reuters.com/world/africa/egypt-says-talks-over-grand-ethiopian-renaissance-dam-have-failed-statement-2023-12-19/",
+      "Notes for data acquisition protocol": "Text/PDF"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Urban development",
+      "Issues title": "Modern and advanced infrastructure.",
+      "Issues main source ": "General Authority for Investment and Free Zones",
+      "Source category": "Government agency\r\n",
+      "Link": "https://www.gafi.gov.eg/English/whyegypt/Pages/Egypt-Ranking.aspx"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Urban development",
+      "Issues title": "State of infrastructure in Egypt",
+      "Issues main source ": "World Bank",
+      "Source category": "International financial institution",
+      "Link": "https://documents1.worldbank.org/curated/en/693911468022759281/pdf/WPS5177.pdf"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Urban development",
+      "Issues title": "infrastructure investments",
+      "Issues main source ": "American Chamber of Commerce in Egypt",
+      "Source category": "Nonprofit corporation",
+      "Link": "https://www.amcham.org.eg/publications/industry-insight/issues/136/A-Focus-on-Infrastructure-Building-Egypt%E2%80%99s-Future"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Urban development",
+      "Issues title": "Lack of adequate funding to transition into green growth",
+      "Issues main source ": "INTERNATIONAL JOURNAL OF HUMANITIES AND LANGUAGE RESEARCH",
+      "Source category": "Academic Journal",
+      "Link": "https://ijhlr.journals.ekb.eg/article_303612_ded48912d42333fc6aa577d6e0827d49.pdf"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Urban development"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Urban development",
+      "Issues title": "Possible disconnects between the Governmentâ€™s macro policy aims for the green transition as well as the on-ground perceptions,  concerns, and experiences of private sector actors",
+      "Issues main source ": "AUC knowledge fountain",
+      "Source category": "Academic institution",
+      "Link": "https://fount.aucegypt.edu/cgi/viewcontent.cgi?article=3198&context=etds"
+    },
+    {
+      "Dimension": "ENVIRONMENT DIMENSION",
+      "Pillars": "Urban development"
+    }
+  ],
+  "Issues sources categories": [
+    {
+      "Source Category": "Academic Institution",
+      "Examples": "American Univesity in Cairo and University of California"
+    },
+    {
+      "Source Category": "Diplomatic mission",
+      "Examples": "US Embassy in Egypt"
+    },
+    {
+      "Source Category": "Financial information services firm",
+      "Examples": "Fitch Solutions"
+    },
+    {
+      "Source Category": "Financial services company",
+      "Examples": "BNP Paribas"
+    },
+    {
+      "Source Category": "Global trade media platform",
+      "Examples": "Fresh Plaza"
+    },
+    {
+      "Source Category": "Government Agency",
+      "Examples": "Egypt State Information Service"
+    },
+    {
+      "Source Category": "Government foundation ",
+      "Examples": "Friedrich Naumann Foundation"
+    },
+    {
+      "Source Category": "Grain news and analysis medium",
+      "Examples": "World-grain"
+    },
+    {
+      "Source Category": "Humanitarian aid organization",
+      "Examples": "UNICEF"
+    },
+    {
+      "Source Category": "Humanitarian information portal",
+      "Examples": "Reliefweb"
+    },
+    {
+      "Source Category": "Independent humanitarian organization",
+      "Examples": "Refugees International"
+    },
+    {
+      "Source Category": "International Network",
+      "Examples": "Siani"
+    },
+    {
+      "Source Category": "International non-governmental organization",
+      "Examples": "Human Rights Watch"
+    },
+    {
+      "Source Category": "Journal",
+      "Examples": "BMC Health Services Research, Nature Briefing and The Cairo Review"
+    },
+    {
+      "Source Category": "Media Company",
+      "Examples": "BNN Bloomberg and Politico"
+    },
+    {
+      "Source Category": "News agency",
+      "Examples": "ABC News, AP News, BBC, Bloomberg, CNBC, Enterprise, Euronews, Frontiers, Reuters, The New Arab and Zawya"
+    },
+    {
+      "Source Category": "Atalayar and News and analysis platform",
+      "Examples": "World Politics Review"
+    },
+    {
+      "Source Category": "Magazine",
+      "Examples": "Egypt Today, Fast Company, Foreign Policy, Fortune, The Africa Report and Time"
+    },
+    {
+      "Source Category": "News Network",
+      "Examples": "Africa News"
+    },
+    {
+      "Source Category": "Newspaper",
+      "Examples": "Ahram Online, Asharq Al-Awsat, BNN, Daily News Egypt, Egyptian Streets, EU Observer, Financial Times, Mada Masr and The National News"
+    },
+    {
+      "Source Category": "Non profit non-governmental Organization",
+      "Examples": "International Crisis Group"
+    },
+    {
+      "Source Category": "Nonprofit media outlet",
+      "Examples": "The Conversation"
+    },
+    {
+      "Source Category": "Nonprofit organization",
+      "Examples": "MERIP, NPR and The Tahrir Institute "
+    },
+    {
+      "Source Category": "Online Directory",
+      "Examples": "Egypt Business Directory"
+    },
+    {
+      "Source Category": "Private association",
+      "Examples": "Switzerland Global Enterprise"
+    },
+    {
+      "Source Category": "Public Policy Forum",
+      "Examples": "Draya"
+    },
+    {
+      "Source Category": "Regional Network",
+      "Examples": "The Economic Research Forum"
+    },
+    {
+      "Source Category": "Research Institute ",
+      "Examples": "Arab Center Washington DC and The Swedish Institute of  International Affairs, UI "
+    },
+    {
+      "Source Category": "Stock Market Index",
+      "Examples": "NASDAQ"
+    },
+    {
+      "Source Category": "Think Tank",
+      "Examples": "Atlantic Council, Carnegie Endowment and The Washington Institute for Near East Policy"
+    },
+    {
+      "Source Category": "Trade credit insurance company",
+      "Examples": "Coface"
+    }
+  ],
+  "Issues Definitions": [
+    {
+      "Term": "Dimensions ",
+      "Definition ": "The matrix is comprised of 3 dimensions/categories:Economic, Social & Environmental. These are the main umbrellas on which the assessment is based. "
+    },
+    {
+      "Term": "Pillar",
+      "Definition ": "A dimension can be expressed by using a number of criteria or pillars. Each dimension is divided into 2-4 pillars."
+    },
+    {
+      "Term": "Issues title",
+      "Definition ": "Emerging issues of the month; no limit to the amount of issues to be included; title itself not to exceed 5 words."
+    },
+    {
+      "Term": "Issues main source ",
+      "Definition ": "The main source/s where the issue is mentioned and/or analysed (e.g The Guardian). "
+    },
+    {
+      "Term": "Source category",
+      "Definition ": "The main source/s categories (e.g. newspapers). "
+    },
+    {
+      "Term": "Link",
+      "Definition ": "This would include the link corresponding to the analysis for each source (e.g. news article, social media post, website analysis, .. etc.)"
+    },
+    {
+      "Term": "Notes for data acquisition protocol",
+      "Definition ": "Any notes related to data acquisition (e.g. data type, instructions about the template, .. etc.) "
+    },
+    {
+      "Term": "Word Dictionary ",
+      "Definition ": "Includes the word dictionary (any words associated with the dictionary) and search terms (any terms to be used) "
+    },
+    {
+      "Term": "Dimensions "
+    },
+    {
+      "Term": "Economic dimension",
+      "Definition ": "Includes the following pillars: Economic Development, Energy, Knowledge, innovation & scientific research, and Transparency & efficient government institutions."
+    },
+    {
+      "Term": "Social Dimension",
+      "Definition ": "Includes the following pillars: Social Justice, Health, Education & Training "
+    },
+    {
+      "Term": "Environmental Dimension",
+      "Definition ": "Includes the following pillars: Environment, and Urban Development"
+    },
+    {
+      "Term": "Sources:"
+    },
+    {
+      "Term": "https://pdf.usaid.gov/pdf_docs/PNABB190.pdf"
+    },
+    {
+      "Term": "http://www.guidelines.kaowarsom.be/annex_dimension"
+    },
+    {
+      "Term": "Egypt 2030 - SDS Egypt 2030"
+    }
+  ]
+}

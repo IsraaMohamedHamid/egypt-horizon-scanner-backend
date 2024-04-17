@@ -56,7 +56,7 @@ egyptHorizonScanner.use("/uploads", express.static("uploads"));
 egyptHorizonScanner.use(express.json());
 
 // Initialize routes
-// Dimensions and Pillars
+// Digital Avatar
 app.use('/dimensions', require('./Route/Dimensions and '));
 app.use('/dimensions-definitions',  require('./Route/dimensionDefinitionRoutes'));
 

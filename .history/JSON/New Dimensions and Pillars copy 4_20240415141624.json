@@ -1,0 +1,188 @@
+[
+    {
+      "Source Category": "Academic Institution",
+      "Examples": "American Univesity in Cairo and University of California"
+    },
+    {
+      "Source Category": "Diplomatic mission",
+      "Examples": "US Embassy in Egypt"
+    },
+    {
+      "Source Category": "Financial information services firm",
+      "Examples": "Fitch Solutions"
+    },
+    {
+      "Source Category": "Financial services company",
+      "Examples": "BNP Paribas"
+    },
+    {
+      "Source Category": "Global trade media platform",
+      "Examples": "Fresh Plaza"
+    },
+    {
+      "Source Category": "Government Agency",
+      "Examples": "Egypt State Information Service"
+    },
+    {
+      "Source Category": "Government foundation ",
+      "Examples": "Friedrich Naumann Foundation"
+    },
+    {
+      "Source Category": "Grain news and analysis medium",
+      "Examples": "World-grain"
+    },
+    {
+      "Source Category": "Humanitarian aid organization",
+      "Examples": "UNICEF"
+    },
+    {
+      "Source Category": "Humanitarian information portal",
+      "Examples": "Reliefweb"
+    },
+    {
+      "Source Category": "Independent humanitarian organization",
+      "Examples": "Refugees International"
+    },
+    {
+      "Source Category": "International Network",
+      "Examples": "Siani"
+    },
+    {
+      "Source Category": "International non-governmental organization",
+      "Examples": "Human Rights Watch"
+    },
+    {
+      "Source Category": "Journal",
+      "Examples": "BMC Health Services Research, Nature Briefing and The Cairo Review"
+    },
+    {
+      "Source Category": "Media Company",
+      "Examples": "BNN Bloomberg and Politico"
+    },
+    {
+      "Source Category": "News agency",
+      "Examples": "ABC News, AP News, BBC, Bloomberg, CNBC, Enterprise, Euronews, Frontiers, Reuters, The New Arab and Zawya"
+    },
+    {
+      "Source Category": "Atalayar and News and analysis platform",
+      "Examples": "World Politics Review"
+    },
+    {
+      "Source Category": "Magazine",
+      "Examples": "Egypt Today, Fast Company, Foreign Policy, Fortune, The Africa Report and Time"
+    },
+    {
+      "Source Category": "News Network",
+      "Examples": "Africa News"
+    },
+    {
+      "Source Category": "Newspaper",
+      "Examples": "Ahram Online, Asharq Al-Awsat, BNN, Daily News Egypt, Egyptian Streets, EU Observer, Financial Times, Mada Masr and The National News"
+    },
+    {
+      "Source Category": "Non profit non-governmental Organization",
+      "Examples": "International Crisis Group"
+    },
+    {
+      "Source Category": "Nonprofit media outlet",
+      "Examples": "The Conversation"
+    },
+    {
+      "Source Category": "Nonprofit organization",
+      "Examples": "MERIP, NPR and The Tahrir Institute "
+    },
+    {
+      "Source Category": "Online Directory",
+      "Examples": "Egypt Business Directory"
+    },
+    {
+      "Source Category": "Private association",
+      "Examples": "Switzerland Global Enterprise"
+    },
+    {
+      "Source Category": "Public Policy Forum",
+      "Examples": "Draya"
+    },
+    {
+      "Source Category": "Regional Network",
+      "Examples": "The Economic Research Forum"
+    },
+    {
+      "Source Category": "Research Institute ",
+      "Examples": "Arab Center Washington DC and The Swedish Institute of  International Affairs, UI "
+    },
+    {
+      "Source Category": "Stock Market Index",
+      "Examples": "NASDAQ"
+    },
+    {
+      "Source Category": "Think Tank",
+      "Examples": "Atlantic Council, Carnegie Endowment and The Washington Institute for Near East Policy"
+    },
+    {
+      "Source Category": "Trade credit insurance company",
+      "Examples": "Coface"
+    }
+  ],
+  "Issues Definitions": [
+    {
+      "Term": "Dimensions ",
+      "Definition ": "The matrix is comprised of 3 dimensions/categories:Economic, Social & Environmental. These are the main umbrellas on which the assessment is based. "
+    },
+    {
+      "Term": "Pillar",
+      "Definition ": "A dimension can be expressed by using a number of criteria or pillars. Each dimension is divided into 2-4 pillars."
+    },
+    {
+      "Term": "Issues title",
+      "Definition ": "Emerging issues of the month; no limit to the amount of issues to be included; title itself not to exceed 5 words."
+    },
+    {
+      "Term": "Issues main source ",
+      "Definition ": "The main source/s where the issue is mentioned and/or analysed (e.g The Guardian). "
+    },
+    {
+      "Term": "Source category",
+      "Definition ": "The main source/s categories (e.g. newspapers). "
+    },
+    {
+      "Term": "Link",
+      "Definition ": "This would include the link corresponding to the analysis for each source (e.g. news article, social media post, website analysis, .. etc.)"
+    },
+    {
+      "Term": "Notes for data acquisition protocol",
+      "Definition ": "Any notes related to data acquisition (e.g. data type, instructions about the template, .. etc.) "
+    },
+    {
+      "Term": "Word Dictionary ",
+      "Definition ": "Includes the word dictionary (any words associated with the dictionary) and search terms (any terms to be used) "
+    },
+    {
+      "Term": "Dimensions "
+    },
+    {
+      "Term": "Economic dimension",
+      "Definition ": "Includes the following pillars: Economic Development, Energy, Knowledge, innovation & scientific research, and Transparency & efficient government institutions."
+    },
+    {
+      "Term": "Social Dimension",
+      "Definition ": "Includes the following pillars: Social Justice, Health, Education & Training "
+    },
+    {
+      "Term": "Environmental Dimension",
+      "Definition ": "Includes the following pillars: Environment, and Urban Development"
+    },
+    {
+      "Term": "Sources:"
+    },
+    {
+      "Term": "https://pdf.usaid.gov/pdf_docs/PNABB190.pdf"
+    },
+    {
+      "Term": "http://www.guidelines.kaowarsom.be/annex_dimension"
+    },
+    {
+      "Term": "Egypt 2030 - SDS Egypt 2030"
+    }
+  ]
+}

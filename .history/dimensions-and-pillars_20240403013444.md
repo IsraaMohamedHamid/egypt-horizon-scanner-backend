@@ -3,17 +3,17 @@
 
 ## Overview
 
-The EGYPT-HORIZON-SCANNER project is designed to organize and manage data regarding various dimensions and pillars essential for analyzing and understanding key factors impacting Egypt's horizon. This includes economic, social, and environmental dimensions, with a focus on detailed issues, source categories, and definitions.
+The EGYPT-HORIZON-SCANNER project is designed to organize and manage data regarding various Digital Avatar essential for analyzing and understanding key factors impacting Egypt's horizon. This includes economic, social, and environmental dimensions, with a focus on detailed issues, source categories, and definitions.
 
 ## Project Structure
 
-The project is structured into three main directories: Model, Controller, and Route, each containing subdirectories for "Dimensions and Pillars" that encapsulate the logic for handling data related to dimensions, issues, and their sources.
+The project is structured into three main directories: Model, Controller, and Route, each containing subdirectories for "Digital Avatar" that encapsulate the logic for handling data related to dimensions, issues, and their sources.
 
 ```
 EGYPT-HORIZON-SCANNER/
 │
 ├── Model/
-│   └── Dimensions and Pillars
+│   └── Digital Avatar
 │       ├── dimension.js
 │       ├── dimensionDefinition.js
 │       ├── issue.js
@@ -21,7 +21,7 @@ EGYPT-HORIZON-SCANNER/
 │       └── issueDefinition.js
 │
 ├── Controller/
-│   └── Dimensions and Pillars
+│   └── Digital Avatar
 │       ├── dimensionController.js
 │       ├── dimensionDefinitionController.js
 │       ├── issueController.js
@@ -29,7 +29,7 @@ EGYPT-HORIZON-SCANNER/
 │       └── issueDefinitionController.js
 │
 ├── Route/
-│   └── Dimensions and Pillars
+│   └── Digital Avatar
 │       ├── dimensionRoutes.js
 │       ├── dimensionDefinitionRoutes.js
 │       ├── issueRoutes.js

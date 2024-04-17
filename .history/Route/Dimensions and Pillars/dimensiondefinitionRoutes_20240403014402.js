@@ -7,7 +7,7 @@ const {
   getDimensionDefinitionById,
   updateDimensionDefinition,
   deleteDimensionDefinition
-} = require("./Users/izzymohamed/Desktop/Horizon Scanner/egypt-horizon-scanner/Controller/Dimensions and Pillars/dimensionController.js");
+} = require("./Users/izzymohamed/Desktop/Horizon Scanner/egypt-horizon-scanner/Controller/Digital Avatar/dimensionController.js");
 
 ///---------------------- LIBRARIES ----------------------///
 const express = require("express");

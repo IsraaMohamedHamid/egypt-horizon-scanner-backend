@@ -1,0 +1,69 @@
+[
+    {
+      "Term": "Dimensions ",
+      "Definition ": "The matrix is comprised of 3 dimensions/categories:Economic, Social & Environmental. These are the main umbrellas on which the assessment is based. "
+    },
+    {
+      "Term": "Pillar",
+      "Definition ": "A dimension can be expressed by using a number of criteria or pillars. Each dimension is divided into 2-4 pillars."
+    },
+    {
+      "Term": "Indicators",
+      "Definition ": "The indicators are selected to assess the impact of the pillars. They are used to measure change in each dimension."
+    },
+    {
+      "Term": "Type",
+      "Definition ": "Type of data used for each indicator (i.e. qualitative, quantitative, or both) "
+    },
+    {
+      "Term": "Data Visualization",
+      "Definition ": "How the indicator data is presented (e.g. pie chart, timeline) "
+    },
+    {
+      "Term": "Source",
+      "Definition ": "The source/s where each indicator's data will be acquired from "
+    },
+    {
+      "Term": "Notes",
+      "Definition ": "Any comments regarding the indicator, data visualisation, data acquisition or the sources"
+    },
+    {
+      "Term": "Economic dimension",
+      "Definition ": "Achieving high, sustainable, and inclusive economic growth through a competitive, diversified, and knowledge-based economy that generates productive jobs and rising incomes."
+    },
+    {
+      "Term": "Social Dimension",
+      "Definition ": "Promoting social justice, inclusion, and empowerment for all Egyptians through quality healthcare, education, culture, and protection for vulnerable groups."
+    },
+    {
+      "Term": "Environmental Dimension",
+      "Definition ": "Integrating environmental sustainability across all sectors to efficiently preserve natural resources, mitigate pollution and climate risks, and promote sustainable development."
+    },
+    {
+      "Term": "Dimensions "
+    },
+    {
+      "Term": "Economic dimension",
+      "Definition ": "Includes the following pillars: Economic Development, Energy, Knowledge, innovation & scientific research, and Transparency & efficient government institutions."
+    },
+    {
+      "Term": "Social Dimension",
+      "Definition ": "Includes the following pillars: Social Justice, Health, Education & Training, and culture"
+    },
+    {
+      "Term": "Environmental Dimension",
+      "Definition ": "Includes the following pillars: Environment, and Urban Development"
+    },
+    {
+      "Term": "Sources:"
+    },
+    {
+      "Term": "https://pdf.usaid.gov/pdf_docs/PNABB190.pdf"
+    },
+    {
+      "Term": "http://www.guidelines.kaowarsom.be/annex_dimension"
+    },
+    {
+      "Term": "Egypt 2030 - SDS Egypt 2030"
+    }
+  ]

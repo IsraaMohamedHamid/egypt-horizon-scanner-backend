@@ -7,7 +7,7 @@ const {
   getIssueSourceCategoryById,
   updateIssueSourceCategory,
   deleteIssueSourceCategory
-} = require("../Controller/Dimensions and Pillars/issuesourcecategoryController");
+} = require("../Controller/Digital Avatar/issuesourcecategoryController");
 
 ///---------------------- LIBRARIES ----------------------///
 const express = require("express");

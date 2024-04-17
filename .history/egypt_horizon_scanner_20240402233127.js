@@ -56,12 +56,12 @@ egyptHorizonScanner.use("/uploads", express.static("uploads"));
 egyptHorizonScanner.use(express.json());
 
 // Initialize routes
-// Dimensions and Pillars
-app.use('/dimensions', require('./Route/Dimensions and Pillars/dimensionsRoutes'));
-app.use('/dimensions-definitions',  require('./Route/Dimensions and Pillars/dimensionDefinitionRoutes'));
-app.use('/issue-defenition-routes',  require('./Route/Dimensions and Pillars/dimensionDefinitionRoutes'));
-app.use('/dimensions-definitions',  require('./Route/Dimensions and Pillars/dimensionDefinitionRoutes'));
-app.use('/dimensions-definitions',  require('./Route/Dimensions and Pillars/dimensionDefinitionRoutes'));
+// Digital Avatar
+app.use('/dimensions', require('./Route/Digital Avatar/dimensionsRoutes'));
+app.use('/dimensions-definitions',  require('./Route/Digital Avatar/dimensionDefinitionRoutes'));
+app.use('/issue-defenition-routes',  require('./Route/Digital Avatar/dimensionDefinitionRoutes'));
+app.use('/dimensions-definitions',  require('./Route/Digital Avatar/dimensionDefinitionRoutes'));
+app.use('/dimensions-definitions',  require('./Route/Digital Avatar/dimensionDefinitionRoutes'));
 
 // USERS
 egyptHorizonScanner.use("/user", require("./Routes/Users/user"))

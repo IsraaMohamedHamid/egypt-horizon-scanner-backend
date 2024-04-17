@@ -1,9 +1,9 @@
-## Dimensions and pillars folder 
+## Digital Avatar folder 
 
 my-node-project/
 │
 ├── models/
-│   └── Dimensions and Pillars
+│   └── Digital Avatar
 │       ├── dimension.js
 │       ├── dimensionDefinition.js
 │       ├── issue.js
@@ -11,7 +11,7 @@ my-node-project/
 │       └── issueDefinition.js
 │
 ├── routes/
-│   └── Dimensions and Pillars
+│   └── Digital Avatar
 │       ├── dimensionRoutes.js
 │       ├── dimensionDefinitionRoutes.js
 │       ├── issueRoutes.js

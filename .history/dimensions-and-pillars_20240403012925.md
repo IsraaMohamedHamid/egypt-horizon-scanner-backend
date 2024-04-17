@@ -9,7 +9,7 @@ This project is a Node.js application structured to separate concerns between mo
 EGYPT-HORIZON-SCANNER/
 │
 ├── Model/
-│   └── Dimensions and Pillars
+│   └── Digital Avatar
 │       ├── dimension.js
 │       ├── dimensionDefinition.js
 │       ├── issue.js
@@ -17,7 +17,7 @@ EGYPT-HORIZON-SCANNER/
 │       └── issueDefinition.js
 │
 ├── Controller/
-│   └── Dimensions and Pillars
+│   └── Digital Avatar
 │       ├── dimensionController.js
 │       ├── dimensionDefinitionController.js
 │       ├── issueController.js
@@ -25,7 +25,7 @@ EGYPT-HORIZON-SCANNER/
 │       └── issueDefinitionController.js
 │
 ├── Route/
-│   └── Dimensions and Pillars
+│   └── Digital Avatar
 │       ├── dimensionRoutes.js
 │       ├── dimensionDefinitionRoutes.js
 │       ├── issueRoutes.js
@@ -38,15 +38,15 @@ EGYPT-HORIZON-SCANNER/
 
 ### Models
 
-Located under `Model/Dimensions and Pillars/`, these files define the Mongoose schemas for our database entities.
+Located under `Model/Digital Avatar/`, these files define the Mongoose schemas for our database entities.
 
 ### Controllers
 
-Located under `Route/Dimensions and Pillars/`, these files handle the API routing, making use of the models to interact with the database.
+Located under `Route/Digital Avatar/`, these files handle the API routing, making use of the models to interact with the database.
 
 ### Routes
 
-Located under `Route/Dimensions and Pillars/`, these files handle the API routing, making use of the models to interact with the database.
+Located under `Route/Digital Avatar/`, these files handle the API routing, making use of the models to interact with the database.
 
 ### Server Setup
 
