@@ -20,11 +20,13 @@ mongoose.connect(
     }
 );
 
-// const dbURI = 'mongodb+srv://doadmin:hUe078624yqCm91N@private-db-mongodb-nyc3-52982-3e1a2c24.mongo.ondigitalocean.com/Egypt_horizon_scanner?tls=true&authSource=admin&replicaSet=db-mongodb-nyc3-52982';
-// mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, tls: true, authSource: 'admin' })
-//   .then(() => console.log('MongoDB connected...'))
-//   .catch(err => console.log(err));
+const mongoose = require('mongoose');
 
+mongoose.connect('your_mongodb_srv_connection_string_here', { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => console.log('MongoDB connected...'))
+  .catch(err => console.log(err));
+
+  
 mongoose.Promise = global.Promise;
 
 const connection = mongoose.connection;

@@ -12,18 +12,18 @@ const egyptHorizonScanner = express();
 egyptHorizonScanner.use(express.json());
 
 // Connect to mongodb
-mongoose.connect(
-    'mongodb://localhost/egypt_horizon_scanner',
-    {
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-    }
-);
+// mongoose.connect(
+//     'mongodb://localhost/egypt_horizon_scanner',
+//     {
+//         useNewUrlParser: true,
+//         useUnifiedTopology: true
+//     }
+// );
 
-// const dbURI = 'mongodb+srv://doadmin:hUe078624yqCm91N@private-db-mongodb-nyc3-52982-3e1a2c24.mongo.ondigitalocean.com/Egypt_horizon_scanner?tls=true&authSource=admin&replicaSet=db-mongodb-nyc3-52982';
-// mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, tls: true, authSource: 'admin' })
-//   .then(() => console.log('MongoDB connected...'))
-//   .catch(err => console.log(err));
+mongoose.connect('mongodb+srv://doadmin:hUe078624yqCm91N@private-db-mongodb-nyc3-52982-3e1a2c24.mongo.ondigitalocean.com/Egypt_horizon_scanner?tls=true&authSource=admin&replicaSet=db-mongodb-nyc3-52982', { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => console.log('MongoDB connected...'))
+  .catch(err => console.log(err));
+
 
 mongoose.Promise = global.Promise;
 
