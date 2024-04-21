@@ -1,34 +1,34 @@
 const  { 
-    getLocalities,
-    createLocality,
-    updateLocalityByID,
-    updateLocalityByLocalityName,
-    deleteLocalityByID,
-    deleteLocalityByLocalityName,
-    countMostInterventionTypePerLocality
-} = require('../../../Controller/Response Now/Interventions/localities_api_controller')
+    getCities,
+    createCity,
+    updateCityByID,
+    updateCityByCityName,
+    deleteCityByID,
+    deleteCityByCityName,
+    countMostInterventionTypePerCity
+} = require('../../../Controller/Response Now/Interventions/cities_api_controller')
 
 const express = require('express');
 const router = express.Router();
 
 
-// Get a list of localities from the DB
-router.get('/locality/', getLocalities);
+// Get a list of cities from the DB
+router.get('/city/', getCities);
 
-// Add new locality to the DB
-router.post('/locality', createLocality);
+// Add new city to the DB
+router.post('/city', createCity);
 
-// Update a locality in the DB
-router.put('/locality/localityid/:id', updateLocalityByID);
+// Update a city in the DB
+router.put('/city/cityid/:id', updateCityByID);
 
-router.put('/locality/localitynameen/:localityNameEN', updateLocalityByLocalityName);
+router.put('/city/citynameen/:cityNameEN', updateCityByCityName);
 
-// Delete a locality from the DB
-router.delete('/locality/localityid/:id', deleteLocalityByID);
+// Delete a city from the DB
+router.delete('/city/cityid/:id', deleteCityByID);
 
-router.delete('/locality/localitynameen/:localityNameEN', deleteLocalityByLocalityName);
+router.delete('/city/citynameen/:cityNameEN', deleteCityByCityName);
 
-// Count projects based on themes and Locality
-router.get('/locality/count/theme', countMostInterventionTypePerLocality);
+// Count projects based on themes and City
+router.get('/city/count/theme', countMostInterventionTypePerCity);
 
 module.exports = router;

@@ -13,7 +13,7 @@ const express = require('express');
 const router = express.Router();
 
 
-// Get a list of localities from the DB
+// Get a list of cities from the DB
 router.get('/emergenceIssueOfTheMonthData', getEmergingIssuesData);
 
 router.get('/emergenceIssueOfTheMonthData/findbyname/:emergingIssue', getEmergingIssueDataByName);

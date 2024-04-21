@@ -224,12 +224,12 @@ const filterProjectsBasedOnPSTheme = ((req, res) => {
     });
 })
 
-// Filter projects based on themes and Locality
+// Filter projects based on themes and City
 
-const filterProjectsBasedOnThemeandLocality = ((req, res) => {
+const filterProjectsBasedOnThemeandCity = ((req, res) => {
 
   var query = {
-    Locality_Name_EN: req.params.localityNameEN,
+    City_Name_EN: req.params.cityNameEN,
     theme: {
       $in: [req.params.theme]
     }
@@ -241,10 +241,10 @@ const filterProjectsBasedOnThemeandLocality = ((req, res) => {
     });
 })
 
-const filterProjectsBasedOnRCThemeandLocality = ((req, res) => {
+const filterProjectsBasedOnRCThemeandCity = ((req, res) => {
 
   var query = {
-    Locality_Name_EN: req.params.localityNameEN,
+    City_Name_EN: req.params.cityNameEN,
     theme: {
       $in: ['R_C']
     }
@@ -256,10 +256,10 @@ const filterProjectsBasedOnRCThemeandLocality = ((req, res) => {
     });
 })
 
-const filterProjectsBasedOnEEThemeandLocality = ((req, res) => {
+const filterProjectsBasedOnEEThemeandCity = ((req, res) => {
 
   var query = {
-    Locality_Name_EN: req.params.localityNameEN,
+    City_Name_EN: req.params.cityNameEN,
     theme: {
       $in: ['E_E']
     }
@@ -271,10 +271,10 @@ const filterProjectsBasedOnEEThemeandLocality = ((req, res) => {
     });
 })
 
-const filterProjectsBasedOnDEThemeandLocality = ((req, res) => {
+const filterProjectsBasedOnDEThemeandCity = ((req, res) => {
 
   var query = {
-    Locality_Name_EN: req.params.localityNameEN,
+    City_Name_EN: req.params.cityNameEN,
     theme: {
       $in: ['D_E']
     }
@@ -286,10 +286,10 @@ const filterProjectsBasedOnDEThemeandLocality = ((req, res) => {
     });
 })
 
-const filterProjectsBasedOnIDThemeandLocality = ((req, res) => {
+const filterProjectsBasedOnIDThemeandCity = ((req, res) => {
 
   var query = {
-    Locality_Name_EN: req.params.localityNameEN,
+    City_Name_EN: req.params.cityNameEN,
     theme: {
       $in: ['I_D', ]
     }
@@ -301,10 +301,10 @@ const filterProjectsBasedOnIDThemeandLocality = ((req, res) => {
     });
 })
 
-const filterProjectsBasedOnHDThemeandLocality = ((req, res) => {
+const filterProjectsBasedOnHDThemeandCity = ((req, res) => {
 
   var query = {
-    Locality_Name_EN: req.params.localityNameEN,
+    City_Name_EN: req.params.cityNameEN,
     theme: {
       $in: ['H_D']
     }
@@ -316,10 +316,10 @@ const filterProjectsBasedOnHDThemeandLocality = ((req, res) => {
     });
 })
 
-const filterProjectsBasedOnPSThemeandLocality = ((req, res) => {
+const filterProjectsBasedOnPSThemeandCity = ((req, res) => {
 
   var query = {
-    Locality_Name_EN: req.params.localityNameEN,
+    City_Name_EN: req.params.cityNameEN,
     theme: {
       $in: ['P_S']
     }
@@ -460,13 +460,13 @@ module.exports = {
   filterProjectsBasedOnIDTheme: filterProjectsBasedOnIDTheme,
   filterProjectsBasedOnHDTheme: filterProjectsBasedOnHDTheme,
   filterProjectsBasedOnPSTheme: filterProjectsBasedOnPSTheme,
-  filterProjectsBasedOnThemeandLocality: filterProjectsBasedOnThemeandLocality,
-  filterProjectsBasedOnRCThemeandLocality: filterProjectsBasedOnRCThemeandLocality,
-  filterProjectsBasedOnEEThemeandLocality: filterProjectsBasedOnEEThemeandLocality,
-  filterProjectsBasedOnDEThemeandLocality: filterProjectsBasedOnDEThemeandLocality,
-  filterProjectsBasedOnIDThemeandLocality: filterProjectsBasedOnIDThemeandLocality,
-  filterProjectsBasedOnHDThemeandLocality: filterProjectsBasedOnHDThemeandLocality,
-  filterProjectsBasedOnPSThemeandLocality: filterProjectsBasedOnPSThemeandLocality,
+  filterProjectsBasedOnThemeandCity: filterProjectsBasedOnThemeandCity,
+  filterProjectsBasedOnRCThemeandCity: filterProjectsBasedOnRCThemeandCity,
+  filterProjectsBasedOnEEThemeandCity: filterProjectsBasedOnEEThemeandCity,
+  filterProjectsBasedOnDEThemeandCity: filterProjectsBasedOnDEThemeandCity,
+  filterProjectsBasedOnIDThemeandCity: filterProjectsBasedOnIDThemeandCity,
+  filterProjectsBasedOnHDThemeandCity: filterProjectsBasedOnHDThemeandCity,
+  filterProjectsBasedOnPSThemeandCity: filterProjectsBasedOnPSThemeandCity,
   countTotalDonationAmountBasedOnProjectName: countTotalDonationAmountBasedOnProjectName,
   countTotalDonationAmount: countTotalDonationAmount
 }

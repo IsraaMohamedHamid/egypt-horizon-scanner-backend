@@ -75,7 +75,7 @@ egyptHorizonScanner.use('/digital-avatar/issue-source-category',  require('./Rou
 
 //---------- INTERVENTIONS
 egyptHorizonScanner.use('/response-now/interventions', require('./Route/Response Now/Interventions/projects'))
-egyptHorizonScanner.use('/response-now/interventions', require('./Route/Response Now/Interventions/localities'))
+egyptHorizonScanner.use('/response-now/interventions', require('./Route/Response Now/Interventions/cities'))
 egyptHorizonScanner.use('/response-now/interventions', require('./Route/Response Now/Interventions/states'))
 
 //---------- EMERGENCE ISSUE OF THE MONTH

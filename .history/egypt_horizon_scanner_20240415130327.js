@@ -70,7 +70,7 @@ egyptHorizonScanner.use('/digital-avater/issue-source-category-routes',  require
 
 // INTERVENTIONS
 sudanHorizonScannerApp.use('/interventions', require('./Routes/Response Now/Interventions/projects'))
-sudanHorizonScannerApp.use('/interventions', require('./Routes/Response Now/Interventions/localities'))
+sudanHorizonScannerApp.use('/interventions', require('./Routes/Response Now/Interventions/cities'))
 sudanHorizonScannerApp.use('/interventions', require('./Routes/Response Now/Interventions/states'))
 
 // EMERGENCE ISSUE OF THE MONTH

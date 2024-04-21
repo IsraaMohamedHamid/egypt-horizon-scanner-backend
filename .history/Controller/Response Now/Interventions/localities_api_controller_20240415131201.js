@@ -1,75 +1,75 @@
 const {
-  localityModel,
-  LocalitySchema
-} = require('../../../Model/interventions/locality_model');
+  cityModel,
+  CitySchema
+} = require('../../../Model/interventions/city_model');
 
 const {
   projectsModel,
   ProjectSchema
 } = require('../../../Model/interventions/projects_model');
 
-// Get a list of localities from the DB
-const getLocalities = ((req, res, next) => {
+// Get a list of cities from the DB
+const getCities = ((req, res, next) => {
   
-   // Count number of projects per theme for each Locality
-   localityModel.find({}, {
-    Locality_Name_EN: 1,
+   // Count number of projects per theme for each City
+   cityModel.find({}, {
+    City_Name_EN: 1,
     _id: 0
-  }).then(function (locality) {
-    for (let i = 0; i < locality.length; i++) {
+  }).then(function (city) {
+    for (let i = 0; i < city.length; i++) {
       let map = new Map();
       // Get all data
       projectsModel.find({
-        Locality_Name_EN: locality[i].Locality_Name_EN
-      }).then(function (localities) {
-        if (localities.length > 0) {
+        City_Name_EN: city[i].City_Name_EN
+      }).then(function (cities) {
+        if (cities.length > 0) {
 
           async function countProjectsBasedonTheme() {
             try {
               // Find the number of documents that match the specified query, and print out the count.
               map['R_C'] = await projectsModel.countDocuments({
-                $and: [{Locality_Name_EN: {
-                  $eq: locality[i].Locality_Name_EN
+                $and: [{City_Name_EN: {
+                  $eq: city[i].City_Name_EN
                 }},
                 {theme: {
                   $in: ['R_C']
                 }}]
               });
               map['E_E'] = await projectsModel.countDocuments({
-                $and: [{Locality_Name_EN: {
-                  $eq: locality[i].Locality_Name_EN
+                $and: [{City_Name_EN: {
+                  $eq: city[i].City_Name_EN
                 }},
                 {theme: {
                   $in: ['E_E']
                 }}]
               });
               map['D_E'] = await projectsModel.countDocuments({
-                $and: [{Locality_Name_EN: {
-                  $eq: locality[i].Locality_Name_EN
+                $and: [{City_Name_EN: {
+                  $eq: city[i].City_Name_EN
                 }},
                 {theme: {
                   $in: ['D_E']
                 }}]
               });
               map['I_D'] = await projectsModel.countDocuments({
-                $and: [{Locality_Name_EN: {
-                  $eq: locality[i].Locality_Name_EN
+                $and: [{City_Name_EN: {
+                  $eq: city[i].City_Name_EN
                 }},
                 {theme: {
                   $in: ['I_D']
                 }}]
               });
               map['H_D'] = await projectsModel.countDocuments({
-                $and: [{Locality_Name_EN: {
-                  $eq: locality[i].Locality_Name_EN
+                $and: [{City_Name_EN: {
+                  $eq: city[i].City_Name_EN
                 }},
                 {theme: {
                   $in: ['H_D']
                 }}]
               });
               map['P_S'] = await projectsModel.countDocuments({
-                $and: [{Locality_Name_EN: {
-                  $eq: locality[i].Locality_Name_EN
+                $and: [{City_Name_EN: {
+                  $eq: city[i].City_Name_EN
                 }},
                 {theme: {
                   $in: ['P_S']
@@ -103,8 +103,8 @@ const getLocalities = ((req, res, next) => {
                 }
               }
 
-              localityModel.findOneAndUpdate({
-                Locality_Name_EN: locality[i].Locality_Name_EN
+              cityModel.findOneAndUpdate({
+                City_Name_EN: city[i].City_Name_EN
               }, {
                 $set: {
                   "Most_Intervention_Type": mostProjects,
@@ -112,15 +112,15 @@ const getLocalities = ((req, res, next) => {
                   "No_Intervention_Type": noProjects,
                 }
               }).then(function () {
-                localityModel.findOne({
-                  Locality_Name_EN: locality[i].Locality_Name_EN
-                }).then(function (locality) {
-                  //res.send(locality);
+                cityModel.findOne({
+                  City_Name_EN: city[i].City_Name_EN
+                }).then(function (city) {
+                  //res.send(city);
                 });
               });
               
               
-              console.log(`${locality[i].Locality_Name_EN}:\n map: ${Object.values(map)}, Conatins zero: ${Object.values(map).includes(0)}, no Projects: ${noProjects}, least Projects: ${leastProjects}, most Projects: ${mostProjects}`);
+              console.log(`${city[i].City_Name_EN}:\n map: ${Object.values(map)}, Conatins zero: ${Object.values(map).includes(0)}, no Projects: ${noProjects}, least Projects: ${leastProjects}, most Projects: ${mostProjects}`);
             
             } catch (err) {
               res.send('Error: ' + err);
@@ -130,8 +130,8 @@ const getLocalities = ((req, res, next) => {
           countProjectsBasedonTheme().catch(console.dir);
 
         } else {
-          localityModel.findOneAndUpdate({
-            Locality_Name_EN: locality[i].Locality_Name_EN
+          cityModel.findOneAndUpdate({
+            City_Name_EN: city[i].City_Name_EN
           }, {
             $set: {
               "Most_Intervention_Type": "",
@@ -147,134 +147,134 @@ const getLocalities = ((req, res, next) => {
   });
 
   // Get all data
-  localityModel.find({}).then(function (localities) {
-    res.send(localities);
+  cityModel.find({}).then(function (cities) {
+    res.send(cities);
   });
 })
 
-// Add new locality to the DB
-const createLocality = ((req, res, next) => {
-  localityModel.create(req.body).then(function (locality) {
-    res.send(locality);
+// Add new city to the DB
+const createCity = ((req, res, next) => {
+  cityModel.create(req.body).then(function (city) {
+    res.send(city);
   }).catch(next);
 
 })
 
-// Update a locality in the DB
-const updateLocalityByID = ((req, res, next) => {
+// Update a city in the DB
+const updateCityByID = ((req, res, next) => {
   //to access :id ---> req.params.id
-  localityModel.findByIdAndUpdate({
+  cityModel.findByIdAndUpdate({
     _id: req.params.id
   }, {
     $set: req.body
   }).then(function () {
-    localityModel.findOne({
+    cityModel.findOne({
       _id: req.params.id
-    }).then(function (locality) {
-      res.send(locality);
+    }).then(function (city) {
+      res.send(city);
     });
   });
 })
 
-const updateLocalityByLocalityName = ((req, res, next) => {
+const updateCityByCityName = ((req, res, next) => {
   //to access :id ---> req.params.id
-  localityModel.findOneAndUpdate({
-    Locality_Name_EN: req.params.localityNameEN
+  cityModel.findOneAndUpdate({
+    City_Name_EN: req.params.cityNameEN
   }, {
     $set: req.body
   }).then(function () {
-    localityModel.findOne({
-      Locality_Name_EN: req.params.Locality_Name_EN
-    }).then(function (locality) {
-      res.send(locality);
+    cityModel.findOne({
+      City_Name_EN: req.params.City_Name_EN
+    }).then(function (city) {
+      res.send(city);
     });
   });
 })
 
 
-// Delete a locality from the DB
-const deleteLocalityByID = ((req, res, next) => {
+// Delete a city from the DB
+const deleteCityByID = ((req, res, next) => {
   //to access :id ---> req.params.id
-  localityModel.findByIdAndRemove({
+  cityModel.findByIdAndRemove({
     _id: req.params.id
-  }).then(function (locality) {
-    res.send(locality);
+  }).then(function (city) {
+    res.send(city);
   });
 })
 
-const deleteLocalityByLocalityName = ((req, res, next) => {
+const deleteCityByCityName = ((req, res, next) => {
   //to access :id ---> req.params.id
-  localityModel.findOneAndRemove({
-    Locality_Name_EN: req.params.localityNameEN
-  }).then(function (locality) {
-    res.send(locality);
+  cityModel.findOneAndRemove({
+    City_Name_EN: req.params.cityNameEN
+  }).then(function (city) {
+    res.send(city);
   });
 })
 
-// Count projects based on themes and Locality
+// Count projects based on themes and City
 
-const countMostInterventionTypePerLocality = ((req, res) => {
+const countMostInterventionTypePerCity = ((req, res) => {
   
 
-  /// Count number of projects per theme for each Locality
-  localityModel.find({}, {
-    Locality_Name_EN: 1,
+  /// Count number of projects per theme for each City
+  cityModel.find({}, {
+    City_Name_EN: 1,
     _id: 0
-  }).then(function (locality) {
-    for (let i = 0; i < locality.length; i++) {
+  }).then(function (city) {
+    for (let i = 0; i < city.length; i++) {
       let map = new Map();
       // Get all data
       projectsModel.find({
-        Locality_Name_EN: locality[i].Locality_Name_EN
-      }).then(function (localities) {
-        if (localities.length > 0) {
+        City_Name_EN: city[i].City_Name_EN
+      }).then(function (cities) {
+        if (cities.length > 0) {
 
           async function countProjectsBasedonTheme() {
             try {
               // Find the number of documents that match the specified query, and print out the count.
               map['R_C'] = await projectsModel.countDocuments({
-                $and: [{Locality_Name_EN: {
-                  $eq: locality[i].Locality_Name_EN
+                $and: [{City_Name_EN: {
+                  $eq: city[i].City_Name_EN
                 }},
                 {theme: {
                   $in: ['R_C']
                 }}]
               });
               map['E_E'] = await projectsModel.countDocuments({
-                $and: [{Locality_Name_EN: {
-                  $eq: locality[i].Locality_Name_EN
+                $and: [{City_Name_EN: {
+                  $eq: city[i].City_Name_EN
                 }},
                 {theme: {
                   $in: ['E_E']
                 }}]
               });
               map['D_E'] = await projectsModel.countDocuments({
-                $and: [{Locality_Name_EN: {
-                  $eq: locality[i].Locality_Name_EN
+                $and: [{City_Name_EN: {
+                  $eq: city[i].City_Name_EN
                 }},
                 {theme: {
                   $in: ['D_E']
                 }}]
               });
               map['I_D'] = await projectsModel.countDocuments({
-                $and: [{Locality_Name_EN: {
-                  $eq: locality[i].Locality_Name_EN
+                $and: [{City_Name_EN: {
+                  $eq: city[i].City_Name_EN
                 }},
                 {theme: {
                   $in: ['I_D']
                 }}]
               });
               map['H_D'] = await projectsModel.countDocuments({
-                $and: [{Locality_Name_EN: {
-                  $eq: locality[i].Locality_Name_EN
+                $and: [{City_Name_EN: {
+                  $eq: city[i].City_Name_EN
                 }},
                 {theme: {
                   $in: ['H_D']
                 }}]
               });
               map['P_S'] = await projectsModel.countDocuments({
-                $and: [{Locality_Name_EN: {
-                  $eq: locality[i].Locality_Name_EN
+                $and: [{City_Name_EN: {
+                  $eq: city[i].City_Name_EN
                 }},
                 {theme: {
                   $in: ['P_S']
@@ -308,8 +308,8 @@ const countMostInterventionTypePerLocality = ((req, res) => {
                 }
               }
 
-              localityModel.findOneAndUpdate({
-                Locality_Name_EN: locality[i].Locality_Name_EN
+              cityModel.findOneAndUpdate({
+                City_Name_EN: city[i].City_Name_EN
               }, {
                 $set: {
                   "Most_Intervention_Type": mostProjects,
@@ -317,15 +317,15 @@ const countMostInterventionTypePerLocality = ((req, res) => {
                   "No_Intervention_Type": noProjects,
                 }
               }).then(function () {
-                localityModel.findOne({
-                  Locality_Name_EN: locality[i].Locality_Name_EN
-                }).then(function (locality) {
-                  //res.send(locality);
+                cityModel.findOne({
+                  City_Name_EN: city[i].City_Name_EN
+                }).then(function (city) {
+                  //res.send(city);
                 });
               });
               
               
-              console.log(`${locality[i].Locality_Name_EN}:\n map: ${Object.values(map)}, Conatins zero: ${Object.values(map).includes(0)}, no Projects: ${noProjects}, least Projects: ${leastProjects}, most Projects: ${mostProjects}`);
+              console.log(`${city[i].City_Name_EN}:\n map: ${Object.values(map)}, Conatins zero: ${Object.values(map).includes(0)}, no Projects: ${noProjects}, least Projects: ${leastProjects}, most Projects: ${mostProjects}`);
             
             } catch (err) {
               res.send('Error: ' + err);
@@ -335,8 +335,8 @@ const countMostInterventionTypePerLocality = ((req, res) => {
           countProjectsBasedonTheme().catch(console.dir);
 
         } else {
-          localityModel.findOneAndUpdate({
-            Locality_Name_EN: locality[i].Locality_Name_EN
+          cityModel.findOneAndUpdate({
+            City_Name_EN: city[i].City_Name_EN
           }, {
             $set: {
               "Most_Intervention_Type": "",
@@ -344,14 +344,14 @@ const countMostInterventionTypePerLocality = ((req, res) => {
               "No_Intervention_Type": "",
             }
           }).then(function () {
-            localityModel.findOne({
-              Locality_Name_EN: req.params.Locality_Name_EN
-            }).then(function (locality) {
-              //res.send(locality);
+            cityModel.findOne({
+              City_Name_EN: req.params.City_Name_EN
+            }).then(function (city) {
+              //res.send(city);
             });
           });
         }
-        //res.send(localities);
+        //res.send(cities);
       });
     }
     res.send("Done");
@@ -362,11 +362,11 @@ const countMostInterventionTypePerLocality = ((req, res) => {
 })
 
 module.exports = {
-  getLocalities: getLocalities,
-  createLocality: createLocality,
-  updateLocalityByID: updateLocalityByID,
-  updateLocalityByLocalityName: updateLocalityByLocalityName,
-  deleteLocalityByID: deleteLocalityByID,
-  deleteLocalityByLocalityName: deleteLocalityByLocalityName,
-  countMostInterventionTypePerLocality: countMostInterventionTypePerLocality
+  getCities: getCities,
+  createCity: createCity,
+  updateCityByID: updateCityByID,
+  updateCityByCityName: updateCityByCityName,
+  deleteCityByID: deleteCityByID,
+  deleteCityByCityName: deleteCityByCityName,
+  countMostInterventionTypePerCity: countMostInterventionTypePerCity
 }

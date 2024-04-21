@@ -70,7 +70,7 @@ egyptHorizonScanner.use('/digital-avater/issue-source-category-routes',  require
 
 // INTERVENTIONS
 egyptHorizonScanner.use('/interventions', require('./Routes/Response Now/Interventions/projects'))
-egyptHorizonScanner.use('/interventions', require('./Routes/Response Now/Interventions/localities'))
+egyptHorizonScanner.use('/interventions', require('./Routes/Response Now/Interventions/cities'))
 egyptHorizonScanner.use('/interventions', require('./Routes/Response Now/Interventions/states'))
 
 // EMERGENCE ISSUE OF THE MONTH

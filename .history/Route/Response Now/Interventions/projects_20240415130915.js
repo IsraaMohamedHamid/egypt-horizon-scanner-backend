@@ -12,13 +12,13 @@ const  {
     filterProjectsBasedOnIDTheme,
     filterProjectsBasedOnHDTheme,
     filterProjectsBasedOnPSTheme,
-    filterProjectsBasedOnThemeandLocality,
-    filterProjectsBasedOnRCThemeandLocality,
-    filterProjectsBasedOnEEThemeandLocality,
-    filterProjectsBasedOnDEThemeandLocality,
-    filterProjectsBasedOnIDThemeandLocality,
-    filterProjectsBasedOnHDThemeandLocality,
-    filterProjectsBasedOnPSThemeandLocality,
+    filterProjectsBasedOnThemeandCity,
+    filterProjectsBasedOnRCThemeandCity,
+    filterProjectsBasedOnEEThemeandCity,
+    filterProjectsBasedOnDEThemeandCity,
+    filterProjectsBasedOnIDThemeandCity,
+    filterProjectsBasedOnHDThemeandCity,
+    filterProjectsBasedOnPSThemeandCity,
     countTotalDonationAmountBasedOnProjectName,
     countTotalDonationAmount
 } = require('../..)
@@ -59,20 +59,20 @@ router.get('/project/theme/I_D', filterProjectsBasedOnIDTheme);
 
 router.get('/project/theme/P_S', filterProjectsBasedOnPSTheme);
 
-// Filter projects based on themes and Locality
-router.get('/project/filter/theme&locality/:localityNameEN&:theme', filterProjectsBasedOnThemeandLocality);
+// Filter projects based on themes and City
+router.get('/project/filter/theme&city/:cityNameEN&:theme', filterProjectsBasedOnThemeandCity);
 
-router.get('/project/theme&locality/:localityNameEN&:theme', filterProjectsBasedOnRCThemeandLocality);
+router.get('/project/theme&city/:cityNameEN&:theme', filterProjectsBasedOnRCThemeandCity);
 
-router.get('/project/theme&locality/:localityNameEN&:theme', filterProjectsBasedOnEEThemeandLocality);
+router.get('/project/theme&city/:cityNameEN&:theme', filterProjectsBasedOnEEThemeandCity);
 
-router.get('/project/theme&locality/:localityNameEN&:theme', filterProjectsBasedOnDEThemeandLocality);
+router.get('/project/theme&city/:cityNameEN&:theme', filterProjectsBasedOnDEThemeandCity);
 
-router.get('/project/theme&locality/:localityNameEN&:theme', filterProjectsBasedOnHDThemeandLocality);
+router.get('/project/theme&city/:cityNameEN&:theme', filterProjectsBasedOnHDThemeandCity);
 
-router.get('/project/theme&locality/:localityNameEN&:theme', filterProjectsBasedOnIDThemeandLocality);
+router.get('/project/theme&city/:cityNameEN&:theme', filterProjectsBasedOnIDThemeandCity);
 
-router.get('/project/theme&locality/:localityNameEN&:theme', filterProjectsBasedOnPSThemeandLocality);
+router.get('/project/theme&city/:cityNameEN&:theme', filterProjectsBasedOnPSThemeandCity);
 
 // Count total donated amount
 router.get('/project/totalDonatedAmount/:projectName', countTotalDonationAmountBasedOnProjectName);

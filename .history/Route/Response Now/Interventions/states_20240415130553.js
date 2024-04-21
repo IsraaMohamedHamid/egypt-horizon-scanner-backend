@@ -12,7 +12,7 @@ const express = require('express');
 const router = express.Router();
 
 
-// Get a list of localities from the DB
+// Get a list of cities from the DB
 router.get('/state/', getStates);
 
 // Add new state to the DB
@@ -28,7 +28,7 @@ router.delete('/state/stateid/:id', deleteStateByID);
 
 router.put('/state/statenameen/:stateNameEN', deleteStateByStateNameEN);
 
-// Count projects based on themes and Locality
+// Count projects based on themes and City
 router.get('/state/count/theme', countMostInterventionTypePerState);
 
 module.exports = router;
