@@ -9,184 +9,182 @@ const {
 } = require('../../../Model/Response Now/interventions/projects_model');
 
 // Get a list of governorates from the DB
-const getGovernorates = async (req, res, next) => {
+const getGovernorates = async ((req, res, next) => {
   // Count number of projects per theme for each governorate
-  await governoratesModel.find().then(function (governorate) {
-    for (let i = 0; i < governorate.length; i++) {
-      // Print governorate
-      console.log(governorate[i]);
+  // governoratesModel.find().then(function (governorate) {
+  //   for (let i = 0; i < governorate.length; i++) {
+  //     // Print governorate
+  //     console.log(governorate[i]);
 
-      let map = new Map();
+  //     let map = new Map();
 
-      // Get all data
-      projectsModel.find({
-        Governorate_Name_EN: governorate[i].Governorate_Name_EN
-      }).then(function (governorates) {
-        if (governorates.length > 0) {
+  //     // Get all data
+  //     projectsModel.find({
+  //       Governorate_Name_EN: governorate[i].Governorate_Name_EN
+  //     }).then(function (governorates) {
+  //       if (governorates.length > 0) {
 
-          async function countProjectsBasedonTheme() {
-            try {
-              // Find the number of documents that match the specified query, and print out the count.
-              map['R_C'] = await projectsModel.countDocuments({
-                $and: [{
-                    Governorate_Name_EN: {
-                      $eq: governorate[i].Governorate_Name_EN
-                    }
-                  },
-                  {
-                    theme: {
-                      $in: ['R_C']
-                    }
-                  }
-                ]
-              });
-              map['E_E'] = await projectsModel.countDocuments({
-                $and: [{
-                    Governorate_Name_EN: {
-                      $eq: governorate[i].Governorate_Name_EN
-                    }
-                  },
-                  {
-                    theme: {
-                      $in: ['E_E']
-                    }
-                  }
-                ]
-              });
-              map['D_E'] = await projectsModel.countDocuments({
-                $and: [{
-                    Governorate_Name_EN: {
-                      $eq: governorate[i].Governorate_Name_EN
-                    }
-                  },
-                  {
-                    theme: {
-                      $in: ['D_E']
-                    }
-                  }
-                ]
-              });
-              map['I_D'] = await projectsModel.countDocuments({
-                $and: [{
-                    Governorate_Name_EN: {
-                      $eq: governorate[i].Governorate_Name_EN
-                    }
-                  },
-                  {
-                    theme: {
-                      $in: ['I_D']
-                    }
-                  }
-                ]
-              });
-              map['H_D'] = await projectsModel.countDocuments({
-                $and: [{
-                    Governorate_Name_EN: {
-                      $eq: governorate[i].Governorate_Name_EN
-                    }
-                  },
-                  {
-                    theme: {
-                      $in: ['H_D']
-                    }
-                  }
-                ]
-              });
-              map['P_S'] = await projectsModel.countDocuments({
-                $and: [{
-                    Governorate_Name_EN: {
-                      $eq: governorate[i].Governorate_Name_EN
-                    }
-                  },
-                  {
-                    theme: {
-                      $in: ['P_S']
-                    }
-                  }
-                ]
-              });
-              ///console.log(map);
+  //         async function countProjectsBasedonTheme() {
+  //           try {
+  //             // Find the number of documents that match the specified query, and print out the count.
+  //             map['R_C'] = await projectsModel.countDocuments({
+  //               $and: [{
+  //                   Governorate_Name_EN: {
+  //                     $eq: governorate[i].Governorate_Name_EN
+  //                   }
+  //                 },
+  //                 {
+  //                   theme: {
+  //                     $in: ['R_C']
+  //                   }
+  //                 }
+  //               ]
+  //             });
+  //             map['E_E'] = await projectsModel.countDocuments({
+  //               $and: [{
+  //                   Governorate_Name_EN: {
+  //                     $eq: governorate[i].Governorate_Name_EN
+  //                   }
+  //                 },
+  //                 {
+  //                   theme: {
+  //                     $in: ['E_E']
+  //                   }
+  //                 }
+  //               ]
+  //             });
+  //             map['D_E'] = await projectsModel.countDocuments({
+  //               $and: [{
+  //                   Governorate_Name_EN: {
+  //                     $eq: governorate[i].Governorate_Name_EN
+  //                   }
+  //                 },
+  //                 {
+  //                   theme: {
+  //                     $in: ['D_E']
+  //                   }
+  //                 }
+  //               ]
+  //             });
+  //             map['I_D'] = await projectsModel.countDocuments({
+  //               $and: [{
+  //                   Governorate_Name_EN: {
+  //                     $eq: governorate[i].Governorate_Name_EN
+  //                   }
+  //                 },
+  //                 {
+  //                   theme: {
+  //                     $in: ['I_D']
+  //                   }
+  //                 }
+  //               ]
+  //             });
+  //             map['H_D'] = await projectsModel.countDocuments({
+  //               $and: [{
+  //                   Governorate_Name_EN: {
+  //                     $eq: governorate[i].Governorate_Name_EN
+  //                   }
+  //                 },
+  //                 {
+  //                   theme: {
+  //                     $in: ['H_D']
+  //                   }
+  //                 }
+  //               ]
+  //             });
+  //             map['P_S'] = await projectsModel.countDocuments({
+  //               $and: [{
+  //                   Governorate_Name_EN: {
+  //                     $eq: governorate[i].Governorate_Name_EN
+  //                   }
+  //                 },
+  //                 {
+  //                   theme: {
+  //                     $in: ['P_S']
+  //                   }
+  //                 }
+  //               ]
+  //             });
+  //             ///console.log(map);
 
-              // Sort Keys from map and save them arrays
-              let sortable = Object.keys(map).sort((a, b) => {
-                return map[b] - map[a];
-              });
-              ///console.log(sortable);
-
-
-              // Check to see if map contains 0 then save value before
-              ///console.log(Object.values(map).includes(0));
-              var noProjects;
-              var leastProjects;
-              var mostProjects;
-
-              if (await Object.values(map).includes(0)) {
-                //console.log(Object.values(map).includes(0));
-                noProjects = sortable[sortable.length - 1];
-                leastProjects = sortable[sortable.length - 2];
-                mostProjects = sortable[0];
-              } else {
-                {
-                  noProjects = "";
-                  leastProjects = sortable[sortable.length - 1];
-                  mostProjects = sortable[0];
-                }
-              }
-
-              await governoratesModel.findOneAndUpdate({
-                Governorate_Name_EN: governorate[i].Governorate_Name_EN
-              }, {
-                $set: {
-                  "Most_Intervention_Type": mostProjects,
-                  "Least_Intervention_Type": leastProjects,
-                  "No_Intervention_Type": noProjects,
-                }
-              }).then(function () {
-                governoratesModel.findOne({
-                  Governorate_Name_EN: governorate[i].Governorate_Name_EN
-                }).then(function (governorate) {
-                  //res.send(governorate);
-                });
-              });
+  //             // Sort Keys from map and save them arrays
+  //             let sortable = Object.keys(map).sort((a, b) => {
+  //               return map[b] - map[a];
+  //             });
+  //             ///console.log(sortable);
 
 
-              console.log(`${governorate[i].Governorate_Name_EN}:\n map: ${Object.values(map)}, Conatins zero: ${Object.values(map).includes(0)}, no Projects: ${noProjects}, least Projects: ${leastProjects}, most Projects: ${mostProjects}`);
+  //             // Check to see if map contains 0 then save value before
+  //             ///console.log(Object.values(map).includes(0));
+  //             var noProjects;
+  //             var leastProjects;
+  //             var mostProjects;
 
-            } catch (err) {
-              res.send('Error: ' + err);
-            }
+  //             if (await Object.values(map).includes(0)) {
+  //               //console.log(Object.values(map).includes(0));
+  //               noProjects = sortable[sortable.length - 1];
+  //               leastProjects = sortable[sortable.length - 2];
+  //               mostProjects = sortable[0];
+  //             } else {
+  //               {
+  //                 noProjects = "";
+  //                 leastProjects = sortable[sortable.length - 1];
+  //                 mostProjects = sortable[0];
+  //               }
+  //             }
 
-          }
-          countProjectsBasedonTheme().catch(console.dir);
+  //             await governoratesModel.findOneAndUpdate({
+  //               Governorate_Name_EN: governorate[i].Governorate_Name_EN
+  //             }, {
+  //               $set: {
+  //                 "Most_Intervention_Type": mostProjects,
+  //                 "Least_Intervention_Type": leastProjects,
+  //                 "No_Intervention_Type": noProjects,
+  //               }
+  //             }).then(function () {
+  //               governoratesModel.findOne({
+  //                 Governorate_Name_EN: governorate[i].Governorate_Name_EN
+  //               }).then(function (governorate) {
+  //                 //res.send(governorate);
+  //               });
+  //             });
 
-        } else {
-          governoratesModel.findOneAndUpdate({
-            Governorate_Name_EN: governorate[i].Governorate_Name_EN
-          }, {
-            $set: {
-              "Most_Intervention_Type": "",
-              "Least_Intervention_Type": "",
-              "No_Intervention_Type": "",
-            }
-          });
-        }
-      });
-    }
-    //res.send("Done");
 
-  });
+  //             console.log(`${governorate[i].Governorate_Name_EN}:\n map: ${Object.values(map)}, Conatins zero: ${Object.values(map).includes(0)}, no Projects: ${noProjects}, least Projects: ${leastProjects}, most Projects: ${mostProjects}`);
+
+  //           } catch (err) {
+  //             res.send('Error: ' + err);
+  //           }
+
+  //         }
+  //         countProjectsBasedonTheme().catch(console.dir);
+
+  //       } else {
+  //         governoratesModel.findOneAndUpdate({
+  //           Governorate_Name_EN: governorate[i].Governorate_Name_EN
+  //         }, {
+  //           $set: {
+  //             "Most_Intervention_Type": "",
+  //             "Least_Intervention_Type": "",
+  //             "No_Intervention_Type": "",
+  //           }
+  //         });
+  //       }
+  //     });
+  //   }
+  //   //res.send("Done");
+
+  // });
 
 
   // Get all data
-  try {
-    const governorates = await governoratesModel.find();
-    res.json(governorates);
+    try {
+      const governorates = await projectsModel.find();
+      res.json(governorates);
   } catch (error) {
-    res.status(500).json({
-      message: error.message
-    });
+      res.status(500).json({ message: error.message });
   }
-}
+})
 
 // Add new governorate to the DB
 const createGovernorate = ((req, res, next) => {

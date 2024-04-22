@@ -15,19 +15,21 @@ const {
 var mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-// Create Project Schema and Model
 const ProjectSchema = new Schema({
-
   id: {
-    type: String,
-    required: [true]
+    type: {
+    type: String
+  },
+    required: true // Fixed: use true directly for required fields
   },
   projectNo: {
     type: Number
   },
   projectName: {
-    type: String,
-    required: [true]
+    type: {
+    type: String
+  },
+    required: true // Fixed: use true directly for required fields
   },
   projectDetail: {
     type: String
@@ -35,13 +37,11 @@ const ProjectSchema = new Schema({
   photoURL: {
     type: String
   },
-  executingAgency: [ExecutingAgencySchema],
+  executingAgency: [ExecutingAgencySchema], // Assuming ExecutingAgencySchema is defined
   status: {
     type: String
   },
-  theme: {
-    type: [String]
-  },
+  theme: [String], // Corrected syntax for arrays
   estimatedCost: {
     type: Number
   },
@@ -63,86 +63,86 @@ const ProjectSchema = new Schema({
   Longitude: {
     type: Number
   },
+  // Following fields corrected for consistency but kept optional as per the original design
   Locality_Name_EN: {
-    type: String,
+    type: String
   },
   Locality_Name_AR: {
-    type: String,
+    type: String
   },
   Locality_PCODE: {
-    type: String,
+    type: String
   },
   City_Name_EN: {
-    type: String,
+    type: String
   },
   City_Name_AR: {
-    type: String,
+    type: String
   },
   City_PCODE: {
-    type: String,
+    type: String
   },
   District_Name_EN: {
-    type: String,
+    type: String
   },
   District_Name_AR: {
-    type: String,
+    type: String
   },
   District_PCODE: {
-    type: String,
+    type: String
   },
   Governorate_Name_EN: {
-    type: String,
+    type: String
   },
   Governorate_Name_AR: {
-    type: String,
+    type: String
   },
   Governorate_PCODE: {
-    type: String,
+    type: String
   },
   State_Name_EN: {
-    type: String,
+    type: String
   },
   State_Name_AR: {
-    type: String,
+    type: String
   },
   State_PCODE: {
-    type: String,
+    type: String
   },
   Province_Name_EN: {
-    type: String,
+    type: String
   },
   Province_Name_AR: {
-    type: String,
+    type: String
   },
   Province_PCODE: {
-    type: String,
+    type: String
   },
   Region_Name_EN: {
-    type: String,
+    type: String
   },
   Region_Name_AR: {
-    type: String,
+    type: String
   },
   Region_PCODE: {
-    type: String,
+    type: String
   },
   Country_EN: {
-    type: String,
+    type: String
   },
   Country_AR: {
-    type: String,
+    type: String
   },
   Country_PCODE: {
-    type: String,
+    type: String
   },
-  donor: [DonorSchema],
+  donor: [DonorSchema], // Assuming DonorSchema is defined
   contribution: {
     type: String
   },
   dataReliability: {
     type: String
   }
-
 });
 
 const projectsModel = mongoose.model('project_data', ProjectSchema, 'project_data');

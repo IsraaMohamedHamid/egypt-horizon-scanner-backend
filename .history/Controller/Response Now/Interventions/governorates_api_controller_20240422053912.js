@@ -11,7 +11,7 @@ const {
 // Get a list of governorates from the DB
 const getGovernorates = async (req, res, next) => {
   // Count number of projects per theme for each governorate
-  await governoratesModel.find().then(function (governorate) {
+  governoratesModel.find().then(function (governorate) {
     for (let i = 0; i < governorate.length; i++) {
       // Print governorate
       console.log(governorate[i]);
@@ -179,7 +179,7 @@ const getGovernorates = async (req, res, next) => {
 
   // Get all data
   try {
-    const governorates = await governoratesModel.find();
+    const governorates = await projectsModel.find();
     res.json(governorates);
   } catch (error) {
     res.status(500).json({

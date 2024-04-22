@@ -9,9 +9,10 @@ const {
 } = require('../../../Model/Response Now/interventions/projects_model');
 
 // Get a list of governorates from the DB
-const getGovernorates = async (req, res, next) => {
+const getGovernorates = ((req, res, next) => {
+  res.send("start");
   // Count number of projects per theme for each governorate
-  await governoratesModel.find().then(function (governorate) {
+  governoratesModel.find().then(function (governorate) {
     for (let i = 0; i < governorate.length; i++) {
       // Print governorate
       console.log(governorate[i]);
@@ -178,15 +179,10 @@ const getGovernorates = async (req, res, next) => {
 
 
   // Get all data
-  try {
-    const governorates = await governoratesModel.find();
-    res.json(governorates);
-  } catch (error) {
-    res.status(500).json({
-      message: error.message
-    });
-  }
-}
+  governoratesModel.find({}).then(function (governorates) {
+    res.send(governorates);
+  });
+})
 
 // Add new governorate to the DB
 const createGovernorate = ((req, res, next) => {
