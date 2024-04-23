@@ -1,12 +1,12 @@
 const {
     statesModel, 
     GovernorateSchema
-} = require('../../../Model/Response Now/interventions/state_model');
+} = require('../../../Model/Response Now/Interventions/state_model');
 
 const {
     projectsModel,
     ProjectSchema
-  } = require('../../../Model/Response Now/interventions/projects_model');
+  } = require('../../../Model/Response Now/Interventions/projects_model');
 
 // Get a list of states from the DB
 const getGovernorates = ((req, res, next) => {

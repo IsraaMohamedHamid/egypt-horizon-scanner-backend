@@ -1,12 +1,12 @@
 const {
     statesModel, 
     StateSchema
-} = require('../../Models/interventions/state_model');
+} = require('../../Models/Interventions/state_model');
 
 const {
     projectsModel,
     ProjectSchema
-  } = require('../../Models/interventions/projects_model');
+  } = require('../../Models/Interventions/projects_model');
 
 // Get a list of states from the DB
 const getStates = ((req, res, next) => {

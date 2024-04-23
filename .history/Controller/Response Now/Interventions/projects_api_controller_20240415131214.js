@@ -1,8 +1,8 @@
 const {
   projectsModel,
   ProjectSchema
-} = require('../../../Model/Response Now/interventions/projects_model');
-const donorSchema = require('../../../Model/interventions/donor_model');
+} = require('../../../Model/Response Now/Interventions/projects_model');
+const donorSchema = require('../../../Model/Interventions/donor_model');
 
 // Get a list of projects from the DB
 const getProjects = ((req, res, next) => {

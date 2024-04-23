@@ -1,12 +1,12 @@
 const {
   districtModel,
   DistrictSchema
-} = require('../../../Model/Response Now/interventions/district_model');
+} = require('../../../Model/Response Now/Interventions/district_model');
 
 const {
   projectsModel,
   ProjectSchema
-} = require('../../../Model/Response Now/interventions/projects_model');
+} = require('../../../Model/Response Now/Interventions/projects_model');
 
 // Get a list of cities from the DB
 const getDistricts = ((req, res, next) => {

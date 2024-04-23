@@ -1,12 +1,12 @@
 const {
   cityModel,
   CitySchema
-} = require('../../../Model/Response Now/interventions/city_model');
+} = require('../../../Model/Response Now/Interventions/city_model');
 
 const {
   projectsModel,
   ProjectSchema
-} = require('../../../Model/Response Now/interventions/projects_model');
+} = require('../../../Model/Response Now/Interventions/projects_model');
 
 // Get a list of cities from the DB
 const getCities = ((req, res, next) => {
