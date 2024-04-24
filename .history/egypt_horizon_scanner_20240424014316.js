@@ -11,7 +11,7 @@ const egyptHorizonScanner = express();
 // Middleware
 egyptHorizonScanner.use(express.json());
 
-// Connect to mongodb
+// // Connect to mongodb
 // mongoose.connect(
 //     // 'mongodb://localhost/egypt_horizon_scanner',
 //     'mongodb+srv://doadmin:3SPyA6U2Q901Ot75@dbaas-db-5626135-310aba91.mongo.ondigitalocean.com/egypt-horizon-scanner?tls=true&authSource=admin&replicaSet=dbaas-db-5626135',
