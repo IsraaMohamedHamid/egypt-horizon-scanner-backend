@@ -73,6 +73,8 @@ const getMunicipalDivisions = async (req, res, next) => {
   }
 };
 
+
+
 // Add new municipalDivision to the DB
 const createMunicipalDivision = ((req, res, next) => {
   municipalDivisionsModel.create(req.body).then(function (municipalDivision) {
