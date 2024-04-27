@@ -27,15 +27,12 @@ const {
 ////////////////////////////////////////////// FUNCTIONS //////////////////////////////////////////////
 
 // Count the number of positive data, neutral data, and negative data
-const emergingIssueComponentsCalculation = async function () {
-  try {
-    console.log(`START: Processing emerging issues.`);
-      // Fetch unique emergenceIssues
-      const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergenceIssue");
+const emergingIssueComponentsCalculation = async function (emergingIssues) {
+  console.log(`Processing ${emergingIssues.length} emerging issues.`);
 
-      console.log(`Processing ${uniqueIssues.length} unique emerging issues.`);
-
-      for (const issue of uniqueIssues) {
+  for (let i = 0; i < emergingIssues.length; i++) {
+      try {
+          const issue = emergingIssues[i].emergingIssue;
           console.log(`Processing issue: ${issue}`);
 
           // Count the total number of documents for this issue
@@ -67,7 +64,7 @@ const emergingIssueComponentsCalculation = async function () {
 
           console.log(`${issue} - Total: ${totalDataCount}, Positive: ${positiveSentimentAnalysisDataCount}, Neutral: ${neutralSentimentAnalysisDataCount}, Negative: ${negativeSentimentAnalysisDataCount}`);
 
-          // Update the main model with the counted data, upserting if not present
+          // Update the main model with the counted data
           await EmergenceIssueOfTheMonthModel.findOneAndUpdate({
               emergingIssue: issue
           }, {
@@ -77,12 +74,11 @@ const emergingIssueComponentsCalculation = async function () {
                   neutralSentimentAnalysisDataCount,
                   negativeSentimentAnalysisDataCount
               }
-          }, {
-              upsert: true // Create a new document if one doesn't exist
           });
+
+      } catch (error) {
+          console.error(`Error processing issue ${emergingIssues[i].emergingIssue}:`, error);
       }
-  } catch (error) {
-      console.error('Error during processing:', error);
   }
 };
 

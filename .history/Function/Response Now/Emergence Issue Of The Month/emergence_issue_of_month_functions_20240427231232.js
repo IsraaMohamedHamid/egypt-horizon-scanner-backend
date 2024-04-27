@@ -29,7 +29,7 @@ const {
 // Count the number of positive data, neutral data, and negative data
 const emergingIssueComponentsCalculation = async function () {
   try {
-    console.log(`START: Processing emerging issues.`);
+    console.log(`Processing ${uniqueIssues.length} unique emerging issues.`);
       // Fetch unique emergenceIssues
       const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergenceIssue");
 

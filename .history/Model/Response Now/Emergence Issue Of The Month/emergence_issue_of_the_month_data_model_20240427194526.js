@@ -11,9 +11,6 @@ const EmergenceIssueOfTheMonthDataSchema= new Schema({
     sourceCategory: {
         type: String
     },
-    issueString: {
-        type: String
-    },
     sentimentAnalysis: {
         type: String
     },

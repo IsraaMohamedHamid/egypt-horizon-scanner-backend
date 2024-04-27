@@ -32,6 +32,7 @@ const EmergenceIssueOfTheMonthDataSchema= new Schema({
     sdgTargeted: {
         type: [String]
     },
+
     image: {
         type: String
     },

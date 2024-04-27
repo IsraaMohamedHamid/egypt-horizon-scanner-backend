@@ -26,12 +26,16 @@ const EmergenceIssueOfTheMonthDataSchema= new Schema({
     emergenceIssue: {
         type: String
     },
+    double? weight;
+    String? emergenceIssue;
+    String? description;
     description: {
         type: String
     },
     sdgTargeted: {
         type: [String]
     },
+
     image: {
         type: String
     },

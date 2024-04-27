@@ -61,11 +61,11 @@ const getEmergingIssueByName = (async (req, res, next) => {
     emergingIssue: -1
   };
 
-  // 1. Count the number of positive data, neutral data, and negative data
-  EmergenceIssueOfTheMonthModel.find({}).then(
-    // Calculate components for the retrieved emerging issues
-    await emergingIssueComponentsCalculation().catch(console.error)
-  )
+    // 1. Count the number of positive data, neutral data, and negative data
+    EmergenceIssueOfTheMonthModel.find({}).then(
+      // Calculate components for the retrieved emerging issues
+      await emergingIssueComponentsCalculation().catch(console.error)
+    )
 
   // Get data for one emergingIssue
   EmergenceIssueOfTheMonthModel.find({
@@ -85,11 +85,11 @@ const createEmergingIssue = (async (req, res, next) => {
     emergingIssue: -1
   };
 
-  // 1. Count the number of positive data, neutral data, and negative data
-  EmergenceIssueOfTheMonthModel.find({}).then(
-    // Calculate components for the retrieved emerging issues
-    await emergingIssueComponentsCalculation().catch(console.error)
-  )
+    // 1. Count the number of positive data, neutral data, and negative data
+    EmergenceIssueOfTheMonthModel.find({}).then(
+      // Calculate components for the retrieved emerging issues
+      await emergingIssueComponentsCalculation().catch(console.error)
+    )
 
 
   EmergenceIssueOfTheMonthModel.create(req.body).then(function (emergingIssue) {
@@ -107,12 +107,12 @@ const updateEmergingIssueByID = (async (req, res, next) => {
     emergingIssue: -1
   };
 
-  // 1. Count the number of positive data, neutral data, and negative data
-  EmergenceIssueOfTheMonthModel.find({}).then(
-    // Calculate components for the retrieved emerging issues
-    await emergingIssueComponentsCalculation().catch(console.error)
-  )
-
+    // 1. Count the number of positive data, neutral data, and negative data
+    EmergenceIssueOfTheMonthModel.find({}).then(
+      // Calculate components for the retrieved emerging issues
+      await emergingIssueComponentsCalculation().catch(console.error)
+    )
+  
 
   //to access :id ---> req.params.id
   EmergenceIssueOfTheMonthModel.findByIdAndUpdate({
@@ -136,11 +136,11 @@ const updateEmergingIssueByEmergingIssueName = (async (req, res, next) => {
     emergingIssue: -1
   };
 
-  // 1. Count the number of positive data, neutral data, and negative data
-  EmergenceIssueOfTheMonthModel.find({}).then(
-    // Calculate components for the retrieved emerging issues
-    await emergingIssueComponentsCalculation().catch(console.error)
-  )
+    // 1. Count the number of positive data, neutral data, and negative data
+    EmergenceIssueOfTheMonthModel.find({}).then(
+      // Calculate components for the retrieved emerging issues
+      await emergingIssueComponentsCalculation().catch(console.error)
+    )
 
 
   //to access :id ---> req.params.id

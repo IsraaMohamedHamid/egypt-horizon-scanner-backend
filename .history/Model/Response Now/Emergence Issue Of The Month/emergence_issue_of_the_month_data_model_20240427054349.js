@@ -20,18 +20,19 @@ const EmergenceIssueOfTheMonthDataSchema= new Schema({
     repetition: {
         type: Number
     },
-    weight: {
-        type: Number
-    },
     emergenceIssue: {
         type: String
     },
+    double? weight;
+    String? emergenceIssue;
+    String? description;
     description: {
         type: String
     },
     sdgTargeted: {
         type: [String]
     },
+
     image: {
         type: String
     },
