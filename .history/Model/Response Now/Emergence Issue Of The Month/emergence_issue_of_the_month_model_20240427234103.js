@@ -26,7 +26,7 @@ const EmergenceIssueOfTheMonthSchema = new Schema({
         type: String
     },
     sdgTargeted: {
-        type: [String]
+        type: String
     },
     summary: {
         type: String
