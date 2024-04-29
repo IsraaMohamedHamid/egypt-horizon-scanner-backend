@@ -23,41 +23,14 @@ const {
 // const path = require("path");
 
 // const fs = require("fs");
-const { spawn } = require('child_process');
-const path = require('path');
 
 ////////////////////////////////////////////// FUNCTIONS //////////////////////////////////////////////
 
-
-const emergingIssueDataUpdate = async () => {
-  try {
-    console.log(`START: Processing emerging issues.`);
-    const pythonProcess = spawn('python', ['update_emergence_issue_of_the_month_data.py']);
-
-    pythonProcess.stdout.on('data', (data) => {
-      console.log(`Python stdout: ${data}`);
-    });
-
-    pythonProcess.stderr.on('data', (data) => {
-      console.error(`Python stderr: ${data}`);
-    });
-
-    pythonProcess.on('close', (code) => {
-      console.log(`Python process exited with code ${code}`);
-    });
-  } catch (error) {
-    console.error('Error during processing:', error);
-  }
-};
-
-
-
 // Count the number of positive data, neutral data, and negative data
-const emergingIssueComponentsCalculation = async () => {
+const emergingIssueComponentsCalculation = 
+const updateEmergingIssues = async () => {
   try {
     console.log(`START: Processing emerging issues.`);
-    await emergingIssueDataUpdate();
-
     const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergenceIssue");
     console.log(`Processing ${uniqueIssues.length} unique emerging issues.`);
 
@@ -119,8 +92,8 @@ const emergingIssueComponentsCalculation = async () => {
     console.error('Error during processing:', error);
   }
 };
-  
-// Create emerging issues
+
+
 const createEmergingIssues = async (data) => {
   const positiveCounts = {};
   const neutralCounts = {};

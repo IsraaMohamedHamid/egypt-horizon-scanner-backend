@@ -23,104 +23,82 @@ const {
 // const path = require("path");
 
 // const fs = require("fs");
-const { spawn } = require('child_process');
-const path = require('path');
 
 ////////////////////////////////////////////// FUNCTIONS //////////////////////////////////////////////
 
-
-const emergingIssueDataUpdate = async () => {
-  try {
-    console.log(`START: Processing emerging issues.`);
-    const pythonProcess = spawn('python', ['update_emergence_issue_of_the_month_data.py']);
-
-    pythonProcess.stdout.on('data', (data) => {
-      console.log(`Python stdout: ${data}`);
-    });
-
-    pythonProcess.stderr.on('data', (data) => {
-      console.error(`Python stderr: ${data}`);
-    });
-
-    pythonProcess.on('close', (code) => {
-      console.log(`Python process exited with code ${code}`);
-    });
-  } catch (error) {
-    console.error('Error during processing:', error);
-  }
-};
-
-
-
 // Count the number of positive data, neutral data, and negative data
-const emergingIssueComponentsCalculation = async () => {
+const emergingIssueComponentsCalculation = async function () {
   try {
-    console.log(`START: Processing emerging issues.`);
-    await emergingIssueDataUpdate();
+      console.log(`START: Processing emerging issues.`);
+      // Fetch unique emergingIssues
+      const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergenceIssue");
+      console.log(`Processing ${uniqueIssues.length} unique emerging issues.`);
 
-    const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergenceIssue");
-    console.log(`Processing ${uniqueIssues.length} unique emerging issues.`);
+      for (const issue of uniqueIssues) {
+          console.log(`Processing issue: ${issue}`);
 
-    for (const issue of uniqueIssues) {
-      console.log(`Processing issue: ${issue}`);
+          // Fetch all documents for the current issue
+          const issueDocuments = await EmergenceIssueOfTheMonthDataModel.find({ emergenceIssue: issue });
 
-      const issueDocuments = await EmergenceIssueOfTheMonthDataModel.find({ emergenceIssue: issue });
+          // Calculate average weight and count repetitions
+          let totalWeight = 0;
+          issueDocuments.forEach(doc => totalWeight += doc.weight);
+          const averageWeight = issueDocuments.length > 0 ? totalWeight / issueDocuments.length : 0;
+          const repetition = issueDocuments.length;
 
-      let totalWeight = 0;
-      issueDocuments.forEach(doc => totalWeight += doc.weight);
-      const averageWeight = issueDocuments.length > 0 ? totalWeight / issueDocuments.length : 0;
-      const repetition = issueDocuments.length;
+          // Determine priority based on weight and repetition
+          let priority;
+          if (averageWeight >= 80) {
+              priority = repetition > 2 ? 'High' : repetition === 2 ? 'Medium' : 'Low';
+          } else {
+              priority = repetition > 2 ? 'Medium' : repetition === 2 ? 'Low' : 'Other Issues';
+          }
 
-      let priority;
-      if (averageWeight >= 80) {
-        priority = repetition > 2 ? 'High' : repetition === 2 ? 'Medium' : 'Low';
-      } else {
-        priority = repetition > 2 ? 'Medium' : repetition === 2 ? 'Low' : 'Other Issues';
+          console.log(`${issue} - Average Weight: ${averageWeight.toFixed(2)}, Repetition: ${repetition}, priority: ${priority}`);
+
+          // Continue with existing aggregation for sources and SDG targets
+          const aggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([
+              { $match: { emergenceIssue: issue } },
+              { $group: {
+                  _id: "$emergenceIssue",
+                  sources: { $addToSet: "$source" }, // Unique sources
+                  sdgTargets: { $addToSet: "$sdgTargeted" } // Unique SDG targets
+              }}
+          ]);
+
+          const { sources, sdgTargets } = aggregation.length > 0 ? aggregation[0] : { sources: [], sdgTargets: [] };
+
+          // Continue with existing counts
+          const totalDataCount = repetition;  // Use repetition as the total count
+          const positiveSentimentAnalysisDataCount = issueDocuments.filter(doc => doc.sentimentAnalysis === "Positive").length;
+          const neutralSentimentAnalysisDataCount = issueDocuments.filter(doc => doc.sentimentAnalysis === "Neutral").length;
+          const negativeSentimentAnalysisDataCount = issueDocuments.filter(doc => doc.sentimentAnalysis === "Negative").length;
+
+          console.log(`${issue} - Total: ${totalDataCount}, Positive: ${positiveSentimentAnalysisDataCount}, Neutral: ${neutralSentimentAnalysisDataCount}, Negative: ${negativeSentimentAnalysisDataCount}`);
+
+          // Update the main model
+          await EmergenceIssueOfTheMonthModel.findOneAndUpdate({
+              emergingIssue: issue
+          }, {
+              $set: {
+                  totalDataCount,
+                  positiveSentimentAnalysisDataCount,
+                  neutralSentimentAnalysisDataCount,
+                  negativeSentimentAnalysisDataCount,
+                  sources: sources, // Updated sources
+                  sdgTargets: sdgTargets.flat(), // Flattened array of SDG targets
+                  averageWeight,
+                  priority
+              }
+          }, {
+              upsert: true // Create a new document if one doesn't exist
+          });
       }
-
-      console.log(`${issue} - Average Weight: ${averageWeight.toFixed(2)}, Repetition: ${repetition}, Priority: ${priority}`);
-
-      const aggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([
-        { $match: { emergenceIssue: issue } },
-        { $group: {
-            _id: "$emergenceIssue",
-            sources: { $addToSet: "$source" },
-            sdgTargets: { $addToSet: "$sdgTargeted" }
-        }}
-      ]);
-
-      const { sources, sdgTargets } = aggregation.length > 0 ? aggregation[0] : { sources: [], sdgTargets: [] };
-
-      const totalDataCount = repetition;
-      const positiveSentimentAnalysisDataCount = issueDocuments.filter(doc => doc.sentimentAnalysis === "Positive").length;
-      const neutralSentimentAnalysisDataCount = issueDocuments.filter(doc => doc.sentimentAnalysis === "Neutral").length;
-      const negativeSentimentAnalysisDataCount = issueDocuments.filter(doc => doc.sentimentAnalysis === "Negative").length;
-
-      console.log(`${issue} - Total: ${totalDataCount}, Positive: ${positiveSentimentAnalysisDataCount}, Neutral: ${neutralSentimentAnalysisDataCount}, Negative: ${negativeSentimentAnalysisDataCount}`);
-
-      await EmergenceIssueOfTheMonthModel.findOneAndUpdate({
-        emergingIssue: issue
-      }, {
-        $set: {
-            totalDataCount,
-            positiveSentimentAnalysisDataCount,
-            neutralSentimentAnalysisDataCount,
-            negativeSentimentAnalysisDataCount,
-            sources,
-            sdgTargets: sdgTargets.flat(),
-            averageWeight,
-            priority
-        }
-      }, {
-        upsert: true
-      });
-    }
   } catch (error) {
-    console.error('Error during processing:', error);
+      console.error('Error during processing:', error);
   }
 };
-  
-// Create emerging issues
+
 const createEmergingIssues = async (data) => {
   const positiveCounts = {};
   const neutralCounts = {};

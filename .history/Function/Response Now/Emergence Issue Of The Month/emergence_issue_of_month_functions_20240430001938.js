@@ -32,7 +32,7 @@ const path = require('path');
 const emergingIssueDataUpdate = async () => {
   try {
     console.log(`START: Processing emerging issues.`);
-    const pythonProcess = spawn('python', ['update_emergence_issue_of_the_month_data.py']);
+    const pythonProcess = spawn('python', ['update_issues_data.py']);
 
     pythonProcess.stdout.on('data', (data) => {
       console.log(`Python stdout: ${data}`);
@@ -56,8 +56,7 @@ const emergingIssueDataUpdate = async () => {
 const emergingIssueComponentsCalculation = async () => {
   try {
     console.log(`START: Processing emerging issues.`);
-    await emergingIssueDataUpdate();
-
+    await emergingIssueDataUpdate
     const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergenceIssue");
     console.log(`Processing ${uniqueIssues.length} unique emerging issues.`);
 
