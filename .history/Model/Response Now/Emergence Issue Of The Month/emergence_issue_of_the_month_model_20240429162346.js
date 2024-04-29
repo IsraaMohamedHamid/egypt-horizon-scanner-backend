@@ -10,12 +10,9 @@ const EmergenceIssueOfTheMonthSchema = new Schema({
     repetition: {
         type: Number
     },
-    averageWeight: {
+    Average: {
         type: Number
-    },         
-    priority: {
-        type: String
-    },
+    },         Remarks
     totalDataCount: { 
         type: Number
     },

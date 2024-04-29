@@ -46,15 +46,15 @@ const emergingIssueComponentsCalculation = async function () {
           const averageWeight = issueDocuments.length > 0 ? totalWeight / issueDocuments.length : 0;
           const repetition = issueDocuments.length;
 
-          // Determine priority based on weight and repetition
-          let priority;
+          // Determine remarks based on weight and repetition
+          let remarks;
           if (averageWeight >= 80) {
-              priority = repetition > 2 ? 'High' : repetition === 2 ? 'Medium' : 'Low';
+              remarks = repetition > 2 ? 'High ' : repetition === 2 ? 'Medium Priority' : 'Low Priority';
           } else {
-              priority = repetition > 2 ? 'Medium' : repetition === 2 ? 'Low' : 'Other Issues';
+              remarks = repetition > 2 ? 'Medium Priority' : repetition === 2 ? 'Low Priority' : 'Other Issues';
           }
 
-          console.log(`${issue} - Average Weight: ${averageWeight.toFixed(2)}, Repetition: ${repetition}, priority: ${priority}`);
+          console.log(`${issue} - Average Weight: ${averageWeight.toFixed(2)}, Repetition: ${repetition}, Remarks: ${remarks}`);
 
           // Continue with existing aggregation for sources and SDG targets
           const aggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([
@@ -88,7 +88,7 @@ const emergingIssueComponentsCalculation = async function () {
                   sources: sources, // Updated sources
                   sdgTargets: sdgTargets.flat(), // Flattened array of SDG targets
                   averageWeight,
-                  priority
+                  remarks
               }
           }, {
               upsert: true // Create a new document if one doesn't exist

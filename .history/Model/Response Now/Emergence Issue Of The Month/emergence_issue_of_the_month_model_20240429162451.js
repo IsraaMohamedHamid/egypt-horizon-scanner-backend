@@ -13,7 +13,7 @@ const EmergenceIssueOfTheMonthSchema = new Schema({
     averageWeight: {
         type: Number
     },         
-    priority: {
+    remarks: {
         type: String
     },
     totalDataCount: { 

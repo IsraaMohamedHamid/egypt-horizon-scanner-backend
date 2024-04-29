@@ -41,9 +41,9 @@ const EmergenceIssueOfTheMonthDataSchema= new Schema({
     summary: {
         type: String
     },
-    source: {
+    sourceCategory: {
         type: String
-    }
+    },
   });
 
 

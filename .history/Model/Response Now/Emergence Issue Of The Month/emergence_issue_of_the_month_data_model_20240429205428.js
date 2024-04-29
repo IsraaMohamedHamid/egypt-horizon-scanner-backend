@@ -40,9 +40,6 @@ const EmergenceIssueOfTheMonthDataSchema= new Schema({
     },
     summary: {
         type: String
-    },
-    source: {
-        type: String
     }
   });
 

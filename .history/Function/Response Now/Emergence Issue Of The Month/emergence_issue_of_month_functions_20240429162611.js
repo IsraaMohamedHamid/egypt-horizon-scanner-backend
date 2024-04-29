@@ -49,9 +49,9 @@ const emergingIssueComponentsCalculation = async function () {
           // Determine priority based on weight and repetition
           let priority;
           if (averageWeight >= 80) {
-              priority = repetition > 2 ? 'High' : repetition === 2 ? 'Medium' : 'Low';
+              priority = repetition > 2 ? 'High' : repetition === 2 ? 'Medium Priority' : 'Low Priority';
           } else {
-              priority = repetition > 2 ? 'Medium' : repetition === 2 ? 'Low' : 'Other Issues';
+              priority = repetition > 2 ? 'Medium Priority' : repetition === 2 ? 'Low Priority' : 'Other Issues';
           }
 
           console.log(`${issue} - Average Weight: ${averageWeight.toFixed(2)}, Repetition: ${repetition}, priority: ${priority}`);

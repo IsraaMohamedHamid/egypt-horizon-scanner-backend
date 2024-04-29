@@ -23,9 +23,6 @@ const EmergenceIssueOfTheMonthDataSchema= new Schema({
     weight: {
         type: Number
     },
-    score: {
-        type: Number
-    },
     emergenceIssue: {
         type: String
     },
@@ -39,9 +36,6 @@ const EmergenceIssueOfTheMonthDataSchema= new Schema({
         type: String
     },
     summary: {
-        type: String
-    },
-    source: {
         type: String
     }
   });
