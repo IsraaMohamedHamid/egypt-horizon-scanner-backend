@@ -20,10 +20,10 @@ const EmergenceIssueOfTheMonthDataSchema= new Schema({
     repetition: {
         type: Number
     },
-    emergenceIssue: {
+    emergingIssue: {
         type: String
     },
-    emergenceIssue: {
+    emergingIssue: {
         type: String
     },
     sdgTargeted: {

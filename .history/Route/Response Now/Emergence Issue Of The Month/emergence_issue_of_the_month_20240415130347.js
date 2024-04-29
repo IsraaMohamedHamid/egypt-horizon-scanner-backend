@@ -14,22 +14,22 @@ const router = express.Router();
 
 
 // Get a list of cities from the DB
-router.get('/emergenceIssueOfTheMonth', getEmergingIssues);
+router.get('/emergingIssueOfTheMonth', getEmergingIssues);
 
-router.get('/emergenceIssueOfTheMonth/findbyname/:emergingIssue', getEmergingIssueByName);
+router.get('/emergingIssueOfTheMonth/findbyname/:emergingIssue', getEmergingIssueByName);
 
-// Add new emergenceIssueOfTheMonth to the DB
-router.post('/emergenceIssueOfTheMonth', createEmergingIssue);
+// Add new emergingIssueOfTheMonth to the DB
+router.post('/emergingIssueOfTheMonth', createEmergingIssue);
 
-// Update a emergenceIssueOfTheMonth in the DB
-router.put('/emergenceIssueOfTheMonth/emergenceIssueOfTheMonthid/:id', updateEmergingIssueByID);
+// Update a emergingIssueOfTheMonth in the DB
+router.put('/emergingIssueOfTheMonth/emergingIssueOfTheMonthid/:id', updateEmergingIssueByID);
 
-router.put('/emergenceIssueOfTheMonth/emergenceIssueOfTheMonthnameen/:emergingIssue', updateEmergingIssueByEmergingIssueName);
+router.put('/emergingIssueOfTheMonth/emergingIssueOfTheMonthnameen/:emergingIssue', updateEmergingIssueByEmergingIssueName);
 
-// Delete a emergenceIssueOfTheMonth from the DB
-router.delete('/emergenceIssueOfTheMonth/emergenceIssueOfTheMonthid/:id', deleteEmergingIssueByID);
+// Delete a emergingIssueOfTheMonth from the DB
+router.delete('/emergingIssueOfTheMonth/emergingIssueOfTheMonthid/:id', deleteEmergingIssueByID);
 
-router.delete('/emergenceIssueOfTheMonth/emergenceIssueOfTheMonthnameen/:politicalMappingEventName', deleteEmergingIssueByEmergingIssueName);
+router.delete('/emergingIssueOfTheMonth/emergingIssueOfTheMonthnameen/:politicalMappingEventName', deleteEmergingIssueByEmergingIssueName);
 
 
 module.exports = router;

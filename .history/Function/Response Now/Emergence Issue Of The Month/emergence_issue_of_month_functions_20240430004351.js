@@ -158,14 +158,14 @@ const emergingIssueComponentsCalculation = async () => {
       console.log(`START: Processing emerging issues.`);
       await emergingIssueDataUpdate();
       // Fetch unique emergingIssues
-      const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergenceIssue");
+      const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergingIssue");
       console.log(`Processing ${uniqueIssues.length} unique emerging issues.`);
 
       for (const issue of uniqueIssues) {
           console.log(`Processing issue: ${issue}`);
 
           // Fetch all documents for the current issue
-          const issueDocuments = await EmergenceIssueOfTheMonthDataModel.find({ emergenceIssue: issue });
+          const issueDocuments = await EmergenceIssueOfTheMonthDataModel.find({ emergingIssue: issue });
 
           // Call function to process data and update MongoDB
           const processedData = await createEmergingIssues(issueDocuments);

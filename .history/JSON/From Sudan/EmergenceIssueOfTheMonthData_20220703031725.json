@@ -4,7 +4,7 @@
     "source": "Twitter",
     "issueString": "String 1",
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "repetition": "3.9",
     "sdgTargeted": null,
     "language": "English"
@@ -14,7 +14,7 @@
     "source": "Facebook",
     "issueString": "String 2",
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "repetition": 43,
     "sdgTargeted": null,
     "language": "English"
@@ -24,7 +24,7 @@
     "source": "Song",
     "issueString": "String 3",
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "repetition": 12.9,
     "sdgTargeted": null,
     "language": "English"
@@ -34,7 +34,7 @@
     "source": "Twitter",
     "issueString": "String 4",
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "repetition": 10.9,
     "sdgTargeted": null,
     "language": "English"
@@ -44,7 +44,7 @@
     "source": "Facebook",
     "issueString": "String 5",
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "repetition": 43,
     "sdgTargeted": null,
     "language": "English"
@@ -54,7 +54,7 @@
     "source": "Song",
     "issueString": "String 6",
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "repetition": 12.9,
     "sdgTargeted": null,
     "language": "English"
@@ -64,7 +64,7 @@
     "source": "Twitter",
     "issueString": "String 7",
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "repetition": 10.9,
     "sdgTargeted": null,
     "language": "English"
@@ -74,7 +74,7 @@
     "source": "Facebook",
     "issueString": "String 8",
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "repetition": 43,
     "sdgTargeted": null,
     "language": "English"
@@ -84,7 +84,7 @@
     "source": "Song",
     "issueString": "String 9",
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "repetition": 12.9,
     "sdgTargeted": null,
     "language": "English"
@@ -94,7 +94,7 @@
     "source": "Twitter",
     "issueString": "String 10",
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "repetition": 10.9,
     "sdgTargeted": null,
     "language": "English"
@@ -104,7 +104,7 @@
     "source": "Facebook",
     "issueString": "String 11",
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "repetition": 43,
     "sdgTargeted": null,
     "language": "English"
@@ -114,7 +114,7 @@
     "source": "Song",
     "issueString": "String 12",
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "repetition": 12.9,
     "sdgTargeted": null,
     "language": "English"
@@ -124,7 +124,7 @@
     "source": "Twitter",
     "issueString": "String 13",
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "repetition": 10.9,
     "sdgTargeted": null,
     "language": "English"
@@ -134,7 +134,7 @@
     "source": "Facebook",
     "issueString": "String 14",
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "repetition": 43,
     "sdgTargeted": null,
     "language": "English"
@@ -144,7 +144,7 @@
     "source": "Song",
     "issueString": "String 15",
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "repetition": 12.9,
     "sdgTargeted": null,
     "language": "English"
@@ -154,7 +154,7 @@
     "source": "Twitter",
     "issueString": "String 16",
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "repetition": 10.9,
     "sdgTargeted": null,
     "language": "English"
@@ -164,7 +164,7 @@
     "source": "Facebook",
     "issueString": "String 17",
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "repetition": 43,
     "sdgTargeted": null,
     "language": "English"
@@ -174,7 +174,7 @@
     "source": "Song",
     "issueString": "String 18",
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "repetition": 12.9,
     "sdgTargeted": null,
     "language": "English"
@@ -184,7 +184,7 @@
     "source": "Twitter",
     "issueString": "String 19",
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "repetition": 10.9,
     "sdgTargeted": null,
     "language": "English"
@@ -194,7 +194,7 @@
     "source": "Facebook",
     "issueString": "String 20",
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "repetition": 43,
     "sdgTargeted": null,
     "language": "English"
@@ -204,7 +204,7 @@
     "source": "Song",
     "issueString": "String 21",
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "repetition": 12.9,
     "sdgTargeted": null,
     "language": "English"
@@ -214,7 +214,7 @@
     "source": "Twitter",
     "issueString": "String 22",
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "repetition": 10.9,
     "sdgTargeted": null,
     "language": "English"
@@ -224,7 +224,7 @@
     "source": "Facebook",
     "issueString": "String 23",
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "repetition": 43,
     "sdgTargeted": null,
     "language": "English"
@@ -234,7 +234,7 @@
     "source": "Song",
     "issueString": "String 24",
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "repetition": 12.9,
     "sdgTargeted": null,
     "language": "English"
@@ -244,7 +244,7 @@
     "source": "Twitter",
     "issueString": "String 25",
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "repetition": 10.9,
     "sdgTargeted": null,
     "language": "English"
@@ -254,7 +254,7 @@
     "source": "Facebook",
     "issueString": "String 26",
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "repetition": 43,
     "sdgTargeted": null,
     "language": "English"
@@ -264,7 +264,7 @@
     "source": "Song",
     "issueString": "String 27",
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "repetition": 12.9,
     "sdgTargeted": null,
     "language": "English"
@@ -274,7 +274,7 @@
     "source": "Twitter",
     "issueString": "String 28",
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "repetition": 10.9,
     "sdgTargeted": null,
     "language": "English"
@@ -284,7 +284,7 @@
     "source": "Facebook",
     "issueString": "String 29",
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "repetition": 43,
     "sdgTargeted": null,
     "language": "English"
@@ -294,7 +294,7 @@
     "source": "Song",
     "issueString": "String 30",
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "repetition": 12.9,
     "sdgTargeted": null,
     "language": "English"
@@ -304,7 +304,7 @@
     "source": "Twitter",
     "issueString": "String 31",
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "repetition": 10.9,
     "sdgTargeted": null,
     "language": "English"
@@ -314,7 +314,7 @@
     "source": "Facebook",
     "issueString": "String 32",
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "repetition": 43,
     "sdgTargeted": null,
     "language": "English"
@@ -324,7 +324,7 @@
     "source": "Song",
     "issueString": "String 33",
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "repetition": 12.9,
     "sdgTargeted": null,
     "language": "English"
@@ -334,7 +334,7 @@
     "source": "Twitter",
     "issueString": "String 34",
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "repetition": 10.9,
     "sdgTargeted": null,
     "language": "English"
@@ -344,7 +344,7 @@
     "source": "Facebook",
     "issueString": "String 35",
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "repetition": 43,
     "sdgTargeted": null,
     "language": "English"
@@ -354,7 +354,7 @@
     "source": "Song",
     "issueString": "String 36",
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "repetition": 12.9,
     "sdgTargeted": null,
     "language": "English"
@@ -364,7 +364,7 @@
     "source": "Twitter",
     "issueString": "String 37",
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "repetition": 10.9,
     "sdgTargeted": null,
     "language": "English"
@@ -374,7 +374,7 @@
     "source": "Facebook",
     "issueString": "String 38",
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "repetition": 43,
     "sdgTargeted": null,
     "language": "English"
@@ -384,7 +384,7 @@
     "source": "Song",
     "issueString": "String 39",
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "repetition": 12.9,
     "sdgTargeted": null,
     "language": "English"
@@ -394,7 +394,7 @@
     "source": "Twitter",
     "issueString": "String 40",
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "repetition": 10.9,
     "sdgTargeted": null,
     "language": "English"
@@ -404,7 +404,7 @@
     "source": "Facebook",
     "issueString": "String 41",
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "repetition": 43,
     "sdgTargeted": null,
     "language": "English"
@@ -414,7 +414,7 @@
     "source": "Song",
     "issueString": "String 42",
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "repetition": 12.9,
     "sdgTargeted": null,
     "language": "English"
@@ -424,7 +424,7 @@
     "source": "Twitter",
     "issueString": "String 43",
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "repetition": 10.9,
     "sdgTargeted": null,
     "language": "English"
@@ -434,7 +434,7 @@
     "source": "Facebook",
     "issueString": "String 44",
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "repetition": 43,
     "sdgTargeted": null,
     "language": "English"
@@ -444,7 +444,7 @@
     "source": "Song",
     "issueString": "String 45",
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "repetition": 12.9,
     "sdgTargeted": null,
     "language": "English"
@@ -454,7 +454,7 @@
     "source": "Twitter",
     "issueString": "String 46",
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "repetition": 10.9,
     "sdgTargeted": null,
     "language": "English"
@@ -464,7 +464,7 @@
     "source": "Facebook",
     "issueString": "String 47",
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "repetition": 43,
     "sdgTargeted": null,
     "language": "English"
@@ -474,7 +474,7 @@
     "source": "Song",
     "issueString": "String 48",
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "repetition": 12.9,
     "sdgTargeted": null,
     "language": "English"
@@ -484,7 +484,7 @@
     "source": "Twitter",
     "issueString": "String 49",
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "repetition": 10.9,
     "sdgTargeted": null,
     "language": "English"
@@ -496,7 +496,7 @@
     "issueString": "#To_The_Streets ",
     "repetition": 444,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -507,7 +507,7 @@
     "issueString": " #Just_Fall ",
     "repetition": 484,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -518,7 +518,7 @@
     "issueString": "#17_January_Protest ",
     "repetition": 200,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -529,7 +529,7 @@
     "issueString": "#24_January_Protest ",
     "repetition": 100,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -540,7 +540,7 @@
     "issueString": "#9_January_Protest",
     "repetition": 50,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -551,7 +551,7 @@
     "issueString": "#13_January_Protest",
     "repetition": 12,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -562,7 +562,7 @@
     "issueString": "#SudanRevolts",
     "repetition": 13,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -573,7 +573,7 @@
     "issueString": "#Sudanese_ Towns_Revolt ",
     "repetition": 276,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -584,7 +584,7 @@
     "issueString": "It_hasn’t_fallen_yet ",
     "repetition": 63,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -595,7 +595,7 @@
     "issueString": "General_command_ protest ",
     "repetition": 44,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -606,7 +606,7 @@
     "issueString": "SudanUprising ",
     "repetition": 14,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -617,7 +617,7 @@
     "issueString": "Sudan",
     "repetition": 12,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -628,7 +628,7 @@
     "issueString": "Falls_again ",
     "repetition": 8,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -639,7 +639,7 @@
     "issueString": "Falls_a_3rd_ time ",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -650,7 +650,7 @@
     "issueString": "Falls_only ",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -661,7 +661,7 @@
     "issueString": "Alqiada massacre ",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -672,7 +672,7 @@
     "issueString": "Khartoum ",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -683,7 +683,7 @@
     "issueString": "Only_the_street ",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -694,7 +694,7 @@
     "issueString": "sudan_revolutionary_ escalation ",
     "repetition": 2,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -705,7 +705,7 @@
     "issueString": "SudanProtests ",
     "repetition": 2,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -716,7 +716,7 @@
     "issueString": "General_command_ protest _continues",
     "repetition": 2,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -727,7 +727,7 @@
     "issueString": "#It_hasn’t_fallen_yet",
     "repetition": 2,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -738,7 +738,7 @@
     "issueString": "#Handing_Over_Power_To_People",
     "repetition": 2,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -749,7 +749,7 @@
     "issueString": "#Sudan_Strike_Solidarity ",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -760,7 +760,7 @@
     "issueString": "#Sudan_Uprising ",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -771,7 +771,7 @@
     "issueString": "#SPA_Represents_Me",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -782,7 +782,7 @@
     "issueString": "#Civilian_Government_March",
     "repetition": 2,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -793,7 +793,7 @@
     "issueString": "#Handover_power_to_people ",
     "repetition": 2,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -804,7 +804,7 @@
     "issueString": "Street accidents efforts to provide medicine",
     "repetition": 10,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -815,7 +815,7 @@
     "issueString": "Charitable people who provide medicine to the sick",
     "repetition": 6,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -826,7 +826,7 @@
     "issueString": "drug provision initiative",
     "repetition": 4,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -837,7 +837,7 @@
     "issueString": "Community influencers working to provide medicine",
     "repetition": 3,
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -848,7 +848,7 @@
     "issueString": "Medicine shortage in hospitals",
     "repetition": 8,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -859,7 +859,7 @@
     "issueString": "Sudanese groups provide medicines for free",
     "repetition": 9,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -870,7 +870,7 @@
     "issueString": "  Sudan and the suffering of the citizen in the presence of medicines",
     "repetition": 5,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -881,7 +881,7 @@
     "issueString": "There is no medicine",
     "repetition": 10,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -892,7 +892,7 @@
     "issueString": "Medicine crisis in Sudan",
     "repetition": 8,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -903,7 +903,7 @@
     "issueString": " Significant increase in the price of the drug",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -914,7 +914,7 @@
     "issueString": "Shortage of medicines for cancer patients",
     "repetition": 9,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -925,7 +925,7 @@
     "issueString": "Trouble getting medicine",
     "repetition": 10,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -936,7 +936,7 @@
     "issueString": "Medicine crisis in the time of Corona",
     "repetition": 7,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -947,7 +947,7 @@
     "issueString": "Record rise in drug prices in Sudan",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -958,7 +958,7 @@
     "issueString": "Guys, our children are dead and there is no medicine",
     "repetition": 10,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -969,7 +969,7 @@
     "issueString": "   No diabetes medicine",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -980,7 +980,7 @@
     "issueString": "Why are you guys so expensive medicine?",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -991,7 +991,7 @@
     "issueString": "I mean, people die because they don't have the cost of medicine",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1002,7 +1002,7 @@
     "issueString": "Medicines for chronic diseases do not exist",
     "repetition": 7,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1013,7 +1013,7 @@
     "issueString": "Informal bodies working to provide medicines",
     "repetition": 3,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1024,7 +1024,7 @@
     "issueString": "I do not know that the drug is available in any pharmacy",
     "repetition": 8,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1035,7 +1035,7 @@
     "issueString": "There is no medicine in the corn hospital",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1046,7 +1046,7 @@
     "issueString": "We want medicine to be available and stay cheap",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1057,7 +1057,7 @@
     "issueString": "There is no safety, and the thief has multiplied",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1068,7 +1068,7 @@
     "issueString": "Gangs and insecurity in Sudan",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1079,7 +1079,7 @@
     "issueString": "Threatening with weapons and theft of property",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1090,7 +1090,7 @@
     "issueString": "How long will we continue to suffer from 9 long",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1101,7 +1101,7 @@
     "issueString": "Burglary and theft in broad daylight",
     "repetition": 2,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1112,7 +1112,7 @@
     "issueString": "We are all afraid of our homes from insecurity and theft",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1123,7 +1123,7 @@
     "issueString": "They stole my bag and beat me",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1134,7 +1134,7 @@
     "issueString": "We want safety and security",
     "repetition": 10,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1145,7 +1145,7 @@
     "issueString": "He threatened me with a machete and stole my car",
     "repetition": 11,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1156,7 +1156,7 @@
     "issueString": "The country is going into an abyss due to insecurity",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1167,7 +1167,7 @@
     "issueString": "Resistance committees work to provide safety in neighborhoods",
     "repetition": 4,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1178,7 +1178,7 @@
     "issueString": "Unite the people of the region to provide protection from thefts",
     "repetition": 3,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1189,7 +1189,7 @@
     "issueString": "Formation of neighborhood personnel in the form of patrols to maintain safety",
     "repetition": 5,
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1200,7 +1200,7 @@
     "issueString": "Some policemen are working to protect the citizen",
     "repetition": 2,
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1211,7 +1211,7 @@
     "issueString": " Set the times of power outages in the morning and evening",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1222,7 +1222,7 @@
     "issueString": "The power went out twice a day",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1233,7 +1233,7 @@
     "issueString": "Cut off the electricity for nine hours",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1244,7 +1244,7 @@
     "issueString": "The electricity goes out in the morning for more than seven hours",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1255,7 +1255,7 @@
     "issueString": "The power went out for two days",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1266,7 +1266,7 @@
     "issueString": "Who is the power cut off now?",
     "repetition": 8,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1277,7 +1277,7 @@
     "issueString": "Electricity was cut off in Omdurman for three days",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1288,7 +1288,7 @@
     "issueString": "New programming for power outages in the late hours of the night",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1299,7 +1299,7 @@
     "issueString": "A transformer malfunction caused a power outage for two days",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1310,7 +1310,7 @@
     "issueString": "A significant increase in the price of electricity, which is cut off for more than ten hours a day",
     "repetition": 7,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1321,7 +1321,7 @@
     "issueString": "Today, there is no transportation",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1332,7 +1332,7 @@
     "issueString": "Transportation crisis due to the high cost of fuel",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1343,7 +1343,7 @@
     "issueString": "Transport fare increase",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1354,7 +1354,7 @@
     "issueString": "Initiatives from citizens who have means of transportation to solve the crisis",
     "repetition": 3,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1365,7 +1365,7 @@
     "issueString": "Transportation is available in some areas of the capital",
     "repetition": 2,
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1376,7 +1376,7 @@
     "issueString": "A report showing the distribution of money to drivers to create a transportation crisis",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1387,7 +1387,7 @@
     "issueString": "A complete lack of transportation in the tri-capital",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1398,7 +1398,7 @@
     "issueString": "Transport problem, for how long?",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1409,7 +1409,7 @@
     "issueString": "The suffering of the citizens and the greed of the owners of public transportation",
     "repetition": 2,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1420,7 +1420,7 @@
     "issueString": "Transportation is a renewed crisis and the absence of radical solutions",
     "repetition": 7,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1431,7 +1431,7 @@
     "issueString": "An initiative _ don't walk empty _ to solve the transport crisis",
     "repetition": 3,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1442,7 +1442,7 @@
     "issueString": "A scene that is repeated daily, there is no means of transportation",
     "repetition": 10,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1453,7 +1453,7 @@
     "issueString": "The citizen finds it difficult to obtain a currency due to the lack of transportation",
     "repetition": 8,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1464,7 +1464,7 @@
     "issueString": "Many neighborhoods were damaged due to water cuts",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1475,7 +1475,7 @@
     "issueString": "The water station stopped due to water leakage from the main winding in Bahri area",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1486,7 +1486,7 @@
     "issueString": "Water cuts in Omdurman for two weeks",
     "repetition": 10,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1497,7 +1497,7 @@
     "issueString": "With the onset of summer, water becomes scarce",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1508,7 +1508,7 @@
     "issueString": "Water shortage in a number of Khartoum neighborhoods",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1519,7 +1519,7 @@
     "issueString": "Do you suffer from a lack of water in your area?",
     "repetition": 11,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1530,7 +1530,7 @@
     "issueString": "Suffering of East Nile residents due to permanent water cuts",
     "repetition": 7,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1541,7 +1541,7 @@
     "issueString": "Continuing water cuts and citizens' complaints",
     "repetition": 8,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1552,7 +1552,7 @@
     "issueString": "Again, the water cuts came back, and we started buying water",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1563,7 +1563,7 @@
     "issueString": "Power failure, no water",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1574,7 +1574,7 @@
     "issueString": "The water crisis is back!",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1585,7 +1585,7 @@
     "issueString": "The drinking water crisis has worsened in the cities of Damer and Atbara",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1596,7 +1596,7 @@
     "issueString": "Malfunctions cause long-term water cuts",
     "repetition": 7,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1607,7 +1607,7 @@
     "issueString": "An initiative of the neighborhood committees to save water",
     "repetition": 6,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1618,7 +1618,7 @@
     "issueString": "Neighbors help each other to save water",
     "repetition": 5,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1629,7 +1629,7 @@
     "issueString": "Providing water tanks to solve the crisis",
     "repetition": 3,
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "English"
   },
@@ -1640,7 +1640,7 @@
     "issueString": "تسقط_بس ",
     "repetition": 484,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1651,7 +1651,7 @@
     "issueString": "مدن_السودان _تنتفض ",
     "repetition": 276,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1662,7 +1662,7 @@
     "issueString": "لم_تسقط_بعد",
     "repetition": 63,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1673,7 +1673,7 @@
     "issueString": "اعتصام_القیادة_العامة ",
     "repetition": 44,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1684,7 +1684,7 @@
     "issueString": "السودان ",
     "repetition": 12,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1695,7 +1695,7 @@
     "issueString": "تسقط_تاني ",
     "repetition": 8,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1706,7 +1706,7 @@
     "issueString": "تسقط_ثالث ",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1717,7 +1717,7 @@
     "issueString": "تسقط_بس ",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1728,7 +1728,7 @@
     "issueString": "مجزرة_القیادة_العامة ",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1739,7 +1739,7 @@
     "issueString": "الشارع_بس ",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1750,7 +1750,7 @@
     "issueString": "السودان_التصعید_الثوري ",
     "repetition": 2,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1761,7 +1761,7 @@
     "issueString": "اعتصام_القیادة_العامة_مستمر ",
     "repetition": 2,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1772,7 +1772,7 @@
     "issueString": "العصيان_المدني _الشامل",
     "repetition": 313,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1783,7 +1783,7 @@
     "issueString": "حنبنيهو",
     "repetition": 2,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1794,7 +1794,7 @@
     "issueString": "نناضل لا نساوم",
     "repetition": 8,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1805,7 +1805,7 @@
     "issueString": "تحديات_الفترة-الانتقالية",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1816,7 +1816,7 @@
     "issueString": "مليونية _القصاص_العادل",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1827,7 +1827,7 @@
     "issueString": "فرح_السودان",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1838,7 +1838,7 @@
     "issueString": "تحقيق_اهداف_ثورتنا",
     "repetition": 2,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1849,7 +1849,7 @@
     "issueString": "تنظيف_مفاصل _الدولة",
     "repetition": 8,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1860,7 +1860,7 @@
     "issueString": "الوعي _اساس_المرحلة",
     "repetition": 7,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1871,7 +1871,7 @@
     "issueString": "السودان_الجديد",
     "repetition": 2,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1882,7 +1882,7 @@
     "issueString": "كلنا_لجان_الاحياء",
     "repetition": 2,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1893,7 +1893,7 @@
     "issueString": "السودان_الاتفاق_السياسي",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1904,7 +1904,7 @@
     "issueString": "تطبيق_العدالة_الانتقالية",
     "repetition": 7,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1915,7 +1915,7 @@
     "issueString": "تعزيز_التعايش_السلمي",
     "repetition": 8,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1926,7 +1926,7 @@
     "issueString": "حل المؤتمر_اللا_وطني",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1937,7 +1937,7 @@
     "issueString": "توقيع_الاتفاق_السوداني",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Politics",
+    "emergenceIssue": "Politics",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1948,7 +1948,7 @@
     "issueString": "مافي دواء",
     "repetition": 10,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1959,7 +1959,7 @@
     "issueString": "ازمة الدواء في السودان",
     "repetition": 8,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1970,7 +1970,7 @@
     "issueString": "فاعلين خير يوفرون الدواء للمرضي",
     "repetition": 6,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1981,7 +1981,7 @@
     "issueString": "مبادرة توفير الدواء ",
     "repetition": 4,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -1992,7 +1992,7 @@
     "issueString": "ازمة الدواء وجهود شارع الحوادث",
     "repetition": 9,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2003,7 +2003,7 @@
     "issueString": "مؤثرين بالمجتمع يعملون علي توفير الدواء",
     "repetition": 3,
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2014,7 +2014,7 @@
     "issueString": "انعدام الدواء في المستشفيات",
     "repetition": 5,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2025,7 +2025,7 @@
     "issueString": "قروبات سودانية توفر الدواء مجانا",
     "repetition": 10,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2036,7 +2036,7 @@
     "issueString": "الدواء في السودان ومعاناة المواطن",
     "repetition": 8,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2047,7 +2047,7 @@
     "issueString": "زيادة كبيرة في سعر الدواء",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2058,7 +2058,7 @@
     "issueString": "انعدام ادوية مرضي السرطان",
     "repetition": 9,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2069,7 +2069,7 @@
     "issueString": "معاناة الحصول علي الدواء",
     "repetition": 10,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2080,7 +2080,7 @@
     "issueString": "ازمة الدواء في زمن الكرونا",
     "repetition": 7,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2091,7 +2091,7 @@
     "issueString": "ارتفاع قياسي لاسعار الادوية في السودان",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2102,7 +2102,7 @@
     "issueString": "ياجماعة اطفالنا بموتو وداء مافي",
     "repetition": 10,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2113,7 +2113,7 @@
     "issueString": "لفيت كم صيدلية و دواء السكري معدوم",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2124,7 +2124,7 @@
     "issueString": "لية يا جماعة الدواء بقي غالي كدة",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2135,7 +2135,7 @@
     "issueString": "يعني الناس تموت عشان ما عندها حق الدواء",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2146,7 +2146,7 @@
     "issueString": "ادوية الامراض المزمنة معدومة ",
     "repetition": 7,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2157,7 +2157,7 @@
     "issueString": "جهات غير رسمية تعمل علي توفير الدواء",
     "repetition": 3,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2168,7 +2168,7 @@
     "issueString": "في زول عارف الدواء متوفر في اي صيدلية",
     "repetition": 8,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2179,7 +2179,7 @@
     "issueString": "مستشفي الذرة الدواء فيها معدوم",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2190,7 +2190,7 @@
     "issueString": "عايزين الدواء يتوفر ",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Availability of Fuel",
+    "emergenceIssue": "Availability of Fuel",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2201,7 +2201,7 @@
     "issueString": "بقي مافي امان والحرامية زادو",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2212,7 +2212,7 @@
     "issueString": "عصابات المواتر وعدم الامان في السودان",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2223,7 +2223,7 @@
     "issueString": "تهديد بالسلاح وسرقة الممتلكات",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2234,7 +2234,7 @@
     "issueString": "لجان المقاومة تعمل عل توفير الامان داخل الاحياء",
     "repetition": 4,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2245,7 +2245,7 @@
     "issueString": "تكاتف افراد المنطقة علي توفير الحماية من السرقات",
     "repetition": 3,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2256,7 +2256,7 @@
     "issueString": "تكوين افراد من الاحياء علي شكل دوريات للمحافظة علي الامان",
     "repetition": 5,
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2267,7 +2267,7 @@
     "issueString": "بعض افراد الشرطة يعملون علي حماية المواطن",
     "repetition": 2,
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2278,7 +2278,7 @@
     "issueString": "الي متي سنظل نعاني من وجود  9 طويلة",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2289,7 +2289,7 @@
     "issueString": "نهب وسرقة وضح النهار",
     "repetition": 2,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2300,7 +2300,7 @@
     "issueString": "بقينا خايفين ونحن في بيوتنا من عدم الامان والسرقة",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2311,7 +2311,7 @@
     "issueString": "سرقو شنطتي وضربوني ",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2322,7 +2322,7 @@
     "issueString": "عايزين الامان يرجع زي زمان",
     "repetition": 10,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2333,7 +2333,7 @@
     "issueString": "ههدوني بالساطور وسرقو العربية",
     "repetition": 11,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2344,7 +2344,7 @@
     "issueString": "البلد ماشة علي هاوية بي سبب انعدام الامان",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Security (Robberies)",
+    "emergenceIssue": "Security (Robberies)",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2355,7 +2355,7 @@
     "issueString": "جدولة قطوعات  الكهرباء صباح ومساء",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2366,7 +2366,7 @@
     "issueString": "الكهرباء قطعت مرتين في اليوم",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2377,7 +2377,7 @@
     "issueString": "كهرباء قاطعة ليها تسعة ساعات",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2388,7 +2388,7 @@
     "issueString": "الكهربا بتقطع الصباح اكتر من سبعة ساعات",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2399,7 +2399,7 @@
     "issueString": "الكهرباء قاطعة يومين",
     "repetition": 8,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2410,7 +2410,7 @@
     "issueString": "الكهربتم قطعت هسي  منو",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2421,7 +2421,7 @@
     "issueString": "الكهرباء في امدرمان ليها ثلاثة يوم قاطعة",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2432,7 +2432,7 @@
     "issueString": "برمجة جديدة لقطوعات الكهرباء",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2443,7 +2443,7 @@
     "issueString": "عطل في المحول  ادي الي انقطاع الكهرباء ثلاثة ايام",
     "repetition": 7,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2454,7 +2454,7 @@
     "issueString": "زيادة كبيرة في سعر الكهراء وهي بتقطع اكتر من عشرة ساعات",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Power Shortage",
+    "emergenceIssue": "Power Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2465,7 +2465,7 @@
     "issueString": "اليوم مواصلات مافي",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2476,7 +2476,7 @@
     "issueString": "ازمة المواصلات بسبب غلاء الوقود",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2487,7 +2487,7 @@
     "issueString": "مبادرات من المواطنين اللذين لديهم وسايل مواصلات في حل الازمة",
     "repetition": 3,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2498,7 +2498,7 @@
     "issueString": "توفر المواصلات في بعض مناطق العاصمة",
     "repetition": 2,
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2509,7 +2509,7 @@
     "issueString": "زيادة تعرفة المواصلات ",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2520,7 +2520,7 @@
     "issueString": "تحقيق يكشف توزيع افراد اموالا للسائقين لخلق ازمة المواصلات",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2531,7 +2531,7 @@
     "issueString": "انعدام كامل للمواصلات في العاصمة المثلثة",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2542,7 +2542,7 @@
     "issueString": "مشكلة المواصلات الي متي",
     "repetition": 2,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2553,7 +2553,7 @@
     "issueString": "معاناة مواطنين وجشع اصحاب المواصلات العامة",
     "repetition": 7,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2564,7 +2564,7 @@
     "issueString": "المواصلات ازمة متجددة وغياب الحلول الجذرية",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2575,7 +2575,7 @@
     "issueString": "مبادرة_ماتمشي فاضي_لحل ازمة المواصلات",
     "repetition": 10,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2586,7 +2586,7 @@
     "issueString": "مشهد يتكرر يوميا ندرة في المواصلات العامة",
     "repetition": 8,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2597,7 +2597,7 @@
     "issueString": "اصبح المواطن يواجه صعوبة في الوصول الي عملة بسبب انعدام المواصلات",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Bus Transportation",
+    "emergenceIssue": "Bus Transportation",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2608,7 +2608,7 @@
     "issueString": "تاثر احياء كثيرة بسبب انقطاع المياة",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2619,7 +2619,7 @@
     "issueString": "توقف محطة مياة بحري بسبب تسريب المياة من بلف رئيسي",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2630,7 +2630,7 @@
     "issueString": "انقطاع المياة في امدرمان لمدة اسبوعين",
     "repetition": 10,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2641,7 +2641,7 @@
     "issueString": "مع دخول فصل الصيف شح وندرة في المياة",
     "repetition": 3,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2652,7 +2652,7 @@
     "issueString": "الامداد المائي يغيب عن عدد من احياء الخرطوم",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2663,7 +2663,7 @@
     "issueString": "هل تعاني من قطوعات المياة في منطقتكم",
     "repetition": 11,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2674,7 +2674,7 @@
     "issueString": "معاناة سكان شرق النيل بسبب انقطاع المياة الدائم",
     "repetition": 7,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2685,7 +2685,7 @@
     "issueString": "قطوعات مستمرة في المياة وامواطن يشكي",
     "repetition": 8,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2696,7 +2696,7 @@
     "issueString": "تاني رجعت قطوعات المياة وبقينا نشتري الموية",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2707,7 +2707,7 @@
     "issueString": "بسبب انقطاع التيار الكهربائي لا توجد مياة",
     "repetition": 5,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2718,7 +2718,7 @@
     "issueString": "ازمة المياة تعود من جديد",
     "repetition": 4,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2729,7 +2729,7 @@
     "issueString": "ازمة مياة الشرب تتفاقم بمدينة الدامر وعطبرة",
     "repetition": 6,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2740,7 +2740,7 @@
     "issueString": "تتسبب الاعطال في انقطاع المياة لفترات طويلة",
     "repetition": 7,
     "sentimentAnalysis": "Negative",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2751,7 +2751,7 @@
     "issueString": "مبادرة من لجان الاحياء علي توفير المياة",
     "repetition": 6,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2762,7 +2762,7 @@
     "issueString": "مساعدة الجيران لبعضهم في توفير المياة",
     "repetition": 5,
     "sentimentAnalysis": "Positive",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   },
@@ -2773,7 +2773,7 @@
     "issueString": "توفير خزانات مياة لحل الازمة",
     "repetition": 3,
     "sentimentAnalysis": "Neutral",
-    "emergingIssue": "Water Shortage",
+    "emergenceIssue": "Water Shortage",
     "sdgTargeted": null,
     "language": "Arabic"
   }

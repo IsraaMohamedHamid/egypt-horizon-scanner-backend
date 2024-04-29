@@ -52,14 +52,14 @@ const emergingIssueComponentsCalculation = async function () {
   try {
       console.log(`START: Processing emerging issues.`);
       // Fetch unique emergingIssues
-      const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergenceIssue");
+      const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergingIssue");
       console.log(`Processing ${uniqueIssues.length} unique emerging issues.`);
 
       for (const issue of uniqueIssues) {
           console.log(`Processing issue: ${issue}`);
 
           // Fetch all documents for the current issue
-          const issueDocuments = await EmergenceIssueOfTheMonthDataModel.find({ emergenceIssue: issue });
+          const issueDocuments = await EmergenceIssueOfTheMonthDataModel.find({ emergingIssue: issue });
 
           // Calculate average weight and count repetitions
           let totalWeight = 0;
@@ -79,9 +79,9 @@ const emergingIssueComponentsCalculation = async function () {
 
           // Continue with existing aggregation for sources and SDG targets
           const aggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([
-              { $match: { emergenceIssue: issue } },
+              { $match: { emergingIssue: issue } },
               { $group: {
-                  _id: "$emergenceIssue",
+                  _id: "$emergingIssue",
                   sources: { $addToSet: "$source" }, // Unique sources
                   sdgTargets: { $addToSet: "$sdgTargeted" } // Unique SDG targets
               }}

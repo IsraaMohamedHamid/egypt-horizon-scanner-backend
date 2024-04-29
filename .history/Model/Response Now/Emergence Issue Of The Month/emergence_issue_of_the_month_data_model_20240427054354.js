@@ -21,11 +21,11 @@ const EmergenceIssueOfTheMonthDataSchema= new Schema({
         type: Number
     },
     weight
-    emergenceIssue: {
+    emergingIssue: {
         type: String
     },
     double? weight;
-    String? emergenceIssue;
+    String? emergingIssue;
     String? description;
     description: {
         type: String

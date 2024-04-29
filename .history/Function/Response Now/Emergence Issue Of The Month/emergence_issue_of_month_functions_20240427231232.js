@@ -30,8 +30,8 @@ const {
 const emergingIssueComponentsCalculation = async function () {
   try {
     console.log(`Processing ${uniqueIssues.length} unique emerging issues.`);
-      // Fetch unique emergenceIssues
-      const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergenceIssue");
+      // Fetch unique emergingIssues
+      const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergingIssue");
 
       console.log(`Processing ${uniqueIssues.length} unique emerging issues.`);
 
@@ -40,7 +40,7 @@ const emergingIssueComponentsCalculation = async function () {
 
           // Count the total number of documents for this issue
           const totalDataCount = await EmergenceIssueOfTheMonthDataModel.countDocuments({
-              emergenceIssue: issue,
+              emergingIssue: issue,
           });
 
           let positiveSentimentAnalysisDataCount = 0;
@@ -50,17 +50,17 @@ const emergingIssueComponentsCalculation = async function () {
           if (totalDataCount > 0) {
               // Only perform these counts if there are associated documents
               positiveSentimentAnalysisDataCount = await EmergenceIssueOfTheMonthDataModel.countDocuments({
-                  emergenceIssue: issue,
+                  emergingIssue: issue,
                   sentimentAnalysis: "Positive"
               });
 
               neutralSentimentAnalysisDataCount = await EmergenceIssueOfTheMonthDataModel.countDocuments({
-                  emergenceIssue: issue,
+                  emergingIssue: issue,
                   sentimentAnalysis: "Neutral"
               });
 
               negativeSentimentAnalysisDataCount = await EmergenceIssueOfTheMonthDataModel.countDocuments({
-                  emergenceIssue: issue,
+                  emergingIssue: issue,
                   sentimentAnalysis: "Negative"
               });
           }

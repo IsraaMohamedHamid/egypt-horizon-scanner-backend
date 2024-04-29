@@ -156,7 +156,7 @@ const createEmergingIssues = async (data) => {
 const emergingIssueComponentsCalculation = async () => {
   try {
       console.log(`START: Processing emerging issues.`);
-      await emergingIssueDataUpdate();
+      // await emergingIssueDataUpdate();
       // Fetch unique emergingIssues
       const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergingIssue");
       console.log(`Processing ${uniqueIssues.length} unique emerging issues.`);
