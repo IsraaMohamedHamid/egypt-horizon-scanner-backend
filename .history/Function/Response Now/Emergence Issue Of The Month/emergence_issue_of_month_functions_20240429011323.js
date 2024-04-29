@@ -100,6 +100,7 @@ const emergingIssueComponentsCalculation = async function () {
   }
 };
 
+
 // Example call (assuming you have the array of emerging issues ready)
 // emergingIssueComponentsCalculation(emergingIssuesArray).catch(console.error);
 
