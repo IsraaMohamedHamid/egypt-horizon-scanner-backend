@@ -25,7 +25,6 @@ const {
 
 // Get a list of emergingIssue from the DB
 const getEmergingIssues = async (req, res, next) => {
-  console.log(`START: Sentiment analysis for emerging issues data.`);
   try {
     // Define the sort order
     const sort = {
