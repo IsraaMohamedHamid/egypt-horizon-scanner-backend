@@ -17,6 +17,13 @@ services:
     build_command: pip install -r requirements.txt
     run_command: python update_emergence_issue_of_the_month_data.py
     http_port: 5000
+    
+  - environment_slug: python
+    github:
+      branch: main
+      deploy_on_push: true
+      repo: digitalocean/sample-python
+    name: sample-python
 
 domains:
   - domain: www.yourdomain.com
