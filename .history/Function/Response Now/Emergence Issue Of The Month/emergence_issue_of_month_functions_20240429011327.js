@@ -30,8 +30,8 @@ const {
 const emergingIssueComponentsCalculation = async function () {
   try {
       console.log(`START: Processing emerging issues.`);
-      // Fetch unique emergingIssues
-      const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergingIssue");
+      // Fetch unique emergenceIssues
+      const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergenceIssue");
       console.log(`Processing ${uniqueIssues.length} unique emerging issues.`);
 
       for (const issue of uniqueIssues) {
@@ -39,9 +39,9 @@ const emergingIssueComponentsCalculation = async function () {
 
           // Aggregate sources and sdgTargeted without duplication
           const aggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([
-              { $match: { emergingIssue: issue } },
+              { $match: { emergenceIssue: issue } },
               { $group: {
-                  _id: "$emergingIssue",
+                  _id: "$emergenceIssue",
                   sources: { $addToSet: "$source" }, // Unique sources
                   sdgTargets: { $addToSet: "$sdgTargeted" } // Unique SDG targets
               }}
@@ -51,7 +51,7 @@ const emergingIssueComponentsCalculation = async function () {
 
           // Count the total number of documents for this issue
           const totalDataCount = await EmergenceIssueOfTheMonthDataModel.countDocuments({
-              emergingIssue: issue,
+              emergenceIssue: issue,
           });
 
           // Initialize sentiment counts
@@ -62,17 +62,17 @@ const emergingIssueComponentsCalculation = async function () {
           if (totalDataCount > 0) {
               // Only perform these counts if there are associated documents
               positiveSentimentAnalysisDataCount = await EmergenceIssueOfTheMonthDataModel.countDocuments({
-                  emergingIssue: issue,
+                  emergenceIssue: issue,
                   sentimentAnalysis: "Positive"
               });
 
               neutralSentimentAnalysisDataCount = await EmergenceIssueOfTheMonthDataModel.countDocuments({
-                  emergingIssue: issue,
+                  emergenceIssue: issue,
                   sentimentAnalysis: "Neutral"
               });
 
               negativeSentimentAnalysisDataCount = await EmergenceIssueOfTheMonthDataModel.countDocuments({
-                  emergingIssue: issue,
+                  emergenceIssue: issue,
                   sentimentAnalysis: "Negative"
               });
           }

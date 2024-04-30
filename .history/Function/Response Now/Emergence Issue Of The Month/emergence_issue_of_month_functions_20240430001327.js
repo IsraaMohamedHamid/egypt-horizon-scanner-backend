@@ -30,13 +30,13 @@ const {
 const emergingIssueComponentsCalculation = async () => {
   try {
     console.log(`START: Processing emerging issues.`);
-    const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergingIssue");
+    const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergenceIssue");
     console.log(`Processing ${uniqueIssues.length} unique emerging issues.`);
 
     for (const issue of uniqueIssues) {
       console.log(`Processing issue: ${issue}`);
 
-      const issueDocuments = await EmergenceIssueOfTheMonthDataModel.find({ emergingIssue: issue });
+      const issueDocuments = await EmergenceIssueOfTheMonthDataModel.find({ emergenceIssue: issue });
 
       let totalWeight = 0;
       issueDocuments.forEach(doc => totalWeight += doc.weight);
@@ -53,9 +53,9 @@ const emergingIssueComponentsCalculation = async () => {
       console.log(`${issue} - Average Weight: ${averageWeight.toFixed(2)}, Repetition: ${repetition}, Priority: ${priority}`);
 
       const aggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([
-        { $match: { emergingIssue: issue } },
+        { $match: { emergenceIssue: issue } },
         { $group: {
-            _id: "$emergingIssue",
+            _id: "$emergenceIssue",
             sources: { $addToSet: "$source" },
             sdgTargets: { $addToSet: "$sdgTargeted" }
         }}

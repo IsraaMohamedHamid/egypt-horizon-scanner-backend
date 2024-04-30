@@ -17,7 +17,7 @@ const {
 // Get a list of emergingIssue from the DB
 const getEmergingIssuesData = ((req, res, next) => {
 
-  const sort = {source:1, sourceCategory: 1, emergingIssue: 1};
+  const sort = {source:1, sourceCategory: 1, emergenceIssue: 1};
   // Get all data
   EmergenceIssueOfTheMonthDataModel.find({}).sort(sort).then(function (emergingIssue) {
     res.send(emergingIssue);
@@ -26,7 +26,7 @@ const getEmergingIssuesData = ((req, res, next) => {
 
 const getEmergingIssueDataByName = ((req, res, next) => {
 
-  const sort = {source:1, sourceCategory: 1, emergingIssue: 1};
+  const sort = {source:1, sourceCategory: 1, emergenceIssue: 1};
 
   // Get data for one emergingIssue
   EmergenceIssueOfTheMonthDataModel.find({

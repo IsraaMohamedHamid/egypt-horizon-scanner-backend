@@ -23,7 +23,7 @@ const EmergenceIssueOfTheMonthDataSchema= new Schema({
     weight: {
         type: Number
     },
-    emergingIssue: {
+    emergenceIssue: {
         type: String
     },
     description: {

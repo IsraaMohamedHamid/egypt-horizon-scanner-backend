@@ -20,11 +20,11 @@ const EmergenceIssueOfTheMonthDataSchema= new Schema({
     repetition: {
         type: Number
     },
-    emergingIssue: {
+    emergenceIssue: {
         type: String
     },
     double? weight;
-    String? emergingIssue;
+    String? emergenceIssue;
     String? description;
     description: {
         type: String

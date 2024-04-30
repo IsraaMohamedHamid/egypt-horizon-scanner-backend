@@ -37,7 +37,7 @@ const emergingIssueComponentsCalculation = async function (emergingIssues) {
 
           // Count the total number of documents for this issue
           const totalDataCount = await EmergenceIssueOfTheMonthDataModel.countDocuments({
-              emergingIssue: issue,
+              emergenceIssue: issue,
           });
 
           let positiveSentimentAnalysisDataCount = 0;
@@ -47,17 +47,17 @@ const emergingIssueComponentsCalculation = async function (emergingIssues) {
           if (totalDataCount > 0) {
               // Only perform these counts if there are associated documents
               positiveSentimentAnalysisDataCount = await EmergenceIssueOfTheMonthDataModel.countDocuments({
-                  emergingIssue: issue,
+                  emergenceIssue: issue,
                   sentimentAnalysis: "Positive"
               });
 
               neutralSentimentAnalysisDataCount = await EmergenceIssueOfTheMonthDataModel.countDocuments({
-                  emergingIssue: issue,
+                  emergenceIssue: issue,
                   sentimentAnalysis: "Neutral"
               });
 
               negativeSentimentAnalysisDataCount = await EmergenceIssueOfTheMonthDataModel.countDocuments({
-                  emergingIssue: issue,
+                  emergenceIssue: issue,
                   sentimentAnalysis: "Negative"
               });
           }

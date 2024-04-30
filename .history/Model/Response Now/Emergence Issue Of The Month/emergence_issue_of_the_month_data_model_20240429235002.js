@@ -26,7 +26,7 @@ const EmergenceIssueOfTheMonthDataSchema= new Schema({
     score: {
         type: Number
     },
-    emergingIssue: {
+    emergenceIssue: {
         type: String
     },
     description: {

@@ -42,7 +42,7 @@ emergingIssueComponentsCalculation = function (emergingIssues) {
   
         ///////////////////////////////////// Count the number of tasks /////////////////////////////////////
         totalDataCount = await EmergenceIssueOfTheMonthDataModel.countDocuments({
-            emergingIssue: {
+            emergenceIssue: {
                 $eq: emergingIssues[i].emergingIssue
               },
         });
@@ -56,7 +56,7 @@ emergingIssueComponentsCalculation = function (emergingIssues) {
         } 
         else {
           positiveSentimentAnalysisDataCount = await EmergenceIssueOfTheMonthDataModel.countDocuments({
-            emergingIssue: {
+            emergenceIssue: {
                 $eq: emergingIssues[i].emergingIssue
               },
             sentimentAnalysis: {
@@ -65,7 +65,7 @@ emergingIssueComponentsCalculation = function (emergingIssues) {
           });
   
           neutralSentimentAnalysisDataCount = await EmergenceIssueOfTheMonthDataModel.countDocuments({
-            emergingIssue: {
+            emergenceIssue: {
                 $eq: emergingIssues[i].emergingIssue
               },
             sentimentAnalysis: {
@@ -74,7 +74,7 @@ emergingIssueComponentsCalculation = function (emergingIssues) {
           });
   
           negativeSentimentAnalysisDataCount = await EmergenceIssueOfTheMonthDataModel.countDocuments({
-            emergingIssue: {
+            emergenceIssue: {
               $eq: emergingIssues[i].emergingIssue
             },
             sentimentAnalysis: {
