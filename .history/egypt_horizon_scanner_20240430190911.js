@@ -22,7 +22,7 @@ egyptHorizonScanner.use(express.json());
 // );
 
 // username = doadmin
-// password = hP87169GS025UVwJ
+// password = <replace-with-your-password>
 // host = mongodb+srv://dbaas-db-5626135-310aba91.mongo.ondigitalocean.com
 // database = egypt-horizon-scanner
 
