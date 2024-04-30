@@ -89,7 +89,7 @@ const emergingIssueComponentsCalculation = async function () {
 
           const { sources, sdgTargets } = aggregation.length > 0 ? aggregation[0] : { sources: [], sdgTargets: [] };
 
-          const totalDataCount = repetition;
+          const totalDataCount = await EmergenceIssueOfTheMonthDataModel.countDocuments({ emergingIssue: issue }); // Count documents with the matching emergingIssue
           const positiveSentimentAnalysisDataCount = issueDocuments.filter(doc => doc.sentimentAnalysis === "Positive").length;
           const neutralSentimentAnalysisDataCount = issueDocuments.filter(doc => doc.sentimentAnalysis === "Neutral").length;
           const negativeSentimentAnalysisDataCount = issueDocuments.filter(doc => doc.sentimentAnalysis === "Negative").length;

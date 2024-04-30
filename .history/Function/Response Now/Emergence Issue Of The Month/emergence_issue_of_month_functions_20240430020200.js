@@ -60,16 +60,15 @@ const emergingIssueComponentsCalculation = async function () {
           console.log(`Processing issue: ${issue}`);
 
           const issueDocuments = await EmergenceIssueOfTheMonthDataModel.find({ emergingIssue: issue });
-          
 
           let totalWeight = 0;
           issueDocuments.forEach(doc => totalWeight += doc.weight);
-          const averageWeight = issueDocuments.length > 0 ? totalWeight / issueDocuments.length : NaN;
+          const averageWeight = issueDocuments.length > 0 ? totalWeight / issueDocuments.length : NaN; // Use NaN if division by zero occurs
           const repetition = issueDocuments.length;
 
           let priority;
           if (isNaN(averageWeight)) {
-              priority = 'Other Issues';
+              priority = 'Other Issues'; // If averageWeight is NaN, prioritize as Other Issues
           } else if (averageWeight >= 80) {
               priority = repetition > 2 ? 'High' : repetition === 2 ? 'Medium' : 'Low';
           } else {
@@ -111,7 +110,7 @@ const emergingIssueComponentsCalculation = async function () {
                   negativeSentimentAnalysisDataCount,
                   sources,
                   sdgTargets: sdgTargets.flat(),
-                  averageWeight: isNaN(averageWeight) ? null : averageWeight,
+                  averageWeight: isNaN(averageWeight) ? null : averageWeight, // Save as null if it's NaN
                   priority
                 }
               }
@@ -126,7 +125,7 @@ const emergingIssueComponentsCalculation = async function () {
               negativeSentimentAnalysisDataCount,
               sources,
               sdgTargets: sdgTargets.flat(),
-              averageWeight: isNaN(averageWeight) ? null : averageWeight,
+              averageWeight: isNaN(averageWeight) ? null : averageWeight, // Save as null if it's NaN
               priority
             });
             await newDocument.save();
@@ -136,7 +135,6 @@ const emergingIssueComponentsCalculation = async function () {
       console.error('Error during processing:', error);
   }
 };
-
 
   module.exports = {
     emergingIssueComponentsCalculation: emergingIssueComponentsCalculation

@@ -53,6 +53,8 @@ const emergingIssueDataUpdate = async () => {
 const emergingIssueComponentsCalculation = async function () {
   try {
       console.log(`START: Processing emerging issues.`);
+      // await emergingIssueDataUpdate();
+
       const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergingIssue");
       console.log(`Processing ${uniqueIssues.length} unique emerging issues.`);
 
@@ -60,32 +62,33 @@ const emergingIssueComponentsCalculation = async function () {
           console.log(`Processing issue: ${issue}`);
 
           const issueDocuments = await EmergenceIssueOfTheMonthDataModel.find({ emergingIssue: issue });
-          
 
           let totalWeight = 0;
           issueDocuments.forEach(doc => totalWeight += doc.weight);
-          const averageWeight = issueDocuments.length > 0 ? totalWeight / issueDocuments.length : NaN;
+          const averageWeight = issueDocuments.length > 0 ? totalWeight / issueDocuments.length : 0;
           const repetition = issueDocuments.length;
 
           let priority;
-          if (isNaN(averageWeight)) {
-              priority = 'Other Issues';
-          } else if (averageWeight >= 80) {
+          if (averageWeight >= 80) {
               priority = repetition > 2 ? 'High' : repetition === 2 ? 'Medium' : 'Low';
           } else {
               priority = repetition > 2 ? 'Medium' : repetition === 2 ? 'Low' : 'Other Issues';
           }
 
-          console.log(`${issue} - Average Weight: ${isNaN(averageWeight) ? 'NaN' : averageWeight.toFixed(2)}, Repetition: ${repetition}, priority: ${priority}`);
+          console.log(`${issue} - Average Weight: ${averageWeight.toFixed(2)}, Repetition: ${repetition}, priority: ${priority}`);
 
-          const aggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([
-              { $match: { emergingIssue: issue } },
-              { $group: {
-                  _id: "$emergingIssue",
-                  sources: { $addToSet: "$source" },
-                  sdgTargets: { $addToSet: "$sdgTargeted" }
-              }}
-          ]);
+          if (!isNaN(averageWeight)) { // Check if averageWeight is a valid number
+            const aggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([
+                { $match: { emergingIssue: issue } },
+                { $group: {
+                    _id: "$emergingIssue",
+                    sources: { $addToSet: "$source" },
+                    sdgTargets: { $addToSet: "$sdgTargeted" }
+                }}
+            ]);
+          } else {
+            console.log(`Skipping issue ${issue} because averageWeight is not a valid number.`);
+          }
 
           const { sources, sdgTargets } = aggregation.length > 0 ? aggregation[0] : { sources: [], sdgTargets: [] };
 
@@ -111,7 +114,7 @@ const emergingIssueComponentsCalculation = async function () {
                   negativeSentimentAnalysisDataCount,
                   sources,
                   sdgTargets: sdgTargets.flat(),
-                  averageWeight: isNaN(averageWeight) ? null : averageWeight,
+                  averageWeight,
                   priority
                 }
               }
@@ -126,7 +129,7 @@ const emergingIssueComponentsCalculation = async function () {
               negativeSentimentAnalysisDataCount,
               sources,
               sdgTargets: sdgTargets.flat(),
-              averageWeight: isNaN(averageWeight) ? null : averageWeight,
+              averageWeight,
               priority
             });
             await newDocument.save();
@@ -136,7 +139,6 @@ const emergingIssueComponentsCalculation = async function () {
       console.error('Error during processing:', error);
   }
 };
-
 
   module.exports = {
     emergingIssueComponentsCalculation: emergingIssueComponentsCalculation

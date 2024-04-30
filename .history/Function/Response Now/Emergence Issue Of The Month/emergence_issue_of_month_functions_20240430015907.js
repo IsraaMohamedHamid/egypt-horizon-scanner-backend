@@ -60,23 +60,20 @@ const emergingIssueComponentsCalculation = async function () {
           console.log(`Processing issue: ${issue}`);
 
           const issueDocuments = await EmergenceIssueOfTheMonthDataModel.find({ emergingIssue: issue });
-          
 
           let totalWeight = 0;
           issueDocuments.forEach(doc => totalWeight += doc.weight);
-          const averageWeight = issueDocuments.length > 0 ? totalWeight / issueDocuments.length : NaN;
+          const averageWeight = issueDocuments.length > 0 ? totalWeight / issueDocuments.length : 0;
           const repetition = issueDocuments.length;
 
           let priority;
-          if (isNaN(averageWeight)) {
-              priority = 'Other Issues';
-          } else if (averageWeight >= 80) {
+          if (averageWeight >= 80) {
               priority = repetition > 2 ? 'High' : repetition === 2 ? 'Medium' : 'Low';
           } else {
               priority = repetition > 2 ? 'Medium' : repetition === 2 ? 'Low' : 'Other Issues';
           }
 
-          console.log(`${issue} - Average Weight: ${isNaN(averageWeight) ? 'NaN' : averageWeight.toFixed(2)}, Repetition: ${repetition}, priority: ${priority}`);
+          console.log(`${issue} - Average Weight: ${averageWeight.toFixed(2)}, Repetition: ${repetition}, priority: ${priority}`);
 
           const aggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([
               { $match: { emergingIssue: issue } },
@@ -111,7 +108,7 @@ const emergingIssueComponentsCalculation = async function () {
                   negativeSentimentAnalysisDataCount,
                   sources,
                   sdgTargets: sdgTargets.flat(),
-                  averageWeight: isNaN(averageWeight) ? null : averageWeight,
+                  averageWeight,
                   priority
                 }
               }
@@ -126,7 +123,7 @@ const emergingIssueComponentsCalculation = async function () {
               negativeSentimentAnalysisDataCount,
               sources,
               sdgTargets: sdgTargets.flat(),
-              averageWeight: isNaN(averageWeight) ? null : averageWeight,
+              averageWeight,
               priority
             });
             await newDocument.save();

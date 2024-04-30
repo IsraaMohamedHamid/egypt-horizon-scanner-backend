@@ -60,23 +60,22 @@ const emergingIssueComponentsCalculation = async function () {
           console.log(`Processing issue: ${issue}`);
 
           const issueDocuments = await EmergenceIssueOfTheMonthDataModel.find({ emergingIssue: issue });
-          
 
           let totalWeight = 0;
           issueDocuments.forEach(doc => totalWeight += doc.weight);
-          const averageWeight = issueDocuments.length > 0 ? totalWeight / issueDocuments.length : NaN;
+          const averageWeight = issueDocuments.length > 0 ? totalWeight / issueDocuments.length : ''; // Replace NaN with empty string
           const repetition = issueDocuments.length;
 
           let priority;
-          if (isNaN(averageWeight)) {
-              priority = 'Other Issues';
+          if (averageWeight === '') {
+              priority = 'Other Issues'; // If averageWeight is empty, prioritize as Other Issues
           } else if (averageWeight >= 80) {
               priority = repetition > 2 ? 'High' : repetition === 2 ? 'Medium' : 'Low';
           } else {
               priority = repetition > 2 ? 'Medium' : repetition === 2 ? 'Low' : 'Other Issues';
           }
 
-          console.log(`${issue} - Average Weight: ${isNaN(averageWeight) ? 'NaN' : averageWeight.toFixed(2)}, Repetition: ${repetition}, priority: ${priority}`);
+          console.log(`${issue} - Average Weight: ${averageWeight === '' ? 'NaN' : averageWeight.toFixed(2)}, Repetition: ${repetition}, priority: ${priority}`);
 
           const aggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([
               { $match: { emergingIssue: issue } },
@@ -111,7 +110,7 @@ const emergingIssueComponentsCalculation = async function () {
                   negativeSentimentAnalysisDataCount,
                   sources,
                   sdgTargets: sdgTargets.flat(),
-                  averageWeight: isNaN(averageWeight) ? null : averageWeight,
+                  averageWeight: averageWeight === '' ? null : averageWeight, // Save as null if it's empty
                   priority
                 }
               }
@@ -126,7 +125,7 @@ const emergingIssueComponentsCalculation = async function () {
               negativeSentimentAnalysisDataCount,
               sources,
               sdgTargets: sdgTargets.flat(),
-              averageWeight: isNaN(averageWeight) ? null : averageWeight,
+              averageWeight: averageWeight === '' ? null : averageWeight, // Save as null if it's empty
               priority
             });
             await newDocument.save();
@@ -136,7 +135,6 @@ const emergingIssueComponentsCalculation = async function () {
       console.error('Error during processing:', error);
   }
 };
-
 
   module.exports = {
     emergingIssueComponentsCalculation: emergingIssueComponentsCalculation
