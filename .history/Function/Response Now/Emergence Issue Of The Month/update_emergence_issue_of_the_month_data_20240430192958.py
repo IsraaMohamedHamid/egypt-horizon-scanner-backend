@@ -44,7 +44,7 @@ def update_emerging_issues_data(data):
 
 if __name__ == "__main__":
     # Connect to MongoDB database
-    mongo_uri = 'mongodb+srv://doadmin:73Le6F4d2hZ9K8Y0@dbaas-db-5626135-310aba91.mongo.ondigitalocean.com/egypt-horizon-scanner?replicaSet=dbaas-db-5626135&tls=true&authSource=admin'
+    mongo_uri = 'mongodb+srv://doapps-64bbd52d-f512-4a3b-a0af-6783931a6a1d:C5m03AU1rcI9u872@dbaas-db-5626135-310aba91.mongo.ondigitalocean.com/egypt-horizon-scanner?tls=true&authSource=admin&replicaSet=dbaas-db-5626135'
     client = MongoClient(mongo_uri)
     db = client["egypt-horizon-scanner"]
     collection = db["emergence_issue_of_the_month_data"]
