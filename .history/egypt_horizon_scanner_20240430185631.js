@@ -21,12 +21,12 @@ egyptHorizonScanner.use(express.json());
 //     }
 // );
 
-// username = doapps-64bbd52d-f512-4a3b-a0af-6783931a6a1d
-// password = C5m03AU1rcI9u872 hide
-// host = mongodb+srv://private-dbaas-db-5626135-2e5862ed.mongo.ondigitalocean.com
-// database = egypt-horizon-scanner
+username = doapps-64bbd52d-f512-4a3b-a0af-6783931a6a1d
+password = C5m03AU1rcI9u872 hide
+host = mongodb+srv://private-dbaas-db-5626135-2e5862ed.mongo.ondigitalocean.com
+database = egypt-horizon-scanner
 
-const dbURI = 'mongodb+srv://doapps-64bbd52d-f512-4a3b-a0af-6783931a6a1d:C5m03AU1rcI9u872@private-dbaas-db-5626135-2e5862ed.mongo.ondigitalocean.com/egypt-horizon-scanner?tls=true&authSource=admin&replicaSet=dbaas-db-5626135';
+const dbURI = 'mongodb+srv://doadmin:3SPyA6U2Q901Ot75@dbaas-db-5626135-310aba91.mongo.ondigitalocean.com/egypt-horizon-scanner?tls=true&authSource=admin&replicaSet=dbaas-db-5626135';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, tls: true, authSource: 'admin' })
   .then(() => console.log('MongoDB connected...'))
   .catch(err => console.log(err));
