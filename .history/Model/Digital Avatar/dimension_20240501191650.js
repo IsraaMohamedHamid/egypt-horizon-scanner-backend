@@ -10,5 +10,17 @@ const dimensionSchema = new mongoose.Schema({
   Source: { type: String, required: true },
   Notes: { type: String, required: true }
 });
+{
+  "Dimension": "Gross written premium (GWP)",
+  "Pillars": "Economic development",
+  "Indicators": "GDP, current prices",
+  "Type": "Quantitative",
+  "DataVisualization": [
+      "Bar Chart",
+      "Timeline"
+  ],
+  "Source": "IMF",
+  "Notes": null
+},
 
 module.exports = mongoose.model('dimensions', dimensionSchema, 'dimensions');

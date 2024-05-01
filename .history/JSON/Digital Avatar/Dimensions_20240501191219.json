@@ -137,7 +137,7 @@
   {
       "Dimension":"Gross written premium (GWP)",
       "Pillars":"Economic development",
-      "Indicators":"Support for youth entrepreneurs",
+      "Indicators":"Support for youth entrepreneurs ",
       "Type":"Quantitative and Qualitative",
       "Data Visualization":"Pie Chart, Info Box",
       "Source":"Multiple",
@@ -228,7 +228,7 @@
       "Dimension":"Gross written premium (GWP)",
       "Pillars":"Economic development",
       "Indicators":"Number of health startups and firms and gender breakdown",
-      "Type":"Qualitative and Quantitative",
+      "Type":"Qualitative and quantitative",
       "Data Visualization":"Pie Chart, Info Box",
       "Source":"Multiple",
       "Notes":null
@@ -237,7 +237,7 @@
       "Dimension":"Gross written premium (GWP)",
       "Pillars":"Economic development",
       "Indicators":"Number of Ownership of transactional accounts (bank accounts, Egypt Post accounts, mobile wallets, and prepaid cards)\nNumber of Prepaid Cards\nNumber of Mobile Wallets\nNumber of financial access points\n",
-      "Type":"Qualitative and Quantitative",
+      "Type":"Qualitative and quantitative",
       "Data Visualization":"Info Box, Column Chart",
       "Source":"Central Bank of Egypt",
       "Notes":null
@@ -255,7 +255,7 @@
       "Dimension":"Gross written premium (GWP)",
       "Pillars":"Economic development",
       "Indicators":"Multiple Indicators, Multiple Causes\u201d (MIMIC)",
-      "Type":"Qualitative and Quantitative",
+      "Type":"Qualitative and quantitative",
       "Data Visualization":"Info Box",
       "Source":"International Journal of Business Management and Economic Research",
       "Notes":"The MIMIC approach explicitly considers several causes, as well as the multiple effects of the informal economy. The methodology makes use of the associations between the observable causes and the observable effects of an unobserved variable, in this case, the informal economy, to estimate the unobserved factor itself"
@@ -264,7 +264,7 @@
       "Dimension":"Gross written premium (GWP)",
       "Pillars":"Economic development",
       "Indicators":"Capital investment, percent of GDP",
-      "Type":"Quantitative",
+      "Type":"quantitative",
       "Data Visualization":"Info Box, Column Chart, Timeline",
       "Source":"\nThe global economy",
       "Notes":null
@@ -273,7 +273,7 @@
       "Dimension":"Gross written premium (GWP)",
       "Pillars":"Economic development",
       "Indicators":"Egypt Foreign Direct Investment",
-      "Type":"Quantitative",
+      "Type":"quantitative",
       "Data Visualization":"Timeline, Area Chart",
       "Source":"ceicdata\nCentral Bank of Egypt",
       "Notes":null
@@ -282,7 +282,7 @@
       "Dimension":"Gross written premium (GWP)",
       "Pillars":"Economic development",
       "Indicators":"Total, private and public investments:\nTotal new establishments and expansions\nNet FDI in Egypt\nTop 5 Net FDI countries in Egypt",
-      "Type":"Quantitative",
+      "Type":"quantitative",
       "Data Visualization":"Timeline, Area Chart",
       "Source":"Central Bank of Egypt",
       "Notes":null
@@ -291,7 +291,7 @@
       "Dimension":"Gross written premium (GWP)",
       "Pillars":"Economic development",
       "Indicators":"Enablers for SMEs in the renewable energy sector",
-      "Type":"Qualitative",
+      "Type":"Qualitative ",
       "Data Visualization":"Info Box",
       "Source":"Multiple",
       "Notes":null
@@ -354,7 +354,7 @@
       "Dimension":"Gross written premium (GWP)",
       "Pillars":"Energy",
       "Indicators":"The phase model for energy transitions towards renewables-based low-carbon energy systems in the MENA countries \nElectricity Generation",
-      "Type":"Qualitative and Quantitative",
+      "Type":"Qualitative and quantitative",
       "Data Visualization":"Timeline, Info Box, Pie Chart",
       "Source":"FRIEDRICH-EBERT-STIFTUNG",
       "Notes":"focusing on the energy sector (low-carbon energy system mode and electricity generation) to measure the state of green transition"
@@ -364,7 +364,7 @@
       "Pillars":"Energy",
       "Indicators":"Investment in renewable energy (firm, % or number)",
       "Type":"Quantitative",
-      "Data Visualization":"Bar Chart",
+      "Data Visualization":"Bar Chart ",
       "Source":"Multiple",
       "Notes":null
   },
@@ -390,7 +390,7 @@
       "Dimension":"Gross written premium (GWP)",
       "Pillars":"Knowledge, innovation and scientific research",
       "Indicators":"Agriculture Innovation Project: Geographical and gender breakdown",
-      "Type":"Qualitative",
+      "Type":"Qualitative ",
       "Data Visualization":"Info Box",
       "Source":"Main source",
       "Notes":"Partnerships cluster: need to contact the main source to use their data"
@@ -399,7 +399,7 @@
       "Dimension":"Gross written premium (GWP)",
       "Pillars":"Knowledge, innovation and scientific research",
       "Indicators":"Enabling technologies for farmers examples",
-      "Type":"Qualitative",
+      "Type":"Qualitative ",
       "Data Visualization":"Info Box",
       "Source":"Multiple",
       "Notes":null
@@ -417,7 +417,7 @@
       "Dimension":"Gross written premium (GWP)",
       "Pillars":"Knowledge, innovation and scientific research",
       "Indicators":"Crops Production: Enabling technologies for farmers examples",
-      "Type":"Qualitative",
+      "Type":"Qualitative ",
       "Data Visualization":"Info Box",
       "Source":"Multiple",
       "Notes":null
@@ -453,7 +453,7 @@
       "Dimension":"Gross written premium (GWP)",
       "Pillars":"Knowledge, innovation and scientific research",
       "Indicators":"Digital food solutions",
-      "Type":"Qualitative",
+      "Type":"Qualitative ",
       "Data Visualization":"Info Box",
       "Source":"Multiple",
       "Notes":null
@@ -462,7 +462,7 @@
       "Dimension":"Gross written premium (GWP)",
       "Pillars":"Knowledge, innovation and scientific research",
       "Indicators":"Number of the Financial inclusion\nNumber of Fintech and digital inancial services \nGlobal innovation Index\nglobal Fintech startups ecosystem \nAfrican Fintech ecosystem \nAfrican Fintech investment ecosystem \nMENA Fintech ecosystem",
-      "Type":"Quantitative",
+      "Type":" quantitative",
       "Data Visualization":"Timeline, Area Chart",
       "Source":"Central Bank of Egypt",
       "Notes":"CBE consider the total number for each mentioned indicator as the tool for measuring the innovative finance state\nFinancial inclusion regularly refer to individuals who are financially included"
@@ -480,7 +480,7 @@
       "Dimension":"Gross written premium (GWP)",
       "Pillars":"Knowledge, innovation and scientific research",
       "Indicators":"using Digital Economy Eountry Assessment (DECA) that measures the digital economy across 5 pillars including Digital infrastructure, Digital skills, Digital platforms, Digital financial services and Digital entrepreneurship",
-      "Type":"Qualitative and Quantitative",
+      "Type":"Qualitative and quantitative",
       "Data Visualization":"Info Box",
       "Source":"World Bank Group",
       "Notes":"Using the DECA model that includes the mentioned 5 pillars which are reflected as indicators to measure the state of digitalization"
@@ -533,7 +533,7 @@
   {
       "Dimension":"Gross written premium (GWP)",
       "Pillars":"Knowledge, innovation and scientific research",
-      "Indicators":"MENA Fintech startups ecosystem",
+      "Indicators":" MENA Fintech startups ecosystem",
       "Type":"Quantitative",
       "Data Visualization":"Timeline, Area Chart",
       "Source":"Central Bank of Egypt",
@@ -554,15 +554,15 @@
       "Indicators":"SIS announcement",
       "Type":"Qualitative",
       "Data Visualization":"Info Box",
-      "Source":"SIS",
+      "Source":"SIS ",
       "Notes":"SIS announcement included the innovation index as an indicator for innovative education and the progress in the scientific research "
   },
   {
       "Dimension":"Gross written premium (GWP)",
       "Pillars":"Transparency and efficient government institutions",
-      "Indicators":"Ease of doing business",
+      "Indicators":"Ease of doing business ",
       "Type":"Quantitative",
-      "Data Visualization":"Bar Chart, Donut Chart",
+      "Data Visualization":"Bar Chart, Donut Chart ",
       "Source":"World Bank",
       "Notes":null
   },
@@ -588,7 +588,7 @@
       "Dimension":"SOCIAL DIMENSION",
       "Pillars":"Social justice",
       "Indicators":"Security Incidents (S)",
-      "Type":"Qualitative and Quantitative",
+      "Type":"Qualitative and quantitative",
       "Data Visualization":"Timeline, Bar Chart, Map",
       "Source":"ACLED",
       "Notes":"Countires to focus on other than Egypt (S, R) would be Palestine (R), Sudan (R), Libya (S), Ethiopia (W), GCC (S), US (S) and the EU (R). Sources would include using keywords that include Egypt for the political research and anything that would affect Egypt political situation based on the indicators and countries mentioned.\n"
@@ -596,7 +596,7 @@
   {
       "Dimension":"SOCIAL DIMENSION",
       "Pillars":"Social justice",
-      "Indicators":"Laws and policies concerning GBV (S)",
+      "Indicators":"Laws and policies concerning GBV (S) ",
       "Type":"Qualitative",
       "Data Visualization":"Info Box",
       "Source":"UNHCR, UNDP and Egypt Today",
@@ -606,7 +606,7 @@
       "Dimension":"SOCIAL DIMENSION",
       "Pillars":"Social justice",
       "Indicators":"Refugees (R)",
-      "Type":"Qualitative and Quantitative",
+      "Type":"Qualitative and quantitative",
       "Data Visualization":"Timeline, Bar Chart, Map",
       "Source":"UNHCR and IOM",
       "Notes":null
@@ -614,7 +614,7 @@
   {
       "Dimension":"SOCIAL DIMENSION",
       "Pillars":"Social justice",
-      "Indicators":"Laws and policies concerning GBV for refugees (R)",
+      "Indicators":"Laws and policies concerning GBV for refugees (R) ",
       "Type":"Qualitative",
       "Data Visualization":"Info Box",
       "Source":"UNHCR and UNDP",
@@ -686,7 +686,7 @@
   {
       "Dimension":"SOCIAL DIMENSION",
       "Pillars":"Social justice",
-      "Indicators":"Number of women farmers affected by rainfalls and heatwaves",
+      "Indicators":"Number of women farmers affected by rainfalls and heatwaves ",
       "Type":"Quantitative",
       "Data Visualization":"Timeline, Bar Chart",
       "Source":"Multiple",
@@ -696,7 +696,7 @@
       "Dimension":"SOCIAL DIMENSION",
       "Pillars":"Social justice",
       "Indicators":"Empowering women in agricultural mitigations examples",
-      "Type":"Qualitative",
+      "Type":"Qualitative ",
       "Data Visualization":"Info Box",
       "Source":"Multiple",
       "Notes":null
@@ -714,7 +714,7 @@
       "Dimension":"SOCIAL DIMENSION",
       "Pillars":"Social justice",
       "Indicators":"The program and innovative implementation (e.g. digital registration or cash-based transfers using e-wallets)\nThe Timeline \nThe budget\nThe goals (including number of targeted people and gender breakdown) \nActors (e.g. the government, international organizations\u2026etc) and the donors\n",
-      "Type":"Qualitative and Quantitative",
+      "Type":"Qualitative and quantitative",
       "Data Visualization":"Timeline (number of people and years), Info Box",
       "Source":"Their source",
       "Notes":"Partnerships cluster: need to contact the main source to use their data"
@@ -743,14 +743,14 @@
       "Indicators":"Insuarnce indicator: Average Gross Written Insurance per Capita",
       "Type":"Quantitative",
       "Data Visualization":"Bar Chart",
-      "Source":"Statista",
+      "Source":"Statista ",
       "Notes":"need to subscribe for access to full data "
   },
   {
       "Dimension":"SOCIAL DIMENSION",
       "Pillars":"Social justice",
       "Indicators":"The program and number of innovative interventions \nThe Timeline \nThe budget\nThe goals (including number of targeted people and gender breakdown) \nActors (e.g. the government, international organizations\u2026etc) and the donors\n",
-      "Type":"Qualitative and Quantitative",
+      "Type":"Qualitative and quantitative",
       "Data Visualization":"Timeline (number of people and years), Info Box",
       "Source":"Their source",
       "Notes":"Partnerships cluster: need to contact the main source to use their data"
@@ -759,7 +759,7 @@
       "Dimension":"SOCIAL DIMENSION",
       "Pillars":"Health",
       "Indicators":"Private vs public hospitals",
-      "Type":"Qualitative and Quantitative",
+      "Type":"Qualitative and quantitative",
       "Data Visualization":"Pie Chart, Info Box",
       "Source":"Statista",
       "Notes":"Find original source"
@@ -778,7 +778,7 @@
       "Pillars":"Health",
       "Indicators":"Mortality rates and gender breakdown",
       "Type":"Quantitative",
-      "Data Visualization":"Pie Chart",
+      "Data Visualization":"Pie Chart ",
       "Source":"WHO",
       "Notes":null
   },
@@ -796,7 +796,7 @@
       "Pillars":"Health",
       "Indicators":"Vaccination coverage for Egypt",
       "Type":"Quantitative",
-      "Data Visualization":"Bubbles",
+      "Data Visualization":"Bubbles ",
       "Source":"WHO",
       "Notes":"% for all available diseases up to the latest year available"
   },
@@ -866,7 +866,7 @@
   {
       "Dimension":"SOCIAL DIMENSION",
       "Pillars":"Education and training",
-      "Indicators":"Out of school children and gender breakdown",
+      "Indicators":"Out of school children and gender breakdown ",
       "Type":"Quantitative",
       "Data Visualization":"Timeline, Pie Chart",
       "Source":"UNESCO",
@@ -912,7 +912,7 @@
       "Dimension":"SOCIAL DIMENSION",
       "Pillars":"Culture",
       "Indicators":"Tourist expenditure in Egypt\nNumber of tourist arrivals from Europe\nNumber of jobs in the travel and tourism sector",
-      "Type":"Quantitative",
+      "Type":" quantitative",
       "Data Visualization":"Timeline, Area Chart",
       "Source":"Statista",
       "Notes":"need to subscribe for access to full data "
@@ -920,26 +920,26 @@
   {
       "Dimension":"SOCIAL DIMENSION",
       "Pillars":"Culture",
-      "Indicators":"Number of tourist arrivals from Europe",
-      "Type":"Quantitative",
+      "Indicators":"Number of tourist arrivals from Europe ",
+      "Type":"quantitative",
       "Data Visualization":"Timeline, Area Chart",
-      "Source":"Statista",
+      "Source":"Statista ",
       "Notes":"need to subscribe for access to full data "
   },
   {
       "Dimension":"SOCIAL DIMENSION",
       "Pillars":"Culture",
       "Indicators":"Number of jobs in the travel and tourism sector",
-      "Type":"Quantitative",
+      "Type":"quantitative",
       "Data Visualization":"Timeline, Area Chart",
-      "Source":"Statista",
+      "Source":"Statista ",
       "Notes":"need to subscribe for access to full data "
   },
   {
       "Dimension":"ENVIRONMENT DIMENSION",
       "Pillars":"Environment",
       "Indicators":"Water Issues (W)",
-      "Type":"Qualitative and Quantitative",
+      "Type":"Qualitative and quantitative",
       "Data Visualization":"Timeline, Bar Chart, Map",
       "Source":"Climate Diplomacy",
       "Notes":null
@@ -975,7 +975,7 @@
       "Dimension":"ENVIRONMENT DIMENSION",
       "Pillars":"Environment",
       "Indicators":"Projects to combat the effect of rainfalls and heatwaves",
-      "Type":"Qualitative",
+      "Type":"Qualitative ",
       "Data Visualization":"Info Box",
       "Source":"Multiple",
       "Notes":null
@@ -984,7 +984,7 @@
       "Dimension":"ENVIRONMENT DIMENSION",
       "Pillars":"Environment",
       "Indicators":"wind speed and wind direction",
-      "Type":"Quantitative",
+      "Type":"quantitative",
       "Data Visualization":"GIS Map",
       "Source":"windy.app",
       "Notes":null
@@ -993,7 +993,7 @@
       "Dimension":"ENVIRONMENT DIMENSION",
       "Pillars":"Environment",
       "Indicators":"Conventional resources: comprising the Nile river water, deep groundwater,rainfall and \ufb02ash \ufb02oods, and desalination.\nNon-conventional resources: comprising the shallow groundwater in the Nilevalley and delta, reusing of agricultural drainage water and treatment of wastew-ater since they are not considered as independent water resources and cannotexplicitly be added to the share of the fresh water in Egypt",
-      "Type":"Qualitative and Quantitative",
+      "Type":"Qualitative and quantitative",
       "Data Visualization":"Info Box, Column Chart, Timeline",
       "Source":"Research Gate",
       "Notes":null
@@ -1002,7 +1002,7 @@
       "Dimension":"ENVIRONMENT DIMENSION",
       "Pillars":"Environment",
       "Indicators":"salinity indices\nImaging Spectroscopy\nstatistical techniques\n",
-      "Type":"Qualitative and Quantitative",
+      "Type":"Qualitative and quantitative",
       "Data Visualization":"Info Box, GIS Map, Line Chart",
       "Source":"MDPI- Resaerch Gate",
       "Notes":"Statistical techniques indicator is based on statical class used to examine and predict rates related to the salinity \nUsing Image Spectroscopy to map the saline soil"
@@ -1020,7 +1020,7 @@
       "Dimension":"ENVIRONMENT DIMENSION",
       "Pillars":"Environment",
       "Indicators":"SCALA and National Climate Strategy",
-      "Type":"Qualitative",
+      "Type":"Qualitative ",
       "Data Visualization":"Info Box",
       "Source":"Their source",
       "Notes":"Partnerships cluster: need to contact the main source to use their data"
@@ -1029,7 +1029,7 @@
       "Dimension":"ENVIRONMENT DIMENSION",
       "Pillars":"Environment",
       "Indicators":"Imaging Spectroscopy",
-      "Type":"Qualitative and Quantitative",
+      "Type":"Qualitative and quantitative",
       "Data Visualization":"GIS Map",
       "Source":"MDPI- Resaerch Gate",
       "Notes":"Using Image Spectroscopy to map the saline soil  "
@@ -1038,7 +1038,7 @@
       "Dimension":"ENVIRONMENT DIMENSION",
       "Pillars":"Environment",
       "Indicators":"statistical techniques",
-      "Type":"Qualitative and Quantitative",
+      "Type":"Qualitative and quantitative",
       "Data Visualization":"Info Box, Line Chart",
       "Source":"MDPI- Resaerch Gate",
       "Notes":"Statistical techniques indicator is based on statical class used to examine and predict rates related to the salinity "
@@ -1092,7 +1092,7 @@
       "Dimension":"ENVIRONMENT DIMENSION",
       "Pillars":"Environment",
       "Indicators":"Non-conventional resources: comprising the shallow groundwater in the Nilevalley and delta, reusing of agricultural drainage water and treatment of waste water since they are not considered as independent water resources and cannot explicitly be added to the share of the fresh water in Egypt",
-      "Type":"Qualitative and Quantitative",
+      "Type":"Qualitative and quantitative",
       "Data Visualization":"Info Box, Column Chart, Timeline",
       "Source":"Research Gate",
       "Notes":null
@@ -1101,7 +1101,7 @@
       "Dimension":"ENVIRONMENT DIMENSION",
       "Pillars":"Urban development",
       "Indicators":"Africa infrastructure development index",
-      "Type":"Quantitative",
+      "Type":"quantitative",
       "Data Visualization":"Timeline, Area Chart",
       "Source":"Statista",
       "Notes":"need to subscribe for access to full data "

@@ -7,8 +7,8 @@ const dimensionSchema = new mongoose.Schema({
   Indicators: { type: String, required: true },
   Type: { type: String, required: true },
   DataVisualization: { type: [String], required: true },
-  Source: { type: String, required: true },
-  Notes: { type: String, required: true }
+  Source: { type: String, required: true }
+  Notes
 });
 
 module.exports = mongoose.model('dimensions', dimensionSchema, 'dimensions');

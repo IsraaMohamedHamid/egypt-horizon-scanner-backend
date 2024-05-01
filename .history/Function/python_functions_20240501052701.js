@@ -18,7 +18,7 @@ const path = require('path');
 
 ////////////////////////////////////////////// FUNCTIONS //////////////////////////////////////////////
 
-const pythonFunctions = () => {
+const pythonFunctionsc = () => {
   return new Promise((resolve, reject) => {
     try {
       console.log(`START: Processing emerging issues.`);

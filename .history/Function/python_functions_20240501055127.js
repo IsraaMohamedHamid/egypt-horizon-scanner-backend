@@ -70,7 +70,7 @@ const installPythonLibraries = () => {
   });
 };
 
-const startProcessing = async () => {
+const startProce xs sing = async () => {
   try {
     console.log('Installing Python libraries...');
     await installPythonLibraries();
