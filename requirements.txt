@@ -1,10 +1,9 @@
-transformers==4.21.1
-torch==1.12.1  # Use this for PyTorch
-# tensorflow==2.11.0  # Use this for TensorFlow if not using PyTorch
-numpy==1.23.1
+transformers
+torch  # Use this for PyTorch
+# tensorflow  # Use this for TensorFlow if not using PyTorch
+numpy
 pandas
 pymongo
 matplotlib
-# tensorflow
 tensorrt
 # scipy
