@@ -4,17 +4,19 @@ from pymongo import MongoClient
 from transformers import pipeline
 import os
 
-# Disable oneDNN optimizations to avoid numerical differences
+# Ensure TensorFlow does not attempt to use unavailable CUDA resources
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+# Optional: Disable oneDNN optimizations if you encounter unusual issues
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
-# Check if any GPUs are available
-gpus = tf.config.list_physical_devices('GPU')
-if not gpus:
-    # No GPUs found, use CPU only
-    os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
-else:
-    # GPUs are available, print out number found
-    print(f"Number of GPUs available: {len(gpus)}")
+# # Check if any GPUs are available
+# gpus = tf.config.list_physical_devices('GPU')
+# if not gpus:
+#     # No GPUs found, use CPU only
+#     os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+# else:
+#     # GPUs are available, print out number found
+#     print(f"Number of GPUs available: {len(gpus)}")
 
 # Function to assign sentiment
 def assign_sentiment(sentiment):
