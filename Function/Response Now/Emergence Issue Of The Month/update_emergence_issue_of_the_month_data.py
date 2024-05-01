@@ -4,6 +4,9 @@ from pymongo import MongoClient
 from transformers import pipeline
 import os
 
+# Disable oneDNN optimizations to avoid numerical differences
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+
 # Check if any GPUs are available
 gpus = tf.config.list_physical_devices('GPU')
 if not gpus:
