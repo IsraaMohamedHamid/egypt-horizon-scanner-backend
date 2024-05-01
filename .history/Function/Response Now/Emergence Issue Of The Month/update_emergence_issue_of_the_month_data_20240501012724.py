@@ -1,17 +1,8 @@
 import pandas as pd
-import tensorflow as tf
-from pymongo import MongoClient
 from transformers import pipeline
+from pymongo import MongoClient
 import os
-
-# Check if any GPUs are available
-gpus = tf.config.list_physical_devices('GPU')
-if not gpus:
-    # No GPUs found, use CPU only
-    os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
-else:
-    # GPUs are available, print out number found
-    print(f"Number of GPUs available: {len(gpus)}")
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
 # Function to assign sentiment
 def assign_sentiment(sentiment):

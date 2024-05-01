@@ -1,17 +1,8 @@
 import pandas as pd
-import tensorflow as tf
-from pymongo import MongoClient
 from transformers import pipeline
+from pymongo import MongoClient
 import os
-
-# Check if any GPUs are available
-gpus = tf.config.list_physical_devices('GPU')
-if not gpus:
-    # No GPUs found, use CPU only
-    os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
-else:
-    # GPUs are available, print out number found
-    print(f"Number of GPUs available: {len(gpus)}")
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
 # Function to assign sentiment
 def assign_sentiment(sentiment):
@@ -50,7 +41,7 @@ def update_emerging_issues_data(data, sentiment_analyzer):
 
 if __name__ == "__main__":
     # Connect to MongoDB database
-    mongo_uri = 'mongodb+srv://doadmin:73Le6F4d2hZ9K8Y0@dbaas-db-5626135-310aba91.mongo.ondigitalocean.com/egypt-horizon-scanner?replicaSet=dbaas-db-5626135&tls=true&authSource=admin'
+    mongo_uri = 'your_mongo_uri'
     client = MongoClient(mongo_uri)
     db = client["egypt-horizon-scanner"]
     collection = db["emergence_issue_of_the_month_data"]

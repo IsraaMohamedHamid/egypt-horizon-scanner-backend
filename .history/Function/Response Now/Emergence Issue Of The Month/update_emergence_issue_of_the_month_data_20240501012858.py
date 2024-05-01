@@ -1,8 +1,8 @@
 import pandas as pd
-import tensorflow as tf
-from pymongo import MongoClient
 from transformers import pipeline
+from pymongo import MongoClient
 import os
+import tensorflow as tf
 
 # Check if any GPUs are available
 gpus = tf.config.list_physical_devices('GPU')

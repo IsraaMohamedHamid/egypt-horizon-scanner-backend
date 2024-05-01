@@ -1,7 +1,6 @@
 import pandas as pd
 import tensorflow as tf
 from pymongo import MongoClient
-from transformers import pipeline
 import os
 
 # Check if any GPUs are available
