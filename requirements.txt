@@ -3,7 +3,7 @@ pandas
 pymongo
 transformers
 matplotlib
-tensorflow
+# tensorflow
 tensorrt
-# torch
+torch
 # scipy
