@@ -1,6 +1,8 @@
 import pandas as pd
 from transformers import pipeline
 from pymongo import MongoClient
+import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
 # Function to assign sentiment
 def assign_sentiment(sentiment):
