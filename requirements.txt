@@ -4,6 +4,6 @@ pymongo
 transformers
 matplotlib
 tensorflow
-tensorrt
+# tensorrt
 torch
 scipy
