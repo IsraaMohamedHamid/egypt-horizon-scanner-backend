@@ -4,4 +4,3 @@ pymongo
 transformers
 matplotlib
 tensorflow
-pytorch
