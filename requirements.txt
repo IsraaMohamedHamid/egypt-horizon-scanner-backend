@@ -6,4 +6,5 @@ pandas
 pymongo
 matplotlib
 tensorrt
+tf-keras
 # scipy
