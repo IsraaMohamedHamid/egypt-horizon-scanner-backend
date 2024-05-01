@@ -8,3 +8,4 @@ matplotlib
 tensorrt
 tf_keras
 # scipy
+nvidia-cudnn-cu11
