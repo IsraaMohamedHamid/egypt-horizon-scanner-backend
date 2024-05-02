@@ -9,4 +9,5 @@ tensorrt
 tf_keras
 # scipy
 nvidia-cudnn-cu12
+nvidia_cublas_cu12
 tf-keras
