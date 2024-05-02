@@ -4,6 +4,8 @@ from pymongo import MongoClient
 from transformers import TFDistilBertForSequenceClassification, DistilBertTokenizer, logging
 import os
 
+from transformers import 
+
 logging.set_verbosity_warning()
 
 # Ensure TensorFlow does not attempt to use unavailable CUDA resources

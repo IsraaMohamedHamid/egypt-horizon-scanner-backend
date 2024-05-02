@@ -67,7 +67,7 @@ const emergingIssueDataUpdate = () => {
 const emergingIssueComponentsCalculation = async function () {
   try {
 
-    // await startProcessing(); //TODO: Uncomment this line when the python script is ready
+    // await startProcessing();
     // Execute emergingIssueDataUpdate function before anything else
     await emergingIssueDataUpdate();
 

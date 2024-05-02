@@ -46,11 +46,11 @@ const emergingIssueDataUpdate = () => {
         console.log(`Python stdout: ${data}`);
       });
 
-      // // in case of any error in the script
-      // pythonProcess.stderr.on('data', (data) => {
-      //   console.error(`Python stderr: ${data}`);
-      //   reject(new Error(`Python script encountered an error: ${data}`));
-      // });
+      // in case of any error in the script
+      pythonProcess.stderr.on('data', (data) => {
+        console.error(`Python stderr: ${data}`);
+        reject(new Error(`Python script encountered an error: ${data}`));
+      });
 
       // in close event we are sure that stream from child process is closed
       pythonProcess.on('close', (code) => {
@@ -67,7 +67,7 @@ const emergingIssueDataUpdate = () => {
 const emergingIssueComponentsCalculation = async function () {
   try {
 
-    // await startProcessing(); //TODO: Uncomment this line when the python script is ready
+    await startProcessing();
     // Execute emergingIssueDataUpdate function before anything else
     await emergingIssueDataUpdate();
 
