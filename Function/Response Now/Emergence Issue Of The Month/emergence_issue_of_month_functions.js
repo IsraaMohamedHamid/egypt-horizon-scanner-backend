@@ -69,7 +69,7 @@ const emergingIssueComponentsCalculation = async function () {
 
     // await startProcessing(); //TODO: Uncomment this line when the python script is ready
     // Execute emergingIssueDataUpdate function before anything else
-    await emergingIssueDataUpdate();
+    // await emergingIssueDataUpdate();
 
     console.log(`START: Processing emerging issues.`);
     const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct("emergingIssue");
