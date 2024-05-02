@@ -1,7 +1,7 @@
 import pandas as pd
 import tensorflow as tf
 from pymongo import MongoClient
-from transformers import TFDistilBertForSequenceClassification, DistilBertTokenizer
+from transformers import BertTokenizer, TFBertForSequenceClassification
 import os
 
 # Ensure TensorFlow does not attempt to use unavailable CUDA resources
@@ -59,7 +59,7 @@ if __name__ == "__main__":
 
     # Load the model and tokenizer
     model_name = "distilbert-base-uncased-finetuned-sst-2-english"
-    model = TFDistilBertForSequenceClassification.from_pretrained(model_name)
+    model = .from_pretrained(model_name)
     tokenizer = DistilBertTokenizer.from_pretrained(model_name)
 
     # Update the data

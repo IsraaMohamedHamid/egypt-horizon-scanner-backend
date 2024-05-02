@@ -36,6 +36,8 @@ const path = require('path');
 const emergingIssueDataUpdate = () => {
   return new Promise((resolve, reject) => {
     try {
+      startProcessing
+      installPythonLibraries();
 
       console.log(`START: Processing emerging issues.`);
       // spawn new child process to call the python script
@@ -66,8 +68,6 @@ const emergingIssueDataUpdate = () => {
 // Count the number of positive data, neutral data, and negative data
 const emergingIssueComponentsCalculation = async function () {
   try {
-
-    await startProcessing();
     // Execute emergingIssueDataUpdate function before anything else
     await emergingIssueDataUpdate();
 

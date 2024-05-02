@@ -1,7 +1,7 @@
 import pandas as pd
 import tensorflow as tf
 from pymongo import MongoClient
-from transformers import TFDistilBertForSequenceClassification, DistilBertTokenizer
+from transformers import TFAutoModelForSequenceClassification, AutoTokenizer
 import os
 
 # Ensure TensorFlow does not attempt to use unavailable CUDA resources
@@ -59,17 +59,20 @@ if __name__ == "__main__":
 
     # Load the model and tokenizer
     model_name = "distilbert-base-uncased-finetuned-sst-2-english"
-    model = TFDistilBertForSequenceClassification.from_pretrained(model_name)
-    tokenizer = DistilBertTokenizer.from_pretrained(model_name)
+    model = TFAutoModelForSequenceClassification.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
 
     # Update the data
     updated_data = update_emerging_issues_data(data, model, tokenizer)
 
-    # Rename duplicate columns
-    updated_data = updated_data.loc[:,~updated_data.columns.duplicated()]
-
     # Save the updated data back to MongoDB collection
     updated_records = updated_data.to_dict(orient='records')
+    
+    # Check for duplicate column names
+    duplicate_columns = updated_data.columns.duplicated()
+    if duplicate_columns.any():
+        # Rename duplicate columns
+        updated_data.columns = [f'{col}_{i}' if duplicate else col for i, (col, duplicate) in enumerate(zip(updated_data.columns, duplicate_columns))]
 
     collection.delete_many({})  # Clear existing data
     collection.insert_many(updated_records)

@@ -1,7 +1,7 @@
 import pandas as pd
 import tensorflow as tf
 from pymongo import MongoClient
-from transformers import TFDistilBertForSequenceClassification, DistilBertTokenizer
+from transformers import BertTokenizer, TFBertForSequenceClassification
 import os
 
 # Ensure TensorFlow does not attempt to use unavailable CUDA resources

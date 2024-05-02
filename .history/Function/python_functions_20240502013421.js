@@ -50,7 +50,7 @@ const pythonFunctions = () => {
 
 const installPythonLibraries = () => {
   return new Promise((resolve, reject) => {
-    const libraries = ['pandas', 'transformers', 'pymongo', 'torch', 'torchvision','tf-keras','tensorflow'];
+    const libraries = ['pandas', 'transformers', 'pymongo', 'nltk', 'numpy', 'scipy', 'sklearn', 'matplotlib', 'seaborn', 'wordcloud', 'torch', 'torchvision', 'PIL', ];
     const commands = libraries.map(library => `pip3 install ${library}`).join(' && ');
 
     exec(commands, (error, stdout, stderr) => {

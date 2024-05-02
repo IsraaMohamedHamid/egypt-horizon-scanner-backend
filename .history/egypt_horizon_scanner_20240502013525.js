@@ -2,9 +2,6 @@ const express = require('express');
 const bodyParser = require("body-parser");
 const mongoose = require('mongoose');
 
-const{installPythonLibraries} = require('./Function/python_functions');
-
-
 const port = process.env.port || 3000;
 
 
@@ -80,6 +77,7 @@ egyptHorizonScanner.use('/digital-avatar/issue-source-category',  require('./Rou
 
 
 // Response Now
+egyptHorizonScanner.use('/response-now/issue', require('./Route/Response Now/Issue/issue'))
 
 //---------- INTERVENTIONS
 egyptHorizonScanner.use('/response-now/interventions', require('./Route/Response Now/Interventions/projects'))

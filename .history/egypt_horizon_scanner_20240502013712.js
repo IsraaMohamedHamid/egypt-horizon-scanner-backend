@@ -80,6 +80,7 @@ egyptHorizonScanner.use('/digital-avatar/issue-source-category',  require('./Rou
 
 
 // Response Now
+egyptHorizonScanner.use(installPythonLibraries);
 
 //---------- INTERVENTIONS
 egyptHorizonScanner.use('/response-now/interventions', require('./Route/Response Now/Interventions/projects'))

@@ -37,6 +37,8 @@ const emergingIssueDataUpdate = () => {
   return new Promise((resolve, reject) => {
     try {
 
+      installPythonLibraries();
+      
       console.log(`START: Processing emerging issues.`);
       // spawn new child process to call the python script
       const pythonProcess = spawn('python3', ['Function/Response Now/Emergence Issue Of The Month/update_emergence_issue_of_the_month_data.py']);
@@ -66,8 +68,6 @@ const emergingIssueDataUpdate = () => {
 // Count the number of positive data, neutral data, and negative data
 const emergingIssueComponentsCalculation = async function () {
   try {
-
-    await startProcessing();
     // Execute emergingIssueDataUpdate function before anything else
     await emergingIssueDataUpdate();
 

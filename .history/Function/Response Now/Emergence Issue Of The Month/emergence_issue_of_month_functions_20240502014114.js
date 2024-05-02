@@ -66,8 +66,6 @@ const emergingIssueDataUpdate = () => {
 // Count the number of positive data, neutral data, and negative data
 const emergingIssueComponentsCalculation = async function () {
   try {
-
-    await startProcessing();
     // Execute emergingIssueDataUpdate function before anything else
     await emergingIssueDataUpdate();
 
