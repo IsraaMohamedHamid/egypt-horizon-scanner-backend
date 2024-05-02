@@ -52,7 +52,7 @@ const getEmergingIssues = async (req, res, next) => {
         return;
       }
 
-      console.log(`START: Sending sorted and processed emerging issues as response.`);
+      
   
       // Send sorted and processed emerging issues as response
       res.send(emergingIssues);

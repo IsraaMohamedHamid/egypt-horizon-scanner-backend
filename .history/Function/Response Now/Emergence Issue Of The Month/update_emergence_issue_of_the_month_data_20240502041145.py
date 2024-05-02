@@ -1,7 +1,7 @@
 import pandas as pd
 import tensorflow as tf
 from pymongo import MongoClient
-from transformers import TinyBertTokenizer, TFAutoModelForSequenceClassification, logging
+from transformers import TFDistilBertForSequenceClassification, DistilBertTokenizer, logging
 import os
 
 logging.set_verbosity_warning()
@@ -60,9 +60,9 @@ if __name__ == "__main__":
     data = pd.DataFrame(list(collection.find()))
 
     # Load the model and tokenizer
-    model_name = "voidful/albert_chinese_tiny"
-    model = TFAutoModelForSequenceClassification.from_pretrained(model_name)
-    tokenizer = TinyBertTokenizer.from_pretrained(model_name)
+    model_name = "google/mobilebert-uncased"
+    model = TFDistilBertForSequenceClassification.from_pretrained(model_name)
+    tokenizer = DistilBertTokenizer.from_pretrained(model_name)
 
     # Update the data
     updated_data = update_emerging_issues_data(data, model, tokenizer)

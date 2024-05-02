@@ -40,19 +40,15 @@ const getEmergingIssues = async (req, res, next) => {
       // Calculate components for the retrieved emerging issues
       await emergingIssueComponentsCalculation().catch(console.error);
 
-      console.log(`START: Retrieving and processing emerging issues.`);
+      
   
       // Get all emerging issues from the database and sort them
       const emergingIssues = await EmergenceIssueOfTheMonthModel.find({}).sort(sort);
-
-      console.log(`END: Retrieving and processing emerging issues.`);
   
       if (!emergingIssues.length) {
         res.status(404).send('No emerging issues found.');
         return;
       }
-
-      console.log(`START: Sending sorted and processed emerging issues as response.`);
   
       // Send sorted and processed emerging issues as response
       res.send(emergingIssues);

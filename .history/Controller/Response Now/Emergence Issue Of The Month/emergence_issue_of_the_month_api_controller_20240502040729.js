@@ -51,8 +51,6 @@ const getEmergingIssues = async (req, res, next) => {
         res.status(404).send('No emerging issues found.');
         return;
       }
-
-      console.log(`START: Sending sorted and processed emerging issues as response.`);
   
       // Send sorted and processed emerging issues as response
       res.send(emergingIssues);

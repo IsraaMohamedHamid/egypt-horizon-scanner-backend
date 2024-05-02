@@ -60,9 +60,9 @@ if __name__ == "__main__":
     data = pd.DataFrame(list(collection.find()))
 
     # Load the model and tokenizer
-    model_name = "voidful/albert_chinese_tiny"
+    model_name = "google/mobilebert-uncased"
     model = TFAutoModelForSequenceClassification.from_pretrained(model_name)
-    tokenizer = TinyBertTokenizer.from_pretrained(model_name)
+    tokenizer = MobileBertTokenizer.from_pretrained(model_name)
 
     # Update the data
     updated_data = update_emerging_issues_data(data, model, tokenizer)
