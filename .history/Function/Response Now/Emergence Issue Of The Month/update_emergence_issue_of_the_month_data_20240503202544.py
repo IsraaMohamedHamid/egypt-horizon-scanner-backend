@@ -1,3 +1,5 @@
+pip install langdetect
+
 import pandas as pd
 import tensorflow as tf
 from pymongo import MongoClient
