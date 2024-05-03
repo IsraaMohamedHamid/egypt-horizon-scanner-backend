@@ -93,7 +93,7 @@ if __name__ == "__main__":
     # Load the model and tokenizer
     model_name = "voidful/albert_chinese_tiny"
     model = TFAutoModelForSequenceClassification.from_pretrained(model_name)
-    tokenizer =  BertTokenizer.from_pretrained(model_name) # TinyBertTokenizer.from_pretrained(model_name)
+    tokenizer =  BertTokenizer.from_pretrained(model_name) # TinyBertTokenizer
 
     # Update the data
     updated_data = update_emerging_issues_data(data, model, tokenizer)
