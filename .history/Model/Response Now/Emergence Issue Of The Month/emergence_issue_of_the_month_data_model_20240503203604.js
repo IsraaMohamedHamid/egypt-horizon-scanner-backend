@@ -29,7 +29,7 @@ const EmergenceIssueOfTheMonthDataSchema= new Schema({
     emergingIssue: {
         type: String
     },
-    language: {
+    emergingIssue: {
         type: String
     },
     description: {

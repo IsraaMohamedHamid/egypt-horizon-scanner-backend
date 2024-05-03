@@ -15,27 +15,12 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 # Set seed to get consistent results
 DetectorFactory.seed = 0
 
-# Language code to full name mapping
-language_mapping = {
-    'en': 'English',
-    'ar': 'Arabic',
-    'fr': 'French',
-    'es': 'Spanish',
-    'de': 'German',
-    'zh': 'Chinese',
-    'ja': 'Japanese',
-    'ru': 'Russian',
-    'it': 'Italian',
-    'pt': 'Portuguese'
-}
-
-# Function to detect language and return full name
+# Function to detect language
 def detect_language(text):
     try:
-        code = detect(text)
-        return language_mapping.get(code, 'Unknown')
+        return detect(text)
     except:
-        return 'Unknown'
+        return None
 
 # Function to assign sentiment
 def assign_sentiment(sentiment):
