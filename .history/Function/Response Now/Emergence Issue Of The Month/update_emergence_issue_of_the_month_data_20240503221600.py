@@ -91,12 +91,12 @@ if __name__ == "__main__":
     data = pd.DataFrame(list(collection.find()))
 
     # Load the model and tokenizer
-    model_name = "albert/albert-base-v2" # "voidful/albert_chinese_tiny"
+    model_name = "prajjwal1/bert-tiny" # "voidful/albert_chinese_tiny"
     # pipe = pipeline("fill-mask", model="albert/albert-base-v2")
-    
     # Load model directly
+
     # model = AutoModel.from_pretrained("prajjwal1/bert-tiny")
-    model = TFAutoModelForSequenceClassification.from_pretrained(model_name)
+    model = AutoModelForSequenceClassification.from_pretrained(model_name)
     tokenizer =  AutoTokenizer.from_pretrained(model_name) # TinyBertTokenizer.from_pretrained(model_name)
 
     # Update the data

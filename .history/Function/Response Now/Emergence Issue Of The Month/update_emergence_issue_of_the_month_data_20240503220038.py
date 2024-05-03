@@ -2,7 +2,7 @@ import logging
 import pandas as pd
 import tensorflow as tf
 from pymongo import MongoClient
-from transformers import BertTokenizer, MobileBertTokenizer, AutoModelForSequenceClassification, TFAutoModelForSequenceClassification, AutoModel, AutoTokenizer, logging, BertForSequenceClassification, TFBertForSequenceClassification
+from transformers import BertTokenizer, TFAutoModelForSequenceClassification, AutoModel, AutoTokenizer, logging
 from langdetect import detect, DetectorFactory
 import os
 
@@ -91,10 +91,9 @@ if __name__ == "__main__":
     data = pd.DataFrame(list(collection.find()))
 
     # Load the model and tokenizer
-    model_name = "albert/albert-base-v2" # "voidful/albert_chinese_tiny"
-    # pipe = pipeline("fill-mask", model="albert/albert-base-v2")
-    
+    model_name = "prajjwal1/bert-tiny" # "voidful/albert_chinese_tiny"
     # Load model directly
+
     # model = AutoModel.from_pretrained("prajjwal1/bert-tiny")
     model = TFAutoModelForSequenceClassification.from_pretrained(model_name)
     tokenizer =  AutoTokenizer.from_pretrained(model_name) # TinyBertTokenizer.from_pretrained(model_name)
