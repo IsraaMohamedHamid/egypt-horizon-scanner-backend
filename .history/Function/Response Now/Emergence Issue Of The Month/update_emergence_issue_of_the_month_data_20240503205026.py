@@ -66,7 +66,7 @@ def analyze_description_sentiment(description, model, tokenizer):
     sentiment_score = tf.nn.softmax(outputs.logits)[0][predicted_class].numpy()
     sentiment = assign_sentiment(sentiment_label)
     
-    # print(f"lang: {lang}")
+    print(f"lang: {lang}")
     
     return {
         'sentimentAnalysis': sentiment,

@@ -66,7 +66,7 @@ def analyze_description_sentiment(description, model, tokenizer):
     sentiment_score = tf.nn.softmax(outputs.logits)[0][predicted_class].numpy()
     sentiment = assign_sentiment(sentiment_label)
     
-    # print(f"lang: {lang}")
+    print(f"lang: {lang}")
     
     return {
         'sentimentAnalysis': sentiment,
@@ -82,7 +82,7 @@ def update_emerging_issues_data(data, model, tokenizer):
     return data
 
 if __name__ == "__main__":
-    mongo_uri = 'mongodb+srv://doadmin:73Le6F4d2hZ9K8Y0@dbaas-db-5626135-310aba91.mongo.ondigitalocean.com/egypt-horizon-scanner?replicaSet=dbaas-db-5626135&tls=true&authSource=admin'
+    mongo_uri = 'mongodb+srv://[username]:[password]@dbaas-db-5626135-310aba91.mongo.ondigitalocean.com/egypt-horizon-scanner'
     client = MongoClient(mongo_uri)
     db = client["egypt-horizon-scanner"]
     collection = db["emergence_issue_of_the_month_data"]
@@ -93,7 +93,7 @@ if __name__ == "__main__":
     # Load the model and tokenizer
     model_name = "voidful/albert_chinese_tiny"
     model = TFAutoModelForSequenceClassification.from_pretrained(model_name)
-    tokenizer =  BertTokenizer.from_pretrained(model_name) # TinyBertTokenizer
+    tokenizer =  BertTokenizer.from_pretrained(model_name) //TinyBertTokenizer
 
     # Update the data
     updated_data = update_emerging_issues_data(data, model, tokenizer)

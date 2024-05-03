@@ -1,42 +1,16 @@
-import logging
 import pandas as pd
 import tensorflow as tf
 from pymongo import MongoClient
-from transformers import BertTokenizer, TFAutoModelForSequenceClassification, logging
-from langdetect import detect, DetectorFactory
+from transformers import TinyBertTokenizer, TFAutoModelForSequenceClassification, logging
 import os
 
 logging.set_verbosity_warning()
 
 # Ensure TensorFlow does not attempt to use unavailable CUDA resources
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+# Optional: Disable oneDNN optimizations if you encounter unusual issues
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-
-# Set seed to get consistent results
-DetectorFactory.seed = 0
-
-# Language code to full name mapping
-language_mapping = {
-    'en': 'English',
-    'ar': 'Arabic',
-    'fr': 'French',
-    'es': 'Spanish',
-    'de': 'German',
-    'zh': 'Chinese',
-    'ja': 'Japanese',
-    'ru': 'Russian',
-    'it': 'Italian',
-    'pt': 'Portuguese'
-}
-
-# Function to detect language and return full name
-def detect_language(text):
-    try:
-        code = detect(text)
-        return language_mapping.get(code, 'Unknown')
-    except:
-        return 'Unknown'
 
 # Function to assign sentiment
 def assign_sentiment(sentiment):
@@ -56,23 +30,17 @@ def assign_weight(sentiment):
 
 # Function to perform sentiment analysis
 def analyze_description_sentiment(description, model, tokenizer):
-    # First, detect language
-    lang = detect_language(description)
-    
     inputs = tokenizer(description, return_tensors="tf", padding=True, truncation=True)
     outputs = model(inputs)
     predicted_class = tf.argmax(outputs.logits, axis=1).numpy()[0]
     sentiment_label = "POSITIVE" if predicted_class == 1 else "NEGATIVE"
     sentiment_score = tf.nn.softmax(outputs.logits)[0][predicted_class].numpy()
     sentiment = assign_sentiment(sentiment_label)
-    
-    # print(f"lang: {lang}")
-    
+
     return {
         'sentimentAnalysis': sentiment,
         'weight': assign_weight(sentiment),
-        'score': sentiment_score,
-        'language': lang
+        'score': sentiment_score
     }
 
 # Function to update emerging issues data
@@ -82,6 +50,7 @@ def update_emerging_issues_data(data, model, tokenizer):
     return data
 
 if __name__ == "__main__":
+    # Connect to MongoDB database
     mongo_uri = 'mongodb+srv://doadmin:73Le6F4d2hZ9K8Y0@dbaas-db-5626135-310aba91.mongo.ondigitalocean.com/egypt-horizon-scanner?replicaSet=dbaas-db-5626135&tls=true&authSource=admin'
     client = MongoClient(mongo_uri)
     db = client["egypt-horizon-scanner"]
@@ -93,7 +62,7 @@ if __name__ == "__main__":
     # Load the model and tokenizer
     model_name = "voidful/albert_chinese_tiny"
     model = TFAutoModelForSequenceClassification.from_pretrained(model_name)
-    tokenizer =  BertTokenizer.from_pretrained(model_name) # TinyBertTokenizer
+    tokenizer = TinyBertTokenizer.from_pretrained(model_name)
 
     # Update the data
     updated_data = update_emerging_issues_data(data, model, tokenizer)
