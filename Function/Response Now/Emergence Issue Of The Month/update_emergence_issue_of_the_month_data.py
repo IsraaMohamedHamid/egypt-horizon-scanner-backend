@@ -167,7 +167,7 @@ if __name__ == "__main__":
     # "cross-encoder/stsb-TinyBERT-L-4" 14,350,561
     
     # Load model directly
-    # distilled_student_sentiment_classifier = pipeline("text-classification", model=model_name)
+    distilled_student_sentiment_classifier = pipeline("text-classification", model=model_name)
 
     # Calculate the total number of parameters
     model = TFAutoModelForSequenceClassification.from_pretrained(model_name, from_pt=True)
