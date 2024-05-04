@@ -2,7 +2,7 @@ import logging
 import pandas as pd
 import tensorflow as tf
 from pymongo import MongoClient
-from transformers import pipeline, BertTokenizer, MobileBertTokenizer, AutoModelForSequenceClassification, TFAutoModelForSequenceClassification, AutoModel, AutoTokenizer, logging, BertForSequenceClassification, TFBertForSequenceClassification
+from transformers import pipline, BertTokenizer, MobileBertTokenizer, AutoModelForSequenceClassification, TFAutoModelForSequenceClassification, AutoModel, AutoTokenizer, logging, BertForSequenceClassification, TFBertForSequenceClassification
 from langdetect import detect, DetectorFactory
 import os
 

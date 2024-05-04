@@ -2,7 +2,7 @@ import logging
 import pandas as pd
 import tensorflow as tf
 from pymongo import MongoClient
-from transformers import pipeline, BertTokenizer, MobileBertTokenizer, AutoModelForSequenceClassification, TFAutoModelForSequenceClassification, AutoModel, AutoTokenizer, logging, BertForSequenceClassification, TFBertForSequenceClassification
+from transformers import BertTokenizer, MobileBertTokenizer, AutoModelForSequenceClassification, TFAutoModelForSequenceClassification, AutoModel, AutoTokenizer, logging, BertForSequenceClassification, TFBertForSequenceClassification
 from langdetect import detect, DetectorFactory
 import os
 
@@ -57,20 +57,20 @@ def assign_weight(sentiment):
 # Function to find the output with the highest score
 def find_highest_score(outputs):
     # Assuming outputs is a list of lists as given, we take the first item since your example hints there's only one such list
-    result = outputs[0]
+result = outputs[0]
 
-    # Initialize variables to store the label with the highest score
-    highest_label = result[0]['label']
-    highest_score = result[0]['score']
+# Initialize variables to store the label with the highest score
+highest_label = result[0]['label']
+highest_score = result[0]['score']
 
-    # Iterate over the list to find the sentiment with the highest score
-    for sentiment in result:
-        if sentiment['score'] > highest_score:
-            highest_score = sentiment['score']
-            highest_label = sentiment['label']
+# Iterate over the list to find the sentiment with the highest score
+for sentiment in result:
+    if sentiment['score'] > highest_score:
+        highest_score = sentiment['score']
+        highest_label = sentiment['label']
 
     # Return the best output found, or None if no outputs were processed
-    return highest_label, highest_score
+    return best_output
 
 # Function to perform sentiment analysis
 def analyze_description_sentiment(description, distilled_student_sentiment_classifier):
@@ -82,14 +82,15 @@ def analyze_description_sentiment(description, distilled_student_sentiment_class
     # predicted_class = tf.argmax(outputs.logits, axis=1).numpy()[0]
     # sentiment_label = "POSITIVE" if predicted_class == 1 else "NEGATIVE"
     # sentiment_score = tf.nn.softmax(outputs.logits)[0][predicted_class].numpy()
-    sentiment_label, sentiment_score = find_highest_score(outputs)
-    # sentiment = assign_sentiment(sentiment_label)
+    sentiment_label = outputs[0]['label']
+    sentiment_score = outputs[0]['scores']
+    sentiment = assign_sentiment(sentiment_label)
     
     # print(f"lang: {lang}")
     
     return {
-        'sentimentAnalysis': sentiment_label,
-        'weight': assign_weight(sentiment_label),
+        'sentimentAnalysis': sentiment,
+        'weight': assign_weight(sentiment),
         'score': sentiment_score,
         'language': lang
     }

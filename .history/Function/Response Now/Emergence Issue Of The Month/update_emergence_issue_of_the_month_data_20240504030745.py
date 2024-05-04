@@ -2,7 +2,7 @@ import logging
 import pandas as pd
 import tensorflow as tf
 from pymongo import MongoClient
-from transformers import pipeline, BertTokenizer, MobileBertTokenizer, AutoModelForSequenceClassification, TFAutoModelForSequenceClassification, AutoModel, AutoTokenizer, logging, BertForSequenceClassification, TFBertForSequenceClassification
+from transformers import BertTokenizer, MobileBertTokenizer, AutoModelForSequenceClassification, TFAutoModelForSequenceClassification, AutoModel, AutoTokenizer, logging, BertForSequenceClassification, TFBertForSequenceClassification
 from langdetect import detect, DetectorFactory
 import os
 
@@ -70,7 +70,7 @@ def find_highest_score(outputs):
             highest_label = sentiment['label']
 
     # Return the best output found, or None if no outputs were processed
-    return highest_label, highest_score
+    return highest_score, highest_label
 
 # Function to perform sentiment analysis
 def analyze_description_sentiment(description, distilled_student_sentiment_classifier):
@@ -82,14 +82,15 @@ def analyze_description_sentiment(description, distilled_student_sentiment_class
     # predicted_class = tf.argmax(outputs.logits, axis=1).numpy()[0]
     # sentiment_label = "POSITIVE" if predicted_class == 1 else "NEGATIVE"
     # sentiment_score = tf.nn.softmax(outputs.logits)[0][predicted_class].numpy()
-    sentiment_label, sentiment_score = find_highest_score(outputs)
-    # sentiment = assign_sentiment(sentiment_label)
+    sentiment_label = outputs[0]['label']
+    sentiment_score = outputs[0]['scores']
+    sentiment = assign_sentiment(sentiment_label)
     
     # print(f"lang: {lang}")
     
     return {
-        'sentimentAnalysis': sentiment_label,
-        'weight': assign_weight(sentiment_label),
+        'sentimentAnalysis': sentiment,
+        'weight': assign_weight(sentiment),
         'score': sentiment_score,
         'language': lang
     }

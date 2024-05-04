@@ -2,7 +2,7 @@ import logging
 import pandas as pd
 import tensorflow as tf
 from pymongo import MongoClient
-from transformers import pipeline, BertTokenizer, MobileBertTokenizer, AutoModelForSequenceClassification, TFAutoModelForSequenceClassification, AutoModel, AutoTokenizer, logging, BertForSequenceClassification, TFBertForSequenceClassification
+from transformers import pipline, BertTokenizer, MobileBertTokenizer, AutoModelForSequenceClassification, TFAutoModelForSequenceClassification, AutoModel, AutoTokenizer, logging, BertForSequenceClassification, TFBertForSequenceClassification
 from langdetect import detect, DetectorFactory
 import os
 
@@ -88,8 +88,8 @@ def analyze_description_sentiment(description, distilled_student_sentiment_class
     # print(f"lang: {lang}")
     
     return {
-        'sentimentAnalysis': sentiment_label,
-        'weight': assign_weight(sentiment_label),
+        'sentimentAnalysis': sentiment,
+        'weight': assign_weight(sentiment),
         'score': sentiment_score,
         'language': lang
     }
