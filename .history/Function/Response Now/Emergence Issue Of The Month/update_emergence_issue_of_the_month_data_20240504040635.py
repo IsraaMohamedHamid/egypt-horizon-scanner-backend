@@ -56,9 +56,9 @@ def assign_weight(sentiment):
 
 # Function to find the output with the highest score
 def find_highest_score(outputs):
-    # print(outputs[0])
+    print(outputs)
     # Assuming outputs is a list of lists as given, we take the first item since your example hints there's only one such list
-    result = outputs
+    result = outputs[0]
 
     # Initialize variables to store the label with the highest score
     highest_label = result[0]['label']

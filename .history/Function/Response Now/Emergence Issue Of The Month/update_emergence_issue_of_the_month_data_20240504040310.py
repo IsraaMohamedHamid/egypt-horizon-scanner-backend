@@ -46,6 +46,17 @@ def assign_sentiment(sentiment):
         return 'negative'
     return 'neutral'
 
+def get_sentiment(text, return_type='label'):
+    """ Calculate sentiment of a text. `return_type` can be 'label', 'score' or 'proba' """
+    with torch.no_grad():
+        inputs = tokenizer(text, return_tensors='pt', truncation=True, padding=True).to(model.device)
+        proba = torch.sigmoid(model(**inputs).logits).cpu().numpy()[0]
+    if return_type == 'label':
+        return model.config.id2label[proba.argmax()]
+    elif return_type == 'score':
+        return proba.dot([-1, 0, 1])
+    return proba
+
 # Function to assign weight
 def assign_weight(sentiment):
     if sentiment == 'positive':
@@ -56,9 +67,8 @@ def assign_weight(sentiment):
 
 # Function to find the output with the highest score
 def find_highest_score(outputs):
-    # print(outputs[0])
     # Assuming outputs is a list of lists as given, we take the first item since your example hints there's only one such list
-    result = outputs
+    result = outputs[0]
 
     # Initialize variables to store the label with the highest score
     highest_label = result[0]['label']
@@ -115,7 +125,16 @@ if __name__ == "__main__":
     # pipe = pipeline("fill-mask", model="albert/albert-base-v2")
     
     # Load model directly
-    distilled_student_sentiment_classifier = pipeline("text-classification", model="mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis")
+#     distilled_student_sentiment_classifier = pipeline(
+#     model="lxyuan/distilbert-base-multilingual-cased-sentiments-student", 
+#     return_all_scores=True
+# )
+
+
+    model_checkpoint = 'cointegrated/rubert-tiny-sentiment-balanced'
+    tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
+    model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint)
+
     # tokenizer = AutoTokenizer.from_pretrained("lxyuan/distilbert-base-multilingual-cased-sentiments-student")
     # model = AutoModelForSequenceClassification.from_pretrained("lxyuan/distilbert-base-multilingual-cased-sentiments-student")
     # model = TFAutoModelForSequenceClassification.from_pretrained(model_name, from_pt=True)
