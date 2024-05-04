@@ -115,7 +115,7 @@ if __name__ == "__main__":
     # pipe = pipeline("fill-mask", model="albert/albert-base-v2")
     
     # Load model directly
-    distilled_student_sentiment_classifier = pipeline("text-classification", model="cointegrated/rubert-tiny-sentiment-balanced")
+    distilled_student_sentiment_classifier = pipeline("text-classification", model="nlptown/bert-base-multilingual-uncased-sentiment")
     # tokenizer = AutoTokenizer.from_pretrained("lxyuan/distilbert-base-multilingual-cased-sentiments-student")
     # model = AutoModelForSequenceClassification.from_pretrained("lxyuan/distilbert-base-multilingual-cased-sentiments-student")
     # model = TFAutoModelForSequenceClassification.from_pretrained(model_name, from_pt=True)
