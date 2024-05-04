@@ -73,17 +73,32 @@ def find_highest_score(outputs):
     # Return the best output found, or None if no outputs were processed
     return highest_label, highest_score
 
+def sentiment_analysis(text, model, tokenizer):
+    # Encode the text using the tokenizer
+    inputs = tokenizer(text, return_tensors="tf", truncation=True, padding=True, max_length=512)
+
+    # Perform the prediction
+    outputs = model(inputs)
+
+    # Apply softmax to convert logits to probabilities
+    probabilities = tf.nn.softmax(outputs.logits, axis=-1)
+
+    # Get the predicted class (index with the highest probability)
+    predicted_class_index = tf.argmax(probabilities, axis=-1).numpy()[0]
+    predicted_class = model.config.id2label[predicted_class_index]
+    
+    return predicted_class, probabilities.numpy()
+
+
 # Function to perform sentiment analysis
-def analyze_description_sentiment(description, distilled_student_sentiment_classifier):
+def analyze_description_sentiment(description, model, tokenizer, distilled_student_sentiment_classifier):
     # First, detect language
     lang = detect_language(description)
     
-    # inputs = tokenizer(description, return_tensors="tf", padding=True, truncation=True)
-    outputs = distilled_student_sentiment_classifier(description) # model(inputs)
-    # predicted_class = tf.argmax(outputs.logits, axis=1).numpy()[0]
-    # sentiment_label = "POSITIVE" if predicted_class == 1 else "NEGATIVE"
-    # sentiment_score = tf.nn.softmax(outputs.logits)[0][predicted_class].numpy()
-    sentiment_label, sentiment_score = find_highest_score(outputs)
+    # outputs = distilled_student_sentiment_classifier(description) # model(inputs)
+    # sentiment_label, sentiment_score = find_highest_score(outputs)
+    sentiment_label, sentiment_score = sentiment_analysis(description, model, tokenizer)
+    
     # sentiment = assign_sentiment(sentiment_label)
     
     # print(f"lang: {lang}")
@@ -111,7 +126,26 @@ if __name__ == "__main__":
     data = pd.DataFrame(list(collection.find()))
 
     # Load the model and tokenizer
-    model_name = "AdamCodd/tinybert-sentiment-amazon" 
+    model_name = "AdamCodd/tinybert-sentiment-amazon"
+    # "Alireza1044/mobilebert_sst2" 24,582,914
+    # "Reza-Madani/mini-bert" 11,171,074
+    # "moshew/Mini-bert-distilled" 11,209,367
+    # "Katsiaryna/stsb-TinyBERT-L-4-finetuned_auc_40000-top3-BCE" 14,350,561
+    # "jysh1023/tiny-bert-sst2-distilled" 4,386,178
+    # "m-aliabbas1/tiny_bert_31_erc_intents"" 4,389,919
+    # "nbhimte/tiny-bert-mnli-distilled" 14,350,874
+    # "Sayan01/tiny-bert-sst2-distilled" 14,350,874
+    # "Sayan01/tiny-bert-mrpc-distilled" 14,350,874
+    # gokuls/tiny-bert-sst2-1_mobilebert_and_bert-multi-teacher-distillation 4,386,178
+    # "yevhenkost/claim-detection-claimbuster-binary-TinyBERT_General_4L_312D" 14,350,874
+    # "ChengZ2003/ms-marco-TinyBERT-ONNX"
+    # "tkuye/tiny-bert-jdc" 4,386,952
+    # "Sayan01/tiny-bert-sst2-distilled" 14,350,874
+    # "SavvySpender/fin-cross-encoder-ms-marco-TinyBERT-L-2-v2-dynamicq-8bit-onnx" 
+    # "philschmid/tiny-bert-sst2-distilled" 4,386,178
+    # "Intel/dynamic_tinybert" 66,956,546
+    # "prajjwal1/bert-tiny" 4,386,178
+    # "cross-encoder/ms-marco-TinyBERT-L-2-v2" 4,386,049
     # 'huawei-noah/TinyBERT_General_4L_312D'  14,350,248
     # "Theivaprakasham/sentence-transformers-paraphrase-MiniLM-L6-v2-twitter_sentiment"  22,713,216
     # "AdamCodd/tinybert-sentiment-amazon" 4.39M
@@ -128,14 +162,22 @@ if __name__ == "__main__":
     # "gosorio/minilmFT_TripAdvisor_Sentiment" 33,361,155
     # "sakasa007/finetuning-sentiment-text-mining" 134,902,275
     # "stas/tiny-wmt19-en-ru"
+    # "cross-encoder/ms-marco-TinyBERT-L-2" 4,386,049
+    # "cross-encoder/ms-marco-TinyBERT-L-2-v2" 4,386,049
+    # "cross-encoder/stsb-TinyBERT-L-4" 14,350,561
     
     # Load model directly
-    distilled_student_sentiment_classifier = pipeline("text-classification", model=model_name)
-    # model = TFAutoModelForSequenceClassification.from_pretrained(model_name, from_pt=True)
-    # tokenizer =  AutoTokenizer.from_pretrained(model_name) # TinyBertTokenizer.from_pretrained(model_name)
+    # distilled_student_sentiment_classifier = pipeline("text-classification", model=model_name)
 
+    # Calculate the total number of parameters
+    model = TFAutoModelForSequenceClassification.from_pretrained(model_name, from_pt=True)
+    tokenizer =  AutoTokenizer.from_pretrained(model_name) # TinyBertTokenizer.from_pretrained(model_name)
+
+    total_params = sum(tf.size(variable).numpy() for variable in model.trainable_variables)
+    print(f"Total Parameters in {model_name}: {total_params}")
+    
     # Update the data
-    updated_data = update_emerging_issues_data(data, distilled_student_sentiment_classifier)
+    updated_data = update_emerging_issues_data(data, model, tokenizer, distilled_student_sentiment_classifier)
 
     # Rename duplicate columns
     updated_data = updated_data.loc[:,~updated_data.columns.duplicated()]
