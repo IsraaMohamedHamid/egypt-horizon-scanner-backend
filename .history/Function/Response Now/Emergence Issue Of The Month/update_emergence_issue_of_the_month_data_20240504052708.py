@@ -56,7 +56,7 @@ def assign_weight(sentiment):
 
 # Function to find the output with the highest score
 def find_highest_score(outputs):
-    print(outputs)
+    # print(outputs[0])
     # Assuming outputs is a list of lists as given, we take the first item since your example hints there's only one such list
     result = outputs
 
@@ -115,7 +115,7 @@ if __name__ == "__main__":
     # pipe = pipeline("fill-mask", model="albert/albert-base-v2")
     
     # Load model directly
-    distilled_student_sentiment_classifier = pipeline("text-classification", model="AdamCodd/tinybert-sentiment-amazon")
+    distilled_student_sentiment_classifier = pipeline("text-classification", "AdamCodd/tinybert-sentiment-amazon")
     # tokenizer = AutoTokenizer.from_pretrained("lxyuan/distilbert-base-multilingual-cased-sentiments-student")
     # model = AutoModelForSequenceClassification.from_pretrained("lxyuan/distilbert-base-multilingual-cased-sentiments-student")
     # model = TFAutoModelForSequenceClassification.from_pretrained(model_name, from_pt=True)
