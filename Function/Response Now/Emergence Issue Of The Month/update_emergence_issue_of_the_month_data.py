@@ -111,13 +111,26 @@ if __name__ == "__main__":
     data = pd.DataFrame(list(collection.find()))
 
     # Load the model and tokenizer
-    model_name = "voidful/albert_chinese_tiny" # "albert/albert-base-v2" 
-    # pipe = pipeline("fill-mask", model="albert/albert-base-v2")
+    model_name = "AdamCodd/tinybert-sentiment-amazon" 
+    # 'huawei-noah/TinyBERT_General_4L_312D'  14,350,248
+    # "Theivaprakasham/sentence-transformers-paraphrase-MiniLM-L6-v2-twitter_sentiment"  22,713,216
+    # "AdamCodd/tinybert-sentiment-amazon" 4.39M
+    # "voidful/albert_chinese_tiny" 4,080,520
+    # "albert/albert-base-v2" 11,683,584
+    # "lxyuan/distilbert-base-multilingual-cased-sentiments-student" 134,734,080
+    # "cardiffnlp/twitter-roberta-base-sentiment-latest" 124,645,632
+    # "avichr/heBERT_sentiment_analysis" 109,482,240
+    # "finiteautomata/bertweet-base-sentiment-analysis" 134,899,968
+    # "austinmw/distilbert-base-uncased-finetuned-tweets-sentiment" 66,362,880
+    # "shhossain/all-MiniLM-L6-v2-sentiment-classifier" 19,292
+    # "shahrukhx01/bert-mini-sentiment-reward-model" 11,170,560
+    # "MarcoPC/finetuning-sentiment-model-3000-samples" 66,955,010
+    # "gosorio/minilmFT_TripAdvisor_Sentiment" 33,361,155
+    # "sakasa007/finetuning-sentiment-text-mining" 134,902,275
+    # "stas/tiny-wmt19-en-ru"
     
     # Load model directly
-    distilled_student_sentiment_classifier = pipeline("text-classification", model="AdamCodd/tinybert-sentiment-amazon")
-    # tokenizer = AutoTokenizer.from_pretrained("lxyuan/distilbert-base-multilingual-cased-sentiments-student")
-    # model = AutoModelForSequenceClassification.from_pretrained("lxyuan/distilbert-base-multilingual-cased-sentiments-student")
+    distilled_student_sentiment_classifier = pipeline("text-classification", model=model_name)
     # model = TFAutoModelForSequenceClassification.from_pretrained(model_name, from_pt=True)
     # tokenizer =  AutoTokenizer.from_pretrained(model_name) # TinyBertTokenizer.from_pretrained(model_name)
 
