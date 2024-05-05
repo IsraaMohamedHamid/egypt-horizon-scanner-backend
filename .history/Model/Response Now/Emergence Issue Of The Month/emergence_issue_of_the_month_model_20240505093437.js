@@ -34,10 +34,7 @@ const EmergenceIssueOfTheMonthSchema = new Schema({
     sdgTargeted: {
         type: [String]
     },
-    sdgTargetedDictionary: {
-        type: Object,  // Here Object means a generic JavaScript object
-        default: () => ({})  // Ensures the default is an empty object
-    },
+    sdgTargetedDictionary
     summary: {
         type: String
     },

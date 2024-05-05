@@ -98,33 +98,16 @@ const emergingIssueComponentsCalculation = async function () {
             sdgTargeted: { $addToSet: "$sdgTargeted" }
         }}
       ]);
-      // Initialize the dictionary to count occurrences of each SDG target
-      const sdgTargetedDictionary = {};
-  
-      // Global aggregation to count all SDG targets across all documents
-      const sdgAggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([
-        { $match: { emergingIssue: issue } },
-        { $unwind: "$sdgTargeted" },  // Unwind the array of SDG targets
-        { $group: {
-            _id: "$sdgTargeted",
-            count: { $sum: 1 }  // Sum up all occurrences of each SDG target
-        }}
-      ]);
-  
-      // Fill the dictionary with the results from the aggregation
-      sdgAggregation.forEach(item => {
-        sdgTargetedDictionary[item._id] = item.count;
-      });
 
       let { sources, sdgTargeted } = aggregation.length > 0 ? aggregation[0] : { sources: [], sdgTargeted: [] };
       sdgTargeted = [...new Set([].concat(...sdgTargeted))];
       sdgTargeted.sort((a, b) => parseInt(a.match(/\d+/)[0]) - parseInt(b.match(/\d+/)[0]));
 
       // Update the SDG Targeted Dictionary
-      // sdgTargeted.forEach(target => {
-      //   sdgTargetedDictionary[target] = (sdgTargetedDictionary[target] || 0) + 1;
-      // });
-      // console.log(`${issue} - SDG Targeted: ${sdgTargeted}`);
+      sdgTargeted.forEach(target => {
+        sdgTargetedDictionary[target] = (sdgTargetedDictionary[target] || 0) + 1;
+      });
+      
 
       const totalDataCount = repetition;
       const positiveSentimentAnalysisDataCount = issueDocuments.filter(doc => doc.sentimentAnalysis === "positive").length;
@@ -145,7 +128,6 @@ const emergingIssueComponentsCalculation = async function () {
                 negativeSentimentAnalysisDataCount,
                 sources,
                 sdgTargeted,
-                sdgTargetedDictionary,
                 averageWeight: isNaN(averageWeight) ? null : averageWeight,
                 priority
             }
@@ -159,7 +141,6 @@ const emergingIssueComponentsCalculation = async function () {
             negativeSentimentAnalysisDataCount,
             sources,
             sdgTargeted,
-            sdgTargetedDictionary,
             averageWeight: isNaN(averageWeight) ? null : averageWeight,
             priority
         });
@@ -167,7 +148,7 @@ const emergingIssueComponentsCalculation = async function () {
       }
     }
 
-    // console.log('SDG Targeted Dictionary:', sdgTargetedDictionary);
+    console.log('SDG Targeted Dictionary:', sdgTargetedDictionary);
   } catch (error) {
     console.error('Error during processing:', error);
   }

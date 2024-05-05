@@ -103,7 +103,6 @@ const emergingIssueComponentsCalculation = async function () {
   
       // Global aggregation to count all SDG targets across all documents
       const sdgAggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([
-        { $match: { emergingIssue: issue } },
         { $unwind: "$sdgTargeted" },  // Unwind the array of SDG targets
         { $group: {
             _id: "$sdgTargeted",

@@ -103,7 +103,6 @@ const emergingIssueComponentsCalculation = async function () {
   
       // Global aggregation to count all SDG targets across all documents
       const sdgAggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([
-        { $match: { emergingIssue: issue } },
         { $unwind: "$sdgTargeted" },  // Unwind the array of SDG targets
         { $group: {
             _id: "$sdgTargeted",
@@ -121,9 +120,9 @@ const emergingIssueComponentsCalculation = async function () {
       sdgTargeted.sort((a, b) => parseInt(a.match(/\d+/)[0]) - parseInt(b.match(/\d+/)[0]));
 
       // Update the SDG Targeted Dictionary
-      // sdgTargeted.forEach(target => {
-      //   sdgTargetedDictionary[target] = (sdgTargetedDictionary[target] || 0) + 1;
-      // });
+      sdgTargeted.forEach(target => {
+        sdgTargetedDictionary[target] = (sdgTargetedDictionary[target] || 0) + 1;
+      });
       // console.log(`${issue} - SDG Targeted: ${sdgTargeted}`);
 
       const totalDataCount = repetition;
