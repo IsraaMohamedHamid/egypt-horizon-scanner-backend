@@ -12,20 +12,6 @@ const {
   ProjectSchema
 } = require('../../../Model/Response Now/Interventions/projects_model');
 
-
-// Helper function to count projects by theme for a municipal division
-async function countProjectsByTheme(municipalDivisionName) {
-  const themes = ['R_C', 'E_E', 'D_E', 'I_D', 'H_D', 'P_S'];
-  const themeCounts = {};
-  for (const theme of themes) {
-    themeCounts[theme] = await projectsModel.countDocuments({
-      Municipal_Division_Name_EN: municipalDivisionName,
-      theme: { $in: [theme] }
-    });
-  }
-  return themeCounts;
-}
-
 // Helper function to hash themeCounts for comparison
 function hashThemeCounts(themeCounts) {
   return JSON.stringify(themeCounts);
@@ -59,53 +45,16 @@ async function updateMunicipalDivisionData(municipalDivisionName, themeCounts) {
 }
 
 // Scheduled task to force an update every 6 hours
-// cron.schedule('0 */6 * * *', async () => {
-//   console.log('Running a task every 6 hours');
-//   const municipalDivisions = await municipalDivisionsModel.find();
-//   for (const division of municipalDivisions) {
-//     const themeCounts = await countProjectsByTheme(division.Municipal_Division_Name_EN);
-//     await updateMunicipalDivisionData(division.Municipal_Division_Name_EN, themeCounts, true);
-//   }
-// });
-
-// API to get a list of municipal divisions and count projects per theme
-const getMunicipalDivisions = async (req, res) => {
-  try {
-    const municipalDivisions = await municipalDivisionsModel.find();
-    await Promise.all(municipalDivisions.map(async division => {
-      const themeCounts = await countProjectsByTheme(division.Municipal_Division_Name_EN);
-      await updateMunicipalDivisionData(division.Municipal_Division_Name_EN, themeCounts);
-    }));
-    res.send(municipalDivisions);
-  } catch (error) {
-    console.error('Error:', error);
-    res.status(500).json({ message: 'An error occurred', error: error.message });
+cron.schedule('0 */6 * * *', async () => {
+  console.log('Running a task every 6 hours');
+  const municipalDivisions = await municipalDivisionsModel.find();
+  for (const division of municipalDivisions) {
+    const themeCounts = await countProjectsByTheme(division.Municipal_Division_Name_EN);
+    await updateMunicipalDivisionData(division.Municipal_Division_Name_EN, themeCounts, true);
   }
-};
+});
 
-// API to add a new municipal division
-const createMunicipalDivision = async (req, res) => {
-  try {
-    const newDivision = await municipalDivisionsModel.create(req.body);
-    res.send(newDivision);
-  } catch (error) {
-    res.status(500).json({ message: 'Failed to create municipal division', error: error.message });
-  }
-};
 
-// API to update a municipal division by ID
-const updateMunicipalDivisionByID = async (req, res) => {
-  try {
-    const updatedDivision = await municipalDivisionsModel.findByIdAndUpdate(
-      req.params.id,
-      { $set: req.body },
-      { new: true }
-    );
-    res.send(updatedDivision);
-  } catch (error) {
-    res.status(500).json({ message: 'Failed to update municipal division', error: error.message });
-  }
-};
 
 // API to update a municipal division by name
 const updateMunicipalDivisionByMunicipalDivisionNameEN = async (req, res) => {

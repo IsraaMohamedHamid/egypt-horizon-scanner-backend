@@ -29,7 +29,7 @@ egyptHorizonScanner.use(express.json());
 // host = mongodb+srv://dbaas-db-5626135-310aba91.mongo.ondigitalocean.com
 // database = egypt-horizon-scanner
 
-const dbURI = 'mongodb+srv://doadmin:ODN8H5b74h39Bs21@dbaas-db-5626135-310aba91.mongo.ondigitalocean.com/egypt-horizon-scanner?authSource=admin&replicaSet=dbaas-db-5626135&tls=true';
+const dbURI = 'mongodb+srv://doadmin:73Le6F4d2hZ9K8Y0@dbaas-db-5626135-310aba91.mongo.ondigitalocean.com/egypt-horizon-scanner?replicaSet=dbaas-db-5626135&tls=true&authSource=admin';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, tls: true, authSource: 'admin' })
   .then(() => console.log('MongoDB connected...'))
   .catch(err => console.log(err));
@@ -40,6 +40,8 @@ const connection = mongoose.connection;
 connection.once("open", () => {
     console.log("MongoDb connected");
 });
+
+
 
 // Middleware to allow users to input output image
 egyptHorizonScanner.use(express.static('public'))

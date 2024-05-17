@@ -4,7 +4,8 @@ const  {
     updateGovernorateByID,
     updateGovernorateByGovernorateNameEN,
     deleteGovernorateByID,
-    deleteGovernorateByGovernorateNameEN
+    deleteGovernorateByGovernorateNameEN,
+    countMostInterventionTypePerGovernorate
 } = require('../../../Controller/Response Now/Interventions/governorates_api_controller')
 
 const express = require('express');

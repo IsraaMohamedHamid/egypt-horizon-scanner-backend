@@ -27,4 +27,7 @@ router.delete('/municipal-division/municipal-divisionid/:id', deleteMunicipalDiv
 
 router.put('/municipal-division/municipal-divisionnameen/:municipalDivisionNameEN', deleteMunicipalDivisionByMunicipalDivisionNameEN);
 
+// Count projects based on themes and City
+router.get('/municipal-division/count/theme', countMostInterventionTypePerMunicipalDivision);
+
 module.exports = router;

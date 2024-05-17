@@ -1,7 +1,3 @@
-const NodeCache = require('node-cache');
-const cron = require('node-cron');
-const myCache = new NodeCache({ stdTTL: 21600 }); // Cache with a TTL of 6 hours
-
 const {
   municipalDivisionsModel,
   MunicipalDivisionSchema
@@ -11,7 +7,10 @@ const {
   projectsModel,
   ProjectSchema
 } = require('../../../Model/Response Now/Interventions/projects_model');
-
+const {
+  municipalDivisionsModel,
+  projectsModel,
+} = require('../../../Model/Response Now/Interventions/municipal_divisions_model');
 
 // Helper function to count projects by theme for a municipal division
 async function countProjectsByTheme(municipalDivisionName) {
@@ -26,47 +25,24 @@ async function countProjectsByTheme(municipalDivisionName) {
   return themeCounts;
 }
 
-// Helper function to hash themeCounts for comparison
-function hashThemeCounts(themeCounts) {
-  return JSON.stringify(themeCounts);
-}
-
 // Function to update municipal division with project count data
 async function updateMunicipalDivisionData(municipalDivisionName, themeCounts) {
-  const lastData = myCache.get(municipalDivisionName);
-  const currentHash = hashThemeCounts(themeCounts);
+  const sortedThemes = Object.entries(themeCounts).sort(([, a], [, b]) => b - a);
+  const themesWithProjects = sortedThemes.filter(([, value]) => value > 0);
 
-  if (!lastData || lastData.hash !== currentHash || Date.now() > lastData.nextUpdateTime) {
-    const sortedThemes = Object.entries(themeCounts).sort(([, a], [, b]) => b - a);
-    const themesWithProjects = sortedThemes.filter(([, value]) => value > 0);
+  const updateData = {
+    Most_Intervention_Type: themesWithProjects[0] ? [themesWithProjects[0][0]] : [],
+    Least_Intervention_Type: themesWithProjects.length ? [themesWithProjects[themesWithProjects.length - 1][0]] : [],
+    No_Intervention_Type: Object.keys(themeCounts).filter(key => themeCounts[key] === 0),
+    ThemeCounts: themeCounts
+  };
 
-    const updateData = {
-      Most_Intervention_Type: themesWithProjects[0] ? [themesWithProjects[0][0]] : [],
-      Least_Intervention_Type: themesWithProjects.length ? [themesWithProjects[themesWithProjects.length - 1][0]] : [],
-      No_Intervention_Type: Object.keys(themeCounts).filter(key => themeCounts[key] === 0),
-      ThemeCounts: themeCounts
-    };
-
-    await municipalDivisionsModel.findOneAndUpdate({
-      Municipal_Division_Name_EN: municipalDivisionName
-    }, {
-      $set: updateData
-    }, { new: true });
-
-    // Update cache with new hash and set next update time for 6 hours later
-    myCache.set(municipalDivisionName, { hash: currentHash, nextUpdateTime: Date.now() + 21600000 });
-  }
+  await municipalDivisionsModel.findOneAndUpdate({
+    Municipal_Division_Name_EN: municipalDivisionName
+  }, {
+    $set: updateData
+  }, { new: true });
 }
-
-// Scheduled task to force an update every 6 hours
-// cron.schedule('0 */6 * * *', async () => {
-//   console.log('Running a task every 6 hours');
-//   const municipalDivisions = await municipalDivisionsModel.find();
-//   for (const division of municipalDivisions) {
-//     const themeCounts = await countProjectsByTheme(division.Municipal_Division_Name_EN);
-//     await updateMunicipalDivisionData(division.Municipal_Division_Name_EN, themeCounts, true);
-//   }
-// });
 
 // API to get a list of municipal divisions and count projects per theme
 const getMunicipalDivisions = async (req, res) => {

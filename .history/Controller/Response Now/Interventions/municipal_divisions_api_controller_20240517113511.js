@@ -59,14 +59,14 @@ async function updateMunicipalDivisionData(municipalDivisionName, themeCounts) {
 }
 
 // Scheduled task to force an update every 6 hours
-// cron.schedule('0 */6 * * *', async () => {
-//   console.log('Running a task every 6 hours');
-//   const municipalDivisions = await municipalDivisionsModel.find();
-//   for (const division of municipalDivisions) {
-//     const themeCounts = await countProjectsByTheme(division.Municipal_Division_Name_EN);
-//     await updateMunicipalDivisionData(division.Municipal_Division_Name_EN, themeCounts, true);
-//   }
-// });
+cron.schedule('0 */6 * * *', async () => {
+  console.log('Running a task every 6 hours');
+  const municipalDivisions = await municipalDivisionsModel.find();
+  for (const division of municipalDivisions) {
+    const themeCounts = await countProjectsByTheme(division.Municipal_Division_Name_EN);
+    await updateMunicipalDivisionData(division.Municipal_Division_Name_EN, themeCounts, true);
+  }
+});
 
 // API to get a list of municipal divisions and count projects per theme
 const getMunicipalDivisions = async (req, res) => {
