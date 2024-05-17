@@ -1,0 +1,958 @@
+[
+    {
+        "issueTitle": "Declining Water Levels of Lake Nasser",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation",
+            "SDG 13: Climate Action"
+        ],
+        "description": "The water levels in Lake Nasser, a crucial reservoir formed by the Aswan High Dam, have been dropping due to prolonged drought periods and upstream water usage, threatening water security for Egypt."
+    },
+    {
+        "issueTitle": "Salinization of the Nile Delta",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation",
+            "SDG 2: Zero Hunger",
+            "SDG 14: Life Below Water"
+        ],
+        "description": "Increased salinization in the Nile Delta is affecting freshwater availability and agriculture, further complicated by rising sea levels and reduced sediment flow due to dam constructions upstream."
+    },
+    {
+        "issueTitle": "Overuse of Fertilizers and Pesticides",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation",
+            "SDG 12: Responsible Consumption and Production"
+        ],
+        "description": "Heavy use of fertilizers and pesticides in agriculture along the Nile River is leading to water pollution, affecting both human health and aquatic ecosystems."
+    },
+    {
+        "issueTitle": "Waterborne Diseases in Rural Areas",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being",
+            "SDG 6: Clean Water and Sanitation"
+        ],
+        "description": "Rural areas in Egypt experience high incidences of waterborne diseases due to inadequate water treatment and sanitation infrastructure."
+    },
+    {
+        "issueTitle": "Inefficient Water Use in Agriculture",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation",
+            "SDG 12: Responsible Consumption and Production"
+        ],
+        "description": "Agricultural practices in Egypt often involve inefficient water use, such as flood irrigation, leading to significant water wastage."
+    },
+    {
+        "issueTitle": "Sewage Overflow in Urban Areas",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation",
+            "SDG 11: Sustainable Cities and Communities"
+        ],
+        "description": "Frequent sewage system overflows in densely populated urban areas contaminate water bodies and pose health risks to residents."
+    },
+    {
+        "issueTitle": "Reduction of Water Allocations to Farmers",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation",
+            "SDG 2: Zero Hunger"
+        ],
+        "description": "Governmental policies on water rationing have led to reduced water allocations for farmers, impacting crop yields and food security."
+    },
+    {
+        "issueTitle": "Impact of Tourism on Water Quality",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation",
+            "SDG 14: Life Below Water"
+        ],
+        "description": "Tourist activities along the Red Sea coast have led to local water pollution, affecting marine life and coral reefs."
+    },
+    {
+        "issueTitle": "Industrial Discharges into the Nile",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation",
+            "SDG 12: Responsible Consumption and Production"
+        ],
+        "description": "Industrial units along the Nile River frequently discharge untreated or inadequately treated wastewater, contributing to severe pollution."
+    },
+    {
+        "issueTitle": "Underinvestment in Water Infrastructure",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation",
+            "SDG 9: Industry, Innovation and Infrastructure"
+        ],
+        "description": "Chronic underinvestment in water infrastructure maintenance and upgrades has left many parts of Egypt vulnerable to water shortages and sanitation issues."
+    },
+    {
+        "issueTitle": "Contamination of Drinking Water",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation",
+            "SDG 3: Good Health and Well-being"
+        ],
+        "description": "Many regions in Egypt, particularly rural areas, suffer from contamination of drinking water sources due to poor sanitation and inadequate waste management."
+    },
+    {
+        "issueTitle": "Water Pricing Issues",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation",
+            "SDG 1: No Poverty"
+        ],
+        "description": "The lack of a fair and effective water pricing mechanism discourages conservation and leads to wasteful usage in urban and agricultural sectors."
+    },
+    {
+        "issueTitle": "Limited Public Awareness on Water Conservation",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation",
+            "SDG 12: Responsible Consumption and Production",
+            "SDG 13: Climate Action"
+        ],
+        "description": "There is a lack of public awareness campaigns in Egypt focused on water conservation techniques, contributing to high levels of water misuse."
+    },
+    {
+        "issueTitle": "Disputes Over Water Rights",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation",
+            "SDG 16: Peace, Justice, and Strong Institutions"
+        ],
+        "description": "Disputes over water rights, particularly with upstream Nile Basin countries, pose a significant geopolitical challenge and water security risk for Egypt."
+    },
+    {
+        "issueTitle": "Aging Water Infrastructure",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation",
+            "SDG 9: Industry, Innovation and Infrastructure"
+        ],
+        "description": "Much of Egypt's water infrastructure is aging and in need of urgent repair or replacement to ensure sustainable water delivery and sanitation services."
+    },
+    {
+        "issueTitle": "Urban Sprawl and Water Demand",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation",
+            "SDG 11: Sustainable Cities and Communities"
+        ],
+        "description": "Rapid urban sprawl in cities like Cairo and Alexandria is leading to increased water demand, stressing already limited water resources."
+    },
+    {
+        "issueTitle": "Inadequate Water Quality Monitoring",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation",
+            "SDG 3: Good Health and Well-being"
+        ],
+        "description": "Inadequate monitoring and regulation of water quality in Egypt result in significant health risks, particularly in areas with industrial activity."
+    },
+    {
+        "issueTitle": "Unregulated Groundwater Extraction",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation",
+            "SDG 15: Life on Land"
+        ],
+        "description": "Unregulated and excessive groundwater extraction is leading to aquifer depletion and land subsidence, posing long-term environmental risks."
+    },
+    {
+        "issueTitle": "Seasonal Flooding and Water Management",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation",
+            "SDG 11: Sustainable Cities and Communities",
+            "SDG 13: Climate Action"
+        ],
+        "description": "Seasonal flooding due to extreme weather events challenges water management strategies, affecting both urban and rural communities."
+    },
+    {
+        "issueTitle": "Dependency on the Nile for Water Supply",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": [
+            "SDG 6: Clean Water and Sanitation"
+        ],
+        "description": "Egypt's almost total dependency on the Nile for its water supply makes it extremely vulnerable to changes in climate and upstream water usage."
+    },
+    {
+        "issueTitle": "Increasing Heat Waves",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 3: Good Health and Well-being"
+        ],
+        "description": "Egypt is experiencing more frequent and intense heat waves, posing health risks, particularly for the elderly and children in urban areas."
+    },
+    {
+        "issueTitle": "Coastal Erosion in the Nile Delta",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 14: Life Below Water",
+            "SDG 11: Sustainable Cities and Communities"
+        ],
+        "description": "The low-lying Nile Delta, crucial for Egypt’s agriculture, is facing serious coastal erosion exacerbated by rising sea levels and decreased sediment supply."
+    },
+    {
+        "issueTitle": "Decline in Agricultural Productivity",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 2: Zero Hunger",
+            "SDG 15: Life on Land"
+        ],
+        "description": "Changing weather patterns and increased temperatures are leading to reduced agricultural productivity, threatening food security in Egypt."
+    },
+    {
+        "issueTitle": "Increased Water Scarcity",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 6: Clean Water and Sanitation"
+        ],
+        "description": "Climate change is exacerbating water scarcity in Egypt, impacting water availability for drinking, agriculture, and industrial use."
+    },
+    {
+        "issueTitle": "Vulnerability of Coral Reefs",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 14: Life Below Water"
+        ],
+        "description": "Egypt’s coral reefs, especially around the Red Sea, are vulnerable to bleaching due to rising sea temperatures, affecting biodiversity and tourism."
+    },
+    {
+        "issueTitle": "Expansion of Desert Areas",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 15: Life on Land"
+        ],
+        "description": "Desertification is intensifying in Egypt, encroaching on arable land and altering traditional land use patterns."
+    },
+    {
+        "issueTitle": "Flooding from Extreme Weather Events",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 11: Sustainable Cities and Communities"
+        ],
+        "description": "Increased frequency of extreme weather events is causing unexpected and severe flooding in urban and rural areas, damaging infrastructure and displacing communities."
+    },
+    {
+        "issueTitle": "Health Impacts from Air Quality Deterioration",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 3: Good Health and Well-being"
+        ],
+        "description": "Climate change contributes to deteriorating air quality in major cities like Cairo, exacerbating respiratory illnesses and other health problems."
+    },
+    {
+        "issueTitle": "Threats to Indigenous Wildlife",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 15: Life on Land"
+        ],
+        "description": "Shifts in climate are threatening the habitats of indigenous wildlife species in Egypt, leading to a reduction in biodiversity."
+    },
+    {
+        "issueTitle": "Increased Energy Demand for Cooling",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 7: Affordable and Clean Energy"
+        ],
+        "description": "As temperatures rise, the demand for energy, particularly for air conditioning, is spiking, stressing Egypt's energy infrastructure and increasing greenhouse gas emissions."
+    },
+    {
+        "issueTitle": "Disruption of Traditional Fishing",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 14: Life Below Water"
+        ],
+        "description": "Climate change is altering fish populations and distributions, disrupting traditional fishing practices and affecting livelihoods in coastal communities."
+    },
+    {
+        "issueTitle": "Migration Due to Climate Conditions",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 10: Reduced Inequalities"
+        ],
+        "description": "Adverse climate conditions are forcing populations to migrate, creating internal displacement and social tensions."
+    },
+    {
+        "issueTitle": "Loss of Cultural Heritage Sites",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 11: Sustainable Cities and Communities"
+        ],
+        "description": "Rising sea levels and increased soil salinity are threatening ancient cultural heritage sites, particularly in coastal areas like Alexandria."
+    },
+    {
+        "issueTitle": "Decrease in Tourism",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 8: Decent Work and Economic Growth"
+        ],
+        "description": "Adverse weather conditions are affecting tourism, a major source of income for Egypt, particularly impacting beach and cultural tourism sectors."
+    },
+    {
+        "issueTitle": "Strain on Urban Infrastructure",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 11: Sustainable Cities and Communities",
+            "SDG 9: Industry, Innovation and Infrastructure"
+        ],
+        "description": "Urban infrastructure is under strain from the effects of climate change, requiring significant upgrades to withstand extreme weather conditions."
+    },
+    {
+        "issueTitle": "Reduction in River Nile Flows",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 6: Clean Water and Sanitation"
+        ],
+        "description": "Climate change impacts combined with upstream damming are reducing the flow of the River Nile, critical to Egypt’s water supply."
+    },
+    {
+        "issueTitle": "Impact on Public Health Systems",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 3: Good Health and Well-being"
+        ],
+        "description": "Increasing health issues related to climate change are putting additional pressure on Egypt's public health systems."
+    },
+    {
+        "issueTitle": "Energy Supply Disruptions",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 7: Affordable and Clean Energy"
+        ],
+        "description": "Extreme weather events are causing disruptions in energy supply, highlighting the need for more resilient energy systems."
+    },
+    {
+        "issueTitle": "Changes in Precipitation Patterns",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 6: Clean Water and Sanitation"
+        ],
+        "description": "Altered precipitation patterns are affecting water availability for agriculture, necessitating shifts in farming practices."
+    },
+    {
+        "issueTitle": "Increased Urban Heat Island Effect",
+        "emergingIssue": "Climate Change",
+        "sdgTargeted": [
+            "SDG 13: Climate Action",
+            "SDG 11: Sustainable Cities and Communities"
+        ],
+        "description": "The urban heat island effect is intensifying in Egyptian cities, exacerbating the heat stress experienced by urban populations."
+    },
+    {
+        "issueTitle": "Decline in Crop Yields",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 13: Climate Action"
+        ],
+        "description": "Egypt faces a significant decline in crop yields due to soil degradation and the impact of increased temperatures and erratic rainfall."
+    },
+    {
+        "issueTitle": "Water Scarcity Impacting Irrigation",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 6: Clean Water and Sanitation"
+        ],
+        "description": "Critical water shortages are severely impacting irrigation practices, essential for agriculture in Egypt’s arid climate."
+    },
+    {
+        "issueTitle": "High Dependency on Food Imports",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 12: Responsible Consumption and Production"
+        ],
+        "description": "Egypt's high dependency on imported food commodities like wheat makes it vulnerable to global market fluctuations and supply chain disruptions."
+    },
+    {
+        "issueTitle": "Impact of Subsidy Reductions on Food Prices",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 1: No Poverty"
+        ],
+        "description": "Recent reductions in government subsidies have led to a rise in food prices, affecting access to food for low-income families."
+    },
+    {
+        "issueTitle": "Loss of Agricultural Land to Urbanization",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 11: Sustainable Cities and Communities"
+        ],
+        "description": "Rapid urbanization is leading to the loss of agricultural land, threatening food production capacities in Egypt."
+    },
+    {
+        "issueTitle": "Pest Infestations in Crops",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 15: Life on Land"
+        ],
+        "description": "Increasing pest infestations, exacerbated by climate change, are damaging crops and reducing yields across the country."
+    },
+    {
+        "issueTitle": "Inadequate Agricultural Investment",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 9: Industry, Innovation and Infrastructure"
+        ],
+        "description": "Lack of adequate investment in agricultural technology and infrastructure is hindering the efficiency and sustainability of food production in Egypt."
+    },
+    {
+        "issueTitle": "Overfishing in the Mediterranean and Red Sea",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 14: Life Below Water"
+        ],
+        "description": "Overfishing in Egypt's territorial waters is leading to depletion of fish stocks, affecting food availability and the livelihoods of fishing communities."
+    },
+    {
+        "issueTitle": "Vulnerability to Crop Diseases",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 3: Good Health and Well-being"
+        ],
+        "description": "Egyptian agriculture is increasingly vulnerable to emerging crop diseases, which threaten food security and agricultural biodiversity."
+    },
+    {
+        "issueTitle": "Economic Inflation Impacting Food Affordability",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 1: No Poverty"
+        ],
+        "description": "Economic inflation in Egypt is making basic food items unaffordable for many Egyptians, exacerbating hunger and malnutrition."
+    },
+    {
+        "issueTitle": "Lack of Nutritional Diversity",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 3: Good Health and Well-being"
+        ],
+        "description": "There is a lack of nutritional diversity in the Egyptian diet, leading to widespread micronutrient deficiencies and health issues."
+    },
+    {
+        "issueTitle": "Climate Change Affecting Fishery Yields",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 13: Climate Action"
+        ],
+        "description": "Climate change is affecting the productivity of both marine and freshwater fisheries, crucial for food security in coastal and riverine communities."
+    },
+    {
+        "issueTitle": "Soil Salinity Increasing",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 6: Clean Water and Sanitation"
+        ],
+        "description": "Increased soil salinity, partly due to poor irrigation practices, is reducing the arable land available for food crops in Egypt."
+    },
+    {
+        "issueTitle": "Insufficient Food Storage Facilities",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 12: Responsible Consumption and Production"
+        ],
+        "description": "Lack of adequate food storage facilities leads to high post-harvest losses, impacting overall food availability and economic stability for farmers."
+    },
+    {
+        "issueTitle": "Disruption of Food Supply Chains",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 12: Responsible Consumption and Production"
+        ],
+        "description": "Political instability and economic disruptions have led to frequent interruptions in food supply chains, exacerbating food insecurity."
+    },
+    {
+        "issueTitle": "Limited Access to Markets for Small Farmers",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 10: Reduced Inequalities"
+        ],
+        "description": "Small-scale farmers in Egypt often face barriers to accessing markets, reducing their profits and discouraging sustainable agricultural practices."
+    },
+    {
+        "issueTitle": "Increasing Food Wastage",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 12: Responsible Consumption and Production"
+        ],
+        "description": "High levels of food wastage in urban areas contribute to overall food insecurity, while millions struggle with access to basic food items."
+    },
+    {
+        "issueTitle": "Dependency on Nile River for Agriculture",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 6: Clean Water and Sanitation"
+        ],
+        "description": "The overwhelming dependency on the Nile for irrigation places Egyptian food security at risk, particularly with upstream developments like the Grand Ethiopian Renaissance Dam."
+    },
+    {
+        "issueTitle": "Poor Agricultural Policy Implementation",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 16: Peace, Justice and Strong Institutions"
+        ],
+        "description": "Ineffective implementation of agricultural policies hampers efforts to improve food security and agricultural productivity in Egypt."
+    },
+    {
+        "issueTitle": "Impact of Global Climate Policies on Food Imports",
+        "emergingIssue": "Food Security",
+        "sdgTargeted": [
+            "SDG 2: Zero Hunger",
+            "SDG 13: Climate Action"
+        ],
+        "description": "Global climate policies and environmental changes can impact the price and availability of food imports, affecting food security in Egypt."
+    },
+    {
+        "issueTitle": "Rising Rates of Chronic Diseases",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being"
+        ],
+        "description": "Egypt is experiencing a surge in chronic diseases such as diabetes and hypertension, driven by lifestyle factors and aging populations."
+    },
+    {
+        "issueTitle": "Inadequate Health Infrastructure",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being",
+            "SDG 9: Industry, Innovation and Infrastructure"
+        ],
+        "description": "The health infrastructure in many parts of Egypt is inadequate, with hospitals and clinics under-resourced and overcrowded."
+    },
+    {
+        "issueTitle": "Impact of Air Pollution on Respiratory Health",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being",
+            "SDG 11: Sustainable Cities and Communities"
+        ],
+        "description": "High levels of air pollution in urban areas like Cairo are causing an increase in respiratory ailments and other health issues among residents."
+    },
+    {
+        "issueTitle": "Shortages of Medical Personnel",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being",
+            "SDG 4: Quality Education"
+        ],
+        "description": "There is a critical shortage of trained medical personnel in Egypt, particularly in rural and underserved areas."
+    },
+    {
+        "issueTitle": "Spread of Infectious Diseases",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being"
+        ],
+        "description": "Egypt faces challenges in controlling the spread of infectious diseases, including hepatitis and tuberculosis."
+    },
+    {
+        "issueTitle": "High Maternal and Infant Mortality Rates",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being"
+        ],
+        "description": "Egypt continues to struggle with high rates of maternal and infant mortality, despite various health initiatives."
+    },
+    {
+        "issueTitle": "Lack of Mental Health Services",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being"
+        ],
+        "description": "Mental health services are severely lacking in Egypt, with stigma and insufficient resources limiting access to necessary care."
+    },
+    {
+        "issueTitle": "Obesity Epidemic",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being"
+        ],
+        "description": "Obesity rates in Egypt are among the highest in the world, contributing to a range of health issues and increasing healthcare costs."
+    },
+    {
+        "issueTitle": "Drug Shortages and Pharmaceutical Supply Issues",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being"
+        ],
+        "description": "Frequent drug shortages and issues in pharmaceutical supply chains are compromising patient care across Egypt."
+    },
+    {
+        "issueTitle": "Inadequate Emergency Medical Services",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being"
+        ],
+        "description": "Emergency medical services in Egypt are often inadequate, with slow response times and limited coverage, particularly in remote areas."
+    },
+    {
+        "issueTitle": "Impact of Water Pollution on Health",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being",
+            "SDG 6: Clean Water and Sanitation"
+        ],
+        "description": "Water pollution is causing widespread health issues in Egypt, including gastrointestinal diseases and other serious health problems."
+    },
+    {
+        "issueTitle": "Underfunded Public Health Programs",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being"
+        ],
+        "description": "Public health programs in Egypt are chronically underfunded, limiting their effectiveness in improving health outcomes and preventing diseases."
+    },
+    {
+        "issueTitle": "Rising Healthcare Costs",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being",
+            "SDG 1: No Poverty"
+        ],
+        "description": "The cost of healthcare in Egypt is rising, making it increasingly difficult for low-income families to afford necessary medical treatment."
+    },
+    {
+        "issueTitle": "Insufficient Health Education and Awareness",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being",
+            "SDG 4: Quality Education"
+        ],
+        "description": "There is a lack of health education and awareness among the Egyptian population, leading to poor health choices and increased vulnerability to diseases."
+    },
+    {
+        "issueTitle": "Environmental Health Risks",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being",
+            "SDG 13: Climate Action"
+        ],
+        "description": "Environmental degradation and climate change are exacerbating health risks in Egypt, particularly in terms of air quality and heat-related illnesses."
+    },
+    {
+        "issueTitle": "Challenges in Health Policy Implementation",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being",
+            "SDG 16: Peace, Justice and Strong Institutions"
+        ],
+        "description": "There are significant challenges in the implementation of health policies in Egypt, often due to bureaucratic inefficiencies and corruption."
+    },
+    {
+        "issueTitle": "Vaccine Hesitancy",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being"
+        ],
+        "description": "Vaccine hesitancy is a growing concern in Egypt, impacting public health efforts to control preventable diseases."
+    },
+    {
+        "issueTitle": "Limited Access to Reproductive Health Services",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being",
+            "SDG 5: Gender Equality"
+        ],
+        "description": "Access to comprehensive reproductive health services is limited in Egypt, particularly for women in rural areas."
+    },
+    {
+        "issueTitle": "Aging Population and Health Care Demand",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being"
+        ],
+        "description": "An aging population is putting additional pressure on Egypt's healthcare system, which is already struggling to meet the demand."
+    },
+    {
+        "issueTitle": "Neglected Tropical Diseases",
+        "emergingIssue": "Health Crisis",
+        "sdgTargeted": [
+            "SDG 3: Good Health and Well-being"
+        ],
+        "description": "Egypt is battling against neglected tropical diseases, which continue to affect the poorest and most vulnerable populations."
+    },
+    
+        {
+            "issueTitle": "High Unemployment Rates",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 8: Decent Work and Economic Growth"],
+            "description": "Persistent high unemployment rates, especially among youth and college graduates, are a major economic concern in Egypt."
+        },
+        {
+            "issueTitle": "Inflationary Pressure",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 1: No Poverty", "SDG 8: Decent Work and Economic Growth"],
+            "description": "Egypt faces significant inflationary pressure, leading to higher prices for basic goods and reducing purchasing power among its citizens."
+        },
+        {
+            "issueTitle": "Decrease in Foreign Direct Investment",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 8: Decent Work and Economic Growth", "SDG 17: Partnerships for the Goals"],
+            "description": "Economic instability has led to a decrease in foreign direct investment, impacting economic growth and job creation."
+        },
+        {
+            "issueTitle": "Currency Devaluation",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 8: Decent Work and Economic Growth"],
+            "description": "The Egyptian pound has experienced significant devaluation, affecting the cost of imports and contributing to inflation."
+        },
+        {
+            "issueTitle": "Decline in Tourism Revenue",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 8: Decent Work and Economic Growth"],
+            "description": "Political instability and security concerns have led to a decline in tourism, a crucial source of revenue for Egypt's economy."
+        },
+        {
+            "issueTitle": "Reduction in Suez Canal Revenue",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 9: Industry, Innovation and Infrastructure", "SDG 8: Decent Work and Economic Growth"],
+            "description": "Economic downturns globally have led to reduced shipping activity, impacting revenue from the Suez Canal."
+        },
+        {
+            "issueTitle": "Increased Public Debt",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 17: Partnerships for the Goals"],
+            "description": "Egypt's public debt levels have risen, limiting the government's ability to invest in public services and infrastructure."
+        },
+        {
+            "issueTitle": "Weak Industrial Output",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 9: Industry, Innovation and Infrastructure"],
+            "description": "The industrial sector in Egypt is suffering from low output due to lack of investment, outdated technology, and insufficient infrastructure."
+        },
+        {
+            "issueTitle": "Poor Agricultural Performance",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 2: Zero Hunger", "SDG 8: Decent Work and Economic Growth"],
+            "description": "Challenges such as water scarcity and inadequate agricultural practices are leading to poor performance in the agricultural sector."
+        },
+        {
+            "issueTitle": "Rising Fuel Prices",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 7: Affordable and Clean Energy", "SDG 8: Decent Work and Economic Growth"],
+            "description": "Increases in fuel prices are contributing to overall economic challenges, affecting both businesses and consumers."
+        },
+        {
+            "issueTitle": "Lack of Competitiveness",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 8: Decent Work and Economic Growth"],
+            "description": "Egypt's global economic competitiveness is declining due to a lack of innovation and inefficiencies in the business environment."
+        },
+        {
+            "issueTitle": "Credit Access Issues",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 8: Decent Work and Economic Growth"],
+            "description": "Small and medium enterprises (SMEs) in Egypt struggle to access credit, hindering their ability to expand and employ more workers."
+        },
+        {
+            "issueTitle": "Stagnation in Construction Sector",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 9: Industry, Innovation and Infrastructure"],
+            "description": "The construction sector, once a driving force in Egypt's economy, is now stagnating due to reduced investment and demand."
+        },
+        {
+            "issueTitle": "Declining Exports",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 8: Decent Work and Economic Growth"],
+            "description": "Egypt's export sectors are suffering from global trade tensions and reduced competitiveness, leading to declining revenues."
+        },
+        {
+            "issueTitle": "Growing Informal Economy",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 8: Decent Work and Economic Growth"],
+            "description": "The growth of the informal economy complicates economic policymaking and limits the effectiveness of government regulations."
+        },
+        {
+            "issueTitle": "Skills Mismatch in the Workforce",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 4: Quality Education", "SDG 8: Decent Work and Economic Growth"],
+            "description": "There is a significant mismatch between the skills of the Egyptian workforce and the needs of the modern economy, contributing to high unemployment."
+        },
+        {
+            "issueTitle": "Impact of Global Economic Downturns",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 8: Decent Work and Economic Growth"],
+            "description": "Global economic downturns have a direct impact on Egypt's economy, especially in sectors like tourism and Suez Canal transit."
+        },
+        {
+            "issueTitle": "Insufficient Economic Diversification",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 8: Decent Work and Economic Growth"],
+            "description": "Egypt's economy suffers from insufficient diversification, making it vulnerable to shocks in key sectors like oil and gas, tourism, and agriculture."
+        },
+        {
+            "issueTitle": "Lack of Entrepreneurial Opportunities",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 8: Decent Work and Economic Growth"],
+            "description": "Entrepreneurial opportunities in Egypt are limited by regulatory barriers, lack of funding, and a challenging business environment."
+        },
+        {
+            "issueTitle": "Underinvestment in Technology and Innovation",
+            "emergingIssue": "Economic Recession",
+            "sdgTargeted": ["SDG 9: Industry, Innovation and Infrastructure", "SDG 8: Decent Work and Economic Growth"],
+            "description": "There is significant underinvestment in technology and innovation, hindering economic growth and the development of new industries."
+        },    
+        [
+            {
+                "issueTitle": "Overdependence on Fossil Fuels",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 7: Affordable and Clean Energy", "SDG 13: Climate Action"],
+                "description": "Egypt's energy sector is heavily reliant on fossil fuels, which poses sustainability and environmental challenges."
+            },
+            {
+                "issueTitle": "Power Outages",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 7: Affordable and Clean Energy", "SDG 9: Industry, Innovation and Infrastructure"],
+                "description": "Frequent power outages disrupt daily life and business operations, highlighting the need for more reliable energy sources."
+            },
+            {
+                "issueTitle": "Aging Energy Infrastructure",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 9: Industry, Innovation and Infrastructure", "SDG 7: Affordable and Clean Energy"],
+                "description": "Much of Egypt's energy infrastructure is outdated and inefficient, requiring significant upgrades or replacements."
+            },
+            {
+                "issueTitle": "High Energy Subsidies",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 12: Responsible Consumption and Production", "SDG 7: Affordable and Clean Energy"],
+                "description": "The Egyptian government spends a large portion of its budget on energy subsidies, which is financially unsustainable in the long term."
+            },
+            {
+                "issueTitle": "Limited Renewable Energy Adoption",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 7: Affordable and Clean Energy", "SDG 13: Climate Action"],
+                "description": "Despite having significant solar and wind resources, Egypt has been slow to adopt renewable energy technologies on a large scale."
+            },
+            {
+                "issueTitle": "Oil and Gas Sector Volatility",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 7: Affordable and Clean Energy"],
+                "description": "Volatility in global oil and gas markets impacts Egypt's energy sector, affecting both domestic energy prices and economic stability."
+            },
+            {
+                "issueTitle": "Energy Consumption Inefficiency",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 7: Affordable and Clean Energy", "SDG 13: Climate Action"],
+                "description": "There is a high level of energy consumption inefficiency in both the residential and industrial sectors in Egypt."
+            },
+            {
+                "issueTitle": "Lack of Energy Sector Investment",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 7: Affordable and Clean Energy", "SDG 9: Industry, Innovation and Infrastructure"],
+                "description": "Insufficient investment in the energy sector is limiting Egypt's ability to expand and modernize its energy infrastructure."
+            },
+            {
+                "issueTitle": "Environmental Impact of Energy Production",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 13: Climate Action", "SDG 7: Affordable and Clean Energy"],
+                "description": "The environmental impact of energy production, particularly from fossil fuels, is a growing concern in Egypt."
+            },
+            {
+                "issueTitle": "Energy Security Concerns",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 7: Affordable and Clean Energy", "SDG 16: Peace, Justice and Strong Institutions"],
+                "description": "Concerns over energy security are prominent due to Egypt's geopolitical situation and its impact on energy supply routes."
+            },
+            {
+                "issueTitle": "Rising Domestic Energy Demand",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 7: Affordable and Clean Energy"],
+                "description": "Rapid population growth and urbanization are leading to rising domestic energy demand, outpacing current supply capabilities."
+            },
+            {
+                "issueTitle": "Underdeveloped Nuclear Energy Sector",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 7: Affordable and Clean Energy"],
+                "description": "Egypt's nuclear energy sector is underdeveloped, despite plans to establish nuclear power as a significant energy source."
+            },
+            {
+                "issueTitle": "Fuel Smuggling and Theft",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 16: Peace, Justice and Strong Institutions", "SDG 7: Affordable and Clean Energy"],
+                "description": "Fuel smuggling and theft are significant issues, leading to losses in state revenues and contributing to the energy crisis."
+            },
+            {
+                "issueTitle": "Dependency on Energy Imports",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 7: Affordable and Clean Energy"],
+                "description": "Egypt's dependency on energy imports makes it vulnerable to external economic and political influences."
+            },
+            {
+                "issueTitle": "Challenges in Energy Pricing",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 7: Affordable and Clean Energy", "SDG 12: Responsible Consumption and Production"],
+                "description": "The challenge of setting fair and sustainable energy prices complicates the management of Egypt's energy resources."
+            },
+            {
+                "issueTitle": "Lack of Public Awareness on Energy Conservation",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 7: Affordable and Clean Energy", "SDG 13: Climate Action"],
+                "description": "There is a general lack of public awareness regarding the importance of energy conservation and the benefits of renewable energy."
+            },
+            {
+                "issueTitle": "Insufficient Grid Capacity",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 7: Affordable and Clean Energy", "SDG 9: Industry, Innovation and Infrastructure"],
+                "description": "Egypt's electrical grid lacks the capacity to handle peak loads effectively, leading to frequent outages."
+            },
+            {
+                "issueTitle": "Impact of Subsidy Reforms on Energy Sector",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 7: Affordable and Clean Energy"],
+                "description": "Reforms in energy subsidies have led to increased prices for consumers, affecting economic stability and energy access for low-income households."
+            },
+            {
+                "issueTitle": "Barriers to Energy Market Entry",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 7: Affordable and Clean Energy"],
+                "description": "Regulatory and bureaucratic barriers limit new entrants in the energy market, hindering competition and innovation."
+            },
+            {
+                "issueTitle": "Geopolitical Tensions Affecting Energy Supplies",
+                "emergingIssue": "Energy Crisis",
+                "sdgTargeted": ["SDG 7: Affordable and Clean Energy", "SDG 16: Peace, Justice and Strong Institutions"],
+                "description": "Geopolitical tensions in the region can disrupt energy supplies, posing risks to Egypt's energy security."
+            }
+           

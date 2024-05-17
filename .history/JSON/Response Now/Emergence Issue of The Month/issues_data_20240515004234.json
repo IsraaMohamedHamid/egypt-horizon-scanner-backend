@@ -1,0 +1,121 @@
+[
+    {
+        "issueTitle": "Declining Water Levels of Lake Nasser",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation", "SDG 13: Climate Action"],
+        "description": "The water levels in Lake Nasser, a crucial reservoir formed by the Aswan High Dam, have been dropping due to prolonged drought periods and upstream water usage, threatening water security for Egypt."
+    },
+    {
+        "issueTitle": "Salinization of the Nile Delta",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation", "SDG 2: Zero Hunger", "SDG 14: Life Below Water"],
+        "description": "Increased salinization in the Nile Delta is affecting freshwater availability and agriculture, further complicated by rising sea levels and reduced sediment flow due to dam constructions upstream."
+    },
+    {
+        "issueTitle": "Overuse of Fertilizers and Pesticides",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation", "SDG 12: Responsible Consumption and Production"],
+        "description": "Heavy use of fertilizers and pesticides in agriculture along the Nile River is leading to water pollution, affecting both human health and aquatic ecosystems."
+    },
+    {
+        "issueTitle": "Waterborne Diseases in Rural Areas",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 3: Good Health and Well-being", "SDG 6: Clean Water and Sanitation"],
+        "description": "Rural areas in Egypt experience high incidences of waterborne diseases due to inadequate water treatment and sanitation infrastructure."
+    },
+    {
+        "issueTitle": "Inefficient Water Use in Agriculture",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation", "SDG 12: Responsible Consumption and Production"],
+        "description": "Agricultural practices in Egypt often involve inefficient water use, such as flood irrigation, leading to significant water wastage."
+    },
+    {
+        "issueTitle": "Sewage Overflow in Urban Areas",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation", "SDG 11: Sustainable Cities and Communities"],
+        "description": "Frequent sewage system overflows in densely populated urban areas contaminate water bodies and pose health risks to residents."
+    },
+    {
+        "issueTitle": "Reduction of Water Allocations to Farmers",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation", "SDG 2: Zero Hunger"],
+        "description": "Governmental policies on water rationing have led to reduced water allocations for farmers, impacting crop yields and food security."
+    },
+    {
+        "issueTitle": "Impact of Tourism on Water Quality",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation", "SDG 14: Life Below Water"],
+        "description": "Tourist activities along the Red Sea coast have led to local water pollution, affecting marine life and coral reefs."
+    },
+    {
+        "issueTitle": "Industrial Discharges into the Nile",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation", "SDG 12: Responsible Consumption and Production"],
+        "description": "Industrial units along the Nile River frequently discharge untreated or inadequately treated wastewater, contributing to severe pollution."
+    },
+    {
+        "issueTitle": "Underinvestment in Water Infrastructure",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation", "SDG 9: Industry, Innovation and Infrastructure"],
+        "description": "Chronic underinvestment in water infrastructure maintenance and upgrades has left many parts of Egypt vulnerable to water shortages and sanitation issues."
+    },
+    {
+        "issueTitle": "Contamination of Drinking Water",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation", "SDG 3: Good Health and Well-being"],
+        "description": "Many regions in Egypt, particularly rural areas, suffer from contamination of drinking water sources due to poor sanitation and inadequate waste management."
+    },
+    {
+        "issueTitle": "Water Pricing Issues",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation", "SDG 1: No Poverty"],
+        "description": "The lack of a fair and effective water pricing mechanism discourages conservation and leads to wasteful usage in urban and agricultural sectors."
+    },
+    {
+        "issueTitle": "Limited Public Awareness on Water Conservation",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation", "SDG 12: Responsible Consumption and Production", "SDG 13: Climate Action"],
+        "description": "There is a lack of public awareness campaigns in Egypt focused on water conservation techniques, contributing to high levels of water misuse."
+    },
+    {
+        "issueTitle": "Disputes Over Water Rights",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation", "SDG 16: Peace, Justice, and Strong Institutions"],
+        "description": "Disputes over water rights, particularly with upstream Nile Basin countries, pose a significant geopolitical challenge and water security risk for Egypt."
+    },
+    {
+        "issueTitle": "Aging Water Infrastructure",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation", "SDG 9: Industry, Innovation and Infrastructure"],
+        "description": "Much of Egypt's water infrastructure is aging and in need of urgent repair or replacement to ensure sustainable water delivery and sanitation services."
+    },
+    {
+        "issueTitle": "Urban Sprawl and Water Demand",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation", "SDG 11: Sustainable Cities and Communities"],
+        "description": "Rapid urban sprawl in cities like Cairo and Alexandria is leading to increased water demand, stressing already limited water resources."
+    },
+    {
+        "issueTitle": "Inadequate Water Quality Monitoring",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation", "SDG 3: Good Health and Well-being"],
+        "description": "Inadequate monitoring and regulation of water quality in Egypt result in significant health risks, particularly in areas with industrial activity."
+    },
+    {
+        "issueTitle": "Unregulated Groundwater Extraction",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation", "SDG 15: Life on Land"],
+        "description": "Unregulated and excessive groundwater extraction is leading to aquifer depletion and land subsidence, posing long-term environmental risks."
+    },
+    {
+        "issueTitle": "Seasonal Flooding and Water Management",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation", "SDG 11: Sustainable Cities and Communities", "SDG 13: Climate Action"],
+        "description": "Seasonal flooding due to extreme weather events challenges water management strategies, affecting both urban and rural communities."
+    },
+    {
+        "issueTitle": "Dependency on the Nile for Water Supply",
+        "emergingIssue": "Water Issue",
+        "sdgTargeted": ["SDG 6: Clean Water and Sanitation"],
+        "description": "Egypt's almost total dependency on the Nile for its water supply makes it extremely vulnerable to changes in climate and upstream water usage."
+    }
