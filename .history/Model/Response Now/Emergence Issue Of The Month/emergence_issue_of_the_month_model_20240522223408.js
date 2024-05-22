@@ -35,7 +35,7 @@ export const EmergenceIssueOfTheMonthSchema = new mongoose.Schema({
         type: Map,  // Using Map for key-value pairs
         of: Number,  // Define the type of values in the Map as Number
         default: () => new Map()  // Ensures the default is an empty Map
-    },
+    }
     summary: {
         type: String
     },

@@ -86,58 +86,34 @@ function determinePriority(averageWeight, repetition) {
 // Function to compile data for an issue
 async function compileIssueData(issue, issueDocuments) {
   console.log(`Compiling data for issue ${issue}.`);
-
-  const aggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([{
-      $match: {
-        emergingIssue: issue
-      }
-    },
-    {
-      $group: {
+  
+  const aggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([
+    { $match: { emergingIssue: issue } },
+    { $group: {
         _id: "$emergingIssue",
-        sources: {
-          $addToSet: "$source"
-        },
-        sdgTargeted: {
-          $addToSet: "$sdgTargeted"
-        }
-      }
-    }
+        sources: { $addToSet: "$source" },
+        sdgTargeted: { $addToSet: "$sdgTargeted" }
+    }}
   ]);
   // Initialize the dictionary to count occurrences of each SDG target
   const sdgTargetedDictionary = {};
-
+  
   // Global aggregation to count all SDG targets across all documents
-  const sdgAggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([{
-      $match: {
-        emergingIssue: issue
-      }
-    },
-    {
-      $unwind: "$sdgTargeted"
-    }, // Unwind the array of SDG targets
-    {
-      $group: {
+  const sdgAggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([
+    { $match: { emergingIssue: issue } },
+    { $unwind: "$sdgTargeted" },  // Unwind the array of SDG targets
+    { $group: {
         _id: "$sdgTargeted",
-        count: {
-          $sum: 1
-        } // Sum up all occurrences of each SDG target
-      }
-    }
+        count: { $sum: 1 }  // Sum up all occurrences of each SDG target
+    }}
   ]);
 
   // Fill the dictionary with the results from the aggregation
   sdgAggregation.forEach(item => {
-    sdgTargetedDictionary[item._id] = item.count; // Ensure count is a number
+    sdgTargetedDictionary[item._id] = item.count;
   });
 
-  let {
-    sources,
-    sdgTargeted
-  } = aggregation.length > 0 ? aggregation[0] : {
-    sources: [],
-    sdgTargeted: []
-  };
+  let { sources, sdgTargeted } = aggregation.length > 0 ? aggregation[0] : { sources: [], sdgTargeted: [] };
 
   sdgTargeted = [...new Set([].concat(...sdgTargeted))];
   sdgTargeted.sort((a, b) => parseInt(a.match(/\d+/)[0]) - parseInt(b.match(/\d+/)[0]));
