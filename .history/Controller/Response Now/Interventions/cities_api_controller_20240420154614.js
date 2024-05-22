@@ -1,12 +1,12 @@
 const {
   cityModel,
   CitySchema
-} = require('../../../Model/Response Now/interventions/city_model');
+} from '../../../Model/Response Now/interventions/city_model.js');
 
 const {
   projectsModel,
   ProjectSchema
-} = require('../../../Model/Response Now/interventions/projects_model');
+} from '../../../Model/Response Now/interventions/projects_model.js');
 
 // Get a list of cities from the DB
 const getCities = ((req, res, next) => {
@@ -361,7 +361,7 @@ const countMostInterventionTypePerCity = ((req, res) => {
 
 })
 
-module.exports = {
+export default  {
   getCities: getCities,
   createCity: createCity,
   updateCityByID: updateCityByID,

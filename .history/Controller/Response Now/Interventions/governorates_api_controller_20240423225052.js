@@ -1,12 +1,12 @@
 const {
   governoratesModel,
   GovernorateSchema
-} = require('../../../Model/Response Now/Interventions/governorate_model');
+} from '../../../Model/Response Now/Interventions/governorate_model.js');
 
 const {
   projectsModel,
   ProjectSchema
-} = require('../../../Model/Response Now/Interventions/projects_model');
+} from '../../../Model/Response Now/Interventions/projects_model.js');
 
 // Get a list of governorates from the DB
 const getGovernorates = async (req, res, next) => {
@@ -302,7 +302,7 @@ const countMostInterventionTypePerGovernorate = ((req, res) => {
 })
 
 
-module.exports = {
+export default  {
   getGovernorates: getGovernorates,
   createGovernorate: createGovernorate,
   updateGovernorateByID: updateGovernorateByID,

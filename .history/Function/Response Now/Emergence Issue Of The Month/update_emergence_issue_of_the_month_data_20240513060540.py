@@ -78,7 +78,7 @@ def sentiment_analysis(text, model, tokenizer):
     inputs = tokenizer(text, return_tensors="tf", truncation=True, padding=True, max_length=512)
 
     # Perform the prediction
-    outputs = model(inputs)
+    outputs = mongoose.modelinputs)
 
     # Apply softmax to convert logits to probabilities
     probabilities = tf.nn.softmax(outputs.logits, axis=-1)
@@ -87,7 +87,7 @@ def sentiment_analysis(text, model, tokenizer):
     predicted_class_index = tf.argmax(probabilities, axis=-1).numpy()[0]
     predicted_class = model.config.id2label[predicted_class_index]
     # Mapping labels to more readable form
-    label_map = {0: "Negative", 1: "Positive"}  # Update this map based on your model's training
+    label_map = {0: "Negative", 1: "Positive"}  # Update this map based on your model.js's training
     predicted_class = label_map[predicted_class_index]
     
     return predicted_class, probabilities.numpy()

@@ -6,9 +6,9 @@ const  {
     deleteMunicipalDivisionByID,
     deleteMunicipalDivisionByMunicipalDivisionNameEN,
     countMostInterventionTypePerMunicipalDivision
-} = require('../../../Controller/Response Now/Interventions/municipal_divisions_api_controller')
+} from '../../../Controller/Response Now/Interventions/municipal_divisions_api_controller.js')
 
-const express = require('express');
+const express from 'express');
 const router = express.Router();
 
 
@@ -31,4 +31,4 @@ router.put('/municipal_division/municipal_divisionnameen/:municipal_divisionName
 // Count projects based on themes and City
 router.get('/municipal_division/count/theme', countMostInterventionTypePerMunicipalDivision);
 
-module.exports = router;
+export default  router;

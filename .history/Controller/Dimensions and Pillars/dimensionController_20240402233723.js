@@ -1,5 +1,5 @@
 
-const Dimension = require('../models/dimension');
+const Dimension from '../models/dimension');
 
 // Create a new Dimension
 exports.createDimension = async (req, res) => {

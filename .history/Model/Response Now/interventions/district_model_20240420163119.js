@@ -1,8 +1,7 @@
-var mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+import mongoose from 'mongoose';
 
 // Create District Schema and Model
-const DistrictSchema = new Schema({
+const DistrictSchema = new mongoose.Schema({
 
     DistrictId: {
         type: Number,
@@ -120,7 +119,7 @@ const DistrictSchema = new Schema({
 })
 
 const districtModel= mongoose.model('interventions_district_map', DistrictSchema, 'interventions_district_map');
-module.exports = {
+export default  {
     cityModel: districtModel, 
     CitySchema: DistrictSchema
 };

@@ -1,16 +1,16 @@
-const NodeCache = require('node-cache');
-const cron = require('node-cron');
+const NodeCache from 'node-cache');
+const cron from 'node-cron');
 const myCache = new NodeCache({ stdTTL: 21600 }); // Cache with a TTL of 6 hours
 
 const {
   municipalDivisionsModel,
   MunicipalDivisionSchema
-} = require('../../../Model/Response Now/Interventions/municipal_divisions_model');
+} from '../../../Model/Response Now/Interventions/municipal_divisions_model.js');
 
 const {
   projectsModel,
   ProjectSchema
-} = require('../../../Model/Response Now/Interventions/projects_model');
+} from '../../../Model/Response Now/Interventions/projects_model.js');
 
 
 // API to update a municipal division by name
@@ -49,7 +49,7 @@ const deleteMunicipalDivisionByMunicipalDivisionNameEN = async (req, res) => {
   }
 };
 
-module.exports = {
+export default  {
   getMunicipalDivisions,
   createMunicipalDivision,
   updateMunicipalDivisionByID,

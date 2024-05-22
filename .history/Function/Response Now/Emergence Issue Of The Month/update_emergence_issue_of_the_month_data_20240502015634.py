@@ -38,7 +38,7 @@ def analyze_description_sentiment(description, model, tokenizer):
     model = TFDistilBertForSequenceClassification.from_pretrained('distilbert-base-uncased-finetuned-sst-2-english')
 
     # Perform inference
-    outputs = model(tokenized_inputs)
+    outputs = mongoose.modeltokenized_inputs)
 
     # Extract predictions
     predictions = tf.nn.softmax(outputs.logits, axis=-1)

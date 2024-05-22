@@ -6,9 +6,9 @@ const  {
     deleteGovernorateByID,
     deleteGovernorateByGovernorateNameEN,
     countMostInterventionTypePerGovernorate
-} = require('../../../Controller/Response Now/Interventions/governorates_api_controller')
+} from '../../../Controller/Response Now/Interventions/governorates_api_controller.js')
 
-const express = require('express');
+const express from 'express');
 const router = express.Router();
 
 
@@ -28,4 +28,4 @@ router.delete('/governorate/governorateid/:id', deleteGovernorateByID);
 
 router.put('/governorate/governoratenameen/:governorateNameEN', deleteGovernorateByGovernorateNameEN);
 
-module.exports = router;
+export default  router;

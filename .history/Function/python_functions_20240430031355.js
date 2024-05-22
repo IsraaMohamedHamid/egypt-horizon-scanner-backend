@@ -1,4 +1,4 @@
-const { exec } = require('child_process');
+const { exec } from 'child_process');
 
 const installPythonLibraries = () => {
   return new Promise((resolve, reject) => {

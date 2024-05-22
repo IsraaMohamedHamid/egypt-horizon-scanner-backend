@@ -1,8 +1,8 @@
 const {
   projectsModel,
   ProjectSchema
-} = require('../../../Model/Response Now/Interventions/projects_model');
-const donorSchema = require('../../../Model/Response Now/Interventions/donor_model');
+} from '../../../Model/Response Now/Interventions/projects_model.js');
+const donorSchema from '../../../Model/Response Now/Interventions/donor_model.js');
 
 // Get a list of projects from the DB
 const getProjects = ((req, res, next) => {
@@ -446,7 +446,7 @@ const countTotalDonationAmount = ((req, res) => {
 
 })
 
-module.exports = {
+export default  {
   getProjects: getProjects,
   createProject: createProject,
   updateProjectByID: updateProjectByID,

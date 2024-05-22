@@ -1,5 +1,5 @@
 
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const issueSchema = new mongoose.Schema({
   Dimension	Pillars	IssueCategory	IssuesTitle	IssuesMainSource 	SourceCategory	Link	DataAcquisitionProtocolDocumentFormat	PaidSubscription	WordDictionaryWordDictionary 	WordDictionarySearchTerms		Other ources that could be helpful 													
@@ -14,4 +14,4 @@ const issueSchema = new mongoose.Schema({
   OtherSourcesThatCouldBeHelpful: { type: String, required: true }
 });
 
-module.exports = mongoose.model('Issue', issueSchema);
+export default  mongoose.model('Issue', issueSchema);

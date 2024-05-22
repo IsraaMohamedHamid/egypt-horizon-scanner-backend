@@ -5,29 +5,29 @@
 const {
     EmergenceIssueOfTheMonthModel,
     EmergenceIssueOfTheMonthSchema
-  } = require('../../../Model/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_model');
+  } from '../../../Model/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_model.js');
   
   const {
     EmergenceIssueOfTheMonthDataModel,
     EmergenceIssueOfTheMonthDataSchema
-  } = require('../../../Model/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_data_model');
+  } from '../../../Model/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_data_model.js');
   
 
   
 
 ///////////////// PACKAGES /////////////////
 
-// const jwt = require("jsonwebtoken");
+// const jwt from "jsonwebtoken");
 
-// const multer = require("multer");
-// const path = require("path");
+// const multer from "multer");
+// const path from "path");
 
-// const fs = require("fs");
+// const fs from "fs");
 
 ////////////////////////////////////////////// FUNCTIONS //////////////////////////////////////////////
 
 // Count the number of positive data, neutral data, and negative data
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 const emergingIssueComponentsCalculation = async function () {
   try {
       console.log(`START: Processing emerging issues.`);
@@ -104,6 +104,6 @@ const emergingIssueComponentsCalculation = async function () {
 // emergingIssueComponentsCalculation(emergingIssuesArray).catch(console.error);
 
 
-  module.exports = {
+  export default  {
     emergingIssueComponentsCalculation: emergingIssueComponentsCalculation
 };

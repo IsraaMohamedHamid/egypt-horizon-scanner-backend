@@ -6,15 +6,15 @@
   
 ///////////////// PACKAGES /////////////////
 
-// const jwt = require("jsonwebtoken");
+// const jwt from "jsonwebtoken");
 
-// const multer = require("multer");
-// const path = require("path");
+// const multer from "multer");
+// const path from "path");
 
-// const fs = require("fs");
-const { spawn } = require('child_process');
-const { exec } = require('child_process');
-const path = require('path');
+// const fs from "fs");
+const { spawn } from 'child_process');
+const { exec } from 'child_process');
+const path from 'path');
 
 ////////////////////////////////////////////// FUNCTIONS //////////////////////////////////////////////
 
@@ -54,6 +54,6 @@ const startProcessing = async () => {
 
 
 exports.startProcessing = startProcessing;
-module.exports = {
+export default  {
     startProcessing: startProcessing
 };

@@ -6,9 +6,9 @@ const  {
     deleteCityByID,
     deleteCityByCityName,
     countMostInterventionTypePerCity
-} = require('../../../Controller')
+} from '../../../Controller')
 
-const express = require('express');
+const express from 'express');
 const router = express.Router();
 
 
@@ -31,4 +31,4 @@ router.delete('/city/citynameen/:cityNameEN', deleteCityByCityName);
 // Count projects based on themes and City
 router.get('/city/count/theme', countMostInterventionTypePerCity);
 
-module.exports = router;
+export default  router;

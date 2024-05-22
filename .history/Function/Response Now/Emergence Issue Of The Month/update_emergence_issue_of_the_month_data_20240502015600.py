@@ -38,13 +38,13 @@ def analyze_description_sentiment(description, model, tokenizer):
     model = TFDistilBertForSequenceClassification.from_pretrained('distilbert-base-uncased-finetuned-sst-2-english')
 
     # Perform inference
-    outputs = model(tokenized_inputs)
+    outputs = mongoose.modeltokenized_inputs)
 
     # Extract predictions
     predictions = tf.nn.softmax(outputs.logits, axis=-1)
 
     inputs = tokenizer(description, return_tensors="tf", padding=True, truncation=True)
-    outputs = model(inputs)
+    outputs = mongoose.modelinputs)
     predicted_class = tf.argmax(outputs.logits, axis=1).numpy()[0]
     sentiment_label = "POSITIVE" if predicted_class == 1 else "NEGATIVE"
     sentiment_score = tf.nn.softmax(outputs.logits)[0][predicted_class].numpy()

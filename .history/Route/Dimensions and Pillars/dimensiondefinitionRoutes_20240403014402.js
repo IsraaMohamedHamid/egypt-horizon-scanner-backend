@@ -7,10 +7,10 @@ const {
   getDimensionDefinitionById,
   updateDimensionDefinition,
   deleteDimensionDefinition
-} = require("./Users/izzymohamed/Desktop/Horizon Scanner/egypt-horizon-scanner/Controller/Digital Avatar/dimensionController.js");
+} from "./Users/izzymohamed/Desktop/Horizon Scanner/egypt-horizon-scanner/Controller/Digital Avatar/dimensionController.js");
 
 ///---------------------- LIBRARIES ----------------------///
-const express = require("express");
+const express from "express");
 const router = express.Router();
 
 ///------------------------------------------ ROUTES ------------------------------------------///
@@ -30,4 +30,4 @@ router.put('/updateDimensionDefinition/:id', updateDimensionDefinition);
 router.delete('/deleteDimensionDefinition/:id', deleteDimensionDefinition);
 
 ///------------------------------------------ EXPORTS ------------------------------------------///
-module.exports = router;
+export default  router;

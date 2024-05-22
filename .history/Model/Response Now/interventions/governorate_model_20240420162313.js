@@ -1,8 +1,7 @@
-var mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+import mongoose from 'mongoose';
 
 // Create Governorate Schema and Model
-const GovernorateSchema = new Schema({
+const GovernorateSchema = new mongoose.Schema({
 
     GovernorateId: {
         type: Number,
@@ -81,7 +80,7 @@ const GovernorateSchema = new Schema({
 })
 
 const governoratesModel= mongoose.model('interventions_governorate_map', GovernorateSchema, 'interventions_governorate_map');
-module.exports = {
+export default  {
     governoratesModel: governoratesModel, 
     GovernorateSchema: GovernorateSchema
 };

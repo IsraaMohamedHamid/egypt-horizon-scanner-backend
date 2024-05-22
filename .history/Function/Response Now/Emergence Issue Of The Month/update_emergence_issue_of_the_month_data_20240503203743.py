@@ -59,7 +59,7 @@ def analyze_description_sentiment(description, model, tokenizer):
     lang = detect_language(description)
     
     inputs = tokenizer(description, return_tensors="tf", padding=True, truncation=True)
-    outputs = model(inputs)
+    outputs = mongoose.modelinputs)
     predicted_class = tf.argmax(outputs.logits, axis=1).numpy()[0]
     sentiment_label = "POSITIVE" if predicted_class == 1 else "NEGATIVE"
     sentiment_score = tf.nn.softmax(outputs.logits)[0][predicted_class].numpy()

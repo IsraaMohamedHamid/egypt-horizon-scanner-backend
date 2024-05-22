@@ -5,30 +5,30 @@
 const {
   EmergenceIssueOfTheMonthModel,
   EmergenceIssueOfTheMonthSchema
-} = require('../../../Model/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_model');
+} from '../../../Model/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_model.js');
 
 const {
   EmergenceIssueOfTheMonthDataModel,
   EmergenceIssueOfTheMonthDataSchema
-} = require('../../../Model/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_data_model');
+} from '../../../Model/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_data_model.js');
 
 const {
   startProcessing
-} = require('../../python_functions');
+} from '../../python_functions');
 
 
 ///////////////// PACKAGES /////////////////
 
-// const jwt = require("jsonwebtoken");
+// const jwt from "jsonwebtoken");
 
-// const multer = require("multer");
-// const path = require("path");
+// const multer from "multer");
+// const path from "path");
 
-// const fs = require("fs");
+// const fs from "fs");
 const {
   spawn
-} = require('child_process');
-const path = require('path');
+} from 'child_process');
+const path from 'path');
 
 ////////////////////////////////////////////// FUNCTIONS //////////////////////////////////////////////
 
@@ -156,7 +156,7 @@ const emergingIssueComponentsCalculation = async function () {
   }
 };
 
-module.exports = {
+export default  {
   emergingIssueDataUpdate: emergingIssueDataUpdate,
   emergingIssueComponentsCalculation: emergingIssueComponentsCalculation
 };

@@ -7,10 +7,10 @@ const {
   getIssueDefinitionById,
   updateIssueDefinition,
   deleteIssueDefinition
-} = require("../Controller/Digital Avatar/issuedefinitionController");
+} from "../Controller/Digital Avatar/issuedefinitionController");
 
 ///---------------------- LIBRARIES ----------------------///
-const express = require("express");
+const express from "express");
 const router = express.Router();
 
 ///------------------------------------------ ROUTES ------------------------------------------///
@@ -30,4 +30,4 @@ router.put('/updateIssueDefinition/:id', updateIssueDefinition);
 router.delete('/deleteIssueDefinition/:id', deleteIssueDefinition);
 
 ///------------------------------------------ EXPORTS ------------------------------------------///
-module.exports = router;
+export default  router;

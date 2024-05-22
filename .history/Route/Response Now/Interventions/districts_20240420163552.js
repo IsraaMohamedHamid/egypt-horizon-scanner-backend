@@ -6,9 +6,9 @@ const  {
     deleteDistrictByID,
     deleteDistrictByDistrictName,
     countMostInterventionTypePerDistrict
-} = require('../../../Controller/Response Now/Interventions/districts_api_controller')
+} from '../../../Controller/Response Now/Interventions/districts_api_controller.js')
 
-const express = require('express');
+const express from 'express');
 const router = express.Router();
 
 
@@ -31,4 +31,4 @@ router.delete('/district/districtnameen/:districtNameEN', deleteDistrictByDistri
 // Count projects based on themes and District
 router.get('/district/count/theme', countMostInterventionTypePerDistrict);
 
-module.exports = router;
+export default  router;

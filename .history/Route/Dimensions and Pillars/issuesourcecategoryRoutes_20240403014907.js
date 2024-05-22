@@ -7,10 +7,10 @@ const {
   getIssueSourceCategoryById,
   updateIssueSourceCategory,
   deleteIssueSourceCategory
-} = require("../../Controller/Digital Avatar/issuesourcecategoryController");
+} from "../../Controller/Digital Avatar/issuesourcecategoryController");
 
 ///---------------------- LIBRARIES ----------------------///
-const express = require("express");
+const express from "express");
 const router = express.Router();
 
 ///------------------------------------------ ROUTES ------------------------------------------///
@@ -30,4 +30,4 @@ router.put('/updateIssueSourceCategory/:id', updateIssueSourceCategory);
 router.delete('/deleteIssueSourceCategory/:id', deleteIssueSourceCategory);
 
 ///------------------------------------------ EXPORTS ------------------------------------------///
-module.exports = router;
+export default  router;

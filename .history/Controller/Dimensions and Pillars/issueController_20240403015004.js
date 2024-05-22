@@ -1,5 +1,5 @@
 
-const Issue = require('../../Model/Digital Avatar/issue');
+const Issue from '../../Model/Digital Avatar/issue');
 
 // Create a new Issue
 exports.createIssue = async (req, res) => {

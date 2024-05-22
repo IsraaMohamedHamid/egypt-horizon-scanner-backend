@@ -7,10 +7,10 @@ const {
   getDimensionById,
   updateDimension,
   deleteDimension
-} = require("../Controller/Digital Avatar/dimensionController");
+} from "../Controller/Digital Avatar/dimensionController");
 
 ///---------------------- LIBRARIES ----------------------///
-const express = require("express");
+const express from "express");
 const router = express.Router();
 
 ///------------------------------------------ ROUTES ------------------------------------------///
@@ -30,4 +30,4 @@ router.put('/updateDimension/:id', updateDimension);
 router.delete('/deleteDimension/:id', deleteDimension);
 
 ///------------------------------------------ EXPORTS ------------------------------------------///
-module.exports = router;
+export default  router;

@@ -1,12 +1,12 @@
 const {
   municipalDivisionsModel,
   MunicipalDivisionSchema
-} = require('../../../Model/Response Now/Interventions/municipal_divisions_model');
+} from '../../../Model/Response Now/Interventions/municipal_divisions_model.js');
 
 const {
   projectsModel,
   ProjectSchema
-} = require('../../../Model/Response Now/Interventions/projects_model');
+} from '../../../Model/Response Now/Interventions/projects_model.js');
 
 
 // API to update a municipal division by name
@@ -45,7 +45,7 @@ const deleteMunicipalDivisionByMunicipalDivisionNameEN = async (req, res) => {
   }
 };
 
-module.exports = {
+export default  {
   getMunicipalDivisions,
   createMunicipalDivision,
   updateMunicipalDivisionByID,

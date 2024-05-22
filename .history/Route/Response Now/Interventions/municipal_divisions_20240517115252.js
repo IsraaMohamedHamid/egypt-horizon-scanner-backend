@@ -5,9 +5,9 @@ const  {
     updateMunicipalDivisionByMunicipalDivisionNameEN,
     deleteMunicipalDivisionByID,
     deleteMunicipalDivisionByMunicipalDivisionNameEN
-} = require('../../../Controller/Response Now/Interventions/municipal_divisions_api_controller')
+} from '../../../Controller/Response Now/Interventions/municipal_divisions_api_controller.js')
 
-const express = require('express');
+const express from 'express');
 const router = express.Router();
 
 
@@ -27,4 +27,4 @@ router.delete('/municipal-division/municipal-divisionid/:id', deleteMunicipalDiv
 
 router.put('/municipal-division/municipal-divisionnameen/:municipalDivisionNameEN', deleteMunicipalDivisionByMunicipalDivisionNameEN);
 
-module.exports = router;
+export default  router;

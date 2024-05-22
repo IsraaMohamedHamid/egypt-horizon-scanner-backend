@@ -6,9 +6,9 @@ const  {
     deleteGovernorateByID,
     deleteGovernorateByGovernorateNameEN,
     countMostInterventionTypePerGovernorate
-} = require('../../../Controller/Response Now/Interventions/states_api_controller')
+} from '../../../Controller/Response Now/Interventions/states_api_controller.js')
 
-const express = require('express');
+const express from 'express');
 const router = express.Router();
 
 
@@ -31,4 +31,4 @@ router.put('/state/statenameen/:stateNameEN', deleteGovernorateByGovernorateName
 // Count projects based on themes and City
 router.get('/state/count/theme', countMostInterventionTypePerGovernorate);
 
-module.exports = router;
+export default  router;

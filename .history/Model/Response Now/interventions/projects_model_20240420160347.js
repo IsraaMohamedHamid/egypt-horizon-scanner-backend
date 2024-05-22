@@ -1,20 +1,19 @@
 // Import Schemas
-const DonorSchema = require('./donor_model');
-const ExecutingAgencySchema = require('./executing_agency_model');
+const DonorSchema from './donor_model.js');
+const ExecutingAgencySchema from './executing_agency_model.js');
 const {
     CitySchema
-} = require('./city_model');
+} from './city_model.js');
 const {
     StateSchema
-} = require('./governorate_model');
+} from './governorate_model.js');
 
 // Import Mongoose
-const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+import mongoose from 'mongoose';
 
 
 // Create Project Schema and Model
-const ProjectSchema = new Schema({
+const ProjectSchema = new mongoose.Schema({
 
     id: {
         type: String,
@@ -108,7 +107,7 @@ const ProjectSchema = new Schema({
 });
 
 const projectsModel = mongoose.model('project_data', ProjectSchema, 'project_data');
-module.exports = {
+export default  {
     projectsModel: projectsModel,
     ProjectSchema: ProjectSchema
 };

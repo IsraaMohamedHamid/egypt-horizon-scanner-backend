@@ -1,9 +1,8 @@
 // Import Mongoose
-const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+import mongoose from 'mongoose';
 
 // Create Event Detail Schema and Model
-const EmergenceIssueOfTheMonthSchema = new Schema({
+const EmergenceIssueOfTheMonthSchema = new mongoose.Schema({
     emergingIssue: {
         type: String
     },
@@ -41,7 +40,7 @@ const EmergenceIssueOfTheMonthSchema = new Schema({
 
 
 const EmergenceIssueOfTheMonthModel = mongoose.model('emergence_issue_of_the_month', EmergenceIssueOfTheMonthSchema, 'emergence_issue_of_the_month');
-module.exports = {
+export default  {
     EmergenceIssueOfTheMonthSchema: EmergenceIssueOfTheMonthSchema,
     EmergenceIssueOfTheMonthModel: EmergenceIssueOfTheMonthModel
 };

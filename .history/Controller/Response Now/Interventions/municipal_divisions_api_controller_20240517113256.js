@@ -1,16 +1,16 @@
 const {
   municipalDivisionsModel,
   MunicipalDivisionSchema
-} = require('../../../Model/Response Now/Interventions/municipal_divisions_model');
+} from '../../../Model/Response Now/Interventions/municipal_divisions_model.js');
 
 const {
   projectsModel,
   ProjectSchema
-} = require('../../../Model/Response Now/Interventions/projects_model');
+} from '../../../Model/Response Now/Interventions/projects_model.js');
 const {
   municipalDivisionsModel,
   projectsModel,
-} = require('../../../Model/Response Now/Interventions/municipal_divisions_model');
+} from '../../../Model/Response Now/Interventions/municipal_divisions_model.js');
 
 // Helper function to count projects by theme for a municipal division
 async function countProjectsByTheme(municipalDivisionName) {
@@ -119,7 +119,7 @@ const deleteMunicipalDivisionByMunicipalDivisionNameEN = async (req, res) => {
   }
 };
 
-module.exports = {
+export default  {
   getMunicipalDivisions,
   createMunicipalDivision,
   updateMunicipalDivisionByID,

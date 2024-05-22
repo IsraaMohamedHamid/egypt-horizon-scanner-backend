@@ -78,7 +78,7 @@ def sentiment_analysis(text, model, tokenizer):
     inputs = tokenizer(text, return_tensors="tf", truncation=True, padding=True, max_length=512)
 
     # Perform the prediction
-    outputs = model(inputs)
+    outputs = mongoose.modelinputs)
 
     # Apply softmax to convert logits to probabilities
     probabilities = tf.nn.softmax(outputs.logits, axis=-1)

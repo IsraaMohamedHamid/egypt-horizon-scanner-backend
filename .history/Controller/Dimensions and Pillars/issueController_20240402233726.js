@@ -1,5 +1,5 @@
 
-const Issue = require('../models/issue');
+const Issue from '../models/issue');
 
 // Create a new Issue
 exports.createIssue = async (req, res) => {

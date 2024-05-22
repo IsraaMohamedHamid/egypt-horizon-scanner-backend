@@ -1,12 +1,12 @@
 const {
   municipalDivisionModel,
   DistrictSchema
-} = require('../../../Model/Response Now/Interventions/municipalDivision_model');
+} from '../../../Model/Response Now/Interventions/municipalDivision_model.js');
 
 const {
   projectsModel,
   ProjectSchema
-} = require('../../../Model/Response Now/Interventions/projects_model');
+} from '../../../Model/Response Now/Interventions/projects_model.js');
 
 // Get a list of municipalDivisions from the DB
 const getDistricts = ((req, res, next) => {
@@ -361,7 +361,7 @@ const countMostInterventionTypePerDistrict = ((req, res) => {
 
 })
 
-module.exports = {
+export default  {
   getDistricts: getDistricts,
   createDistrict: createDistrict,
   updateDistrictByID: updateDistrictByID,

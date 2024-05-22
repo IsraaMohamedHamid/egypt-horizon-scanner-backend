@@ -7,9 +7,9 @@ const {
   deleteEmergingIssueByID,
   deleteEmergingIssueByEmergingIssueName
 
-} = require('../../../Controller/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_api_controller')
+} from '../../../Controller/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_api_controller.js')
 
-const express = require('express');
+const express from 'express');
 const router = express.Router();
 
 
@@ -32,4 +32,4 @@ router.delete('/emergingIssueOfTheMonth/emergingIssueOfTheMonthid/:id', deleteEm
 router.delete('/emergingIssueOfTheMonth/emergingIssueOfTheMonthnameen/:politicalMappingEventName', deleteEmergingIssueByEmergingIssueName);
 
 
-module.exports = router;
+export default  router;

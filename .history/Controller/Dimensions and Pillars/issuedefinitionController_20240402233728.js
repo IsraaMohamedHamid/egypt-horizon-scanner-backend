@@ -1,5 +1,5 @@
 
-const IssueDefinition = require('../models/issueDefinition');
+const IssueDefinition from '../models/issueDefinition');
 
 // Create a new IssueDefinition
 exports.createIssueDefinition = async (req, res) => {

@@ -1,6 +1,6 @@
-const express = require('express');
-const bodyParser = require("body-parser");
-const mongoose = require('mongoose');
+const express from 'express');
+const bodyParser from "body-parser");
+import mongoose from 'mongoose';
 
 const port = process.env.port || 3000;
 
@@ -50,7 +50,7 @@ data = {
 egyptHorizonScanner.route("/").get((req, res) => res.json(data));
 
 // CORS
-const cors = require('cors');
+const cors from 'cors');
 egyptHorizonScanner.use(cors({
     origin: '*',
     credentials: true,

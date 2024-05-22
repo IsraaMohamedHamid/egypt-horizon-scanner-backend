@@ -5,18 +5,18 @@
 const {
   EmergenceIssueOfTheMonthModel,
   EmergenceIssueOfTheMonthSchema
-} = require('../../../Model/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_model');
+} from '../../../Model/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_model.js');
 
 const {
   EmergenceIssueOfTheMonthDataModel,
   EmergenceIssueOfTheMonthDataSchema
-} = require('../../../Model/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_data_model');
+} from '../../../Model/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_data_model.js');
 
 
 ///////////////// FUNCTIONS /////////////////
 const {
   emergingIssueComponentsCalculation
-} = require('../../../Function/Response Now/Emergence Issue Of The Month/emergence_issue_of_month_functions');
+} from '../../../Function/Response Now/Emergence Issue Of The Month/emergence_issue_of_month_functions');
 
 
 ////////////////////////////////////////////// API CONTROLLER //////////////////////////////////////////////
@@ -163,7 +163,7 @@ const deleteEmergingIssueByEmergingIssueName = ((req, res, next) => {
 })
 
 
-module.exports = {
+export default  {
   getEmergingIssues: getEmergingIssues,
   getEmergingIssueByName: getEmergingIssueByName,
   createEmergingIssue: createEmergingIssue,

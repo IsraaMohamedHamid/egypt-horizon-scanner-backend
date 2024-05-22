@@ -21,9 +21,9 @@ const  {
     filterProjectsBasedOnPSThemeandCity,
     countTotalDonationAmountBasedOnProjectName,
     countTotalDonationAmount
-} = require('../../../Controller/Response Now/Interventions/projects_api_controller')
+} from '../../../Controller/Response Now/Interventions/projects_api_controller.js')
 
-const express = require('express');
+const express from 'express');
 const router = express.Router();
 
 
@@ -79,4 +79,4 @@ router.get('/project/totalDonatedAmount/:projectName', countTotalDonationAmountB
 
 router.get('/project/totalDonatedAmount', countTotalDonationAmount);
 
-module.exports = router;
+export default  router;

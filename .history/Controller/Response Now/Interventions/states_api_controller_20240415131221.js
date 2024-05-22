@@ -1,12 +1,12 @@
 const {
     statesModel, 
     StateSchema
-} = require('../../../Model/Response Now/Interventions/state_model');
+} from '../../../Model/Response Now/Interventions/state_model.js');
 
 const {
     projectsModel,
     ProjectSchema
-  } = require('../../../Model/Response Now/Interventions/projects_model');
+  } from '../../../Model/Response Now/Interventions/projects_model.js');
 
 // Get a list of states from the DB
 const getStates = ((req, res, next) => {
@@ -339,7 +339,7 @@ const countMostInterventionTypePerState = ((req, res) => {
   })
   
 
-module.exports = {
+export default  {
     getStates: getStates,
     createState: createState,
     updateStateByID: updateStateByID,

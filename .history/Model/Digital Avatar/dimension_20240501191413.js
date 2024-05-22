@@ -1,5 +1,5 @@
 
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const dimensionSchema = new mongoose.Schema({
   Dimension: { type: String, required: true },
@@ -10,4 +10,4 @@ const dimensionSchema = new mongoose.Schema({
   Source: { type: String, required: true }
 });
 
-module.exports = mongoose.model('dimensions', dimensionSchema, 'dimensions');
+export default  mongoose.model('dimensions', dimensionSchema, 'dimensions');

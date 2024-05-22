@@ -1,5 +1,5 @@
 
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const issueSchema = new mongoose.Schema({
   Dimension: { type: String},
@@ -16,4 +16,4 @@ const issueSchema = new mongoose.Schema({
   OtherHelpfulSources: { type: String},
 });
 
-module.exports = mongoose.model('Issue', issueSchema);
+export default  mongoose.model('Issue', issueSchema);

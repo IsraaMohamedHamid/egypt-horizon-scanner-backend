@@ -1,5 +1,5 @@
 
-const IssueSourceCategory = require('../Model/issueSourceCategory');
+const IssueSourceCategory from '../Model/issueSourceCategory');
 
 // Create a new IssueSourceCategory
 exports.createIssueSourceCategory = async (req, res) => {

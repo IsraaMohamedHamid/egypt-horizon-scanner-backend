@@ -1,8 +1,7 @@
-var mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+import mongoose from 'mongoose';
 
 // Create State Schema and Model
-const StateSchema = new Schema({
+const StateSchema = new mongoose.Schema({
 
     StateId: {
         type: Number,
@@ -81,7 +80,7 @@ Latitude: {
 })
 
 const governoratesModel= mongoose.model('interventions_governorate_map', StateSchema, 'interventions_governorate_map');
-module.exports = {
+export default  {
     governoratesModel: governoratesModel, 
     StateSchema: StateSchema
 };

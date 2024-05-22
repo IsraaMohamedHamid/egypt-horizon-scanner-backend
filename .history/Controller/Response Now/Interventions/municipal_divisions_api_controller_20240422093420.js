@@ -1,6 +1,6 @@
-import { municipalDivisionsModel, MunicipalDivisionSchema } from '../../../Model/Response Now/Interventions/municipal_divisions_model';
+import { municipalDivisionsModel, MunicipalDivisionSchema } from '../../../Model/Response Now/Interventions/municipal_divisions_model.js';
 
-import { projectsModel, ProjectSchema } from '../../../Model/Response Now/Interventions/projects_model';
+import { projectsModel, ProjectSchema } from '../../../Model/Response Now/Interventions/projects_model.js';
 
 // Get a list of municipalDivisions from the DB
 const getMunicipalDivisions = async (req, res, next) => {

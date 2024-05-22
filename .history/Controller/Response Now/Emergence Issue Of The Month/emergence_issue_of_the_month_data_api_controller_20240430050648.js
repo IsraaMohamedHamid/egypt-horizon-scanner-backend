@@ -7,7 +7,7 @@
 const {
   EmergenceIssueOfTheMonthDataModel,
   EmergenceIssueOfTheMonthDataSchema
-} = require('../../../Model/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_data_model');
+} from '../../../Model/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_data_model.js');
 
 
 
@@ -97,7 +97,7 @@ const deleteEmergingIssueDataByEmergingIssueName = ((req, res, next) => {
 })
 
 
-module.exports = {
+export default  {
   getEmergingIssuesData: getEmergingIssuesData,
   getEmergingIssueDataByName: getEmergingIssueDataByName,
   createEmergingIssueData: createEmergingIssueData,

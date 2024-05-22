@@ -1,12 +1,12 @@
 const {
   cityModel,
   CitySchema
-} = require('../../../Model/Response Now/Interventions/city_model');
+} from '../../../Model/Response Now/Interventions/city_model.js');
 
 const {
   projectsModel,
   ProjectSchema
-} = require('../../../Model/Response Now/Interventions/projects_model');
+} from '../../../Model/Response Now/Interventions/projects_model.js');
 
 // Helper function to count projects based on theme
 async function countProjects(cityName) {
@@ -264,7 +264,7 @@ const countMostInterventionTypePerCity = ((req, res) => {
 
 })
 
-module.exports = {
+export default  {
   getCities: getCities,
   createCity: createCity,
   updateCityByID: updateCityByID,

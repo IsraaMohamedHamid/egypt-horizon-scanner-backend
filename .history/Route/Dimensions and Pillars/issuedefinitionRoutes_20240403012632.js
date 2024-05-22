@@ -7,10 +7,10 @@ const {
   getIssueDefinitionById,
   updateIssueDefinition,
   deleteIssueDefinition
-} = require("../controllers/issuedefinitionController");
+} from "../controllers/issuedefinitionController");
 
 ///---------------------- LIBRARIES ----------------------///
-const express = require("express");
+const express from "express");
 const router = express.Router();
 
 ///------------------------------------------ ROUTES ------------------------------------------///
@@ -30,4 +30,4 @@ router.put('/:id', updateIssueDefinition);
 router.delete('/:id', deleteIssueDefinition);
 
 ///------------------------------------------ EXPORTS ------------------------------------------///
-module.exports = router;
+export default  router;

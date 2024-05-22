@@ -1,5 +1,5 @@
 
-const DimensionDefinition = require('../../Model/Digital Avatar/dimensionDefinition');
+const DimensionDefinition from '../../Model/Digital Avatar/dimensionDefinition');
 
 // Create a new DimensionDefinition
 exports.createDimensionDefinition = async (req, res) => {

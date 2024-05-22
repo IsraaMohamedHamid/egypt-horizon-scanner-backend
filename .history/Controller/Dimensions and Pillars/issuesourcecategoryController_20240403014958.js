@@ -1,5 +1,5 @@
 
-const IssueSourceCategory = require('../../Model/Digital Avatar/issueSourceCategory');
+const IssueSourceCategory from '../../Model/Digital Avatar/issueSourceCategory');
 
 // Create a new IssueSourceCategory
 exports.createIssueSourceCategory = async (req, res) => {

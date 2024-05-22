@@ -1,12 +1,12 @@
 const {
   governoratesModel,
   GovernorateSchema
-} = require('../../../Model/Response Now/Interventions/governorate_model');
+} from '../../../Model/Response Now/Interventions/governorate_model.js');
 
 const {
   projectsModel,
   ProjectSchema
-} = require('../../../Model/Response Now/Interventions/projects_model');
+} from '../../../Model/Response Now/Interventions/projects_model.js');
 
 // Helper function to count projects by theme for a given governorate
 async function countProjectsByTheme(governorateName) {
@@ -115,7 +115,7 @@ const deleteGovernorateByGovernorateNameEN = async (req, res) => {
   }
 };
 
-module.exports = {
+export default  {
   getGovernorates,
   createGovernorate,
   updateGovernorateByID,

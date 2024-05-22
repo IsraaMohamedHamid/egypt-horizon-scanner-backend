@@ -1,5 +1,5 @@
 
-const IssueDefinition = require('../../Model/Digital Avatar/issueDefinition');
+const IssueDefinition from '../../Model/Digital Avatar/issueDefinition');
 
 // Create a new IssueDefinition
 exports.createIssueDefinition = async (req, res) => {

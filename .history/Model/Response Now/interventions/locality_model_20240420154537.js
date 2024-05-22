@@ -1,8 +1,7 @@
-var mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+import mongoose from 'mongoose';
 
 // Create City Schema and Model
-const CitySchema = new Schema({
+const CitySchema = new mongoose.Schema({
 
     CityId: {
         type: Number,
@@ -103,7 +102,7 @@ Latitude: {
 })
 
 const localityModel= mongoose.model('interventions_locality_map', CitySchema, 'interventions_locality_map');
-module.exports = {
+export default  {
     localityModel: localityModel, 
     CitySchema: CitySchema
 };
