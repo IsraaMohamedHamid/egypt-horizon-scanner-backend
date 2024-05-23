@@ -6,8 +6,7 @@
             "GOAL 6: Clean Water And Sanitation",
             "GOAL 13: Climate Action"
         ],
-        "description": "The water levels in Lake Nasser, a crucial reservoir formed by the Aswan High Dam, have been dropping due to prolonged drought periods and upstream water usage, threatening water security for Egypt.",
-        "source": "UNESCO"
+        "description": "The water levels in Lake Nasser, a crucial reservoir formed by the Aswan High Dam, have been dropping due to prolonged drought periods and upstream water usage, threatening water security for Egypt."
     },
     {
         "issueTitle": "Salinization of the Nile Delta",
@@ -17,18 +16,16 @@
             "GOAL 2: Zero Hunger",
             "GOAL 14: Life Below Water"
         ],
-        "description": "Increased salinization in the Nile Delta is affecting freshwater availability and agriculture, further complicated by rising sea levels and reduced sediment flow due to dam constructions upstream.",
-        "source": "WFP"
+        "description": "Increased salinization in the Nile Delta is affecting freshwater availability and agriculture, further complicated by rising sea levels and reduced sediment flow due to dam constructions upstream."
     },
     {
         "issueTitle": "Overuse of Fertilizers and Pesticides",
         "emergingIssue": "Water Issue",
         "sdgTargeted": [
             "GOAL 6: Clean Water And Sanitation",
-            "GOAL 12: Responsible Consumption And Production"
+            "GOAL 12: Responsible Consumption and Production"
         ],
-        "description": "Heavy use of fertilizers and pesticides in agriculture along the Nile River is leading to water pollution, affecting both human health and aquatic ecosystems.",
-        "source": "WHO"
+        "description": "Heavy use of fertilizers and pesticides in agriculture along the Nile River is leading to water pollution, affecting both human health and aquatic ecosystems."
     },
     {
         "issueTitle": "Waterborne Diseases in Rural Areas",
@@ -37,18 +34,16 @@
             "GOAL 3: Good Health And Well-being",
             "GOAL 6: Clean Water And Sanitation"
         ],
-        "description": "Rural areas in Egypt experience high incidences of waterborne diseases due to inadequate water treatment and sanitation infrastructure.",
-        "source": "FAQ"
+        "description": "Rural areas in Egypt experience high incidences of waterborne diseases due to inadequate water treatment and sanitation infrastructure."
     },
     {
         "issueTitle": "Inefficient Water Use in Agriculture",
         "emergingIssue": "Water Issue",
         "sdgTargeted": [
             "GOAL 6: Clean Water And Sanitation",
-            "GOAL 12: Responsible Consumption And Production"
+            "GOAL 12: Responsible Consumption and Production"
         ],
-        "description": "Agricultural practices in Egypt often involve inefficient water use, such as flood irrigation, leading to significant water wastage.",
-        "source": "SDG Index"
+        "description": "Agricultural practices in Egypt often involve inefficient water use, such as flood irrigation, leading to significant water wastage."
     },
     {
         "issueTitle": "Sewage Overflow in Urban Areas",
@@ -57,8 +52,7 @@
             "GOAL 6: Clean Water And Sanitation",
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Frequent sewage system overflows in densely populated urban areas contaminate water bodies and pose health risks to residents.",
-        "source": "WFP"
+        "description": "Frequent sewage system overflows in densely populated urban areas contaminate water bodies and pose health risks to residents."
     },
     {
         "issueTitle": "Reduction of Water Allocations to Farmers",
@@ -67,8 +61,7 @@
             "GOAL 6: Clean Water And Sanitation",
             "GOAL 2: Zero Hunger"
         ],
-        "description": "Governmental policies on water rationing have led to reduced water allocations for farmers, impacting crop yields and food security.",
-        "source": "IMF"
+        "description": "Governmental policies on water rationing have led to reduced water allocations for farmers, impacting crop yields and food security."
     },
     {
         "issueTitle": "Impact of Tourism on Water Quality",
@@ -77,18 +70,16 @@
             "GOAL 6: Clean Water And Sanitation",
             "GOAL 14: Life Below Water"
         ],
-        "description": "Tourist activities along the Red Sea coast have led to local water pollution, affecting marine life and coral reefs.",
-        "source": "WFP"
+        "description": "Tourist activities along the Red Sea coast have led to local water pollution, affecting marine life and coral reefs."
     },
     {
         "issueTitle": "Industrial Discharges into the Nile",
         "emergingIssue": "Water Issue",
         "sdgTargeted": [
             "GOAL 6: Clean Water And Sanitation",
-            "GOAL 12: Responsible Consumption And Production"
+            "GOAL 12: Responsible Consumption and Production"
         ],
-        "description": "Industrial units along the Nile River frequently discharge untreated or inadequately treated wastewater, contributing to severe pollution.",
-        "source": "World Bank"
+        "description": "Industrial units along the Nile River frequently discharge untreated or inadequately treated wastewater, contributing to severe pollution."
     },
     {
         "issueTitle": "Underinvestment in Water Infrastructure",
@@ -97,8 +88,7 @@
             "GOAL 6: Clean Water And Sanitation",
             "GOAL 9: Industry, Innovation And Infrastructure"
         ],
-        "description": "Chronic underinvestment in water infrastructure maintenance and upgrades has left many parts of Egypt vulnerable to water shortages and sanitation issues.",
-        "source": "IMF"
+        "description": "Chronic underinvestment in water infrastructure maintenance and upgrades has left many parts of Egypt vulnerable to water shortages and sanitation issues."
     },
     {
         "issueTitle": "Contamination of Drinking Water",
@@ -107,8 +97,7 @@
             "GOAL 6: Clean Water And Sanitation",
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Many regions in Egypt, particularly rural areas, suffer from contamination of drinking water sources due to poor sanitation and inadequate waste management.",
-        "source": "WFP"
+        "description": "Many regions in Egypt, particularly rural areas, suffer from contamination of drinking water sources due to poor sanitation and inadequate waste management."
     },
     {
         "issueTitle": "Water Pricing Issues",
@@ -117,29 +106,26 @@
             "GOAL 6: Clean Water And Sanitation",
             "GOAL 1: No Poverty"
         ],
-        "description": "The lack of a fair and effective water pricing mechanism discourages conservation and leads to wasteful usage in urban and agricultural sectors.",
-        "source": "FAQ"
+        "description": "The lack of a fair and effective water pricing mechanism discourages conservation and leads to wasteful usage in urban and agricultural sectors."
     },
     {
         "issueTitle": "Limited Public Awareness on Water Conservation",
         "emergingIssue": "Water Issue",
         "sdgTargeted": [
             "GOAL 6: Clean Water And Sanitation",
-            "GOAL 12: Responsible Consumption And Production",
+            "GOAL 12: Responsible Consumption and Production",
             "GOAL 13: Climate Action"
         ],
-        "description": "There is a lack of public awareness campaigns in Egypt focused on water conservation techniques, contributing to high levels of water misuse.",
-        "source": "WFP"
+        "description": "There is a lack of public awareness campaigns in Egypt focused on water conservation techniques, contributing to high levels of water misuse."
     },
     {
         "issueTitle": "Disputes Over Water Rights",
         "emergingIssue": "Water Issue",
         "sdgTargeted": [
             "GOAL 6: Clean Water And Sanitation",
-            "GOAL 16: Peace And Justice Strong Institutions"
+            "GOAL 16: Peace, Justice, and Strong Institutions"
         ],
-        "description": "Disputes over water rights, particularly with upstream Nile Basin countries, pose a significant geopolitical challenge and water security risk for Egypt.",
-        "source": "FAQ"
+        "description": "Disputes over water rights, particularly with upstream Nile Basin countries, pose a significant geopolitical challenge and water security risk for Egypt."
     },
     {
         "issueTitle": "Aging Water Infrastructure",
@@ -148,8 +134,7 @@
             "GOAL 6: Clean Water And Sanitation",
             "GOAL 9: Industry, Innovation And Infrastructure"
         ],
-        "description": "Much of Egypt's water infrastructure is aging and in need of urgent repair or replacement to ensure sustainable water delivery and sanitation services.",
-        "source": "IMF"
+        "description": "Much of Egypt's water infrastructure is aging and in need of urgent repair or replacement to ensure sustainable water delivery and sanitation services."
     },
     {
         "issueTitle": "Urban Sprawl and Water Demand",
@@ -158,8 +143,7 @@
             "GOAL 6: Clean Water And Sanitation",
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Rapid urban sprawl in cities like Cairo and Alexandria is leading to increased water demand, stressing already limited water resources.",
-        "source": "FAQ"
+        "description": "Rapid urban sprawl in cities like Cairo and Alexandria is leading to increased water demand, stressing already limited water resources."
     },
     {
         "issueTitle": "Inadequate Water Quality Monitoring",
@@ -168,8 +152,7 @@
             "GOAL 6: Clean Water And Sanitation",
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Inadequate monitoring and regulation of water quality in Egypt result in significant health risks, particularly in areas with industrial activity.",
-        "source": "UNICEF"
+        "description": "Inadequate monitoring and regulation of water quality in Egypt result in significant health risks, particularly in areas with industrial activity."
     },
     {
         "issueTitle": "Unregulated Groundwater Extraction",
@@ -178,8 +161,7 @@
             "GOAL 6: Clean Water And Sanitation",
             "GOAL 15: Life on Land"
         ],
-        "description": "Unregulated and excessive groundwater extraction is leading to aquifer depletion and land subsidence, posing long-term environmental risks.",
-        "source": "UNICEF"
+        "description": "Unregulated and excessive groundwater extraction is leading to aquifer depletion and land subsidence, posing long-term environmental risks."
     },
     {
         "issueTitle": "Seasonal Flooding and Water Management",
@@ -189,8 +171,7 @@
             "GOAL 11: Sustainable Cities And Communities",
             "GOAL 13: Climate Action"
         ],
-        "description": "Seasonal flooding due to extreme weather events challenges water management strategies, affecting both urban and rural communities.",
-        "source": "SDG Index"
+        "description": "Seasonal flooding due to extreme weather events challenges water management strategies, affecting both urban and rural communities."
     },
     {
         "issueTitle": "Dependency on the Nile for Water Supply",
@@ -198,8 +179,7 @@
         "sdgTargeted": [
             "GOAL 6: Clean Water And Sanitation"
         ],
-        "description": "Egypt's almost total dependency on the Nile for its water supply makes it extremely vulnerable to changes in climate and upstream water usage.",
-        "source": "FAQ"
+        "description": "Egypt's almost total dependency on the Nile for its water supply makes it extremely vulnerable to changes in climate and upstream water usage."
     },
     {
         "issueTitle": "Increasing Heat Waves",
@@ -208,8 +188,7 @@
             "GOAL 13: Climate Action",
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Egypt is experiencing more frequent and intense heat waves, posing health risks, particularly for the elderly and children in urban areas.",
-        "source": "UNICEF"
+        "description": "Egypt is experiencing more frequent and intense heat waves, posing health risks, particularly for the elderly and children in urban areas."
     },
     {
         "issueTitle": "Coastal Erosion in the Nile Delta",
@@ -219,8 +198,7 @@
             "GOAL 14: Life Below Water",
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "The low-lying Nile Delta, crucial for Egypt\u2019s agriculture, is facing serious coastal erosion exacerbated by rising sea levels and decreased sediment supply.",
-        "source": "FAQ"
+        "description": "The low-lying Nile Delta, crucial for Egypt’s agriculture, is facing serious coastal erosion exacerbated by rising sea levels and decreased sediment supply."
     },
     {
         "issueTitle": "Decline in Agricultural Productivity",
@@ -230,8 +208,7 @@
             "GOAL 2: Zero Hunger",
             "GOAL 15: Life on Land"
         ],
-        "description": "Changing weather patterns and increased temperatures are leading to reduced agricultural productivity, threatening food security in Egypt.",
-        "source": "WFP"
+        "description": "Changing weather patterns and increased temperatures are leading to reduced agricultural productivity, threatening food security in Egypt."
     },
     {
         "issueTitle": "Increased Water Scarcity",
@@ -240,8 +217,7 @@
             "GOAL 13: Climate Action",
             "GOAL 6: Clean Water And Sanitation"
         ],
-        "description": "Climate change is exacerbating water scarcity in Egypt, impacting water availability for drinking, agriculture, and industrial use.",
-        "source": "UNESCO"
+        "description": "Climate change is exacerbating water scarcity in Egypt, impacting water availability for drinking, agriculture, and industrial use."
     },
     {
         "issueTitle": "Vulnerability of Coral Reefs",
@@ -250,8 +226,7 @@
             "GOAL 13: Climate Action",
             "GOAL 14: Life Below Water"
         ],
-        "description": "Egypt\u2019s coral reefs, especially around the Red Sea, are vulnerable to bleaching due to rising sea temperatures, affecting biodiversity and tourism.",
-        "source": "SDG Index"
+        "description": "Egypt’s coral reefs, especially around the Red Sea, are vulnerable to bleaching due to rising sea temperatures, affecting biodiversity and tourism."
     },
     {
         "issueTitle": "Expansion of Desert Areas",
@@ -260,8 +235,7 @@
             "GOAL 13: Climate Action",
             "GOAL 15: Life on Land"
         ],
-        "description": "Desertification is intensifying in Egypt, encroaching on arable land and altering traditional land use patterns.",
-        "source": "IMF"
+        "description": "Desertification is intensifying in Egypt, encroaching on arable land and altering traditional land use patterns."
     },
     {
         "issueTitle": "Flooding from Extreme Weather Events",
@@ -270,8 +244,7 @@
             "GOAL 13: Climate Action",
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Increased frequency of extreme weather events is causing unexpected and severe flooding in urban and rural areas, damaging infrastructure and displacing communities.",
-        "source": "WHO"
+        "description": "Increased frequency of extreme weather events is causing unexpected and severe flooding in urban and rural areas, damaging infrastructure and displacing communities."
     },
     {
         "issueTitle": "Health Impacts from Air Quality Deterioration",
@@ -280,8 +253,7 @@
             "GOAL 13: Climate Action",
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Climate change contributes to deteriorating air quality in major cities like Cairo, exacerbating respiratory illnesses and other health problems.",
-        "source": "WFP"
+        "description": "Climate change contributes to deteriorating air quality in major cities like Cairo, exacerbating respiratory illnesses and other health problems."
     },
     {
         "issueTitle": "Threats to Indigenous Wildlife",
@@ -290,8 +262,7 @@
             "GOAL 13: Climate Action",
             "GOAL 15: Life on Land"
         ],
-        "description": "Shifts in climate are threatening the habitats of indigenous wildlife species in Egypt, leading to a reduction in biodiversity.",
-        "source": "WFP"
+        "description": "Shifts in climate are threatening the habitats of indigenous wildlife species in Egypt, leading to a reduction in biodiversity."
     },
     {
         "issueTitle": "Increased Energy Demand for Cooling",
@@ -300,8 +271,7 @@
             "GOAL 13: Climate Action",
             "GOAL 7: Affordable And Clean Energy"
         ],
-        "description": "As temperatures rise, the demand for energy, particularly for air conditioning, is spiking, stressing Egypt's energy infrastructure and increasing greenhouse gas emissions.",
-        "source": "SDG Index"
+        "description": "As temperatures rise, the demand for energy, particularly for air conditioning, is spiking, stressing Egypt's energy infrastructure and increasing greenhouse gas emissions."
     },
     {
         "issueTitle": "Disruption of Traditional Fishing",
@@ -310,18 +280,16 @@
             "GOAL 13: Climate Action",
             "GOAL 14: Life Below Water"
         ],
-        "description": "Climate change is altering fish populations and distributions, disrupting traditional fishing practices and affecting livelihoods in coastal communities.",
-        "source": "SDG Index"
+        "description": "Climate change is altering fish populations and distributions, disrupting traditional fishing practices and affecting livelihoods in coastal communities."
     },
     {
         "issueTitle": "Migration Due to Climate Conditions",
         "emergingIssue": "Climate Change",
         "sdgTargeted": [
             "GOAL 13: Climate Action",
-            "GOAL 10: Reduced Inequality"
+            "GOAL 10: Reduced Inequalities"
         ],
-        "description": "Adverse climate conditions are forcing populations to migrate, creating internal displacement and social tensions.",
-        "source": "SDG Index"
+        "description": "Adverse climate conditions are forcing populations to migrate, creating internal displacement and social tensions."
     },
     {
         "issueTitle": "Loss of Cultural Heritage Sites",
@@ -330,18 +298,16 @@
             "GOAL 13: Climate Action",
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Rising sea levels and increased soil salinity are threatening ancient cultural heritage sites, particularly in coastal areas like Alexandria.",
-        "source": "SDG Index"
+        "description": "Rising sea levels and increased soil salinity are threatening ancient cultural heritage sites, particularly in coastal areas like Alexandria."
     },
     {
         "issueTitle": "Decrease in Tourism",
         "emergingIssue": "Climate Change",
         "sdgTargeted": [
             "GOAL 13: Climate Action",
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "Adverse weather conditions are affecting tourism, a major source of income for Egypt, particularly impacting beach and cultural tourism sectors.",
-        "source": "IMF"
+        "description": "Adverse weather conditions are affecting tourism, a major source of income for Egypt, particularly impacting beach and cultural tourism sectors."
     },
     {
         "issueTitle": "Strain on Urban Infrastructure",
@@ -351,8 +317,7 @@
             "GOAL 11: Sustainable Cities And Communities",
             "GOAL 9: Industry, Innovation And Infrastructure"
         ],
-        "description": "Urban infrastructure is under strain from the effects of climate change, requiring significant upgrades to withstand extreme weather conditions.",
-        "source": "WHO"
+        "description": "Urban infrastructure is under strain from the effects of climate change, requiring significant upgrades to withstand extreme weather conditions."
     },
     {
         "issueTitle": "Reduction in River Nile Flows",
@@ -361,8 +326,7 @@
             "GOAL 13: Climate Action",
             "GOAL 6: Clean Water And Sanitation"
         ],
-        "description": "Climate change impacts combined with upstream damming are reducing the flow of the River Nile, critical to Egypt\u2019s water supply.",
-        "source": "World Bank"
+        "description": "Climate change impacts combined with upstream damming are reducing the flow of the River Nile, critical to Egypt’s water supply."
     },
     {
         "issueTitle": "Impact on Public Health Systems",
@@ -371,8 +335,7 @@
             "GOAL 13: Climate Action",
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Increasing health issues related to climate change are putting additional pressure on Egypt's public health systems.",
-        "source": "WHO"
+        "description": "Increasing health issues related to climate change are putting additional pressure on Egypt's public health systems."
     },
     {
         "issueTitle": "Energy Supply Disruptions",
@@ -381,8 +344,7 @@
             "GOAL 13: Climate Action",
             "GOAL 7: Affordable And Clean Energy"
         ],
-        "description": "Extreme weather events are causing disruptions in energy supply, highlighting the need for more resilient energy systems.",
-        "source": "IMF"
+        "description": "Extreme weather events are causing disruptions in energy supply, highlighting the need for more resilient energy systems."
     },
     {
         "issueTitle": "Changes in Precipitation Patterns",
@@ -391,8 +353,7 @@
             "GOAL 13: Climate Action",
             "GOAL 6: Clean Water And Sanitation"
         ],
-        "description": "Altered precipitation patterns are affecting water availability for agriculture, necessitating shifts in farming practices.",
-        "source": "IMF"
+        "description": "Altered precipitation patterns are affecting water availability for agriculture, necessitating shifts in farming practices."
     },
     {
         "issueTitle": "Increased Urban Heat Island Effect",
@@ -401,8 +362,7 @@
             "GOAL 13: Climate Action",
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "The urban heat island effect is intensifying in Egyptian cities, exacerbating the heat stress experienced by urban populations.",
-        "source": "UNESCO"
+        "description": "The urban heat island effect is intensifying in Egyptian cities, exacerbating the heat stress experienced by urban populations."
     },
     {
         "issueTitle": "Decline in Crop Yields",
@@ -411,8 +371,7 @@
             "GOAL 2: Zero Hunger",
             "GOAL 13: Climate Action"
         ],
-        "description": "Egypt faces a significant decline in crop yields due to soil degradation and the impact of increased temperatures and erratic rainfall.",
-        "source": "WFP"
+        "description": "Egypt faces a significant decline in crop yields due to soil degradation and the impact of increased temperatures and erratic rainfall."
     },
     {
         "issueTitle": "Water Scarcity Impacting Irrigation",
@@ -421,18 +380,16 @@
             "GOAL 2: Zero Hunger",
             "GOAL 6: Clean Water And Sanitation"
         ],
-        "description": "Critical water shortages are severely impacting irrigation practices, essential for agriculture in Egypt\u2019s arid climate.",
-        "source": "SDG Index"
+        "description": "Critical water shortages are severely impacting irrigation practices, essential for agriculture in Egypt’s arid climate."
     },
     {
         "issueTitle": "High Dependency on Food Imports",
         "emergingIssue": "Food Security",
         "sdgTargeted": [
             "GOAL 2: Zero Hunger",
-            "GOAL 12: Responsible Consumption And Production"
+            "GOAL 12: Responsible Consumption and Production"
         ],
-        "description": "Egypt's high dependency on imported food commodities like wheat makes it vulnerable to global market fluctuations and supply chain disruptions.",
-        "source": "SDG Index"
+        "description": "Egypt's high dependency on imported food commodities like wheat makes it vulnerable to global market fluctuations and supply chain disruptions."
     },
     {
         "issueTitle": "Impact of Subsidy Reductions on Food Prices",
@@ -441,8 +398,7 @@
             "GOAL 2: Zero Hunger",
             "GOAL 1: No Poverty"
         ],
-        "description": "Recent reductions in government subsidies have led to a rise in food prices, affecting access to food for low-income families.",
-        "source": "UNESCO"
+        "description": "Recent reductions in government subsidies have led to a rise in food prices, affecting access to food for low-income families."
     },
     {
         "issueTitle": "Loss of Agricultural Land to Urbanization",
@@ -451,8 +407,7 @@
             "GOAL 2: Zero Hunger",
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Rapid urbanization is leading to the loss of agricultural land, threatening food production capacities in Egypt.",
-        "source": "FAQ"
+        "description": "Rapid urbanization is leading to the loss of agricultural land, threatening food production capacities in Egypt."
     },
     {
         "issueTitle": "Pest Infestations in Crops",
@@ -461,8 +416,7 @@
             "GOAL 2: Zero Hunger",
             "GOAL 15: Life on Land"
         ],
-        "description": "Increasing pest infestations, exacerbated by climate change, are damaging crops and reducing yields across the country.",
-        "source": "SDG Index"
+        "description": "Increasing pest infestations, exacerbated by climate change, are damaging crops and reducing yields across the country."
     },
     {
         "issueTitle": "Inadequate Agricultural Investment",
@@ -471,8 +425,7 @@
             "GOAL 2: Zero Hunger",
             "GOAL 9: Industry, Innovation And Infrastructure"
         ],
-        "description": "Lack of adequate investment in agricultural technology and infrastructure is hindering the efficiency and sustainability of food production in Egypt.",
-        "source": "IMF"
+        "description": "Lack of adequate investment in agricultural technology and infrastructure is hindering the efficiency and sustainability of food production in Egypt."
     },
     {
         "issueTitle": "Overfishing in the Mediterranean and Red Sea",
@@ -481,8 +434,7 @@
             "GOAL 2: Zero Hunger",
             "GOAL 14: Life Below Water"
         ],
-        "description": "Overfishing in Egypt's territorial waters is leading to depletion of fish stocks, affecting food availability and the livelihoods of fishing communities.",
-        "source": "FAQ"
+        "description": "Overfishing in Egypt's territorial waters is leading to depletion of fish stocks, affecting food availability and the livelihoods of fishing communities."
     },
     {
         "issueTitle": "Vulnerability to Crop Diseases",
@@ -491,8 +443,7 @@
             "GOAL 2: Zero Hunger",
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Egyptian agriculture is increasingly vulnerable to emerging crop diseases, which threaten food security and agricultural biodiversity.",
-        "source": "SDG Index"
+        "description": "Egyptian agriculture is increasingly vulnerable to emerging crop diseases, which threaten food security and agricultural biodiversity."
     },
     {
         "issueTitle": "Economic Inflation Impacting Food Affordability",
@@ -501,8 +452,7 @@
             "GOAL 2: Zero Hunger",
             "GOAL 1: No Poverty"
         ],
-        "description": "Economic inflation in Egypt is making basic food items unaffordable for many Egyptians, exacerbating hunger and malnutrition.",
-        "source": "WHO"
+        "description": "Economic inflation in Egypt is making basic food items unaffordable for many Egyptians, exacerbating hunger and malnutrition."
     },
     {
         "issueTitle": "Lack of Nutritional Diversity",
@@ -511,8 +461,7 @@
             "GOAL 2: Zero Hunger",
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "There is a lack of nutritional diversity in the Egyptian diet, leading to widespread micronutrient deficiencies and health issues.",
-        "source": "World Bank"
+        "description": "There is a lack of nutritional diversity in the Egyptian diet, leading to widespread micronutrient deficiencies and health issues."
     },
     {
         "issueTitle": "Climate Change Affecting Fishery Yields",
@@ -521,8 +470,7 @@
             "GOAL 2: Zero Hunger",
             "GOAL 13: Climate Action"
         ],
-        "description": "Climate change is affecting the productivity of both marine and freshwater fisheries, crucial for food security in coastal and riverine communities.",
-        "source": "IMF"
+        "description": "Climate change is affecting the productivity of both marine and freshwater fisheries, crucial for food security in coastal and riverine communities."
     },
     {
         "issueTitle": "Soil Salinity Increasing",
@@ -531,48 +479,43 @@
             "GOAL 2: Zero Hunger",
             "GOAL 6: Clean Water And Sanitation"
         ],
-        "description": "Increased soil salinity, partly due to poor irrigation practices, is reducing the arable land available for food crops in Egypt.",
-        "source": "WHO"
+        "description": "Increased soil salinity, partly due to poor irrigation practices, is reducing the arable land available for food crops in Egypt."
     },
     {
         "issueTitle": "Insufficient Food Storage Facilities",
         "emergingIssue": "Food Security",
         "sdgTargeted": [
             "GOAL 2: Zero Hunger",
-            "GOAL 12: Responsible Consumption And Production"
+            "GOAL 12: Responsible Consumption and Production"
         ],
-        "description": "Lack of adequate food storage facilities leads to high post-harvest losses, impacting overall food availability and economic stability for farmers.",
-        "source": "UNICEF"
+        "description": "Lack of adequate food storage facilities leads to high post-harvest losses, impacting overall food availability and economic stability for farmers."
     },
     {
         "issueTitle": "Disruption of Food Supply Chains",
         "emergingIssue": "Food Security",
         "sdgTargeted": [
             "GOAL 2: Zero Hunger",
-            "GOAL 12: Responsible Consumption And Production"
+            "GOAL 12: Responsible Consumption and Production"
         ],
-        "description": "Political instability and economic disruptions have led to frequent interruptions in food supply chains, exacerbating food insecurity.",
-        "source": "UNESCO"
+        "description": "Political instability and economic disruptions have led to frequent interruptions in food supply chains, exacerbating food insecurity."
     },
     {
         "issueTitle": "Limited Access to Markets for Small Farmers",
         "emergingIssue": "Food Security",
         "sdgTargeted": [
             "GOAL 2: Zero Hunger",
-            "GOAL 10: Reduced Inequality"
+            "GOAL 10: Reduced Inequalities"
         ],
-        "description": "Small-scale farmers in Egypt often face barriers to accessing markets, reducing their profits and discouraging sustainable agricultural practices.",
-        "source": "WHO"
+        "description": "Small-scale farmers in Egypt often face barriers to accessing markets, reducing their profits and discouraging sustainable agricultural practices."
     },
     {
         "issueTitle": "Increasing Food Wastage",
         "emergingIssue": "Food Security",
         "sdgTargeted": [
             "GOAL 2: Zero Hunger",
-            "GOAL 12: Responsible Consumption And Production"
+            "GOAL 12: Responsible Consumption and Production"
         ],
-        "description": "High levels of food wastage in urban areas contribute to overall food insecurity, while millions struggle with access to basic food items.",
-        "source": "FAQ"
+        "description": "High levels of food wastage in urban areas contribute to overall food insecurity, while millions struggle with access to basic food items."
     },
     {
         "issueTitle": "Dependency on Nile River for Agriculture",
@@ -581,8 +524,7 @@
             "GOAL 2: Zero Hunger",
             "GOAL 6: Clean Water And Sanitation"
         ],
-        "description": "The overwhelming dependency on the Nile for irrigation places Egyptian food security at risk, particularly with upstream developments like the Grand Ethiopian Renaissance Dam.",
-        "source": "UNESCO"
+        "description": "The overwhelming dependency on the Nile for irrigation places Egyptian food security at risk, particularly with upstream developments like the Grand Ethiopian Renaissance Dam."
     },
     {
         "issueTitle": "Poor Agricultural Policy Implementation",
@@ -591,8 +533,7 @@
             "GOAL 2: Zero Hunger",
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Ineffective implementation of agricultural policies hampers efforts to improve food security and agricultural productivity in Egypt.",
-        "source": "FAQ"
+        "description": "Ineffective implementation of agricultural policies hampers efforts to improve food security and agricultural productivity in Egypt."
     },
     {
         "issueTitle": "Impact of Global Climate Policies on Food Imports",
@@ -601,8 +542,7 @@
             "GOAL 2: Zero Hunger",
             "GOAL 13: Climate Action"
         ],
-        "description": "Global climate policies and environmental changes can impact the price and availability of food imports, affecting food security in Egypt.",
-        "source": "World Bank"
+        "description": "Global climate policies and environmental changes can impact the price and availability of food imports, affecting food security in Egypt."
     },
     {
         "issueTitle": "Rising Rates of Chronic Diseases",
@@ -610,8 +550,7 @@
         "sdgTargeted": [
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Egypt is experiencing a surge in chronic diseases such as diabetes and hypertension, driven by lifestyle factors and aging populations.",
-        "source": "WFP"
+        "description": "Egypt is experiencing a surge in chronic diseases such as diabetes and hypertension, driven by lifestyle factors and aging populations."
     },
     {
         "issueTitle": "Inadequate Health Infrastructure",
@@ -620,8 +559,7 @@
             "GOAL 3: Good Health And Well-being",
             "GOAL 9: Industry, Innovation And Infrastructure"
         ],
-        "description": "The health infrastructure in many parts of Egypt is inadequate, with hospitals and clinics under-resourced and overcrowded.",
-        "source": "FAQ"
+        "description": "The health infrastructure in many parts of Egypt is inadequate, with hospitals and clinics under-resourced and overcrowded."
     },
     {
         "issueTitle": "Impact of Air Pollution on Respiratory Health",
@@ -630,8 +568,7 @@
             "GOAL 3: Good Health And Well-being",
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "High levels of air pollution in urban areas like Cairo are causing an increase in respiratory ailments and other health issues among residents.",
-        "source": "World Bank"
+        "description": "High levels of air pollution in urban areas like Cairo are causing an increase in respiratory ailments and other health issues among residents."
     },
     {
         "issueTitle": "Shortages of Medical Personnel",
@@ -640,8 +577,7 @@
             "GOAL 3: Good Health And Well-being",
             "GOAL 4: Quality Education"
         ],
-        "description": "There is a critical shortage of trained medical personnel in Egypt, particularly in rural and underserved areas.",
-        "source": "UNESCO"
+        "description": "There is a critical shortage of trained medical personnel in Egypt, particularly in rural and underserved areas."
     },
     {
         "issueTitle": "Spread of Infectious Diseases",
@@ -649,8 +585,7 @@
         "sdgTargeted": [
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Egypt faces challenges in controlling the spread of infectious diseases, including hepatitis and tuberculosis.",
-        "source": "SDG Index"
+        "description": "Egypt faces challenges in controlling the spread of infectious diseases, including hepatitis and tuberculosis."
     },
     {
         "issueTitle": "High Maternal and Infant Mortality Rates",
@@ -658,8 +593,7 @@
         "sdgTargeted": [
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Egypt continues to struggle with high rates of maternal and infant mortality, despite various health initiatives.",
-        "source": "WHO"
+        "description": "Egypt continues to struggle with high rates of maternal and infant mortality, despite various health initiatives."
     },
     {
         "issueTitle": "Lack of Mental Health Services",
@@ -667,8 +601,7 @@
         "sdgTargeted": [
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Mental health services are severely lacking in Egypt, with stigma and insufficient resources limiting access to necessary care.",
-        "source": "UNESCO"
+        "description": "Mental health services are severely lacking in Egypt, with stigma and insufficient resources limiting access to necessary care."
     },
     {
         "issueTitle": "Obesity Epidemic",
@@ -676,8 +609,7 @@
         "sdgTargeted": [
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Obesity rates in Egypt are among the highest in the world, contributing to a range of health issues and increasing healthcare costs.",
-        "source": "World Bank"
+        "description": "Obesity rates in Egypt are among the highest in the world, contributing to a range of health issues and increasing healthcare costs."
     },
     {
         "issueTitle": "Drug Shortages and Pharmaceutical Supply Issues",
@@ -685,8 +617,7 @@
         "sdgTargeted": [
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Frequent drug shortages and issues in pharmaceutical supply chains are compromising patient care across Egypt.",
-        "source": "SDG Index"
+        "description": "Frequent drug shortages and issues in pharmaceutical supply chains are compromising patient care across Egypt."
     },
     {
         "issueTitle": "Inadequate Emergency Medical Services",
@@ -694,8 +625,7 @@
         "sdgTargeted": [
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Emergency medical services in Egypt are often inadequate, with slow response times and limited coverage, particularly in remote areas.",
-        "source": "World Bank"
+        "description": "Emergency medical services in Egypt are often inadequate, with slow response times and limited coverage, particularly in remote areas."
     },
     {
         "issueTitle": "Impact of Water Pollution on Health",
@@ -704,8 +634,7 @@
             "GOAL 3: Good Health And Well-being",
             "GOAL 6: Clean Water And Sanitation"
         ],
-        "description": "Water pollution is causing widespread health issues in Egypt, including gastrointestinal diseases and other serious health problems.",
-        "source": "SDG Index"
+        "description": "Water pollution is causing widespread health issues in Egypt, including gastrointestinal diseases and other serious health problems."
     },
     {
         "issueTitle": "Underfunded Public Health Programs",
@@ -713,8 +642,7 @@
         "sdgTargeted": [
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Public health programs in Egypt are chronically underfunded, limiting their effectiveness in improving health outcomes and preventing diseases.",
-        "source": "IMF"
+        "description": "Public health programs in Egypt are chronically underfunded, limiting their effectiveness in improving health outcomes and preventing diseases."
     },
     {
         "issueTitle": "Rising Healthcare Costs",
@@ -723,8 +651,7 @@
             "GOAL 3: Good Health And Well-being",
             "GOAL 1: No Poverty"
         ],
-        "description": "The cost of healthcare in Egypt is rising, making it increasingly difficult for low-income families to afford necessary medical treatment.",
-        "source": "UNICEF"
+        "description": "The cost of healthcare in Egypt is rising, making it increasingly difficult for low-income families to afford necessary medical treatment."
     },
     {
         "issueTitle": "Insufficient Health Education and Awareness",
@@ -733,8 +660,7 @@
             "GOAL 3: Good Health And Well-being",
             "GOAL 4: Quality Education"
         ],
-        "description": "There is a lack of health education and awareness among the Egyptian population, leading to poor health choices and increased vulnerability to diseases.",
-        "source": "FAQ"
+        "description": "There is a lack of health education and awareness among the Egyptian population, leading to poor health choices and increased vulnerability to diseases."
     },
     {
         "issueTitle": "Environmental Health Risks",
@@ -743,8 +669,7 @@
             "GOAL 3: Good Health And Well-being",
             "GOAL 13: Climate Action"
         ],
-        "description": "Environmental degradation and climate change are exacerbating health risks in Egypt, particularly in terms of air quality and heat-related illnesses.",
-        "source": "WFP"
+        "description": "Environmental degradation and climate change are exacerbating health risks in Egypt, particularly in terms of air quality and heat-related illnesses."
     },
     {
         "issueTitle": "Challenges in Health Policy Implementation",
@@ -753,8 +678,7 @@
             "GOAL 3: Good Health And Well-being",
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "There are significant challenges in the implementation of health policies in Egypt, often due to bureaucratic inefficiencies and corruption.",
-        "source": "WHO"
+        "description": "There are significant challenges in the implementation of health policies in Egypt, often due to bureaucratic inefficiencies and corruption."
     },
     {
         "issueTitle": "Vaccine Hesitancy",
@@ -762,8 +686,7 @@
         "sdgTargeted": [
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Vaccine hesitancy is a growing concern in Egypt, impacting public health efforts to control preventable diseases.",
-        "source": "IMF"
+        "description": "Vaccine hesitancy is a growing concern in Egypt, impacting public health efforts to control preventable diseases."
     },
     {
         "issueTitle": "Limited Access to Reproductive Health Services",
@@ -772,8 +695,7 @@
             "GOAL 3: Good Health And Well-being",
             "GOAL 5: Gender Equality"
         ],
-        "description": "Access to comprehensive reproductive health services is limited in Egypt, particularly for women in rural areas.",
-        "source": "UNESCO"
+        "description": "Access to comprehensive reproductive health services is limited in Egypt, particularly for women in rural areas."
     },
     {
         "issueTitle": "Aging Population and Health Care Demand",
@@ -781,8 +703,7 @@
         "sdgTargeted": [
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "An aging population is putting additional pressure on Egypt's healthcare system, which is already struggling to meet the demand.",
-        "source": "FAQ"
+        "description": "An aging population is putting additional pressure on Egypt's healthcare system, which is already struggling to meet the demand."
     },
     {
         "issueTitle": "Neglected Tropical Diseases",
@@ -790,74 +711,66 @@
         "sdgTargeted": [
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Egypt is battling against neglected tropical diseases, which continue to affect the poorest and most vulnerable populations.",
-        "source": "WFP"
+        "description": "Egypt is battling against neglected tropical diseases, which continue to affect the poorest and most vulnerable populations."
     },
     {
         "issueTitle": "High Unemployment Rates",
         "emergingIssue": "Economic Recession",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "Persistent high unemployment rates, especially among youth and college graduates, are a major economic concern in Egypt.",
-        "source": "World Bank"
+        "description": "Persistent high unemployment rates, especially among youth and college graduates, are a major economic concern in Egypt."
     },
     {
         "issueTitle": "Inflationary Pressure",
         "emergingIssue": "Economic Recession",
         "sdgTargeted": [
             "GOAL 1: No Poverty",
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "Egypt faces significant inflationary pressure, leading to higher prices for basic goods and reducing purchasing power among its citizens.",
-        "source": "UNICEF"
+        "description": "Egypt faces significant inflationary pressure, leading to higher prices for basic goods and reducing purchasing power among its citizens."
     },
     {
         "issueTitle": "Decrease in Foreign Direct Investment",
         "emergingIssue": "Economic Recession",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth",
-            "GOAL 17: Partnerships to achieve the Goal"
+            "GOAL 8: Decent Work and Economic Growth",
+            "GOAL 17: Partnerships for the Goals"
         ],
-        "description": "Economic instability has led to a decrease in foreign direct investment, impacting economic growth and job creation.",
-        "source": "World Bank"
+        "description": "Economic instability has led to a decrease in foreign direct investment, impacting economic growth and job creation."
     },
     {
         "issueTitle": "Currency Devaluation",
         "emergingIssue": "Economic Recession",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "The Egyptian pound has experienced significant devaluation, affecting the cost of imports and contributing to inflation.",
-        "source": "FAQ"
+        "description": "The Egyptian pound has experienced significant devaluation, affecting the cost of imports and contributing to inflation."
     },
     {
         "issueTitle": "Decline in Tourism Revenue",
         "emergingIssue": "Economic Recession",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "Political instability and security concerns have led to a decline in tourism, a crucial source of revenue for Egypt's economy.",
-        "source": "SDG Index"
+        "description": "Political instability and security concerns have led to a decline in tourism, a crucial source of revenue for Egypt's economy."
     },
     {
         "issueTitle": "Reduction in Suez Canal Revenue",
         "emergingIssue": "Economic Recession",
         "sdgTargeted": [
             "GOAL 9: Industry, Innovation And Infrastructure",
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "Economic downturns globally have led to reduced shipping activity, impacting revenue from the Suez Canal.",
-        "source": "WFP"
+        "description": "Economic downturns globally have led to reduced shipping activity, impacting revenue from the Suez Canal."
     },
     {
         "issueTitle": "Increased Public Debt",
         "emergingIssue": "Economic Recession",
         "sdgTargeted": [
-            "GOAL 17: Partnerships to achieve the Goal"
+            "GOAL 17: Partnerships for the Goals"
         ],
-        "description": "Egypt's public debt levels have risen, limiting the government's ability to invest in public services and infrastructure.",
-        "source": "World Bank"
+        "description": "Egypt's public debt levels have risen, limiting the government's ability to invest in public services and infrastructure."
     },
     {
         "issueTitle": "Weak Industrial Output",
@@ -865,46 +778,41 @@
         "sdgTargeted": [
             "GOAL 9: Industry, Innovation And Infrastructure"
         ],
-        "description": "The industrial sector in Egypt is suffering from low output due to lack of investment, outdated technology, and insufficient infrastructure.",
-        "source": "SDG Index"
+        "description": "The industrial sector in Egypt is suffering from low output due to lack of investment, outdated technology, and insufficient infrastructure."
     },
     {
         "issueTitle": "Poor Agricultural Performance",
         "emergingIssue": "Economic Recession",
         "sdgTargeted": [
             "GOAL 2: Zero Hunger",
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "Challenges such as water scarcity and inadequate agricultural practices are leading to poor performance in the agricultural sector.",
-        "source": "SDG Index"
+        "description": "Challenges such as water scarcity and inadequate agricultural practices are leading to poor performance in the agricultural sector."
     },
     {
         "issueTitle": "Rising Fuel Prices",
         "emergingIssue": "Economic Recession",
         "sdgTargeted": [
             "GOAL 7: Affordable And Clean Energy",
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "Increases in fuel prices are contributing to overall economic challenges, affecting both businesses and consumers.",
-        "source": "UNESCO"
+        "description": "Increases in fuel prices are contributing to overall economic challenges, affecting both businesses and consumers."
     },
     {
         "issueTitle": "Lack of Competitiveness",
         "emergingIssue": "Economic Recession",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "Egypt's global economic competitiveness is declining due to a lack of innovation and inefficiencies in the business environment.",
-        "source": "WFP"
+        "description": "Egypt's global economic competitiveness is declining due to a lack of innovation and inefficiencies in the business environment."
     },
     {
         "issueTitle": "Credit Access Issues",
         "emergingIssue": "Economic Recession",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "Small and medium enterprises (SMEs) in Egypt struggle to access credit, hindering their ability to expand and employ more workers.",
-        "source": "UNESCO"
+        "description": "Small and medium enterprises (SMEs) in Egypt struggle to access credit, hindering their ability to expand and employ more workers."
     },
     {
         "issueTitle": "Stagnation in Construction Sector",
@@ -912,73 +820,65 @@
         "sdgTargeted": [
             "GOAL 9: Industry, Innovation And Infrastructure"
         ],
-        "description": "The construction sector, once a driving force in Egypt's economy, is now stagnating due to reduced investment and demand.",
-        "source": "SDG Index"
+        "description": "The construction sector, once a driving force in Egypt's economy, is now stagnating due to reduced investment and demand."
     },
     {
         "issueTitle": "Declining Exports",
         "emergingIssue": "Economic Recession",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "Egypt's export sectors are suffering from global trade tensions and reduced competitiveness, leading to declining revenues.",
-        "source": "IMF"
+        "description": "Egypt's export sectors are suffering from global trade tensions and reduced competitiveness, leading to declining revenues."
     },
     {
         "issueTitle": "Growing Informal Economy",
         "emergingIssue": "Economic Recession",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "The growth of the informal economy complicates economic policymaking and limits the effectiveness of government regulations.",
-        "source": "FAQ"
+        "description": "The growth of the informal economy complicates economic policymaking and limits the effectiveness of government regulations."
     },
     {
         "issueTitle": "Skills Mismatch in the Workforce",
         "emergingIssue": "Economic Recession",
         "sdgTargeted": [
             "GOAL 4: Quality Education",
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "There is a significant mismatch between the skills of the Egyptian workforce and the needs of the modern economy, contributing to high unemployment.",
-        "source": "IMF"
+        "description": "There is a significant mismatch between the skills of the Egyptian workforce and the needs of the modern economy, contributing to high unemployment."
     },
     {
         "issueTitle": "Impact of Global Economic Downturns",
         "emergingIssue": "Economic Recession",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "Global economic downturns have a direct impact on Egypt's economy, especially in sectors like tourism and Suez Canal transit.",
-        "source": "WFP"
+        "description": "Global economic downturns have a direct impact on Egypt's economy, especially in sectors like tourism and Suez Canal transit."
     },
     {
         "issueTitle": "Insufficient Economic Diversification",
         "emergingIssue": "Economic Recession",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "Egypt's economy suffers from insufficient diversification, making it vulnerable to shocks in key sectors like oil and gas, tourism, and agriculture.",
-        "source": "WHO"
+        "description": "Egypt's economy suffers from insufficient diversification, making it vulnerable to shocks in key sectors like oil and gas, tourism, and agriculture."
     },
     {
         "issueTitle": "Lack of Entrepreneurial Opportunities",
         "emergingIssue": "Economic Recession",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "Entrepreneurial opportunities in Egypt are limited by regulatory barriers, lack of funding, and a challenging business environment.",
-        "source": "FAQ"
+        "description": "Entrepreneurial opportunities in Egypt are limited by regulatory barriers, lack of funding, and a challenging business environment."
     },
     {
         "issueTitle": "Underinvestment in Technology and Innovation",
         "emergingIssue": "Economic Recession",
         "sdgTargeted": [
             "GOAL 9: Industry, Innovation And Infrastructure",
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "There is significant underinvestment in technology and innovation, hindering economic growth and the development of new industries.",
-        "source": "SDG Index"
+        "description": "There is significant underinvestment in technology and innovation, hindering economic growth and the development of new industries."
     },
     {
         "issueTitle": "Overdependence on Fossil Fuels",
@@ -987,8 +887,7 @@
             "GOAL 7: Affordable And Clean Energy",
             "GOAL 13: Climate Action"
         ],
-        "description": "Egypt's energy sector is heavily reliant on fossil fuels, which poses sustainability and environmental challenges.",
-        "source": "WFP"
+        "description": "Egypt's energy sector is heavily reliant on fossil fuels, which poses sustainability and environmental challenges."
     },
     {
         "issueTitle": "Power Outages",
@@ -997,8 +896,7 @@
             "GOAL 7: Affordable And Clean Energy",
             "GOAL 9: Industry, Innovation And Infrastructure"
         ],
-        "description": "Frequent power outages disrupt daily life and business operations, highlighting the need for more reliable energy sources.",
-        "source": "IMF"
+        "description": "Frequent power outages disrupt daily life and business operations, highlighting the need for more reliable energy sources."
     },
     {
         "issueTitle": "Aging Energy Infrastructure",
@@ -1007,18 +905,16 @@
             "GOAL 9: Industry, Innovation And Infrastructure",
             "GOAL 7: Affordable And Clean Energy"
         ],
-        "description": "Much of Egypt's energy infrastructure is outdated and inefficient, requiring significant upgrades or replacements.",
-        "source": "IMF"
+        "description": "Much of Egypt's energy infrastructure is outdated and inefficient, requiring significant upgrades or replacements."
     },
     {
         "issueTitle": "High Energy Subsidies",
         "emergingIssue": "Energy Crisis",
         "sdgTargeted": [
-            "GOAL 12: Responsible Consumption And Production",
+            "GOAL 12: Responsible Consumption and Production",
             "GOAL 7: Affordable And Clean Energy"
         ],
-        "description": "The Egyptian government spends a large portion of its budget on energy subsidies, which is financially unsustainable in the long term.",
-        "source": "UNICEF"
+        "description": "The Egyptian government spends a large portion of its budget on energy subsidies, which is financially unsustainable in the long term."
     },
     {
         "issueTitle": "Limited Renewable Energy Adoption",
@@ -1027,8 +923,7 @@
             "GOAL 7: Affordable And Clean Energy",
             "GOAL 13: Climate Action"
         ],
-        "description": "Despite having significant solar and wind resources, Egypt has been slow to adopt renewable energy technologies on a large scale.",
-        "source": "WHO"
+        "description": "Despite having significant solar and wind resources, Egypt has been slow to adopt renewable energy technologies on a large scale."
     },
     {
         "issueTitle": "Oil and Gas Sector Volatility",
@@ -1036,8 +931,7 @@
         "sdgTargeted": [
             "GOAL 7: Affordable And Clean Energy"
         ],
-        "description": "Volatility in global oil and gas markets impacts Egypt's energy sector, affecting both domestic energy prices and economic stability.",
-        "source": "IMF"
+        "description": "Volatility in global oil and gas markets impacts Egypt's energy sector, affecting both domestic energy prices and economic stability."
     },
     {
         "issueTitle": "Energy Consumption Inefficiency",
@@ -1046,8 +940,7 @@
             "GOAL 7: Affordable And Clean Energy",
             "GOAL 13: Climate Action"
         ],
-        "description": "There is a high level of energy consumption inefficiency in both the residential and industrial sectors in Egypt.",
-        "source": "SDG Index"
+        "description": "There is a high level of energy consumption inefficiency in both the residential and industrial sectors in Egypt."
     },
     {
         "issueTitle": "Lack of Energy Sector Investment",
@@ -1056,8 +949,7 @@
             "GOAL 7: Affordable And Clean Energy",
             "GOAL 9: Industry, Innovation And Infrastructure"
         ],
-        "description": "Insufficient investment in the energy sector is limiting Egypt's ability to expand and modernize its energy infrastructure.",
-        "source": "IMF"
+        "description": "Insufficient investment in the energy sector is limiting Egypt's ability to expand and modernize its energy infrastructure."
     },
     {
         "issueTitle": "Environmental Impact of Energy Production",
@@ -1066,8 +958,7 @@
             "GOAL 13: Climate Action",
             "GOAL 7: Affordable And Clean Energy"
         ],
-        "description": "The environmental impact of energy production, particularly from fossil fuels, is a growing concern in Egypt.",
-        "source": "IMF"
+        "description": "The environmental impact of energy production, particularly from fossil fuels, is a growing concern in Egypt."
     },
     {
         "issueTitle": "Energy Security Concerns",
@@ -1076,8 +967,7 @@
             "GOAL 7: Affordable And Clean Energy",
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Concerns over energy security are prominent due to Egypt's geopolitical situation and its impact on energy supply routes.",
-        "source": "UNESCO"
+        "description": "Concerns over energy security are prominent due to Egypt's geopolitical situation and its impact on energy supply routes."
     },
     {
         "issueTitle": "Rising Domestic Energy Demand",
@@ -1085,8 +975,7 @@
         "sdgTargeted": [
             "GOAL 7: Affordable And Clean Energy"
         ],
-        "description": "Rapid population growth and urbanization are leading to rising domestic energy demand, outpacing current supply capabilities.",
-        "source": "SDG Index"
+        "description": "Rapid population growth and urbanization are leading to rising domestic energy demand, outpacing current supply capabilities."
     },
     {
         "issueTitle": "Underdeveloped Nuclear Energy Sector",
@@ -1094,8 +983,7 @@
         "sdgTargeted": [
             "GOAL 7: Affordable And Clean Energy"
         ],
-        "description": "Egypt's nuclear energy sector is underdeveloped, despite plans to establish nuclear power as a significant energy source.",
-        "source": "UNICEF"
+        "description": "Egypt's nuclear energy sector is underdeveloped, despite plans to establish nuclear power as a significant energy source."
     },
     {
         "issueTitle": "Fuel Smuggling and Theft",
@@ -1104,8 +992,7 @@
             "GOAL 16: Peace, Justice and Strong Institutions",
             "GOAL 7: Affordable And Clean Energy"
         ],
-        "description": "Fuel smuggling and theft are significant issues, leading to losses in state revenues and contributing to the energy crisis.",
-        "source": "UNICEF"
+        "description": "Fuel smuggling and theft are significant issues, leading to losses in state revenues and contributing to the energy crisis."
     },
     {
         "issueTitle": "Dependency on Energy Imports",
@@ -1113,18 +1000,16 @@
         "sdgTargeted": [
             "GOAL 7: Affordable And Clean Energy"
         ],
-        "description": "Egypt's dependency on energy imports makes it vulnerable to external economic and political influences.",
-        "source": "UNESCO"
+        "description": "Egypt's dependency on energy imports makes it vulnerable to external economic and political influences."
     },
     {
         "issueTitle": "Challenges in Energy Pricing",
         "emergingIssue": "Energy Crisis",
         "sdgTargeted": [
             "GOAL 7: Affordable And Clean Energy",
-            "GOAL 12: Responsible Consumption And Production"
+            "GOAL 12: Responsible Consumption and Production"
         ],
-        "description": "The challenge of setting fair and sustainable energy prices complicates the management of Egypt's energy resources.",
-        "source": "SDG Index"
+        "description": "The challenge of setting fair and sustainable energy prices complicates the management of Egypt's energy resources."
     },
     {
         "issueTitle": "Lack of Public Awareness on Energy Conservation",
@@ -1133,8 +1018,7 @@
             "GOAL 7: Affordable And Clean Energy",
             "GOAL 13: Climate Action"
         ],
-        "description": "There is a general lack of public awareness regarding the importance of energy conservation and the benefits of renewable energy.",
-        "source": "WHO"
+        "description": "There is a general lack of public awareness regarding the importance of energy conservation and the benefits of renewable energy."
     },
     {
         "issueTitle": "Insufficient Grid Capacity",
@@ -1143,8 +1027,7 @@
             "GOAL 7: Affordable And Clean Energy",
             "GOAL 9: Industry, Innovation And Infrastructure"
         ],
-        "description": "Egypt's electrical grid lacks the capacity to handle peak loads effectively, leading to frequent outages.",
-        "source": "UNICEF"
+        "description": "Egypt's electrical grid lacks the capacity to handle peak loads effectively, leading to frequent outages."
     },
     {
         "issueTitle": "Impact of Subsidy Reforms on Energy Sector",
@@ -1152,8 +1035,7 @@
         "sdgTargeted": [
             "GOAL 7: Affordable And Clean Energy"
         ],
-        "description": "Reforms in energy subsidies have led to increased prices for consumers, affecting economic stability and energy access for low-income households.",
-        "source": "SDG Index"
+        "description": "Reforms in energy subsidies have led to increased prices for consumers, affecting economic stability and energy access for low-income households."
     },
     {
         "issueTitle": "Barriers to Energy Market Entry",
@@ -1161,8 +1043,7 @@
         "sdgTargeted": [
             "GOAL 7: Affordable And Clean Energy"
         ],
-        "description": "Regulatory and bureaucratic barriers limit new entrants in the energy market, hindering competition and innovation.",
-        "source": "WHO"
+        "description": "Regulatory and bureaucratic barriers limit new entrants in the energy market, hindering competition and innovation."
     },
     {
         "issueTitle": "Geopolitical Tensions Affecting Energy Supplies",
@@ -1171,8 +1052,7 @@
             "GOAL 7: Affordable And Clean Energy",
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Geopolitical tensions in the region can disrupt energy supplies, posing risks to Egypt's energy security.",
-        "source": "FAQ"
+        "description": "Geopolitical tensions in the region can disrupt energy supplies, posing risks to Egypt's energy security."
     },
     {
         "issueTitle": "Habitat Destruction",
@@ -1180,8 +1060,7 @@
         "sdgTargeted": [
             "GOAL 15: Life on Land"
         ],
-        "description": "Habitat destruction due to urban expansion, industrial development, and agriculture is leading to significant biodiversity loss in Egypt.",
-        "source": "WFP"
+        "description": "Habitat destruction due to urban expansion, industrial development, and agriculture is leading to significant biodiversity loss in Egypt."
     },
     {
         "issueTitle": "Pollution of the Nile and Marine Ecosystems",
@@ -1190,8 +1069,7 @@
             "GOAL 14: Life Below Water",
             "GOAL 6: Clean Water And Sanitation"
         ],
-        "description": "Pollution in the Nile River and marine ecosystems is adversely affecting aquatic life and contributing to biodiversity loss.",
-        "source": "WHO"
+        "description": "Pollution in the Nile River and marine ecosystems is adversely affecting aquatic life and contributing to biodiversity loss."
     },
     {
         "issueTitle": "Overfishing in the Mediterranean and Red Seas",
@@ -1199,8 +1077,7 @@
         "sdgTargeted": [
             "GOAL 14: Life Below Water"
         ],
-        "description": "Overfishing is depleting fish stocks and damaging marine biodiversity in Egypt's territorial waters.",
-        "source": "World Bank"
+        "description": "Overfishing is depleting fish stocks and damaging marine biodiversity in Egypt's territorial waters."
     },
     {
         "issueTitle": "Climate Change Impacting Ecosystems",
@@ -1209,8 +1086,7 @@
             "GOAL 13: Climate Action",
             "GOAL 15: Life on Land"
         ],
-        "description": "Climate change is altering habitats and threatening species survival, particularly in sensitive areas like the Nile Delta.",
-        "source": "FAQ"
+        "description": "Climate change is altering habitats and threatening species survival, particularly in sensitive areas like the Nile Delta."
     },
     {
         "issueTitle": "Illegal Wildlife Trade",
@@ -1219,8 +1095,7 @@
             "GOAL 15: Life on Land",
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "The illegal wildlife trade, including the trafficking of birds and reptiles, is a significant threat to biodiversity in Egypt.",
-        "source": "IMF"
+        "description": "The illegal wildlife trade, including the trafficking of birds and reptiles, is a significant threat to biodiversity in Egypt."
     },
     {
         "issueTitle": "Introduction of Invasive Species",
@@ -1228,8 +1103,7 @@
         "sdgTargeted": [
             "GOAL 15: Life on Land"
         ],
-        "description": "Invasive species are disrupting local ecosystems and displacing native species in various regions of Egypt.",
-        "source": "IMF"
+        "description": "Invasive species are disrupting local ecosystems and displacing native species in various regions of Egypt."
     },
     {
         "issueTitle": "Reduction in Indigenous Vegetation",
@@ -1237,8 +1111,7 @@
         "sdgTargeted": [
             "GOAL 15: Life on Land"
         ],
-        "description": "The reduction in indigenous vegetation due to overgrazing and land clearing for agriculture is causing soil degradation and loss of terrestrial biodiversity.",
-        "source": "UNICEF"
+        "description": "The reduction in indigenous vegetation due to overgrazing and land clearing for agriculture is causing soil degradation and loss of terrestrial biodiversity."
     },
     {
         "issueTitle": "Coral Reef Degradation",
@@ -1246,8 +1119,7 @@
         "sdgTargeted": [
             "GOAL 14: Life Below Water"
         ],
-        "description": "Coral reefs in the Red Sea are experiencing degradation due to pollution, tourism, and the effects of climate change, affecting marine biodiversity.",
-        "source": "SDG Index"
+        "description": "Coral reefs in the Red Sea are experiencing degradation due to pollution, tourism, and the effects of climate change, affecting marine biodiversity."
     },
     {
         "issueTitle": "Pesticide and Chemical Use",
@@ -1256,8 +1128,7 @@
             "GOAL 15: Life on Land",
             "GOAL 6: Clean Water And Sanitation"
         ],
-        "description": "The extensive use of pesticides and chemicals in agriculture is harming both terrestrial and aquatic species.",
-        "source": "UNESCO"
+        "description": "The extensive use of pesticides and chemicals in agriculture is harming both terrestrial and aquatic species."
     },
     {
         "issueTitle": "Desertification",
@@ -1265,8 +1136,7 @@
         "sdgTargeted": [
             "GOAL 15: Life on Land"
         ],
-        "description": "Desertification is advancing in Egypt, reducing the availability of habitable land for both wildlife and human populations.",
-        "source": "SDG Index"
+        "description": "Desertification is advancing in Egypt, reducing the availability of habitable land for both wildlife and human populations."
     },
     {
         "issueTitle": "Lack of Environmental Protection Policies",
@@ -1275,8 +1145,7 @@
             "GOAL 15: Life on Land",
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Inadequate environmental protection policies and enforcement are failing to prevent biodiversity loss in critical habitats.",
-        "source": "SDG Index"
+        "description": "Inadequate environmental protection policies and enforcement are failing to prevent biodiversity loss in critical habitats."
     },
     {
         "issueTitle": "Water Resource Depletion Affecting Wetlands",
@@ -1285,8 +1154,7 @@
             "GOAL 6: Clean Water And Sanitation",
             "GOAL 15: Life on Land"
         ],
-        "description": "Depletion of water resources is leading to the degradation of important wetland habitats, crucial for many species.",
-        "source": "FAQ"
+        "description": "Depletion of water resources is leading to the degradation of important wetland habitats, crucial for many species."
     },
     {
         "issueTitle": "Loss of Genetic Diversity in Crops",
@@ -1295,8 +1163,7 @@
             "GOAL 2: Zero Hunger",
             "GOAL 15: Life on Land"
         ],
-        "description": "The loss of genetic diversity in agricultural crops is making food systems more vulnerable to pests, diseases, and climate change.",
-        "source": "WFP"
+        "description": "The loss of genetic diversity in agricultural crops is making food systems more vulnerable to pests, diseases, and climate change."
     },
     {
         "issueTitle": "Air Pollution Impacting Flora and Fauna",
@@ -1305,18 +1172,16 @@
             "GOAL 11: Sustainable Cities And Communities",
             "GOAL 15: Life on Land"
         ],
-        "description": "Air pollution is negatively affecting both flora and fauna, contributing to the decline in urban biodiversity.",
-        "source": "WHO"
+        "description": "Air pollution is negatively affecting both flora and fauna, contributing to the decline in urban biodiversity."
     },
     {
         "issueTitle": "Unsustainable Land Management Practices",
         "emergingIssue": "Biodiversity Loss",
         "sdgTargeted": [
             "GOAL 15: Life on Land",
-            "GOAL 12: Responsible Consumption And Production"
+            "GOAL 12: Responsible Consumption and Production"
         ],
-        "description": "Unsustainable land management practices are leading to habitat loss and degradation across Egypt.",
-        "source": "UNICEF"
+        "description": "Unsustainable land management practices are leading to habitat loss and degradation across Egypt."
     },
     {
         "issueTitle": "Impacts of Mining and Quarrying",
@@ -1324,8 +1189,7 @@
         "sdgTargeted": [
             "GOAL 15: Life on Land"
         ],
-        "description": "Mining and quarrying activities are causing significant environmental degradation, affecting biodiversity in affected areas.",
-        "source": "IMF"
+        "description": "Mining and quarrying activities are causing significant environmental degradation, affecting biodiversity in affected areas."
     },
     {
         "issueTitle": "Deforestation for Agricultural Expansion",
@@ -1334,8 +1198,7 @@
             "GOAL 15: Life on Land",
             "GOAL 2: Zero Hunger"
         ],
-        "description": "Deforestation for the purpose of agricultural expansion is reducing forest cover and the biodiversity contained within these ecosystems.",
-        "source": "IMF"
+        "description": "Deforestation for the purpose of agricultural expansion is reducing forest cover and the biodiversity contained within these ecosystems."
     },
     {
         "issueTitle": "Neglect of Coastal and Marine Protected Areas",
@@ -1344,18 +1207,16 @@
             "GOAL 14: Life Below Water",
             "GOAL 15: Life on Land"
         ],
-        "description": "Neglect and underfunding of coastal and marine protected areas are failing to safeguard marine biodiversity.",
-        "source": "UNESCO"
+        "description": "Neglect and underfunding of coastal and marine protected areas are failing to safeguard marine biodiversity."
     },
     {
         "issueTitle": "Poor Waste Management Impacting Natural Habitats",
         "emergingIssue": "Biodiversity Loss",
         "sdgTargeted": [
             "GOAL 15: Life on Land",
-            "GOAL 12: Responsible Consumption And Production"
+            "GOAL 12: Responsible Consumption and Production"
         ],
-        "description": "Poor waste management practices are polluting natural habitats, posing a direct threat to wildlife and biodiversity.",
-        "source": "SDG Index"
+        "description": "Poor waste management practices are polluting natural habitats, posing a direct threat to wildlife and biodiversity."
     },
     {
         "issueTitle": "Lack of Public Awareness on Biodiversity Importance",
@@ -1364,8 +1225,7 @@
             "GOAL 15: Life on Land",
             "GOAL 4: Quality Education"
         ],
-        "description": "There is a lack of public awareness and education regarding the importance of biodiversity and the need for its conservation.",
-        "source": "UNESCO"
+        "description": "There is a lack of public awareness and education regarding the importance of biodiversity and the need for its conservation."
     },
     {
         "issueTitle": "Government Corruption",
@@ -1373,8 +1233,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Corruption within government institutions is a major issue, undermining trust and stability in Egypt.",
-        "source": "FAQ"
+        "description": "Corruption within government institutions is a major issue, undermining trust and stability in Egypt."
     },
     {
         "issueTitle": "Frequent Protests and Demonstrations",
@@ -1382,8 +1241,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Frequent protests and demonstrations reflect widespread dissatisfaction with political and economic conditions.",
-        "source": "UNESCO"
+        "description": "Frequent protests and demonstrations reflect widespread dissatisfaction with political and economic conditions."
     },
     {
         "issueTitle": "Terrorism and Security Concerns",
@@ -1391,8 +1249,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Terrorism and ongoing security concerns significantly impact Egypt's political stability and economic prospects.",
-        "source": "UNICEF"
+        "description": "Terrorism and ongoing security concerns significantly impact Egypt's political stability and economic prospects."
     },
     {
         "issueTitle": "Restrictions on Media and Freedom of Expression",
@@ -1400,8 +1257,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "The government's tight control over media and restrictions on freedom of expression are leading to political discontent and instability.",
-        "source": "WHO"
+        "description": "The government's tight control over media and restrictions on freedom of expression are leading to political discontent and instability."
     },
     {
         "issueTitle": "Judicial Inefficiencies and Lack of Rule of Law",
@@ -1409,8 +1265,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Inefficiencies in the judicial system and a lack of adherence to the rule of law undermine legal certainty and contribute to political instability.",
-        "source": "WFP"
+        "description": "Inefficiencies in the judicial system and a lack of adherence to the rule of law undermine legal certainty and contribute to political instability."
     },
     {
         "issueTitle": "Civil-Military Relations",
@@ -1418,8 +1273,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "The dynamic between civil authorities and the military is complex and sometimes tense, influencing Egypt's political landscape.",
-        "source": "World Bank"
+        "description": "The dynamic between civil authorities and the military is complex and sometimes tense, influencing Egypt's political landscape."
     },
     {
         "issueTitle": "Interference in Electoral Processes",
@@ -1427,8 +1281,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Allegations of interference in electoral processes and limited political pluralism challenge the legitimacy of the political system.",
-        "source": "SDG Index"
+        "description": "Allegations of interference in electoral processes and limited political pluralism challenge the legitimacy of the political system."
     },
     {
         "issueTitle": "Human Rights Violations",
@@ -1436,28 +1289,25 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Human rights violations, including arbitrary detentions and torture, are serious issues that destabilize the political environment.",
-        "source": "WFP"
+        "description": "Human rights violations, including arbitrary detentions and torture, are serious issues that destabilize the political environment."
     },
     {
         "issueTitle": "Economic Policy Failures",
         "emergingIssue": "Political Instability",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth",
+            "GOAL 8: Decent Work and Economic Growth",
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Failures in economic policy contribute to social unrest and political instability, as large segments of the population face economic hardships.",
-        "source": "UNESCO"
+        "description": "Failures in economic policy contribute to social unrest and political instability, as large segments of the population face economic hardships."
     },
     {
         "issueTitle": "Social Inequality and Exclusion",
         "emergingIssue": "Political Instability",
         "sdgTargeted": [
-            "GOAL 10: Reduced Inequality",
+            "GOAL 10: Reduced Inequalities",
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "High levels of social inequality and exclusion of minority groups contribute to political and social instability.",
-        "source": "SDG Index"
+        "description": "High levels of social inequality and exclusion of minority groups contribute to political and social instability."
     },
     {
         "issueTitle": "Impact of Regional Conflicts",
@@ -1465,8 +1315,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Regional conflicts in the Middle East affect Egypt's political stability, influencing foreign policy and domestic security concerns.",
-        "source": "WFP"
+        "description": "Regional conflicts in the Middle East affect Egypt's political stability, influencing foreign policy and domestic security concerns."
     },
     {
         "issueTitle": "Lack of Transparency in Governance",
@@ -1474,8 +1323,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "A lack of transparency in governmental operations and decision-making processes fosters distrust and political instability.",
-        "source": "UNICEF"
+        "description": "A lack of transparency in governmental operations and decision-making processes fosters distrust and political instability."
     },
     {
         "issueTitle": "Weak Political Institutions",
@@ -1483,8 +1331,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Weak political institutions that lack the capacity to effectively govern contribute to ongoing political instability in Egypt.",
-        "source": "World Bank"
+        "description": "Weak political institutions that lack the capacity to effectively govern contribute to ongoing political instability in Egypt."
     },
     {
         "issueTitle": "Polarization and Political Fragmentation",
@@ -1492,8 +1339,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Political polarization and fragmentation are hindering effective governance and contributing to instability.",
-        "source": "World Bank"
+        "description": "Political polarization and fragmentation are hindering effective governance and contributing to instability."
     },
     {
         "issueTitle": "Censorship and Control of Information",
@@ -1501,8 +1347,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "The government's censorship and control over information flow are contributing to a climate of political repression and instability.",
-        "source": "World Bank"
+        "description": "The government's censorship and control over information flow are contributing to a climate of political repression and instability."
     },
     {
         "issueTitle": "Erosion of Civil Liberties",
@@ -1510,8 +1355,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "The erosion of civil liberties, including the suppression of civil society organizations, undermines democratic processes and political stability.",
-        "source": "WFP"
+        "description": "The erosion of civil liberties, including the suppression of civil society organizations, undermines democratic processes and political stability."
     },
     {
         "issueTitle": "Influence of External Powers",
@@ -1519,8 +1363,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "The influence of external powers in Egypt's domestic politics contributes to uncertainty and instability.",
-        "source": "WFP"
+        "description": "The influence of external powers in Egypt's domestic politics contributes to uncertainty and instability."
     },
     {
         "issueTitle": "Lack of Youth Engagement in Politics",
@@ -1528,8 +1371,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "A significant portion of Egypt's youth feels disengaged from politics, leading to a lack of representation and potential unrest.",
-        "source": "FAQ"
+        "description": "A significant portion of Egypt's youth feels disengaged from politics, leading to a lack of representation and potential unrest."
     },
     {
         "issueTitle": "Economic Disparities Driving Political Dissent",
@@ -1538,8 +1380,7 @@
             "GOAL 1: No Poverty",
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Economic disparities are driving political dissent, as affected populations demand changes to governance and economic policies.",
-        "source": "UNICEF"
+        "description": "Economic disparities are driving political dissent, as affected populations demand changes to governance and economic policies."
     },
     {
         "issueTitle": "Limited Access to Quality Education",
@@ -1547,8 +1388,7 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "Many regions in Egypt lack access to quality education, contributing to a significant gap in educational attainment between urban and rural areas.",
-        "source": "FAQ"
+        "description": "Many regions in Egypt lack access to quality education, contributing to a significant gap in educational attainment between urban and rural areas."
     },
     {
         "issueTitle": "High Student-to-Teacher Ratios",
@@ -1556,8 +1396,7 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "Overcrowded classrooms and high student-to-teacher ratios compromise the quality of education, particularly in public schools.",
-        "source": "FAQ"
+        "description": "Overcrowded classrooms and high student-to-teacher ratios compromise the quality of education, particularly in public schools."
     },
     {
         "issueTitle": "Outdated Educational Curriculum",
@@ -1565,8 +1404,7 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "The educational curriculum in many Egyptian schools is outdated, not aligning with the skills needed in the modern workforce.",
-        "source": "World Bank"
+        "description": "The educational curriculum in many Egyptian schools is outdated, not aligning with the skills needed in the modern workforce."
     },
     {
         "issueTitle": "Gender Disparities in Education",
@@ -1575,8 +1413,7 @@
             "GOAL 4: Quality Education",
             "GOAL 5: Gender Equality"
         ],
-        "description": "Gender disparities persist in educational access and attainment, with girls in some rural areas particularly disadvantaged.",
-        "source": "IMF"
+        "description": "Gender disparities persist in educational access and attainment, with girls in some rural areas particularly disadvantaged."
     },
     {
         "issueTitle": "Lack of Special Needs Education",
@@ -1584,8 +1421,7 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "There is a lack of adequate educational provisions for children with special needs, denying them equitable educational opportunities.",
-        "source": "SDG Index"
+        "description": "There is a lack of adequate educational provisions for children with special needs, denying them equitable educational opportunities."
     },
     {
         "issueTitle": "Poor Educational Infrastructure",
@@ -1593,8 +1429,7 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "Many schools suffer from poor infrastructure, lacking basic facilities such as clean water, sanitation, and safe classrooms.",
-        "source": "IMF"
+        "description": "Many schools suffer from poor infrastructure, lacking basic facilities such as clean water, sanitation, and safe classrooms."
     },
     {
         "issueTitle": "Inadequate Teacher Training",
@@ -1602,8 +1437,7 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "Many teachers in Egypt lack proper training and professional development opportunities, impacting the quality of education delivered.",
-        "source": "SDG Index"
+        "description": "Many teachers in Egypt lack proper training and professional development opportunities, impacting the quality of education delivered."
     },
     {
         "issueTitle": "High Dropout Rates",
@@ -1611,8 +1445,7 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "High dropout rates, particularly at the secondary level, are a critical issue, with economic factors often forcing students to leave school.",
-        "source": "World Bank"
+        "description": "High dropout rates, particularly at the secondary level, are a critical issue, with economic factors often forcing students to leave school."
     },
     {
         "issueTitle": "Limited Access to Higher Education",
@@ -1620,8 +1453,7 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "Access to higher education is limited for students from lower socioeconomic backgrounds, perpetuating cycles of poverty.",
-        "source": "SDG Index"
+        "description": "Access to higher education is limited for students from lower socioeconomic backgrounds, perpetuating cycles of poverty."
     },
     {
         "issueTitle": "Digital Divide in Education",
@@ -1629,8 +1461,7 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "A significant digital divide exists, with students in rural or impoverished areas lacking access to digital learning resources.",
-        "source": "UNESCO"
+        "description": "A significant digital divide exists, with students in rural or impoverished areas lacking access to digital learning resources."
     },
     {
         "issueTitle": "English Language Proficiency",
@@ -1638,8 +1469,7 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "There is a widespread gap in English language proficiency, which is crucial for higher education and accessing global job markets.",
-        "source": "WFP"
+        "description": "There is a widespread gap in English language proficiency, which is crucial for higher education and accessing global job markets."
     },
     {
         "issueTitle": "Inequality in Educational Funding",
@@ -1647,8 +1477,7 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "Educational funding is not equitably distributed, with some areas receiving significantly more resources than others.",
-        "source": "UNICEF"
+        "description": "Educational funding is not equitably distributed, with some areas receiving significantly more resources than others."
     },
     {
         "issueTitle": "Lack of Vocational Training Programs",
@@ -1656,18 +1485,16 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "There is a shortage of vocational training programs that align with industry needs, limiting opportunities for youth in technical fields.",
-        "source": "FAQ"
+        "description": "There is a shortage of vocational training programs that align with industry needs, limiting opportunities for youth in technical fields."
     },
     {
         "issueTitle": "Brain Drain",
         "emergingIssue": "Education Gap",
         "sdgTargeted": [
             "GOAL 4: Quality Education",
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "Egypt faces a 'brain drain' as educated individuals frequently emigrate in search of better opportunities abroad.",
-        "source": "WHO"
+        "description": "Egypt faces a 'brain drain' as educated individuals frequently emigrate in search of better opportunities abroad."
     },
     {
         "issueTitle": "Cultural Barriers to Education",
@@ -1675,8 +1502,7 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "Cultural factors and traditional norms sometimes discourage education, particularly for girls in certain communities.",
-        "source": "WHO"
+        "description": "Cultural factors and traditional norms sometimes discourage education, particularly for girls in certain communities."
     },
     {
         "issueTitle": "Impact of Economic Instability on Education",
@@ -1684,8 +1510,7 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "Economic instability and family financial issues can interrupt students' education, leading to higher dropout rates.",
-        "source": "WFP"
+        "description": "Economic instability and family financial issues can interrupt students' education, leading to higher dropout rates."
     },
     {
         "issueTitle": "Lack of Early Childhood Education",
@@ -1693,8 +1518,7 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "There is a significant lack of early childhood education programs, which are crucial for developmental success later in life.",
-        "source": "World Bank"
+        "description": "There is a significant lack of early childhood education programs, which are crucial for developmental success later in life."
     },
     {
         "issueTitle": "Insufficient Investment in Research and Development",
@@ -1703,8 +1527,7 @@
             "GOAL 4: Quality Education",
             "GOAL 9: Industry, Innovation And Infrastructure"
         ],
-        "description": "Investment in research and development in higher education is insufficient, hindering innovation and scientific advancement.",
-        "source": "UNICEF"
+        "description": "Investment in research and development in higher education is insufficient, hindering innovation and scientific advancement."
     },
     {
         "issueTitle": "Corruption in Educational Administration",
@@ -1712,8 +1535,7 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "Corruption and mismanagement within educational administration affect the quality and fairness of educational opportunities.",
-        "source": "IMF"
+        "description": "Corruption and mismanagement within educational administration affect the quality and fairness of educational opportunities."
     },
     {
         "issueTitle": "Lack of Life Skills and Citizenship Education",
@@ -1721,35 +1543,31 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "There is a notable lack of education focusing on life skills and citizenship, which is essential for personal development and societal integration.",
-        "source": "WFP"
+        "description": "There is a notable lack of education focusing on life skills and citizenship, which is essential for personal development and societal integration."
     },
     {
         "issueTitle": "Automation Impacting Jobs",
         "emergingIssue": "Technological Disruption",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "The rise of automation and artificial intelligence is leading to job displacements in several sectors, affecting the workforce.",
-        "source": "SDG Index"
+        "description": "The rise of automation and artificial intelligence is leading to job displacements in several sectors, affecting the workforce."
     },
     {
         "issueTitle": "Digital Divide",
         "emergingIssue": "Technological Disruption",
         "sdgTargeted": [
-            "GOAL 10: Reduced Inequality"
+            "GOAL 10: Reduced Inequalities"
         ],
-        "description": "A significant digital divide exists between urban and rural areas, impacting access to technology and information.",
-        "source": "World Bank"
+        "description": "A significant digital divide exists between urban and rural areas, impacting access to technology and information."
     },
     {
         "issueTitle": "E-commerce Impact on Traditional Retail",
         "emergingIssue": "Technological Disruption",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "The growth of e-commerce is disrupting traditional retail markets, leading to closures of physical stores and shifts in employment.",
-        "source": "WFP"
+        "description": "The growth of e-commerce is disrupting traditional retail markets, leading to closures of physical stores and shifts in employment."
     },
     {
         "issueTitle": "Cybersecurity Threats",
@@ -1757,8 +1575,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Increasing reliance on digital technologies has raised cybersecurity threats, affecting both private and public sectors.",
-        "source": "UNICEF"
+        "description": "Increasing reliance on digital technologies has raised cybersecurity threats, affecting both private and public sectors."
     },
     {
         "issueTitle": "Impact on Education",
@@ -1766,17 +1583,15 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "Technological advancements are transforming educational methods but also pose challenges in terms of accessibility and quality disparity.",
-        "source": "WFP"
+        "description": "Technological advancements are transforming educational methods but also pose challenges in terms of accessibility and quality disparity."
     },
     {
         "issueTitle": "Disruption in the Banking Sector",
         "emergingIssue": "Technological Disruption",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "Fintech innovations are disrupting traditional banking, leading to shifts in how financial services are delivered and consumed.",
-        "source": "WFP"
+        "description": "Fintech innovations are disrupting traditional banking, leading to shifts in how financial services are delivered and consumed."
     },
     {
         "issueTitle": "Telecommunication Evolution",
@@ -1784,8 +1599,7 @@
         "sdgTargeted": [
             "GOAL 9: Industry, Innovation And Infrastructure"
         ],
-        "description": "Rapid changes in telecommunication technologies are reshaping communication but also require substantial infrastructure investments.",
-        "source": "World Bank"
+        "description": "Rapid changes in telecommunication technologies are reshaping communication but also require substantial infrastructure investments."
     },
     {
         "issueTitle": "Healthcare Digitalization",
@@ -1793,8 +1607,7 @@
         "sdgTargeted": [
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Digital health technologies are improving healthcare delivery but also pose challenges in terms of data privacy and health equity.",
-        "source": "UNESCO"
+        "description": "Digital health technologies are improving healthcare delivery but also pose challenges in terms of data privacy and health equity."
     },
     {
         "issueTitle": "Transportation and Mobility Changes",
@@ -1802,8 +1615,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Advancements in transportation technologies, such as electric vehicles and ride-sharing apps, are altering mobility patterns and infrastructure needs.",
-        "source": "UNICEF"
+        "description": "Advancements in transportation technologies, such as electric vehicles and ride-sharing apps, are altering mobility patterns and infrastructure needs."
     },
     {
         "issueTitle": "Agricultural Technology Advances",
@@ -1812,8 +1624,7 @@
             "GOAL 2: Zero Hunger",
             "GOAL 15: Life on Land"
         ],
-        "description": "Technological advances in agriculture, like precision farming, are improving productivity but also require new skills and adjustments in the agricultural sector.",
-        "source": "WHO"
+        "description": "Technological advances in agriculture, like precision farming, are improving productivity but also require new skills and adjustments in the agricultural sector."
     },
     {
         "issueTitle": "Energy Sector Transformation",
@@ -1821,8 +1632,7 @@
         "sdgTargeted": [
             "GOAL 7: Affordable And Clean Energy"
         ],
-        "description": "Renewable energy technologies are transforming the energy sector, leading to a shift away from traditional fossil fuels.",
-        "source": "UNICEF"
+        "description": "Renewable energy technologies are transforming the energy sector, leading to a shift away from traditional fossil fuels."
     },
     {
         "issueTitle": "Impact on Media and Communication",
@@ -1830,8 +1640,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Media and communication landscapes are rapidly changing due to new technologies, impacting how information is disseminated and consumed.",
-        "source": "UNESCO"
+        "description": "Media and communication landscapes are rapidly changing due to new technologies, impacting how information is disseminated and consumed."
     },
     {
         "issueTitle": "Automation in Manufacturing",
@@ -1839,8 +1648,7 @@
         "sdgTargeted": [
             "GOAL 9: Industry, Innovation And Infrastructure"
         ],
-        "description": "The manufacturing sector is experiencing significant shifts due to automation, affecting employment and production methods.",
-        "source": "IMF"
+        "description": "The manufacturing sector is experiencing significant shifts due to automation, affecting employment and production methods."
     },
     {
         "issueTitle": "Data Privacy Concerns",
@@ -1848,17 +1656,15 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "The increasing collection and use of personal data by tech companies and governments raise significant privacy concerns.",
-        "source": "WFP"
+        "description": "The increasing collection and use of personal data by tech companies and governments raise significant privacy concerns."
     },
     {
         "issueTitle": "Displacement of Traditional Skills",
         "emergingIssue": "Technological Disruption",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "Technological advances are leading to the displacement of traditional skills and professions, requiring workforce retraining and adaptation.",
-        "source": "UNICEF"
+        "description": "Technological advances are leading to the displacement of traditional skills and professions, requiring workforce retraining and adaptation."
     },
     {
         "issueTitle": "Smart City Technologies",
@@ -1866,17 +1672,15 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Smart city technologies are being implemented to enhance urban living but also present challenges in terms of integration and privacy.",
-        "source": "IMF"
+        "description": "Smart city technologies are being implemented to enhance urban living but also present challenges in terms of integration and privacy."
     },
     {
         "issueTitle": "Impact on the Entertainment Industry",
         "emergingIssue": "Technological Disruption",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "The entertainment industry is undergoing significant changes due to streaming services and digital content platforms, impacting traditional media businesses.",
-        "source": "IMF"
+        "description": "The entertainment industry is undergoing significant changes due to streaming services and digital content platforms, impacting traditional media businesses."
     },
     {
         "issueTitle": "Challenges in Regulatory Frameworks",
@@ -1884,17 +1688,15 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Existing regulatory frameworks are struggling to keep up with the pace of technological change, leading to gaps in governance and oversight.",
-        "source": "World Bank"
+        "description": "Existing regulatory frameworks are struggling to keep up with the pace of technological change, leading to gaps in governance and oversight."
     },
     {
         "issueTitle": "Emergence of Gig Economy",
         "emergingIssue": "Technological Disruption",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "The gig economy is expanding, offering new forms of employment but also raising questions about job security and workers' rights.",
-        "source": "UNESCO"
+        "description": "The gig economy is expanding, offering new forms of employment but also raising questions about job security and workers' rights."
     },
     {
         "issueTitle": "Technology in Public Services",
@@ -1902,8 +1704,7 @@
         "sdgTargeted": [
             "GOAL 9: Industry, Innovation And Infrastructure"
         ],
-        "description": "Technology is increasingly used in public services to enhance efficiency and accessibility, but disparities in access remain a concern.",
-        "source": "SDG Index"
+        "description": "Technology is increasingly used in public services to enhance efficiency and accessibility, but disparities in access remain a concern."
     },
     {
         "issueTitle": "Urban Overcrowding",
@@ -1911,8 +1712,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Rapid urbanization in cities like Cairo has led to severe overcrowding, with many residents living in inadequate housing conditions.",
-        "source": "FAQ"
+        "description": "Rapid urbanization in cities like Cairo has led to severe overcrowding, with many residents living in inadequate housing conditions."
     },
     {
         "issueTitle": "Lack of Affordable Housing",
@@ -1920,8 +1720,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "There is a significant lack of affordable housing for low and middle-income families in Egypt, contributing to social and economic disparities.",
-        "source": "IMF"
+        "description": "There is a significant lack of affordable housing for low and middle-income families in Egypt, contributing to social and economic disparities."
     },
     {
         "issueTitle": "Informal Settlements",
@@ -1929,8 +1728,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Many Egyptians resort to living in informal settlements, which lack basic services and infrastructure, posing significant health and safety risks.",
-        "source": "WFP"
+        "description": "Many Egyptians resort to living in informal settlements, which lack basic services and infrastructure, posing significant health and safety risks."
     },
     {
         "issueTitle": "Speculative Real Estate Practices",
@@ -1938,8 +1736,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Speculative real estate practices have inflated housing prices, making it difficult for average Egyptians to afford decent housing.",
-        "source": "WHO"
+        "description": "Speculative real estate practices have inflated housing prices, making it difficult for average Egyptians to afford decent housing."
     },
     {
         "issueTitle": "Building Code Violations",
@@ -1947,8 +1744,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Widespread building code violations contribute to the construction of unsafe housing, which can lead to catastrophic outcomes during natural disasters.",
-        "source": "World Bank"
+        "description": "Widespread building code violations contribute to the construction of unsafe housing, which can lead to catastrophic outcomes during natural disasters."
     },
     {
         "issueTitle": "Lack of Housing Finance Options",
@@ -1956,8 +1752,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Limited housing finance options restrict the ability of individuals and families to purchase or build homes, exacerbating the housing shortage.",
-        "source": "IMF"
+        "description": "Limited housing finance options restrict the ability of individuals and families to purchase or build homes, exacerbating the housing shortage."
     },
     {
         "issueTitle": "Land Hoarding",
@@ -1965,8 +1760,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Land hoarding by investors and developers restricts the availability of land for housing, driving up prices and limiting new construction.",
-        "source": "World Bank"
+        "description": "Land hoarding by investors and developers restricts the availability of land for housing, driving up prices and limiting new construction."
     },
     {
         "issueTitle": "Corruption in Land Allocation",
@@ -1975,8 +1769,7 @@
             "GOAL 16: Peace, Justice and Strong Institutions",
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Corruption in the allocation of land for housing development impedes the construction of affordable housing units.",
-        "source": "WHO"
+        "description": "Corruption in the allocation of land for housing development impedes the construction of affordable housing units."
     },
     {
         "issueTitle": "Environmental Constraints on Building",
@@ -1985,8 +1778,7 @@
             "GOAL 11: Sustainable Cities And Communities",
             "GOAL 13: Climate Action"
         ],
-        "description": "Environmental constraints, such as the need to protect agricultural land and the Nile Delta, limit available land for housing development.",
-        "source": "UNESCO"
+        "description": "Environmental constraints, such as the need to protect agricultural land and the Nile Delta, limit available land for housing development."
     },
     {
         "issueTitle": "Rural Housing Decline",
@@ -1994,8 +1786,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "In rural areas, the decline in quality and availability of housing is driving migration to urban centers, further stressing urban housing markets.",
-        "source": "World Bank"
+        "description": "In rural areas, the decline in quality and availability of housing is driving migration to urban centers, further stressing urban housing markets."
     },
     {
         "issueTitle": "Demographic Pressures",
@@ -2003,8 +1794,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Rapid population growth in Egypt intensifies demand for housing, outpacing the current supply and infrastructure capabilities.",
-        "source": "FAQ"
+        "description": "Rapid population growth in Egypt intensifies demand for housing, outpacing the current supply and infrastructure capabilities."
     },
     {
         "issueTitle": "Inadequate Urban Planning",
@@ -2012,8 +1802,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Inadequate and outdated urban planning practices fail to address the growing needs for housing and urban infrastructure.",
-        "source": "World Bank"
+        "description": "Inadequate and outdated urban planning practices fail to address the growing needs for housing and urban infrastructure."
     },
     {
         "issueTitle": "Displacement Due to Development Projects",
@@ -2021,8 +1810,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Large-scale development projects have displaced communities, often without providing adequate resettlement housing or compensation.",
-        "source": "WHO"
+        "description": "Large-scale development projects have displaced communities, often without providing adequate resettlement housing or compensation."
     },
     {
         "issueTitle": "Aging Housing Stock",
@@ -2030,8 +1818,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Much of the housing stock in Egypt is aging and deteriorating, requiring significant renovation or replacement.",
-        "source": "UNESCO"
+        "description": "Much of the housing stock in Egypt is aging and deteriorating, requiring significant renovation or replacement."
     },
     {
         "issueTitle": "Lack of Public Housing Initiatives",
@@ -2039,8 +1826,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "There is a lack of effective public housing initiatives to provide affordable housing solutions for lower-income Egyptians.",
-        "source": "WFP"
+        "description": "There is a lack of effective public housing initiatives to provide affordable housing solutions for lower-income Egyptians."
     },
     {
         "issueTitle": "Property Rights Issues",
@@ -2048,8 +1834,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Complicated and unclear property rights can hinder the development of new housing and the renovation of existing structures.",
-        "source": "World Bank"
+        "description": "Complicated and unclear property rights can hinder the development of new housing and the renovation of existing structures."
     },
     {
         "issueTitle": "Inflation and Building Material Costs",
@@ -2057,8 +1842,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Rising inflation and the cost of building materials make it increasingly difficult to develop affordable housing.",
-        "source": "UNESCO"
+        "description": "Rising inflation and the cost of building materials make it increasingly difficult to develop affordable housing."
     },
     {
         "issueTitle": "Limited Investment in Rural Housing",
@@ -2066,8 +1850,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "There is limited investment in the development and maintenance of housing in rural areas, leading to deteriorating living conditions.",
-        "source": "UNICEF"
+        "description": "There is limited investment in the development and maintenance of housing in rural areas, leading to deteriorating living conditions."
     },
     {
         "issueTitle": "Impact of Global Economic Trends",
@@ -2075,8 +1858,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Global economic trends, such as the financialization of real estate, affect the housing market in Egypt, often to the detriment of affordable housing availability.",
-        "source": "UNESCO"
+        "description": "Global economic trends, such as the financialization of real estate, affect the housing market in Egypt, often to the detriment of affordable housing availability."
     },
     {
         "issueTitle": "Migration and Urbanization",
@@ -2084,8 +1866,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Ongoing migration from rural to urban areas places additional pressure on urban housing markets, exacerbating shortages and affordability issues.",
-        "source": "WFP"
+        "description": "Ongoing migration from rural to urban areas places additional pressure on urban housing markets, exacerbating shortages and affordability issues."
     },
     {
         "issueTitle": "Traffic Congestion",
@@ -2093,8 +1874,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Major cities like Cairo suffer from severe traffic congestion, leading to long commutes and high levels of vehicular emissions.",
-        "source": "WHO"
+        "description": "Major cities like Cairo suffer from severe traffic congestion, leading to long commutes and high levels of vehicular emissions."
     },
     {
         "issueTitle": "Poor Road Safety",
@@ -2103,8 +1883,7 @@
             "GOAL 11: Sustainable Cities And Communities",
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Egypt has a high rate of road accidents, due to poor road conditions, inadequate signage, and lax enforcement of traffic laws.",
-        "source": "FAQ"
+        "description": "Egypt has a high rate of road accidents, due to poor road conditions, inadequate signage, and lax enforcement of traffic laws."
     },
     {
         "issueTitle": "Inefficient Public Transportation",
@@ -2112,8 +1891,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Public transportation systems in Egypt are often inefficient, overcrowded, and unreliable, particularly in underserved urban and rural areas.",
-        "source": "UNICEF"
+        "description": "Public transportation systems in Egypt are often inefficient, overcrowded, and unreliable, particularly in underserved urban and rural areas."
     },
     {
         "issueTitle": "Lack of Integrated Transport Networks",
@@ -2121,8 +1899,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "There is a lack of integrated transport networks, making it difficult to transition smoothly between different modes of transport.",
-        "source": "WHO"
+        "description": "There is a lack of integrated transport networks, making it difficult to transition smoothly between different modes of transport."
     },
     {
         "issueTitle": "Aging Transportation Infrastructure",
@@ -2130,8 +1907,7 @@
         "sdgTargeted": [
             "GOAL 9: Industry, Innovation And Infrastructure"
         ],
-        "description": "Much of the transportation infrastructure, including roads and bridges, is aging and in need of urgent repair or upgrade.",
-        "source": "UNICEF"
+        "description": "Much of the transportation infrastructure, including roads and bridges, is aging and in need of urgent repair or upgrade."
     },
     {
         "issueTitle": "Underdeveloped Rural Transportation",
@@ -2139,8 +1915,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Rural areas in Egypt often have underdeveloped transportation options, which isolates communities and hampers economic development.",
-        "source": "SDG Index"
+        "description": "Rural areas in Egypt often have underdeveloped transportation options, which isolates communities and hampers economic development."
     },
     {
         "issueTitle": "Air Pollution from Vehicles",
@@ -2149,8 +1924,7 @@
             "GOAL 11: Sustainable Cities And Communities",
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Vehicular emissions are a major source of air pollution in urban areas, contributing to health problems among the population.",
-        "source": "World Bank"
+        "description": "Vehicular emissions are a major source of air pollution in urban areas, contributing to health problems among the population."
     },
     {
         "issueTitle": "Inadequate Parking Facilities",
@@ -2158,8 +1932,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Lack of adequate parking facilities in urban centers leads to increased traffic congestion and illegal parking issues.",
-        "source": "IMF"
+        "description": "Lack of adequate parking facilities in urban centers leads to increased traffic congestion and illegal parking issues."
     },
     {
         "issueTitle": "Dependency on Private Vehicles",
@@ -2167,8 +1940,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "A high dependency on private vehicles exacerbates traffic congestion, environmental pollution, and energy consumption.",
-        "source": "IMF"
+        "description": "A high dependency on private vehicles exacerbates traffic congestion, environmental pollution, and energy consumption."
     },
     {
         "issueTitle": "Corruption in Transportation Projects",
@@ -2176,18 +1948,16 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Corruption and mismanagement in the implementation of transportation projects delay improvements and inflate costs.",
-        "source": "WFP"
+        "description": "Corruption and mismanagement in the implementation of transportation projects delay improvements and inflate costs."
     },
     {
         "issueTitle": "Limited Accessibility for the Disabled",
         "emergingIssue": "Transportation Problems",
         "sdgTargeted": [
-            "GOAL 10: Reduced Inequality",
+            "GOAL 10: Reduced Inequalities",
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Public transport systems are not fully accessible to people with disabilities, limiting their mobility and independence.",
-        "source": "UNESCO"
+        "description": "Public transport systems are not fully accessible to people with disabilities, limiting their mobility and independence."
     },
     {
         "issueTitle": "Inadequate Cyclist and Pedestrian Infrastructure",
@@ -2195,8 +1965,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "There is a lack of safe and adequate infrastructure for cyclists and pedestrians, which discourages these healthier and more sustainable modes of transport.",
-        "source": "UNESCO"
+        "description": "There is a lack of safe and adequate infrastructure for cyclists and pedestrians, which discourages these healthier and more sustainable modes of transport."
     },
     {
         "issueTitle": "Fragmented Regulatory Frameworks",
@@ -2204,8 +1973,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Fragmented regulatory frameworks complicate the management and development of efficient transportation systems.",
-        "source": "IMF"
+        "description": "Fragmented regulatory frameworks complicate the management and development of efficient transportation systems."
     },
     {
         "issueTitle": "Fuel Subsidy Impact on Public Transport",
@@ -2213,8 +1981,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Fuel subsidies disproportionately benefit private car owners over public transport users, distorting transportation choices and policy.",
-        "source": "IMF"
+        "description": "Fuel subsidies disproportionately benefit private car owners over public transport users, distorting transportation choices and policy."
     },
     {
         "issueTitle": "Impact of Climate Change on Transportation",
@@ -2223,8 +1990,7 @@
             "GOAL 13: Climate Action",
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Climate change impacts, such as increased flooding, pose risks to transportation infrastructure and disrupt transit operations.",
-        "source": "UNESCO"
+        "description": "Climate change impacts, such as increased flooding, pose risks to transportation infrastructure and disrupt transit operations."
     },
     {
         "issueTitle": "Insufficient Investment in Public Transit",
@@ -2232,8 +1998,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Insufficient investment in public transit systems hinders their expansion and modernization, affecting service quality and coverage.",
-        "source": "IMF"
+        "description": "Insufficient investment in public transit systems hinders their expansion and modernization, affecting service quality and coverage."
     },
     {
         "issueTitle": "Lack of Smart Transportation Solutions",
@@ -2241,8 +2006,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "The lack of implementation of smart transportation solutions, such as real-time traffic management systems, impedes the efficiency of urban transport systems.",
-        "source": "WHO"
+        "description": "The lack of implementation of smart transportation solutions, such as real-time traffic management systems, impedes the efficiency of urban transport systems."
     },
     {
         "issueTitle": "Economic Constraints on Transportation Budgets",
@@ -2250,8 +2014,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Economic constraints restrict the available budget for transportation projects, delaying necessary improvements and maintenance.",
-        "source": "WHO"
+        "description": "Economic constraints restrict the available budget for transportation projects, delaying necessary improvements and maintenance."
     },
     {
         "issueTitle": "Lack of Regional Transportation Planning",
@@ -2259,47 +2022,42 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "There is a lack of comprehensive regional transportation planning, which is essential for coordinating services and infrastructure across multiple jurisdictions.",
-        "source": "World Bank"
+        "description": "There is a lack of comprehensive regional transportation planning, which is essential for coordinating services and infrastructure across multiple jurisdictions."
     },
     {
         "issueTitle": "Disparities in Transportation Services",
         "emergingIssue": "Transportation Problems",
         "sdgTargeted": [
-            "GOAL 10: Reduced Inequality",
+            "GOAL 10: Reduced Inequalities",
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Significant disparities exist in the quality and availability of transportation services between different areas, particularly disadvantaging poorer neighborhoods and rural areas.",
-        "source": "World Bank"
+        "description": "Significant disparities exist in the quality and availability of transportation services between different areas, particularly disadvantaging poorer neighborhoods and rural areas."
     },
     {
         "issueTitle": "Inadequate Municipal Waste Collection",
         "emergingIssue": "Waste Management",
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities",
-            "GOAL 12: Responsible Consumption And Production"
+            "GOAL 12: Responsible Consumption and Production"
         ],
-        "description": "Many areas, particularly in urban outskirts and rural regions, suffer from inadequate municipal waste collection services, leading to unmanaged trash accumulation.",
-        "source": "SDG Index"
+        "description": "Many areas, particularly in urban outskirts and rural regions, suffer from inadequate municipal waste collection services, leading to unmanaged trash accumulation."
     },
     {
         "issueTitle": "Overuse of Single-Use Plastics",
         "emergingIssue": "Waste Management",
         "sdgTargeted": [
-            "GOAL 12: Responsible Consumption And Production",
+            "GOAL 12: Responsible Consumption and Production",
             "GOAL 14: Life Below Water"
         ],
-        "description": "The overuse of single-use plastics contributes significantly to pollution, affecting both urban environments and water bodies, including the Nile and Mediterranean Sea.",
-        "source": "UNICEF"
+        "description": "The overuse of single-use plastics contributes significantly to pollution, affecting both urban environments and water bodies, including the Nile and Mediterranean Sea."
     },
     {
         "issueTitle": "Lack of Recycling Infrastructure",
         "emergingIssue": "Waste Management",
         "sdgTargeted": [
-            "GOAL 12: Responsible Consumption And Production"
+            "GOAL 12: Responsible Consumption and Production"
         ],
-        "description": "Egypt's recycling infrastructure is underdeveloped, leading to low recycling rates and increased environmental pollution.",
-        "source": "SDG Index"
+        "description": "Egypt's recycling infrastructure is underdeveloped, leading to low recycling rates and increased environmental pollution."
     },
     {
         "issueTitle": "Hazardous Waste Management",
@@ -2308,17 +2066,15 @@
             "GOAL 3: Good Health And Well-being",
             "GOAL 6: Clean Water And Sanitation"
         ],
-        "description": "Inadequate management of hazardous wastes, including industrial by-products, poses significant health risks and environmental hazards.",
-        "source": "UNESCO"
+        "description": "Inadequate management of hazardous wastes, including industrial by-products, poses significant health risks and environmental hazards."
     },
     {
         "issueTitle": "Electronic Waste Disposal Issues",
         "emergingIssue": "Waste Management",
         "sdgTargeted": [
-            "GOAL 12: Responsible Consumption And Production"
+            "GOAL 12: Responsible Consumption and Production"
         ],
-        "description": "Rapidly increasing amounts of electronic waste are not adequately managed, leading to toxic chemical leaching and other environmental impacts.",
-        "source": "SDG Index"
+        "description": "Rapidly increasing amounts of electronic waste are not adequately managed, leading to toxic chemical leaching and other environmental impacts."
     },
     {
         "issueTitle": "Impact of Waste on Marine Life",
@@ -2326,8 +2082,7 @@
         "sdgTargeted": [
             "GOAL 14: Life Below Water"
         ],
-        "description": "Improper waste disposal practices lead to significant pollution of waterways, affecting marine life and ecosystems, particularly in the Mediterranean and Red Seas.",
-        "source": "WFP"
+        "description": "Improper waste disposal practices lead to significant pollution of waterways, affecting marine life and ecosystems, particularly in the Mediterranean and Red Seas."
     },
     {
         "issueTitle": "Landfill Overload",
@@ -2335,37 +2090,33 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Existing landfills are quickly reaching capacity, and there is a lack of space for new sites, complicating waste management strategies.",
-        "source": "WFP"
+        "description": "Existing landfills are quickly reaching capacity, and there is a lack of space for new sites, complicating waste management strategies."
     },
     {
         "issueTitle": "Informal Waste Collection",
         "emergingIssue": "Waste Management",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth",
+            "GOAL 8: Decent Work and Economic Growth",
             "GOAL 1: No Poverty"
         ],
-        "description": "Informal waste collectors play a significant role in waste management but often work under poor conditions without formal recognition or support.",
-        "source": "UNESCO"
+        "description": "Informal waste collectors play a significant role in waste management but often work under poor conditions without formal recognition or support."
     },
     {
         "issueTitle": "Industrial Waste Mismanagement",
         "emergingIssue": "Waste Management",
         "sdgTargeted": [
-            "GOAL 12: Responsible Consumption And Production"
+            "GOAL 12: Responsible Consumption and Production"
         ],
-        "description": "Many industries dispose of waste improperly, leading to soil and water contamination without adequate regulatory oversight.",
-        "source": "SDG Index"
+        "description": "Many industries dispose of waste improperly, leading to soil and water contamination without adequate regulatory oversight."
     },
     {
         "issueTitle": "Public Awareness and Education",
         "emergingIssue": "Waste Management",
         "sdgTargeted": [
-            "GOAL 12: Responsible Consumption And Production",
+            "GOAL 12: Responsible Consumption and Production",
             "GOAL 4: Quality Education"
         ],
-        "description": "There is a general lack of public awareness and education about sustainable waste management practices and recycling.",
-        "source": "WFP"
+        "description": "There is a general lack of public awareness and education about sustainable waste management practices and recycling."
     },
     {
         "issueTitle": "Biomedical Waste Challenges",
@@ -2373,8 +2124,7 @@
         "sdgTargeted": [
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "The COVID-19 pandemic highlighted deficiencies in the management of biomedical waste, posing risks to health and safety.",
-        "source": "World Bank"
+        "description": "The COVID-19 pandemic highlighted deficiencies in the management of biomedical waste, posing risks to health and safety."
     },
     {
         "issueTitle": "Waste Incineration Issues",
@@ -2383,17 +2133,15 @@
             "GOAL 11: Sustainable Cities And Communities",
             "GOAL 13: Climate Action"
         ],
-        "description": "Waste incineration without proper emission controls contributes to air pollution and greenhouse gas emissions.",
-        "source": "UNICEF"
+        "description": "Waste incineration without proper emission controls contributes to air pollution and greenhouse gas emissions."
     },
     {
         "issueTitle": "Plastic Bag Consumption",
         "emergingIssue": "Waste Management",
         "sdgTargeted": [
-            "GOAL 12: Responsible Consumption And Production"
+            "GOAL 12: Responsible Consumption and Production"
         ],
-        "description": "High consumption of plastic bags, with insufficient recycling and disposal measures, adds to the environmental burden.",
-        "source": "UNICEF"
+        "description": "High consumption of plastic bags, with insufficient recycling and disposal measures, adds to the environmental burden."
     },
     {
         "issueTitle": "Construction and Demolition Waste",
@@ -2401,18 +2149,16 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Construction and demolition activities generate large quantities of waste, much of which is not recycled or reused.",
-        "source": "SDG Index"
+        "description": "Construction and demolition activities generate large quantities of waste, much of which is not recycled or reused."
     },
     {
         "issueTitle": "Food Waste",
         "emergingIssue": "Waste Management",
         "sdgTargeted": [
-            "GOAL 12: Responsible Consumption And Production",
+            "GOAL 12: Responsible Consumption and Production",
             "GOAL 2: Zero Hunger"
         ],
-        "description": "Significant amounts of food waste are generated by households and the commercial sector, with inadequate systems for composting or reuse.",
-        "source": "UNICEF"
+        "description": "Significant amounts of food waste are generated by households and the commercial sector, with inadequate systems for composting or reuse."
     },
     {
         "issueTitle": "Lack of Green Waste Management",
@@ -2421,17 +2167,15 @@
             "GOAL 11: Sustainable Cities And Communities",
             "GOAL 15: Life on Land"
         ],
-        "description": "There are limited facilities for managing green waste from parks and gardens, which could be composted or used to enhance soil quality.",
-        "source": "FAQ"
+        "description": "There are limited facilities for managing green waste from parks and gardens, which could be composted or used to enhance soil quality."
     },
     {
         "issueTitle": "Non-Implementation of Extended Producer Responsibility",
         "emergingIssue": "Waste Management",
         "sdgTargeted": [
-            "GOAL 12: Responsible Consumption And Production"
+            "GOAL 12: Responsible Consumption and Production"
         ],
-        "description": "Extended producer responsibility policies are not effectively implemented, placing the burden of waste management on consumers and municipalities.",
-        "source": "IMF"
+        "description": "Extended producer responsibility policies are not effectively implemented, placing the burden of waste management on consumers and municipalities."
     },
     {
         "issueTitle": "Chemical Waste Dumping",
@@ -2440,17 +2184,15 @@
             "GOAL 3: Good Health And Well-being",
             "GOAL 6: Clean Water And Sanitation"
         ],
-        "description": "Illegal dumping of chemical waste poses severe risks to water sources and soil quality, affecting human health and ecosystems.",
-        "source": "FAQ"
+        "description": "Illegal dumping of chemical waste poses severe risks to water sources and soil quality, affecting human health and ecosystems."
     },
     {
         "issueTitle": "Lack of Waste Segregation",
         "emergingIssue": "Waste Management",
         "sdgTargeted": [
-            "GOAL 12: Responsible Consumption And Production"
+            "GOAL 12: Responsible Consumption and Production"
         ],
-        "description": "There is a lack of waste segregation at the source, complicating recycling efforts and reducing the efficiency of waste management systems.",
-        "source": "World Bank"
+        "description": "There is a lack of waste segregation at the source, complicating recycling efforts and reducing the efficiency of waste management systems."
     },
     {
         "issueTitle": "Obsolete Waste Management Legislation",
@@ -2458,17 +2200,15 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Current waste management legislation is outdated and does not adequately address modern challenges or opportunities in waste reduction and recycling.",
-        "source": "UNICEF"
+        "description": "Current waste management legislation is outdated and does not adequately address modern challenges or opportunities in waste reduction and recycling."
     },
     {
         "issueTitle": "Income Disparity",
         "emergingIssue": "Social Inequality",
         "sdgTargeted": [
-            "GOAL 10: Reduced Inequality"
+            "GOAL 10: Reduced Inequalities"
         ],
-        "description": "Significant income disparities exist between different socioeconomic groups, with wealth concentrated in the hands of a small elite.",
-        "source": "SDG Index"
+        "description": "Significant income disparities exist between different socioeconomic groups, with wealth concentrated in the hands of a small elite."
     },
     {
         "issueTitle": "Access to Healthcare",
@@ -2476,8 +2216,7 @@
         "sdgTargeted": [
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "Access to quality healthcare varies widely, with the wealthy having access to superior healthcare services compared to the poor and those living in rural areas.",
-        "source": "IMF"
+        "description": "Access to quality healthcare varies widely, with the wealthy having access to superior healthcare services compared to the poor and those living in rural areas."
     },
     {
         "issueTitle": "Educational Inequality",
@@ -2485,8 +2224,7 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "There is a stark divide in educational quality and access between urban elite schools and underfunded rural and public schools.",
-        "source": "UNESCO"
+        "description": "There is a stark divide in educational quality and access between urban elite schools and underfunded rural and public schools."
     },
     {
         "issueTitle": "Gender Inequality",
@@ -2494,17 +2232,15 @@
         "sdgTargeted": [
             "GOAL 5: Gender Equality"
         ],
-        "description": "Women face significant inequalities in employment, education, and rights, with deep-rooted cultural norms often limiting their opportunities.",
-        "source": "UNESCO"
+        "description": "Women face significant inequalities in employment, education, and rights, with deep-rooted cultural norms often limiting their opportunities."
     },
     {
         "issueTitle": "Regional Disparities",
         "emergingIssue": "Social Inequality",
         "sdgTargeted": [
-            "GOAL 10: Reduced Inequality"
+            "GOAL 10: Reduced Inequalities"
         ],
-        "description": "There are profound disparities in economic development and public services between different regions, particularly comparing urban centers with rural areas.",
-        "source": "UNESCO"
+        "description": "There are profound disparities in economic development and public services between different regions, particularly comparing urban centers with rural areas."
     },
     {
         "issueTitle": "Housing Inequality",
@@ -2512,17 +2248,15 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "There is significant inequality in housing, with poor living conditions prevalent in informal settlements and slums, contrasting sharply with affluent neighborhoods.",
-        "source": "IMF"
+        "description": "There is significant inequality in housing, with poor living conditions prevalent in informal settlements and slums, contrasting sharply with affluent neighborhoods."
     },
     {
         "issueTitle": "Unemployment and Underemployment",
         "emergingIssue": "Social Inequality",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "High rates of unemployment and underemployment disproportionately affect young people and women, exacerbating social inequalities.",
-        "source": "SDG Index"
+        "description": "High rates of unemployment and underemployment disproportionately affect young people and women, exacerbating social inequalities."
     },
     {
         "issueTitle": "Access to Clean Water and Sanitation",
@@ -2530,35 +2264,31 @@
         "sdgTargeted": [
             "GOAL 6: Clean Water And Sanitation"
         ],
-        "description": "Access to clean water and sanitation remains a challenge in impoverished and rural areas, directly impacting health and quality of life.",
-        "source": "IMF"
+        "description": "Access to clean water and sanitation remains a challenge in impoverished and rural areas, directly impacting health and quality of life."
     },
     {
         "issueTitle": "Discrimination Against Minorities",
         "emergingIssue": "Social Inequality",
         "sdgTargeted": [
-            "GOAL 10: Reduced Inequality"
+            "GOAL 10: Reduced Inequalities"
         ],
-        "description": "Ethnic and religious minorities face discrimination in various aspects of life, including employment, education, and in the legal system.",
-        "source": "SDG Index"
+        "description": "Ethnic and religious minorities face discrimination in various aspects of life, including employment, education, and in the legal system."
     },
     {
         "issueTitle": "Inequality in Technology Access",
         "emergingIssue": "Social Inequality",
         "sdgTargeted": [
-            "GOAL 10: Reduced Inequality"
+            "GOAL 10: Reduced Inequalities"
         ],
-        "description": "There is a digital divide in access to technology and the internet, with significant portions of the population lacking access to digital resources.",
-        "source": "WHO"
+        "description": "There is a digital divide in access to technology and the internet, with significant portions of the population lacking access to digital resources."
     },
     {
         "issueTitle": "Child Labor",
         "emergingIssue": "Social Inequality",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "Child labor remains an issue, particularly in rural areas and informal sectors, depriving children of education and exposing them to hazardous conditions.",
-        "source": "WHO"
+        "description": "Child labor remains an issue, particularly in rural areas and informal sectors, depriving children of education and exposing them to hazardous conditions."
     },
     {
         "issueTitle": "Inequalities in Public Transportation",
@@ -2566,17 +2296,15 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Public transportation systems are often inadequate and unreliable, particularly affecting low-income individuals who rely on them the most.",
-        "source": "FAQ"
+        "description": "Public transportation systems are often inadequate and unreliable, particularly affecting low-income individuals who rely on them the most."
     },
     {
         "issueTitle": "Social Stigma and Marginalization",
         "emergingIssue": "Social Inequality",
         "sdgTargeted": [
-            "GOAL 10: Reduced Inequality"
+            "GOAL 10: Reduced Inequalities"
         ],
-        "description": "Social stigmas and marginalization affect various groups, including the disabled, LGBTQ+ individuals, and those with HIV/AIDS, leading to significant inequalities.",
-        "source": "FAQ"
+        "description": "Social stigmas and marginalization affect various groups, including the disabled, LGBTQ+ individuals, and those with HIV/AIDS, leading to significant inequalities."
     },
     {
         "issueTitle": "Inequality in Legal Protection",
@@ -2584,8 +2312,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "There are disparities in legal protection and access to justice, with the poor and minorities often at a disadvantage in the legal system.",
-        "source": "WFP"
+        "description": "There are disparities in legal protection and access to justice, with the poor and minorities often at a disadvantage in the legal system."
     },
     {
         "issueTitle": "Food Security Disparities",
@@ -2593,8 +2320,7 @@
         "sdgTargeted": [
             "GOAL 2: Zero Hunger"
         ],
-        "description": "Food security varies significantly across different social and economic groups, with malnutrition rates higher among the poor.",
-        "source": "WHO"
+        "description": "Food security varies significantly across different social and economic groups, with malnutrition rates higher among the poor."
     },
     {
         "issueTitle": "Inequality in Political Representation",
@@ -2602,8 +2328,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Political representation is not evenly distributed, with certain groups and regions underrepresented in government and decision-making processes.",
-        "source": "WFP"
+        "description": "Political representation is not evenly distributed, with certain groups and regions underrepresented in government and decision-making processes."
     },
     {
         "issueTitle": "Disparities in Energy Access",
@@ -2611,17 +2336,15 @@
         "sdgTargeted": [
             "GOAL 7: Affordable And Clean Energy"
         ],
-        "description": "Access to reliable and affordable energy is not uniform, with significant disparities between urban and rural, and rich and poor populations.",
-        "source": "WHO"
+        "description": "Access to reliable and affordable energy is not uniform, with significant disparities between urban and rural, and rich and poor populations."
     },
     {
         "issueTitle": "Barriers to Entrepreneurship",
         "emergingIssue": "Social Inequality",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth"
+            "GOAL 8: Decent Work and Economic Growth"
         ],
-        "description": "Barriers to entrepreneurship, such as lack of capital, training, and market access, disproportionately affect lower-income individuals.",
-        "source": "FAQ"
+        "description": "Barriers to entrepreneurship, such as lack of capital, training, and market access, disproportionately affect lower-income individuals."
     },
     {
         "issueTitle": "Healthcare Quality Disparities",
@@ -2629,17 +2352,15 @@
         "sdgTargeted": [
             "GOAL 3: Good Health And Well-being"
         ],
-        "description": "The quality of healthcare services varies widely, with private care often providing superior services compared to the under-resourced public health system.",
-        "source": "World Bank"
+        "description": "The quality of healthcare services varies widely, with private care often providing superior services compared to the under-resourced public health system."
     },
     {
         "issueTitle": "Social Mobility Barriers",
         "emergingIssue": "Social Inequality",
         "sdgTargeted": [
-            "GOAL 10: Reduced Inequality"
+            "GOAL 10: Reduced Inequalities"
         ],
-        "description": "Barriers to social mobility, including education, employment, and networking opportunities, perpetuate cycles of poverty and inequality.",
-        "source": "WHO"
+        "description": "Barriers to social mobility, including education, employment, and networking opportunities, perpetuate cycles of poverty and inequality."
     },
     {
         "issueTitle": "Erosion of Traditional Crafts",
@@ -2647,8 +2368,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Traditional crafts and industries, such as handmade textiles, are in decline due to modernization and lack of interest among younger generations.",
-        "source": "SDG Index"
+        "description": "Traditional crafts and industries, such as handmade textiles, are in decline due to modernization and lack of interest among younger generations."
     },
     {
         "issueTitle": "Loss of Historical Sites",
@@ -2656,8 +2376,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Urban development and neglect are threatening historical sites and architecture, leading to a loss of cultural heritage.",
-        "source": "UNICEF"
+        "description": "Urban development and neglect are threatening historical sites and architecture, leading to a loss of cultural heritage."
     },
     {
         "issueTitle": "Diminishing Local Languages and Dialects",
@@ -2665,8 +2384,7 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "Local languages and dialects are diminishing as global languages become more dominant, especially among the educated and urban populations.",
-        "source": "SDG Index"
+        "description": "Local languages and dialects are diminishing as global languages become more dominant, especially among the educated and urban populations."
     },
     {
         "issueTitle": "Decline in Folk Music and Dance",
@@ -2674,8 +2392,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Traditional music and dance forms are losing popularity and practitioners, with younger generations often preferring modern entertainment forms.",
-        "source": "UNICEF"
+        "description": "Traditional music and dance forms are losing popularity and practitioners, with younger generations often preferring modern entertainment forms."
     },
     {
         "issueTitle": "Reduction in Cultural Funding",
@@ -2683,8 +2400,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Government and private funding for cultural projects and institutions has been reduced, affecting the preservation and promotion of cultural heritage.",
-        "source": "World Bank"
+        "description": "Government and private funding for cultural projects and institutions has been reduced, affecting the preservation and promotion of cultural heritage."
     },
     {
         "issueTitle": "Commercialization of Cultural Festivals",
@@ -2692,8 +2408,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Traditional cultural festivals are becoming increasingly commercialized, losing their authentic cultural significance and becoming more entertainment-focused.",
-        "source": "WFP"
+        "description": "Traditional cultural festivals are becoming increasingly commercialized, losing their authentic cultural significance and becoming more entertainment-focused."
     },
     {
         "issueTitle": "Impact of Globalization",
@@ -2701,8 +2416,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Globalization is leading to cultural homogenization, with local customs and traditions being overshadowed by global cultural trends.",
-        "source": "WHO"
+        "description": "Globalization is leading to cultural homogenization, with local customs and traditions being overshadowed by global cultural trends."
     },
     {
         "issueTitle": "Neglect of Cultural Education",
@@ -2710,17 +2424,15 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "Cultural education in schools is often neglected, leading to a lack of appreciation for local history and arts among the youth.",
-        "source": "WHO"
+        "description": "Cultural education in schools is often neglected, leading to a lack of appreciation for local history and arts among the youth."
     },
     {
         "issueTitle": "Migration and Cultural Dilution",
         "emergingIssue": "Cultural Decline",
         "sdgTargeted": [
-            "GOAL 10: Reduced Inequality"
+            "GOAL 10: Reduced Inequalities"
         ],
-        "description": "Migration, both internal and external, is leading to cultural dilution and the loss of community-specific traditions and practices.",
-        "source": "WFP"
+        "description": "Migration, both internal and external, is leading to cultural dilution and the loss of community-specific traditions and practices."
     },
     {
         "issueTitle": "Media Influence on Cultural Values",
@@ -2728,8 +2440,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Mainstream media often promotes values and lifestyles that conflict with traditional cultural values, influencing societal norms and behaviors.",
-        "source": "UNESCO"
+        "description": "Mainstream media often promotes values and lifestyles that conflict with traditional cultural values, influencing societal norms and behaviors."
     },
     {
         "issueTitle": "Loss of Intangible Cultural Heritage",
@@ -2737,18 +2448,16 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Intangible cultural heritage, including oral traditions, rituals, and ceremonies, is fading as elders pass away and community bonds weaken.",
-        "source": "WFP"
+        "description": "Intangible cultural heritage, including oral traditions, rituals, and ceremonies, is fading as elders pass away and community bonds weaken."
     },
     {
         "issueTitle": "Tourism Impact on Culture",
         "emergingIssue": "Cultural Decline",
         "sdgTargeted": [
-            "GOAL 8: Decent Work And Economic Growth",
+            "GOAL 8: Decent Work and Economic Growth",
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Tourism, while beneficial economically, often leads to the commodification of culture, altering its authentic expressions for commercial purposes.",
-        "source": "UNESCO"
+        "description": "Tourism, while beneficial economically, often leads to the commodification of culture, altering its authentic expressions for commercial purposes."
     },
     {
         "issueTitle": "Declining Public Spaces for Cultural Activities",
@@ -2756,8 +2465,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "The decline in accessible public spaces for cultural activities limits opportunities for community gatherings and cultural expression.",
-        "source": "IMF"
+        "description": "The decline in accessible public spaces for cultural activities limits opportunities for community gatherings and cultural expression."
     },
     {
         "issueTitle": "Censorship and Cultural Expression",
@@ -2765,8 +2473,7 @@
         "sdgTargeted": [
             "GOAL 16: Peace, Justice and Strong Institutions"
         ],
-        "description": "Censorship and restrictions on artistic and cultural expression hinder the development of the cultural sector and limit public engagement.",
-        "source": "World Bank"
+        "description": "Censorship and restrictions on artistic and cultural expression hinder the development of the cultural sector and limit public engagement."
     },
     {
         "issueTitle": "Decline in Traditional Culinary Practices",
@@ -2775,8 +2482,7 @@
             "GOAL 2: Zero Hunger",
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Traditional culinary practices and local cuisines are being replaced by fast food and international dishes, leading to a loss of culinary heritage.",
-        "source": "IMF"
+        "description": "Traditional culinary practices and local cuisines are being replaced by fast food and international dishes, leading to a loss of culinary heritage."
     },
     {
         "issueTitle": "Technological Impact on Cultural Practices",
@@ -2784,8 +2490,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Technological advancements are changing the way cultural content is created, consumed, and preserved, sometimes at the expense of traditional forms.",
-        "source": "UNICEF"
+        "description": "Technological advancements are changing the way cultural content is created, consumed, and preserved, sometimes at the expense of traditional forms."
     },
     {
         "issueTitle": "Aging Population of Artisans",
@@ -2793,8 +2498,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "The aging population of skilled artisans and the lack of apprentices threaten the continuation of traditional crafts and arts.",
-        "source": "World Bank"
+        "description": "The aging population of skilled artisans and the lack of apprentices threaten the continuation of traditional crafts and arts."
     },
     {
         "issueTitle": "Intellectual Property Issues in Cultural Industries",
@@ -2802,8 +2506,7 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Inadequate protection of intellectual property in cultural industries discourages innovation and can lead to exploitation of cultural creators.",
-        "source": "FAQ"
+        "description": "Inadequate protection of intellectual property in cultural industries discourages innovation and can lead to exploitation of cultural creators."
     },
     {
         "issueTitle": "Declining Literary and Reading Culture",
@@ -2811,8 +2514,7 @@
         "sdgTargeted": [
             "GOAL 4: Quality Education"
         ],
-        "description": "There is a decline in literary culture and reading among the general population, impacting knowledge and cultural depth.",
-        "source": "UNICEF"
+        "description": "There is a decline in literary culture and reading among the general population, impacting knowledge and cultural depth."
     },
     {
         "issueTitle": "Loss of Craftsmanship in Architecture",
@@ -2820,7 +2522,6 @@
         "sdgTargeted": [
             "GOAL 11: Sustainable Cities And Communities"
         ],
-        "description": "Modern building techniques and the decline of traditional craftsmanship in architecture are leading to a loss of unique cultural identities in urban design.",
-        "source": "WHO"
+        "description": "Modern building techniques and the decline of traditional craftsmanship in architecture are leading to a loss of unique cultural identities in urban design."
     }
 ]

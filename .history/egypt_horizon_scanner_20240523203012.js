@@ -87,7 +87,7 @@ import municipalDivisions from './Route/Response Now/Interventions/municipal_div
 import emergenceIssueOfMonth from './Route/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month.js';
 import emergenceIssueOfMonthData from './Route/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_data.js';
 import serviceOfferAttendants from './Route/Service Offer/attendantsRoutes.js';
-import serviceOfferEvents from './Route/Service Offer/eventsRoutes.js';
+import serviceOfferEvents from './Route/Ser';
 
 // Use the imported routers
 egyptHorizonScanner.use('/digital-avatar/dimension', dimensionRoutes);
