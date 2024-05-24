@@ -8,9 +8,7 @@ export const attendantsSchema = new mongoose.Schema({
     attendantName: {
         type: String,
     },
-    attendantInstitution: {
-        type: String,
-    },
+    attendantInstitution
     attendantEmail: {
         type: String,
     },
