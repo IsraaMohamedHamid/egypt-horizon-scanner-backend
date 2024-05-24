@@ -7,7 +7,7 @@ import { governoratesModel } from '../../../Model/Response Now/Interventions/gov
 import { projectsModel } from '../../../Model/Response Now/Interventions/projects_model.js';
 
 
-// Helper function to count projects by theme for a governorate
+// Helper function to count projects by theme for a municipal division
 export async function countProjectsByTheme(governorateName) {
   const themes = ['R_C', 'E_E', 'D_E', 'I_D', 'H_D', 'P_S'];
   const themeCounts = {};
@@ -25,7 +25,7 @@ export function hashThemeCounts(themeCounts) {
   return JSON.stringify(themeCounts);
 }
 
-// Function to update governorate with project count data
+// Function to update municipal division with project count data
 export async function updateGovernorateData(governorateName, themeCounts) {
   const lastData = myCache.get(governorateName);
   const currentHash = hashThemeCounts(themeCounts);
@@ -62,7 +62,7 @@ schedule('0 */6 * * *', async () => {
   }
 });
 
-// API to get a list of governorates and count projects per theme
+// API to get a list of municipal divisions and count projects per theme
 export const getGovernorates = async (req, res) => {
   try {
     const governorates = await governoratesModel.find();
@@ -77,17 +77,17 @@ export const getGovernorates = async (req, res) => {
   }
 };
 
-// API to add a new governorate
+// API to add a new municipal division
 export const createGovernorate = async (req, res) => {
   try {
     const newDivision = await governoratesModel.create(req.body);
     res.send(newDivision);
   } catch (error) {
-    res.status(500).json({ message: 'Failed to create governorate', error: error.message });
+    res.status(500).json({ message: 'Failed to create municipal division', error: error.message });
   }
 };
 
-// API to update a governorate by ID
+// API to update a municipal division by ID
 export const updateGovernorateByID = async (req, res) => {
   try {
     const updatedDivision = await governoratesModel.findByIdAndUpdate(
@@ -97,11 +97,11 @@ export const updateGovernorateByID = async (req, res) => {
     );
     res.send(updatedDivision);
   } catch (error) {
-    res.status(500).json({ message: 'Failed to update governorate', error: error.message });
+    res.status(500).json({ message: 'Failed to update municipal division', error: error.message });
   }
 };
 
-// API to update a governorate by name
+// API to update a municipal division by name
 export const updateGovernorateByGovernorateNameEN = async (req, res) => {
   try {
     const updatedDivision = await governoratesModel.findOneAndUpdate(
@@ -111,21 +111,21 @@ export const updateGovernorateByGovernorateNameEN = async (req, res) => {
     );
     res.send(updatedDivision);
   } catch (error) {
-    res.status(500).json({ message: 'Failed to update governorate', error: error.message });
+    res.status(500).json({ message: 'Failed to update municipal division', error: error.message });
   }
 };
 
-// API to delete a governorate by ID
+// API to delete a municipal division by ID
 export const deleteGovernorateByID = async (req, res) => {
   try {
     const deletedDivision = await governoratesModel.findByIdAndRemove(req.params.id);
     res.send(deletedDivision);
   } catch (error) {
-    res.status(500).json({ message: 'Failed to delete governorate', error: error.message });
+    res.status(500).json({ message: 'Failed to delete municipal division', error: error.message });
   }
 };
 
-// API to delete a governorate by name
+// API to delete a municipal division by name
 export const deleteGovernorateByGovernorateNameEN = async (req, res) => {
   try {
     const deletedDivision = await governoratesModel.findOneAndRemove({
@@ -133,7 +133,7 @@ export const deleteGovernorateByGovernorateNameEN = async (req, res) => {
     });
     res.send(deletedDivision);
   } catch (error) {
-    res.status(500).json({ message: 'Failed to delete governorate', error: error.message });
+    res.status(500).json({ message: 'Failed to delete municipal division', error: error.message });
   }
 };
 

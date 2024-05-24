@@ -7,7 +7,7 @@ import { governoratesModel } from '../../../Model/Response Now/Interventions/gov
 import { projectsModel } from '../../../Model/Response Now/Interventions/projects_model.js';
 
 
-// Helper function to count projects by theme for a governorate
+// Helper function to count projects by theme for a municipal division
 export async function countProjectsByTheme(governorateName) {
   const themes = ['R_C', 'E_E', 'D_E', 'I_D', 'H_D', 'P_S'];
   const themeCounts = {};
@@ -25,8 +25,8 @@ export function hashThemeCounts(themeCounts) {
   return JSON.stringify(themeCounts);
 }
 
-// Function to update governorate with project count data
-export async function updateGovernorateData(governorateName, themeCounts) {
+// Function to update municipal division with project count data
+export async function updateMunicipalDivisionData(governorateName, themeCounts) {
   const lastData = myCache.get(governorateName);
   const currentHash = hashThemeCounts(themeCounts);
 
@@ -55,40 +55,40 @@ export async function updateGovernorateData(governorateName, themeCounts) {
 // Scheduled task to force an update every 6 hours
 schedule('0 */6 * * *', async () => {
   console.log('Running a task every 6 hours');
-  const governorates = await governoratesModel.find();
-  for (const division of governorates) {
+  const municipalDivisions = await governoratesModel.find();
+  for (const division of municipalDivisions) {
     const themeCounts = await countProjectsByTheme(division.Governorate_Name_EN);
-    await updateGovernorateData(division.Governorate_Name_EN, themeCounts, true);
+    await updateMunicipalDivisionData(division.Governorate_Name_EN, themeCounts, true);
   }
 });
 
-// API to get a list of governorates and count projects per theme
-export const getGovernorates = async (req, res) => {
+// API to get a list of municipal divisions and count projects per theme
+export const getMunicipalDivisions = async (req, res) => {
   try {
-    const governorates = await governoratesModel.find();
-    await Promise.all(governorates.map(async division => {
+    const municipalDivisions = await governoratesModel.find();
+    await Promise.all(municipalDivisions.map(async division => {
       const themeCounts = await countProjectsByTheme(division.Governorate_Name_EN);
-      await updateGovernorateData(division.Governorate_Name_EN, themeCounts);
+      await updateMunicipalDivisionData(division.Governorate_Name_EN, themeCounts);
     }));
-    res.send(governorates);
+    res.send(municipalDivisions);
   } catch (error) {
     console.error('Error:', error);
     res.status(500).json({ message: 'An error occurred', error: error.message });
   }
 };
 
-// API to add a new governorate
-export const createGovernorate = async (req, res) => {
+// API to add a new municipal division
+export const createMunicipalDivision = async (req, res) => {
   try {
     const newDivision = await governoratesModel.create(req.body);
     res.send(newDivision);
   } catch (error) {
-    res.status(500).json({ message: 'Failed to create governorate', error: error.message });
+    res.status(500).json({ message: 'Failed to create municipal division', error: error.message });
   }
 };
 
-// API to update a governorate by ID
-export const updateGovernorateByID = async (req, res) => {
+// API to update a municipal division by ID
+export const updateMunicipalDivisionByID = async (req, res) => {
   try {
     const updatedDivision = await governoratesModel.findByIdAndUpdate(
       req.params.id,
@@ -97,12 +97,12 @@ export const updateGovernorateByID = async (req, res) => {
     );
     res.send(updatedDivision);
   } catch (error) {
-    res.status(500).json({ message: 'Failed to update governorate', error: error.message });
+    res.status(500).json({ message: 'Failed to update municipal division', error: error.message });
   }
 };
 
-// API to update a governorate by name
-export const updateGovernorateByGovernorateNameEN = async (req, res) => {
+// API to update a municipal division by name
+export const updateMunicipalDivisionByMunicipalDivisionNameEN = async (req, res) => {
   try {
     const updatedDivision = await governoratesModel.findOneAndUpdate(
       { Governorate_Name_EN: req.params.governorateNameEN },
@@ -111,37 +111,37 @@ export const updateGovernorateByGovernorateNameEN = async (req, res) => {
     );
     res.send(updatedDivision);
   } catch (error) {
-    res.status(500).json({ message: 'Failed to update governorate', error: error.message });
+    res.status(500).json({ message: 'Failed to update municipal division', error: error.message });
   }
 };
 
-// API to delete a governorate by ID
-export const deleteGovernorateByID = async (req, res) => {
+// API to delete a municipal division by ID
+export const deleteMunicipalDivisionByID = async (req, res) => {
   try {
     const deletedDivision = await governoratesModel.findByIdAndRemove(req.params.id);
     res.send(deletedDivision);
   } catch (error) {
-    res.status(500).json({ message: 'Failed to delete governorate', error: error.message });
+    res.status(500).json({ message: 'Failed to delete municipal division', error: error.message });
   }
 };
 
-// API to delete a governorate by name
-export const deleteGovernorateByGovernorateNameEN = async (req, res) => {
+// API to delete a municipal division by name
+export const deleteMunicipalDivisionByMunicipalDivisionNameEN = async (req, res) => {
   try {
     const deletedDivision = await governoratesModel.findOneAndRemove({
       Governorate_Name_EN: req.params.governorateNameEN
     });
     res.send(deletedDivision);
   } catch (error) {
-    res.status(500).json({ message: 'Failed to delete governorate', error: error.message });
+    res.status(500).json({ message: 'Failed to delete municipal division', error: error.message });
   }
 };
 
 export default {
-  getGovernorates,
-  createGovernorate,
-  updateGovernorateByID,
-  updateGovernorateByGovernorateNameEN,
-  deleteGovernorateByID,
-  deleteGovernorateByGovernorateNameEN
+  getMunicipalDivisions,
+  createMunicipalDivision,
+  updateMunicipalDivisionByID,
+  updateMunicipalDivisionByMunicipalDivisionNameEN,
+  deleteMunicipalDivisionByID,
+  deleteMunicipalDivisionByMunicipalDivisionNameEN
 };
