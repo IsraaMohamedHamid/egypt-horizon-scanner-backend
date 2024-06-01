@@ -149,4 +149,4 @@ export const ProjectSchema = new mongoose.Schema({
 
 export const projectsModel = mongoose.model('project_data', ProjectSchema, 'project_data');
 
-export default { ProjectSchema, projectsModel };
+export default { ProjectSchema, projectsModel }; 

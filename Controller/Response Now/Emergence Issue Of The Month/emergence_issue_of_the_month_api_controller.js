@@ -30,9 +30,11 @@ export const getEmergingIssues = asyncHandler(async (req, res) => {
   console.log('START: Summary and Sentiment analysis for emerging issues data.');
   
   await emergingIssueDataSummary(issues);
-  // await emergingIssueDataUpdate();
-  await emergingIssueComponentsCalculation();
   console.log('END: Summary and Sentiment analysis for emerging issues data.');
+  // await emergingIssueDataUpdate();
+  console.log('START: Calculations for emerging issues.');
+  await emergingIssueComponentsCalculation();
+  console.log('END: Calculations for emerging issues.');
   
   const emergingIssues = await EmergenceIssueOfTheMonthModel.find({}).sort(commonSort);
   console.log('Data retrieval and processing completed.');

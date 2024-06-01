@@ -61,14 +61,15 @@ def get_mongo_connection():
 cache = TTLCache(maxsize=100, ttl=300)
 
 # Load the model and tokenizer once to avoid reloading for each request
-tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
-model = AutoModelForSeq2SeqLM.from_pretrained("facebook/bart-large-cnn")
-summarizer = pipeline("summarization", model=model, tokenizer=tokenizer)
+summary_model_name = "sshleifer/distilbart-cnn-12-6"
+summary_tokenizer = AutoTokenizer.from_pretrained(summary_model_name)
+summary_model = AutoModelForSeq2SeqLM.from_pretrained(summary_model_name)
+summarizer = pipeline("summarization", model=summary_model, tokenizer=summary_tokenizer)
 
 # Load the model and tokenizer for the new sentiment analysis
-model_name = "jysh1023/tiny-bert-sst2-distilled"
-senti_model = TFAutoModelForSequenceClassification.from_pretrained(model_name, from_pt=True)
-senti_tokenizer = AutoTokenizer.from_pretrained(model_name)
+senti_model_name = "jysh1023/tiny-bert-sst2-distilled"
+senti_model = TFAutoModelForSequenceClassification.from_pretrained(senti_model_name, from_pt=True)
+senti_tokenizer = AutoTokenizer.from_pretrained(senti_model_name)
 
 # Configure retry strategy
 retry_strategy = Retry(
@@ -101,10 +102,10 @@ def extract_text(html_content):
     return ""
 
 def chunk_text(text, max_length=512):
-    inputs = tokenizer(text, return_tensors="pt", max_length=max_length, truncation=True, padding="max_length")
+    inputs = summary_tokenizer(text, return_tensors="pt", max_length=max_length, truncation=True, padding="max_length")
     chunks = []
     for i in range(0, len(inputs["input_ids"][0]), max_length):
-        chunk = tokenizer.decode(inputs["input_ids"][0][i:i + max_length], skip_special_tokens=True)
+        chunk = summary_tokenizer.decode(inputs["input_ids"][0][i:i + max_length], skip_special_tokens=True)
         chunks.append(chunk)
     return chunks
 
@@ -171,7 +172,7 @@ def process_url(item, sentiModel, sentiTokenizer):
             return {'link': url, 'error': "No extractable text"}
 
         summary = summarize_text(page_text)
-        lang, sentiment, score, weight = perform_sentiment_analysis(page_text, sentiModel, sentiTokenizer)
+        lang, sentiment, score, weight = perform_sentiment_analysis(summary, sentiModel, sentiTokenizer)
         
         result = {
             # **item,  # Copy all fields from the input data

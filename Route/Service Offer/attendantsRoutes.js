@@ -34,10 +34,10 @@ router.put('/updateAttendant/:id/', updateAttendant);
 router.put('/updateAttendantByName/:name/', updateAttendantByName);
 
 // Delete a Attendant by ID
-router.delete('/deleteAttendant/delete/:id/', deleteAttendant);
+router.delete('/deleteAttendant/:id/', deleteAttendant);
 
 // Delete a Attendant by Name
-router.delete('/deleteAttendantByName/delete/:name/', deleteAttendantByName);
+router.delete('/deleteAttendantByName/:name/', deleteAttendantByName);
 
 ///------------------------------------------ EXPORTS ------------------------------------------///
 export default router;
