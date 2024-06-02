@@ -115,7 +115,7 @@ egyptHorizonScanner.use('/service-offer/events', serviceOfferEvents);
 egyptHorizonScanner.use('/service-offer/stakeholders', serviceOfferStakeholders);
 
 // User experience
-egyptHorizonScanner.use('/user-experience', userExperience);
+egyptHorizonScanner.use('/user-experience', serviceOfferAttendants);
 
 // USERS
 // egyptHorizonScanner.use("/user", require("./Route/Users/user").default)
