@@ -88,7 +88,7 @@ import emergenceIssueOfMonth from './Route/Response Now/Emergence Issue Of The M
 import emergenceIssueOfMonthData from './Route/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_data.js';
 import serviceOfferAttendants from './Route/Service Offer/attendantsRoutes.js';
 import serviceOfferEvents from './Route/Service Offer/eventsRoutes.js';
-import serviceOfferStakeholders from './Route/Service Offer/stakeholdersRoutes.js';
+import serviceOfferEvents from './Route/Service Offer/eventsRoutes.js';
 
 // Use the imported routers
 egyptHorizonScanner.use('/digital-avatar/dimension', dimensionRoutes);
@@ -111,7 +111,6 @@ egyptHorizonScanner.use('/response-now/emergence-issue-of-the-month', emergenceI
 // Service Offer
 egyptHorizonScanner.use('/service-offer/attendant', serviceOfferAttendants);
 egyptHorizonScanner.use('/service-offer/events', serviceOfferEvents);
-egyptHorizonScanner.use('/service-offer/stakeholders', serviceOfferStakeholders);
 
 // USERS
 // egyptHorizonScanner.use("/user", require("./Route/Users/user").default)

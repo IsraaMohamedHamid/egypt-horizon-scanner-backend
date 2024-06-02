@@ -32,7 +32,7 @@ export const attendantsSchema = new mongoose.Schema({
     attendantStatus: {
         type: String,
     },
-    attendantBackground: {
+    attendantStatus: {
         type: String,
     },
 })

@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 // Create Attendants Schema and Model
-export const attendantsSchema = new mongoose.Schema({
+export const stakeholdersSchem = new mongoose.Schema({
     attendantID: {
         type: String,
     },
@@ -30,9 +30,6 @@ export const attendantsSchema = new mongoose.Schema({
         type: String,
     },
     attendantStatus: {
-        type: String,
-    },
-    attendantBackground: {
         type: String,
     },
 })

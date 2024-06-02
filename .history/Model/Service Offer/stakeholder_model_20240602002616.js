@@ -32,9 +32,6 @@ export const attendantsSchema = new mongoose.Schema({
     attendantStatus: {
         type: String,
     },
-    attendantBackground: {
-        type: String,
-    },
 })
 
 export const AttendantshModel = mongoose.model('service_offer_attendants', attendantsSchema, 'service_offer_attendants');
