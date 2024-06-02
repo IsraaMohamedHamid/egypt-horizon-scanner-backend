@@ -9,7 +9,7 @@ import {
     updateUserExperienceByName,
     deleteUserExperience,
     deleteUserExperienceByName
-} from "../../Controller/User Experience/userExperiencesController.js";
+} from "../../Controller/User Experience/attendantsController.js";
 
 ///---------------------- LIBRARIES ----------------------///
 import {
