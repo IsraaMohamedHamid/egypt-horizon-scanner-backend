@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 // Create Attendants Schema and Model
 export const stakeholdersSchema = new mongoose.Schema({
-  Id: {
+  I: {
     type: String
   },
     Name: {

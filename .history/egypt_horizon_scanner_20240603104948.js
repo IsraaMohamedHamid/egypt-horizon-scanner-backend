@@ -113,7 +113,7 @@ egyptHorizonScanner.use('/response-now/emergence-issue-of-the-month', emergenceI
 // Service Offer
 egyptHorizonScanner.use('/service-offer/attendant', serviceOfferAttendants);
 egyptHorizonScanner.use('/service-offer/events', serviceOfferEvents);
-egyptHorizonScanner.use('/service-offer/institutions', serviceOfferInstitutions);
+egyptHorizonScanner.use('/service-offer/events', serviceOfferInstitutions);
 egyptHorizonScanner.use('/service-offer/stakeholders', serviceOfferStakeholders);
 
 // User experience
