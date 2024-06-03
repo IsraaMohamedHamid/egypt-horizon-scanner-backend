@@ -29,18 +29,13 @@ export const institutionsSchema = new mongoose.Schema({
     institutionCooperationLevel: {
         type: Number,
     },
-    institutionPledgedFunds: {
-        type: Number,
-    },
     institutionBackground: {
         type: String,
     },
     institutionType: {
         type: String,
     },
-    institutionPriorityAreas: {
-        type: [String],
-    },
+    institutionPriorityAreas
 })
 
 export const InstitutionshModel = mongoose.model('service_offer_institutions', institutionsSchema, 'service_offer_institutions');

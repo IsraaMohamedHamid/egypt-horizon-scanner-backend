@@ -29,9 +29,6 @@ export const institutionsSchema = new mongoose.Schema({
     institutionCooperationLevel: {
         type: Number,
     },
-    institutionPledgedFunds: {
-        type: Number,
-    },
     institutionBackground: {
         type: String,
     },
@@ -39,7 +36,7 @@ export const institutionsSchema = new mongoose.Schema({
         type: String,
     },
     institutionPriorityAreas: {
-        type: [String],
+        type: String,
     },
 })
 
