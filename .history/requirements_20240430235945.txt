@@ -1,5 +1,0 @@
-numpy==1.23.1
-pandas==1.4.3
-pymongo==4.1.0
-transformers==4.20.1
-matplotlib==3.5.2

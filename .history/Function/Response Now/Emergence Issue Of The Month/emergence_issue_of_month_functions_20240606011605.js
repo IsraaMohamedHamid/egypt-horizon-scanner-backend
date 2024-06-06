@@ -1,0 +1,253 @@
+////////////////////////////////////////////// IMPORTS //////////////////////////////////////////////
+
+import {
+  EmergenceIssueOfTheMonthModel
+} from '../../../Model/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_model.js';
+import {
+  EmergenceIssueOfTheMonthDataModel
+} from '../../../Model/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_data_model.js';
+import {
+  spawn
+} from 'child_process';
+import schedule from 'node-schedule';
+import {
+  MongoClient
+} from 'mongodb';
+import mongoose from 'mongoose';
+
+////////////////////////////////////////////// FUNCTIONS //////////////////////////////////////////////
+
+const uri = 'mongodb+srv://doadmin:w94yB2Y17dWE8C63@dbaas-db-5626135-310aba91.mongo.ondigitalocean.com/egypt-horizon-scanner?tls=true&authSource=admin&replicaSet=dbaas-db-5626135';
+const client = new MongoClient(uri, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+
+export const emergingIssueDataSummary = async (data) => {
+  return new Promise((resolve, reject) => {
+    try {
+      console.log(`START: Processing emerging issues.`);
+      // spawn new child process to call the python script
+      const pythonProcess = spawn('python3', ['Function/Response Now/Emergence Issue Of The Month/summarizing_emergence_issue_of_the_month_data.py']);
+
+      // collect data from script
+      pythonProcess.stdout.on('data', (data) => {
+        console.log(`Python stdout: ${data}`);
+      });
+
+      // in case of any error in the script
+      pythonProcess.stderr.on('data', (data) => {
+        console.error(`Python stderr: ${data}`);
+      });
+
+      // in close event we are sure that stream from child process is closed
+      pythonProcess.on('close', (code) => {
+        console.log(`Python process exited with code ${code}`);
+        resolve();
+      });
+    } catch (error) {
+      reject(error);
+    }
+  });
+};
+
+// Function to initiate Python script for processing data
+export const emergingIssueDataUpdate = async () => {
+  return new Promise((resolve, reject) => {
+    try {
+      console.log(`START: Processing emerging issues.`);
+      // spawn new child process to call the python script
+      const pythonProcess = spawn('python3', ['Function/Response Now/Emergence Issue Of The Month/update_emergence_issue_of_the_month_data.py']);
+
+      // collect data from script
+      pythonProcess.stdout.on('data', (data) => {
+        console.log(`Python stdout: ${data}`);
+      });
+
+      // in case of any error in the script
+      pythonProcess.stderr.on('data', (data) => {
+        console.error(`Python stderr: ${data}`);
+      });
+
+      // in close event we are sure that stream from child process is closed
+      pythonProcess.on('close', (code) => {
+        console.log(`Python process exited with code ${code}`);
+        resolve();
+      });
+    } catch (error) {
+      reject(error);
+    }
+  });
+};
+
+// Function to calculate various metrics and update MongoDB accordingly
+export const emergingIssueComponentsCalculation = async () => {
+  try {
+    console.log('START: Calculating components for emerging issues.');
+    const uniqueIssues = await EmergenceIssueOfTheMonthDataModel.distinct('emergingIssue');
+    console.log(`Processing ${uniqueIssues.length} unique emerging issues.`);
+
+    // Prepare data from sources (all from the model)
+    let combinedData = [];
+    for (const issue of uniqueIssues) {
+      const issueDocuments = await EmergenceIssueOfTheMonthDataModel.find({ emergingIssue: issue });
+      combinedData.push(...issueDocuments);
+    }
+
+    console.log(`Combined data length: ${combinedData.length}`);
+
+    // Extract unique titles from combined data
+    const uniqueIssueTitles = [...new Set(combinedData.map(issue => issue.issueTitle))];
+
+    // Combine data from three sources and add 'Repeated' column
+    const emergingIssues = uniqueIssueTitles.map(issueTitle => {
+      const issueDocuments = combinedData.filter(doc => doc.issueTitle === issueTitle);
+      const description = issueDocuments[0].description; // Assuming description is the same for the same issueTitle
+      const totalWeight = issueDocuments.reduce((acc, doc) => acc + doc.weight, 0);
+      const repetition = issueDocuments.length;
+      return { issueTitle, description, totalWeight, repetition };
+    });
+
+    // Sort Emerging Issues by totalWeight and repetition
+    emergingIssues.sort((a, b) => {
+      if (b.totalWeight === a.totalWeight) {
+        return b.repetition - a.repetition;
+      }
+      return b.totalWeight - a.totalWeight;
+    });
+
+    // Determine priority and update MongoDB
+    for (const issue of emergingIssues) {
+      const priority = determinePriority(issue.totalWeight, issue.repetition);
+      const issueDocuments = combinedData.filter(doc => doc.issueTitle === issue.issueTitle);
+      const updateData = await compileIssueData(issue.issueTitle, issueDocuments);
+      updateData.priority = priority;
+      await updateEmergenceIssue(issue.issueTitle, updateData);
+    }
+  } catch (error) {
+    console.error('Error during component calculation:', error);
+  }
+};
+
+// Helper functions (you need to define these based on your application's logic)
+const determinePriority = (totalWeight, repetition) => {
+  if (totalWeight >= 80 && repetition > 2) return 'High';
+  if (totalWeight >= 80 && repetition > 1) return 'Medium';
+  if (totalWeight >= 80 && repetition === 1) return 'Low';
+  if (totalWeight < 80 && repetition > 2) return 'Medium';
+  if (totalWeight < 80 && repetition > 1) return 'Low';
+  return 'Other';
+};
+
+// Function to compile data for an issue
+async function compileIssueData(issueId, issueDocuments) {
+  console.log(`Compiling data for issue ${issueId}.`);
+
+  const aggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([{
+      $match: {
+        Id: issueId
+      }
+    },
+    {
+      $group: {
+        _id: "$emergingIssue",
+        sources: {
+          $addToSet: "$source"
+        },
+        sdgTargeted: {
+          $addToSet: "$sdgTargeted"
+        }
+      }
+    }
+  ]);
+
+  // Initialize the dictionary to count occurrences of each SDG target
+  const sdgTargetedDictionary = {};
+
+  // Global aggregation to count all SDG targets across all documents
+  const sdgAggregation = await EmergenceIssueOfTheMonthDataModel.aggregate([{
+      $match: {
+        Id: issueId
+      }
+    },
+    {
+      $unwind: "$sdgTargeted"
+    },
+    {
+      $group: {
+        _id: "$sdgTargeted",
+        count: {
+          $sum: 1
+        }
+      }
+    }
+  ]);
+
+  // Fill the dictionary with the results from the aggregation
+  sdgAggregation.forEach(item => {
+    sdgTargetedDictionary[item._id] = item.count; // Ensure count is a number
+  });
+
+  let {
+    sources,
+    sdgTargeted
+  } = aggregation.length > 0 ? aggregation[0] : {
+    sources: [],
+    sdgTargeted: []
+  };
+
+  sdgTargeted = [...new Set([].concat(...sdgTargeted))];
+  sdgTargeted.sort((a, b) => parseInt(a.match(/\d+/)[0]) - parseInt(b.match(/\d+/)[0]));
+
+  console.log(`Data compiled for issue ${issueId}.`);
+
+  const totalDataCount = issueDocuments.length;
+  const positiveSentimentAnalysisDataCount = issueDocuments.filter(doc => doc.sentimentAnalysis === "positive").length;
+  const neutralSentimentAnalysisDataCount = issueDocuments.filter(doc => doc.sentimentAnalysis === "neutral").length;
+  const negativeSentimentAnalysisDataCount = issueDocuments.filter(doc => doc.sentimentAnalysis === "negative").length;
+
+  return {
+    sources,
+    sdgTargeted,
+    sdgTargetedDictionary,
+    totalDataCount,
+    positiveSentimentAnalysisDataCount,
+    neutralSentimentAnalysisDataCount,
+    negativeSentimentAnalysisDataCount
+  };
+}
+
+// Function to update database with calculated data
+async function updateEmergenceIssue(issue, data) {
+  const {
+    sources,
+    sdgTargeted,
+    sdgTargetedDictionary,
+    totalDataCount,
+    positiveSentimentAnalysisDataCount,
+    neutralSentimentAnalysisDataCount,
+    negativeSentimentAnalysisDataCount
+  } = data;
+  await EmergenceIssueOfTheMonthDataModel.updateOne({
+    emergingIssue: issue
+  }, {
+    $set: {
+      sources,
+      sdgTargeted,
+      sdgTargetedDictionary,
+      totalDataCount,
+      positiveSentimentAnalysisDataCount,
+      neutralSentimentAnalysisDataCount,
+      negativeSentimentAnalysisDataCount,
+      ...data
+    }
+  }, {
+    upsert: true
+  });
+  console.log(`Issue ${issue} updated successfully.`);
+}
+
+export default {
+  emergingIssueDataUpdate,
+  emergingIssueComponentsCalculation
+};
