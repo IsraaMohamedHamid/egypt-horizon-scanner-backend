@@ -45,9 +45,7 @@ export const EmergenceIssueOfTheMonthSchema = new mongoose.Schema({
     summary: {
         type: String
     },
-    language: {
-        type: [String]
-    },
+    language
     sources: {
         type: [String]
     },

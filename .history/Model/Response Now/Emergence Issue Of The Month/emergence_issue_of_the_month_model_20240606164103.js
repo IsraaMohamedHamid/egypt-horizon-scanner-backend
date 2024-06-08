@@ -9,9 +9,7 @@ export const EmergenceIssueOfTheMonthSchema = new mongoose.Schema({
     emergingIssue: {
         type: String
     },
-    description: {
-        type: String
-    },
+    description
     repetition: {
         type: Number
     },
@@ -45,9 +43,6 @@ export const EmergenceIssueOfTheMonthSchema = new mongoose.Schema({
     summary: {
         type: String
     },
-    language: {
-        type: [String]
-    },
     sources: {
         type: [String]
     },
@@ -59,11 +54,6 @@ export const EmergenceIssueOfTheMonthSchema = new mongoose.Schema({
     },
     indicators:{
         type: String
-    },
-    sentimentAnalysisDictionary: {
-        type: Map,  // Using Map for key-value pairs
-        of: Number,  // Define the type of values in the Map as Number
-        default: () => new Map()  // Ensures the default is an empty Map
     },
 });
 
