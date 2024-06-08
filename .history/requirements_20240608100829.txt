@@ -1,16 +1,16 @@
-# transformers
+transformers
 # torch  # Use this for PyTorch
-# tensorflow  # Use this for TensorFlow if not using PyTorch
+tensorflow  # Use this for TensorFlow if not using PyTorch
 numpy
 pandas
 pymongo
 matplotlib
-# tensorrt
-# tf_keras
+tensorrt
+tf_keras
 # scipy
-# nvidia-cudnn-cu12
-# nvidia_cublas_cu12
-# tf-keras
+nvidia-cudnn-cu12
+nvidia_cublas_cu12
+tf-keras
 os
 sys
 nltk
