@@ -18,7 +18,6 @@ asyncio
 bs4
 pymongo
 cachetools
-logging
 langdetect
 openai
 nest_asyncio
