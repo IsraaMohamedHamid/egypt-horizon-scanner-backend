@@ -11,8 +11,6 @@ matplotlib
 # nvidia-cudnn-cu12
 # nvidia_cublas_cu12
 # tf-keras
-os
-sys
 nltk
 pandas
 aiohttp
