@@ -74,64 +74,7 @@ def remove_outer_quotes(input_string):
 # Function to extract and classify text from a webpage
 async def classify_and_extract_text(url):
     prompt = f"From the following link {url}, classify the text into 5 themes and extract relevant information:\n" \
-             "Themes: 1. Adopt a gender-sensitive approach to climate change\n" \
-             "2. Biodiversity challenges in Egypt\n" \
-             "3. Challenges Facing the Implementation of Education for Sustainable Development in Egypt\n" \
-             "4. Challenges of Egyptian food exports to EU, US\n" \
-             "5. Climate change obstacles\n" \
-             "6. Digital government services\n" \
-             "7. Digital Infrastructure\n" \
-             "8. Economic issues\n" \
-             "9. Egypt's neighbouring countries and partners\n" \
-             "10. Egyptian Foreign Policy: Opportunities and Challenges in 2024\n" \
-             "11. Exchange rate and foreign currency\n" \
-             "12. Exclusion of the Egyptian SMEs in the banking system\n" \
-             "13. Food security and global trade challenges\n" \
-             "14. Funding Fintech\n" \
-             "15. Governmental changes\n" \
-             "16. Green jobs\n" \
-             "17. Hard currency shortage devaluation and decrease domestic demand\n" \
-             "18. Health issues\n" \
-             "19. Heatwaves reduce crops\n" \
-             "20. High food prices\n" \
-             "21. High number of doctors resign\n" \
-             "22. Illegal informal employment\n" \
-             "23. Infrastructure investments\n" \
-             "24. Innovate financing tools for the energy sector\n" \
-             "25. Lack of access to data, financial and technical support for the private sector\n" \
-             "26. Lack of adequate funding to transition into green growth\n" \
-             "27. Logistics in Africa: Status, Challenges & Routes for Egyptian Exports.\n" \
-             "28. Losses of the national economy\n" \
-             "29. Low efficiency of public investment\n" \
-             "30. Modern and advanced infrastructure.\n" \
-             "31. Natural gas and wheat supply\n" \
-             "32. Natural gas decline and power cuts\n" \
-             "33. Nile Dam\n" \
-             "34. Overpopulation\n" \
-             "35. Palestine, Sudan and EU policy\n" \
-             "36. Plastic waste mismanagement in Egypt\n" \
-             "37. Possible disconnects between the Government's macro policy aims for the green transition as well as the on-ground perceptions, concerns, and experiences of private sector actors\n" \
-             "38. Problem of Illiteracy\n" \
-             "39. Raising sea levels make Delta a vulnerable hotspot\n" \
-             "40. Rising fuel prices\n" \
-             "41. Rising sea levels\n" \
-             "42. School system caution threatening losing control\n" \
-             "43. Seasonal soil salinity and land degradation\n" \
-             "44. Sovereign Green bond allocation\n" \
-             "45. State of infrastructure in Egypt\n" \
-             "46. Stigma and discrimination against HIV\n" \
-             "47. Structural and cyclical determinants in Egypt for accessing to finance\n" \
-             "48. Student density in classrooms\n" \
-             "49. Sugar crisis\n" \
-             "50. Sustainable finance\n" \
-             "51. Targeting issues\n" \
-             "52. The excessive bureaucracy and limited access to credit for the private investment\n" \
-             "53. The insufficient marketing efforts for MICE tourism\n" \
-             "54. Unemployment\n" \
-             "55. Water management challenges\n" \
-             "56. Water scarcity and food production\n" \
-             "57. Water-Energy-Food nexus\n" \
-             "58. Wheat shortage and high prices" \
+             "Themes: Adopt a gender-sensitive approach to climate change, Biodiversity challenges in Egypt, etc...\n" \
              "Extract information:\n" \
              "- Main objectives\n" \
              "- Main outcomes\n" \

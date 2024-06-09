@@ -74,7 +74,7 @@ def remove_outer_quotes(input_string):
 # Function to extract and classify text from a webpage
 async def classify_and_extract_text(url):
     prompt = f"From the following link {url}, classify the text into 5 themes and extract relevant information:\n" \
-             "Themes: 1. Adopt a gender-sensitive approach to climate change\n" \
+             "Themes: "1. Adopt a gender-sensitive approach to climate change\n" \
              "2. Biodiversity challenges in Egypt\n" \
              "3. Challenges Facing the Implementation of Education for Sustainable Development in Egypt\n" \
              "4. Challenges of Egyptian food exports to EU, US\n" \
