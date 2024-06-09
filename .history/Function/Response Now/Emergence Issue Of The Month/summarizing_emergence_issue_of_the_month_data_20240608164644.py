@@ -1,4 +1,3 @@
-import json
 import os
 import sys
 import nltk
@@ -12,7 +11,7 @@ import logging
 from langdetect import detect, DetectorFactory
 from openai import OpenAI
 import nest_asyncio
-import re
+
 
 # Apply the nest_asyncio patch
 nest_asyncio.apply()
@@ -68,21 +67,15 @@ async def gpt_get(prompt, model="gpt-3.5-turbo"):
         )
     return response.choices[0].message.content.strip(), response.usage.prompt_tokens, response.usage.completion_tokens
 
-# Function to remove outer quotes from a string
-def remove_outer_quotes(input_string):
-    # Use regular expression to find all elements within double quotes
-    elements = re.findall('"([^"]*)"', input_string)
-    return elements
 
-# Function to extract text from a webpage
 async def classify_text(url):
-    prompt = f"Classify the text in the following link {url} into 5 of the following themes:\n" \
+    prompt = f"Classify the text from the following link {url} to upto 5 of the following themes:\n\n" \
              "1. Adopt a gender-sensitive approach to climate change\n" \
              "2. Biodiversity challenges in Egypt\n" \
              "3. Challenges Facing the Implementation of Education for Sustainable Development in Egypt\n" \
-             "4. Challenges of Egyptian food exports to EU, US\n" \
+             "4. challenges of Egyptian food exports to EU, US\n" \
              "5. Climate change obstacles\n" \
-             "6. Digital government services\n" \
+             "6. digital government services\n" \
              "7. Digital Infrastructure\n" \
              "8. Economic issues\n" \
              "9. Egypt's neighbouring countries and partners\n" \
@@ -91,7 +84,7 @@ async def classify_text(url):
              "12. Exclusion of the Egyptian SMEs in the banking system\n" \
              "13. Food security and global trade challenges\n" \
              "14. Funding Fintech\n" \
-             "15. Governmental changes\n" \
+             "15. governemntal changes\n" \
              "16. Green jobs\n" \
              "17. Hard currency shortage devaluation and decrease domestic demand\n" \
              "18. Health issues\n" \
@@ -99,13 +92,13 @@ async def classify_text(url):
              "20. High food prices\n" \
              "21. High number of doctors resign\n" \
              "22. Illegal informal employment\n" \
-             "23. Infrastructure investments\n" \
-             "24. Innovate financing tools for the energy sector\n" \
+             "23. infrastructure investments\n" \
+             "24. innovate financing tools for the energy sector\n" \
              "25. Lack of access to data, financial and technical support for the private sector\n" \
              "26. Lack of adequate funding to transition into green growth\n" \
              "27. Logistics in Africa: Status, Challenges & Routes for Egyptian Exports.\n" \
-             "28. Losses of the national economy\n" \
-             "29. Low efficiency of public investment\n" \
+             "28. losses of the national economy\n" \
+             "29. low efficiency of public investment\n" \
              "30. Modern and advanced infrastructure.\n" \
              "31. Natural gas and wheat supply\n" \
              "32. Natural gas decline and power cuts\n" \
@@ -113,34 +106,31 @@ async def classify_text(url):
              "34. Overpopulation\n" \
              "35. Palestine, Sudan and EU policy\n" \
              "36. Plastic waste mismanagement in Egypt\n" \
-             "37. Possible disconnects between the Government's macro policy aims for the green transition as well as the on-ground perceptions, concerns, and experiences of private sector actors\n" \
+             "37. Possible disconnects between the Government’s macro policy aims for the green transition as well as the on-ground perceptions, concerns, and experiences of private sector actors\n" \
              "38. Problem of Illiteracy\n" \
              "39. Raising sea levels make Delta a vulnerable hotspot\n" \
              "40. Rising fuel prices\n" \
              "41. Rising sea levels\n" \
              "42. School system caution threatening losing control\n" \
-             "43. Seasonal soil salinity and land degradation\n" \
+             "43. seasonal soil salinity and land degradation\n" \
              "44. Sovereign Green bond allocation\n" \
              "45. State of infrastructure in Egypt\n" \
              "46. Stigma and discrimination against HIV\n" \
-             "47. Structural and cyclical determinants in Egypt for accessing to finance\n" \
+             "47. structural and cyclical determinants in Egypt for accessing finance\n" \
              "48. Student density in classrooms\n" \
              "49. Sugar crisis\n" \
              "50. Sustainable finance\n" \
              "51. Targeting issues\n" \
              "52. The excessive bureaucracy and limited access to credit for the private investment\n" \
-             "53. The insufficient marketing efforts for MICE tourism\n" \
+             "53. the insufficient marketing efforts for MICE tourism\n" \
              "54. Unemployment\n" \
              "55. Water management challenges\n" \
              "56. Water scarcity and food production\n" \
              "57. Water-Energy-Food nexus\n" \
-             "58. Wheat shortage and high prices"
+             "58. Wheat shortage and high prices\n\n" \
+             "Return only the theme titles in json list format."
     classification, input_tokens, output_tokens = await gpt_get(prompt)
-    
-    # Parse the response
-    classification_list = remove_outer_quotes(classification)
-    
-    return classification_list, input_tokens, output_tokens
+    return classification.strip(), input_tokens, output_tokens
 
 # Add extraction function
 async def extract_information(url):
@@ -215,7 +205,7 @@ async def analyze_text(url):
     # Analyze the sentiment of the summary
     sentiment, sentiment_input_tokens, sentiment_output_tokens = await sentiment_analysis(summary)
     
-    return summary.strip(), summary_input_tokens, summary_output_tokens, sentiment, sentiment_input_tokens, sentiment_output_tokens, themes, themes_input_tokens, themes_output_tokens, extracted_info, extracted_info_input_tokens, extracted_info_output_tokens
+    return summary.strip(), summary_input_tokens, summary_output_tokens, sentiment, sentiment_input_tokens, sentiment_output_tokens, themes, themes_input_tokens, themes_output_tokens
 
 async def process_url(session, item):
     try:
@@ -223,7 +213,7 @@ async def process_url(session, item):
         if not url:
             return {'_id': item.get('_id'), 'link': None, 'error': "URL is missing"}
 
-        summary, summary_input_tokens, summary_output_tokens, sentiment, sentiment_input_tokens, sentiment_output_tokens, themes, themes_input_tokens, themes_output_tokens, extracted_info, extracted_info_input_tokens, extracted_info_output_tokens = await analyze_text(url)
+        summary, summary_input_tokens, summary_output_tokens, sentiment, sentiment_input_tokens, sentiment_output_tokens, themes, themes_input_tokens, themes_output_tokens = await analyze_text(url)
         lang = detect_language(summary)
 
         result = {

@@ -12,7 +12,7 @@ import logging
 from langdetect import detect, DetectorFactory
 from openai import OpenAI
 import nest_asyncio
-import re
+
 
 # Apply the nest_asyncio patch
 nest_asyncio.apply()
@@ -68,13 +68,7 @@ async def gpt_get(prompt, model="gpt-3.5-turbo"):
         )
     return response.choices[0].message.content.strip(), response.usage.prompt_tokens, response.usage.completion_tokens
 
-# Function to remove outer quotes from a string
-def remove_outer_quotes(input_string):
-    # Use regular expression to find all elements within double quotes
-    elements = re.findall('"([^"]*)"', input_string)
-    return elements
 
-# Function to extract text from a webpage
 async def classify_text(url):
     prompt = f"Classify the text in the following link {url} into 5 of the following themes:\n" \
              "1. Adopt a gender-sensitive approach to climate change\n" \
@@ -136,10 +130,11 @@ async def classify_text(url):
              "57. Water-Energy-Food nexus\n" \
              "58. Wheat shortage and high prices"
     classification, input_tokens, output_tokens = await gpt_get(prompt)
-    
-    # Parse the response
-    classification_list = remove_outer_quotes(classification)
-    
+    try:
+        classification_list = json.loads(classification)
+    except json.JSONDecodeError as e:
+        logging.error("Error decoding classification JSON: %s", str(e))
+        classification_list = []
     return classification_list, input_tokens, output_tokens
 
 # Add extraction function

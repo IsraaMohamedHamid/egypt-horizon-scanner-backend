@@ -12,7 +12,7 @@ import logging
 from langdetect import detect, DetectorFactory
 from openai import OpenAI
 import nest_asyncio
-import re
+import ast
 
 # Apply the nest_asyncio patch
 nest_asyncio.apply()

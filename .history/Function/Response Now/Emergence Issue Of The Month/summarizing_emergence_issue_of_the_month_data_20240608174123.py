@@ -12,7 +12,7 @@ import logging
 from langdetect import detect, DetectorFactory
 from openai import OpenAI
 import nest_asyncio
-import re
+import ast
 
 # Apply the nest_asyncio patch
 nest_asyncio.apply()
@@ -70,9 +70,9 @@ async def gpt_get(prompt, model="gpt-3.5-turbo"):
 
 # Function to remove outer quotes from a string
 def remove_outer_quotes(input_string):
-    # Use regular expression to find all elements within double quotes
-    elements = re.findall('"([^"]*)"', input_string)
-    return elements
+    # Convert the input string to a Python list
+    input_list = ast.literal_eval(input_string)
+    return input_list
 
 # Function to extract text from a webpage
 async def classify_text(url):
@@ -137,7 +137,7 @@ async def classify_text(url):
              "58. Wheat shortage and high prices"
     classification, input_tokens, output_tokens = await gpt_get(prompt)
     
-    # Parse the response
+    # 
     classification_list = remove_outer_quotes(classification)
     
     return classification_list, input_tokens, output_tokens
