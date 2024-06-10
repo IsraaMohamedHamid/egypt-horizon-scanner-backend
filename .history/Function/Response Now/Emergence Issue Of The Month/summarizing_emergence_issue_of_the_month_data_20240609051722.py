@@ -35,7 +35,7 @@ language_mapping = {
 # MongoDB Connection
 def get_mongo_connection():
     try:
-        mongo_uri = 'mongodb+srv://doadmin:w94yB2Y17dWE8C63@dbaas-db-5626135-310aba91.mongo.ondigitalocean.com/egypt-horizon-scanner?tls=true&authSource=admin&replicaSet=dbaas-db-5626135'
+        mongo_uri = 'your_mongo_uri'
         client = MongoClient(mongo_uri, tls=True, authSource='admin')
         db = client["egypt-horizon-scanner"]
         client.admin.command('ping')  # Check connection
@@ -54,7 +54,7 @@ def get_mongo_connection():
 cache = TTLCache(maxsize=100, ttl=300)
 
 # OpenAI API client initialization
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="your_openai_api_key")
 
 # Function to get response from GPT-3.5-turbo
 async def gpt_get(prompt, model="gpt-3.5-turbo"):
@@ -74,7 +74,7 @@ def remove_outer_quotes(input_string):
 # Function to extract and classify text from a webpage
 async def classify_and_extract_text(url):
     prompt = f"From the following link {url}, classify the text into 5 themes and extract relevant information:\n" \
-             "Themes: 1. Adopt a gender-sensitive approach to climate change\n" \
+             "Themes: "1. Adopt a gender-sensitive approach to climate change\n" \
              "2. Biodiversity challenges in Egypt\n" \
              "3. Challenges Facing the Implementation of Education for Sustainable Development in Egypt\n" \
              "4. Challenges of Egyptian food exports to EU, US\n" \

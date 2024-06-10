@@ -56,6 +56,30 @@ cache = TTLCache(maxsize=100, ttl=300)
 # OpenAI API client initialization
 client = OpenAI(api_key="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")
 
+# MongoDB Connection
+def get_mongo_connection():
+    try:
+        mongo_uri = 'your_mongo_uri'
+        client = MongoClient(mongo_uri, tls=True, authSource='admin')
+        db = client["egypt-horizon-scanner"]
+        client.admin.command('ping')  # Check connection
+        return db["emergence_issue_of_the_month_data"]
+    except errors.ServerSelectionTimeoutError as err:
+        logging.error("Server selection timeout error: %s", err)
+        sys.exit(1)
+    except errors.ConnectionFailure as err:
+        logging.error("Connection failure: %s", err)
+        sys.exit(1)
+    except Exception as err:
+        logging.error("An unexpected error occurred: %s", err)
+        sys.exit(1)
+
+# Cache configuration
+cache = TTLCache(maxsize=100, ttl=300)
+
+# OpenAI API client initialization
+client = OpenAI(api_key="your_openai_api_key")
+
 # Function to get response from GPT-3.5-turbo
 async def gpt_get(prompt, model="gpt-3.5-turbo"):
     messages = [{"role": "user", "content": prompt}]
