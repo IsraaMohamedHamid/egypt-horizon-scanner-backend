@@ -95,8 +95,13 @@ export const emergingIssueComponentsCalculation = async () => {
       const totalWeight = issueDocuments.reduce((acc, doc) => acc + doc.weight, 0);
       const repetition = issueDocuments.length;
       const pillars = [...new Set(issueDocuments.map(doc => doc.pillar))].filter(pillar => pillar != null);
-      const dimensions = [...new Set(issueDocuments.map(doc => doc.dimension))].filter(dimension => dimension != null);
-      const indicators = [...new Set(issueDocuments.flatMap(doc => doc.indicators))].filter(indicator => indicator != null);
+      const dimensions = [...new Set(issueDocuments.map(doc => doc.dimension))];
+      const indicators = [...new Set(issueDocuments.flatMap(doc => doc.indicators))];
+
+      // Remove null or undefined values
+      pillars = pillars.filter(pillar => pillar != null);
+      dimensions = dimensions.filter(dimension => dimension != null);
+      indicators = indicators.filter(indicator => indicator != null);
 
       return { issueTitle, description, totalWeight, repetition, pillars, dimensions, indicators };
     });

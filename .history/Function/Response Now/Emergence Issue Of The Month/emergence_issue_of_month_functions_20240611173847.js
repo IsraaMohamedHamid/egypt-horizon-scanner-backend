@@ -98,6 +98,10 @@ export const emergingIssueComponentsCalculation = async () => {
       const dimensions = [...new Set(issueDocuments.map(doc => doc.dimension))].filter(dimension => dimension != null);
       const indicators = [...new Set(issueDocuments.flatMap(doc => doc.indicators))].filter(indicator => indicator != null);
 
+      console.log('Pillars:', pillars);
+      console.log('Dimensions:', dimensions);
+      console.log('Indicators:', indicators);
+
       return { issueTitle, description, totalWeight, repetition, pillars, dimensions, indicators };
     });
 
