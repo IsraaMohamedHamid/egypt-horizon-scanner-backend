@@ -45,32 +45,20 @@ export const dimensionSchema = new mongoose.Schema({
     type: String,
 
   },
-  Description: {
-    type: String,
-
-  },
   Themes: {
     type: [String],
 
   },
-  MainObjects: {
+  mainObject: {
     type: [String],
 
   },
-  MainOutcomes: {
+  mainOutcomes: {
     type: [String],
 
   },
-  ProblemStatement: {
+  Themes: {
     type: [String],
-
-  },
-  KPIs: {
-    type: [String],
-
-  },
-  Language: {
-    type: String,
 
   }
 });

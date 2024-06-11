@@ -473,7 +473,7 @@ async def analyze_text(url):
     # sentiment, sentiment_input_tokens, sentiment_output_tokens = await sentiment_analysis(summary)
    
     return {
-        'summary': summary.strip(),
+        'Summary': summary.strip(),
         'summary_input_tokens': summary_input_tokens,
         'summary_output_tokens': summary_output_tokens,
         # 'sentiment': sentiment,

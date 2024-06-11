@@ -179,6 +179,11 @@ async def classify_and_extract_text(url):
     
     return themes, extracted_info, input_tokens, output_tokens
 
+# Function to get theme details
+def get_theme_details(theme):
+    details = theme_mapping.get(theme, {})
+    return details.get("Dimension", ""), details.get("Pillars", ""), details.get("Indicators", ""), details.get("Issues title", "")
+
 # Function to summarize webpage
 async def summarize_webpage(url):
     prompt = f"Summarize the text from the following link in 5 lines: {url}"

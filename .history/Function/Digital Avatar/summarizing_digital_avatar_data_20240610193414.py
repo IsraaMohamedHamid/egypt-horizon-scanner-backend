@@ -497,20 +497,20 @@ async def process_url(session, item):
 
         result = {
             '_id': item.get('_id'),
-            'Language': lang,
-            'Description': analysis_results['summary'],
+            'language': lang,
+            'description': analysis_results['summary'],
             'summary_input_tokens': analysis_results['summary_input_tokens'],
             'summary_output_tokens': analysis_results['summary_output_tokens'],
             # 'sentimentAnalysis': analysis_results['sentiment'],
             # 'sentiment_input_tokens': analysis_results['sentiment_input_tokens'],
             # 'sentiment_output_tokens': analysis_results['sentiment_output_tokens'],
-            'Themes': analysis_results['themes'],
+            'theme': analysis_results['themes'],
             'theme_input_tokens': analysis_results['themes_input_tokens'],
             'theme_output_tokens': analysis_results['themes_output_tokens'],
-            'MainObject': analysis_results['extracted_info'].get("Main objectives", "").strip(),
-            'MainOutcome': analysis_results['extracted_info'].get("Main outcomes", "").strip(),
-            'ProblemStatment': analysis_results['extracted_info'].get("Problem statement", "").strip(),
-            'KPIs': analysis_results['extracted_info'].get("KPIs", "").strip(),
+            'object': analysis_results['extracted_info'].get("Main objectives", "").strip(),
+            'outcome': analysis_results['extracted_info'].get("Main outcomes", "").strip(),
+            'problemStatment': analysis_results['extracted_info'].get("Problem statement", "").strip(),
+            'kPIs': analysis_results['extracted_info'].get("KPIs", "").strip(),
             'extracted_info_input_tokens': analysis_results['themes_input_tokens'] + analysis_results['themes_output_tokens'],
             'extracted_info_output_tokens': analysis_results['summary_output_tokens'] + analysis_results['sentiment_output_tokens']
         }

@@ -45,10 +45,6 @@ export const dimensionSchema = new mongoose.Schema({
     type: String,
 
   },
-  Description: {
-    type: String,
-
-  },
   Themes: {
     type: [String],
 
@@ -67,10 +63,6 @@ export const dimensionSchema = new mongoose.Schema({
   },
   KPIs: {
     type: [String],
-
-  },
-  Language: {
-    type: String,
 
   }
 });

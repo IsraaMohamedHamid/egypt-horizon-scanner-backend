@@ -99,9 +99,9 @@ export const emergingIssueComponentsCalculation = async () => {
       const indicators = [...new Set(issueDocuments.flatMap(doc => doc.indicators))];
 
       // Remove null or undefined values
-      pillars = pillars.filter(pillar => pillar != null);
-      dimensions = dimensions.filter(dimension => dimension != null);
-      indicators = indicators.filter(indicator => indicator != null);
+pillars = pillars.filter(pillar => pillar != null);
+dimensions = dimensions.filter(dimension => dimension != null);
+indicators = indicators.filter(indicator => indicator != null);
 
       return { issueTitle, description, totalWeight, repetition, pillars, dimensions, indicators };
     });

@@ -497,8 +497,8 @@ async def process_url(session, item):
 
         result = {
             '_id': item.get('_id'),
-            'Language': lang,
-            'Description': analysis_results['summary'],
+            'language': lang,
+            'description': analysis_results['summary'],
             'summary_input_tokens': analysis_results['summary_input_tokens'],
             'summary_output_tokens': analysis_results['summary_output_tokens'],
             # 'sentimentAnalysis': analysis_results['sentiment'],

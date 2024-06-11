@@ -51,7 +51,7 @@ export const dimensionSchema = new mongoose.Schema({
   },
   Themes: {
     type: [String],
-
+l
   },
   MainObjects: {
     type: [String],
