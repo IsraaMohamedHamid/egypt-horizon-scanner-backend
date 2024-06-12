@@ -34,7 +34,7 @@ export const getProgrammaticSimulationsWithUpdate = async (req, res) => {
     console.log('END: Summary and Sentiment analysis for emerging issues data.');
 
     // Call the Python script for processing
-    const pythonOutput = await ProgrammaticSimulation();
+    const pythonOutput = await ProgrammaticSimulation(req.body);
 
     console.log('Data retrieval and processing completed.');
     res.send(pythonOutput);
