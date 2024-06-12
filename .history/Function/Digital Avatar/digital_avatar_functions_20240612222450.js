@@ -8,7 +8,7 @@ import {
 
 
 // Function to initiate Python script for processing data
-export const  DimensionsDataUpdate = async () => {
+export const ProgrammaticSimulationDataUpdate DimensionsDataUpdate = async () => {
   return new Promise((resolve, reject) => {
     try {
       console.log(`START: Processing Programmatic Simulation.`);
@@ -38,5 +38,5 @@ export const  DimensionsDataUpdate = async () => {
 
 
 export default {
-  DimensionsDataUpdate
+  ProgrammaticSimulationDataUpdate
 };
