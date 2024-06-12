@@ -30,6 +30,9 @@ export const ProgrammaticSimulationSchema = new mongoose.Schema({
     timeline: {
       type: Number
     },
+    overheadCost: {
+      type: Number
+    },
     amountFilter: {
       type: String
     },

@@ -28,10 +28,10 @@ async def analyze_text(project_details):
             f"Provide an example of a recommended project suggestion as a programmatic intervention, encompassing the following elements:\n\n"
             f"1. Contextualize by selecting a thematic intervention, such as '{themes}', and offer insights into the status of {themes}-related projects in Egypt, "
             f"including their quantity, geographic distribution, key donors, implementing partners, and total value according to the EHS database.\n\n"
-            f"2. Evaluate the intervention proposed by the user, who allocates ${project_details['amount']} for {themes} projects in the Egyptian Delta over "
-            f"{project_details['timeline']} years, with a {project_details['amountFilter']}% overhead cost. This entails summarizing the key features of the 'Programmatic Simulation' feature they've outlined.\n\n"
+            f"2. Evaluate the intervention proposed by the user, who allocates {project_details['timeline']} year timeframe and {project_details['amountFilter']} {project_details['minAmount']} and {project_details['maxAmount']} or {project_details['amount']} for {themes} projects in the Egyptian Delta over "
+            f"{project_details['timeline']} years, with a {project_details['overheadCost']}% overhead cost. This entails summarizing the key features of the 'Programmatic Simulation' feature they've outlined.\n\n"
             f"3. Critique the user's decision. While the user aims to address a specific issue, like {project_details['summary']}, it's recommended to provide relevant statistics and suggest collaborating with organizations like Gavi for extended medicine or vaccine provision and the African Development Bank (AfDB) for grants on water provision to support sustainable agriculture and animal production. "
-            f"This suggested intervention can be executed within the {project_details['timeline']} year timeframe and {project_details['amount']} budget by collaborating with these partners and implementing specific activities. Alternatively, considering the budget, another impactful {themes} intervention could involve {project_details['summary']}."
+            f"This suggested intervention can be executed within the {project_details['timeline']} year timeframe and {project_details['amountFilter']} {project_details['minAmount']} and {project_details['maxAmount']} or {project_details['amount']} budget by collaborating with these partners and implementing specific activities. Alternatively, considering the budget, another impactful {themes} intervention could involve {project_details['summary']}."
         )
 
         response, _, _ = await gpt_get(prompt)
