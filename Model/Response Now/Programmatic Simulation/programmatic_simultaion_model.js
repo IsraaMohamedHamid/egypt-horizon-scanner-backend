@@ -4,54 +4,53 @@ import mongoose from 'mongoose';
 // Create Event Detail Schema and Model
 export const ProgrammaticSimulationSchema = new mongoose.Schema({
     _id: {
-        typr: String
+      type: String
     },
-    themes:{
-        type: [String]
+    themes: {
+      type: [String]
     },
-    regions:{
-        type: [String]
+    regions: {
+      type: [String]
     },
-    municipalDivisions:{
-        type: [String]
+    municipalDivisions: {
+      type: [String]
     },
-    governorates:{
-        type: [String]
+    governorates: {
+      type: [String]
     },
-    minAmount:{
-        type: Number
+    minAmount: {
+      type: Number
     },
-    maxAmount:{
-        type: Number
+    maxAmount: {
+      type: Number
     },
-    amount:{
-        type: Number
+    amount: {
+      type: Number
     },
-    timeline:{
-        type: Number
+    timeline: {
+      type: Number
     },
-    amountFilter:{
-        type: String
+    amountFilter: {
+      type: String
     },
-
     description: {
-        type: String
+      type: String
     },
     budget_breakdown: {
-        type: String
+      type: String
     },
     analysis_and_recommendations: {
-        type: String
+      type: String
     },
     suggested_intervention: {
-        type: String
+      type: String
     },
     summary: {
-        type: String
+      type: String
     },
-});
-
-export const ProgrammaticSimulationModel = mongoose.model('ProgrammaticSimulation', ProgrammaticSimulationSchema, 'ProgrammaticSimultaio');
-
-// Exporting the schema and model
-export default  { ProgrammaticSimulationSchema, ProgrammaticSimulationModel };
+  });
+  
+  export const ProgrammaticSimulationModel = mongoose.model('ProgrammaticSimulation', ProgrammaticSimulationSchema, 'ProgrammaticSimulation');
+  
+  // Exporting the schema and model
+  export default { ProgrammaticSimulationSchema, ProgrammaticSimulationModel };

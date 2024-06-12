@@ -8,6 +8,7 @@ import {
 
 
 /// Function to initiate Python script for processing data
+// Function to initiate Python script for processing data
 export const ProgrammaticSimulation = () => {
   return new Promise((resolve, reject) => {
     try {
@@ -16,6 +17,7 @@ export const ProgrammaticSimulation = () => {
       const pythonProcess = spawn('python3', ['Function/Response Now/Programmatic Simulation/summarizing_programmatic_simulation_data.py']);
 
       let pythonOutput = '';
+      let pythonError = '';
 
       // collect data from script
       pythonProcess.stdout.on('data', (data) => {
@@ -23,22 +25,26 @@ export const ProgrammaticSimulation = () => {
         console.log(`Python stdout: ${data}`);
       });
 
-      // in case of any error in the script
+      // collect errors from script
       pythonProcess.stderr.on('data', (data) => {
+        pythonError += data.toString();
         console.error(`Python stderr: ${data}`);
       });
 
       // on close event, we are sure that the stream from child process is closed
       pythonProcess.on('close', (code) => {
         console.log(`Python process exited with code ${code}`);
-        resolve(pythonOutput); // Resolve with the output from the Python script
+        if (code === 0) {
+          resolve(pythonOutput); // Resolve with the output from the Python script
+        } else {
+          reject(new Error(`Python script exited with code ${code}\nError: ${pythonError}`));
+        }
       });
     } catch (error) {
       reject(error);
     }
   });
 };
-
 
 export default {
   ProgrammaticSimulation
