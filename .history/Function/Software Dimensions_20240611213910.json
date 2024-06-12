@@ -1,0 +1,1379 @@
+[
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Current Prices",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Bar Chart"],
+        "Source":"IMF",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"GDP",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Bar Chart"],
+        "Source":"IMF",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Inflation rate",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Bar Chart"],
+        "Source":"CAPMAS",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Number of youth led SMEs",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Quantitative", "Qualitative"],
+        "Source":"Multiple",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"% of job creation",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box", "Table"],
+        "Source":"Economic Research Forum- CAPMAS",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Unemployment rate and gender breakdown",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Bar Chart"],
+        "Source":"CAPMAS, World Bank",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Exchange Rate in the parallel market",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Bar Chart"],
+        "Source":"EG Currency",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Central Bank Announcements",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Central Bank of Egypt and Social Media",
+        "Notes":"Any government policies\/announcements by the Central Bank related to foreign currency and\/or imports and exports."
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Commodities affected prices: wheat and fuel prices",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Bar Chart"],
+        "Source":"WFP",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Balance of trade, Export , Import, External debt, Trade growth",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Line Chart",
+        "Source":"Trading Economics",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Ukraine Index: Tracking developments in the Ukraine war",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Line Chart", "Bar Chart", "Info Box"],
+        "Source":"the Brookings Institution and The Washington Post",
+        "Notes":"the Indext compiles security, economic, and political data presented in graphic form about the Ukraine conflict"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Production volume of main crops in Egypt",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Line Chart", ["Info Box"], "GIS Map"],
+        "Source":"USDA and International Production Assessment Division",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Egypt: Distribution of employment by economic sector from 2011 to 2021",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Bar Chart"],
+        "Source":"Statista",
+        "Notes":"need to subscribe for access to full data"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Distribution of employment in Egypt as of June 2023, by sector",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Pie Chart"],
+        "Source":"Statista",
+        "Notes":"need to subscribe for access to full data"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Insuarnce indicator: Gross written premium (GWP)",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Bar Chart"],
+        "Source":"Statista",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Commodities affected (Q and %): wheat and fuel local production vs imports; local demand and grow by how much",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Inside out Pie Chart"],
+        "Source":"UNCTAD, CAPMAS",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Support for youth entrepreneurs",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Pie Chart", ["Info Box"]],
+        "Source":"Multiple",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Impact on women farmers and businesses",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Wilson Center and ILO",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Food Security: Moderate, severe, moderate or severe and gender breakdown",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Bar Chart"],
+        "Source":"FAO",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Wheat flour, sugar, rice and vegetable oil",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Bar Chart"],
+        "Source":"global product prices",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Egyptian Sustainable Tourism Portal",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Government Knowledge Hub",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Women involvement in eco-tourism",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"AFDB, Awimnews",
+        "Notes":"Examples to be shown"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Medical tourism Index",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Bar Chart"],
+        "Source":"Medical tourism Index",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Main staple prices (Wheat flour, sugar, rice and vegetable oil)",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Bar Chart"],
+        "Source":"WFP",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Crops Production",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Bar Chart"],
+        "Source":"FAO",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Number of women working in official energy units & leading projects on cleaner production",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Bar Chart", "Info Box"],
+        "Source":"World Bank, EBRD, UNESCWA",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Number of health startups and firms and gender breakdown",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Pie Chart", "Info Box"],
+        "Source":"Multiple",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Number of Ownership of transactional accounts (bank accounts, Egypt Post accounts, mobile wallets, and prepaid cards)",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Number of Prepaid Cards",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Number of Mobile Wallets",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Number of financial access points",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"financial inclusion index",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Info Box", "Bubbles"],
+        "Source":"principal financial group",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Multiple Indicators, Multiple Causes\u201d (MIMIC)",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"International Journal of Business Management and Economic Research",
+        "Notes":"The MIMIC approach explicitly considers several causes, as well as the multiple effects of the informal economy. The methodology makes use of the associations between the observable causes and the observable effects of an unobserved variable, in this case, the informal economy, to estimate the unobserved factor itself"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Capital investment, percent of GDP",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Info Box, Timeline, Column Chart",
+        "Source":"The global economy",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Egypt Foreign Direct Investment",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Area Chart", "Timeline"],
+        "Source":"ceicdata, Central Bank of Egypt",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Total, private and public investments:",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Total new establishments and expansions",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Net FDI in Egypt",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Top 5 Net FDI countries in Egypt",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Economic development",
+        "Indicators":"Enablers for SMEs in the renewable energy sector",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Multiple",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Energy",
+        "Indicators":"Energy (Electricity, Transportation, Tourism and refineries)",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Bar Chart"],
+        "Source":"RECREE",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Energy",
+        "Indicators":"Agriculture %of supply of natural resources, hydro, renewable and fuel etc.",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Pie Chart"],
+        "Source":"RCREEE",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Energy",
+        "Indicators":"Fuel",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Bar Chart"],
+        "Source":"The Fuel prices in Egypt",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Energy",
+        "Indicators":"Domestic %of supply of natural resources, hydro, renewable and fuel etc.",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Pie Chart"],
+        "Source":"RCREEE and World Bank",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Energy",
+        "Indicators":"Industry %of supply of natural resources, hydro, renewable and fuel etc.",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Pie Chart"],
+        "Source":"RCREEE and IRENA",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Energy",
+        "Indicators":"Number of women trained on using renewable energy",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Bar Chart", "Info Box"],
+        "Source":"EBRD",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Energy",
+        "Indicators":"The phase model for energy transitions towards renewables-based low-carbon energy systems in the MENA countries",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box", "Pie Chart", "Timeline"],
+        "Source":"FRIEDRICH-EBERT-STIFTUNG",
+        "Notes":"focusing on the energy sector (low-carbon energy system mode and electricity generation) to measure the state of green transition"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Energy",
+        "Indicators":"Electricity Generation",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box", "Pie Chart", "Timeline"],
+        "Source":"FRIEDRICH-EBERT-STIFTUNG",
+        "Notes":"focusing on the energy sector (low-carbon energy system mode and electricity generation) to measure the state of green transition"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Energy",
+        "Indicators":"Investment in renewable energy (firm, % or number)",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Bar Chart"],
+        "Source":"Multiple",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Energy",
+        "Indicators":"Yearly Energy Production (GW)",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Bar Chart"],
+        "Source":"New & Renewable Energy Authority",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Energy",
+        "Indicators":"Renewable Energy Market Status (GW)",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Bar Chart"],
+        "Source":"New & Renewable Energy Authority",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"Agriculture Innovation Project: Geographical and gender breakdown",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Main source",
+        "Notes":"Partnerships cluster: need to contact the main source to use their data"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"Digital Readiness index",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Column Chart",
+        "Source":"CISCO and MCIT",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"Crops Production: Enabling technologies for farmers examples",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Multiple",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"Adapting technology in the education system",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Multiple",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"Number of healthcare tech startups",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Bar Chart"],
+        "Source":"IFC and Tracxn",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"Digital infrastructure in tourist locations",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Pie Chart", "Bar Chart", "Timeline"],
+        "Source":"JIL and Egypt Today",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"Digital food solutions",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Multiple",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"Number of the Financial inclusion",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":"CBE consider the total number for each mentioned indicator as the tool for measuring the innovative finance state\nFinancial inclusion regularly refer to individuals who are financially included"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"Number of Fintech and digital inancial services",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":"CBE consider the total number for each mentioned indicator as the tool for measuring the innovative finance state\nFinancial inclusion regularly refer to individuals who are financially included"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"Global innovation Index",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":"CBE consider the total number for each mentioned indicator as the tool for measuring the innovative finance state\nFinancial inclusion regularly refer to individuals who are financially included"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"global Fintech startups ecosystem",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":"CBE consider the total number for each mentioned indicator as the tool for measuring the innovative finance state\nFinancial inclusion regularly refer to individuals who are financially included"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"African Fintech ecosystem",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":"CBE consider the total number for each mentioned indicator as the tool for measuring the innovative finance state\nFinancial inclusion regularly refer to individuals who are financially included"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"African Fintech investment ecosystem",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":"CBE consider the total number for each mentioned indicator as the tool for measuring the innovative finance state\nFinancial inclusion regularly refer to individuals who are financially included"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"MENA Fintech ecosystem",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":"CBE consider the total number for each mentioned indicator as the tool for measuring the innovative finance state\nFinancial inclusion regularly refer to individuals who are financially included"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"Digital & Connectivity Indicators",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Statista Market Insights",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"using Digital Economy Eountry Assessment (DECA) that measures the digital economy across 6 pillars including Enabling legal and regulatory framework, Digital infrastructure, Digital skills, Digital platforms, Digital financial services and Digital entrepreneurship",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"World Bank Group",
+        "Notes":"Using the DECA model that includes the mentioned 5 pillars which are reflected as indicators to measure the state of digitalization"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"global Fintech startups ecosystem",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":"CBE consider the total number for each mentioned indicator as the tool for measuring the innovative finance state\nFinancial inclusion regularly refer to individuals who are financially included"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"African Fintech startups ecosystem",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":"CBE consider the total number for each mentioned indicator as the tool for measuring the innovative finance state\nFinancial inclusion regularly refer to individuals who are financially included"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"African Fintech investment ecosystem",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":"CBE consider the total number for each mentioned indicator as the tool for measuring the innovative finance state\nFinancial inclusion regularly refer to individuals who are financially included"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"Digital Quality of Life index",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Bar Chart"],
+        "Source":"Statista",
+        "Notes":"need to subscribe for access to full data"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"Global Innovation Index\nSIS announcement",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"SIS \nWIPO",
+        "Notes":"SIS announcement included the innovation index as an indicator for innovative education and the progress in the scientific research"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"MENA Fintech startups ecosystem",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Central Bank of Egypt",
+        "Notes":"CBE consider the total number for each mentioned indicator as the tool for measuring the innovative finance state\nFinancial inclusion regularly refer to individuals who are financially included"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Knowledge, innovation and scientific research",
+        "Indicators":"Fintech for women",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Quantitative", "Qualitative"],
+        "Source":"Beam Exchange",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Transparency and efficient government institutions",
+        "Indicators":"SIS announcement",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"SIS",
+        "Notes":"SIS announcement included the innovation index as an indicator for innovative education and the progress in the scientific research"
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Transparency and efficient government institutions",
+        "Indicators":"Ease of doing business",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Donut Chart", "Bar Chart"],
+        "Source":"World Bank",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Transparency and efficient government institutions",
+        "Indicators":"The Egyptian Governorates Competitiveness Index",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"The Egyptian National Competitiveness Council",
+        "Notes":null
+    },
+    {
+        "Dimension":"Economic",
+        "Pillars":"Transparency and efficient government institutions",
+        "Indicators":"The Single government services card and number of participants",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Bar Chart", "Info Box"],
+        "Source":"Ministry of Communications and Information Technology",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Security Incidents (S)",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Timeline", "Bar Chart", "Map"],
+        "Source":"ACLED",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Laws and policies concerning GBV (S)",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"UNHCR, UNDP and Egypt Today",
+        "Notes":"Countires to focus on other than Egypt (S, R) would be Palestine (R), Sudan (R), Libya (S), Ethiopia (W), GCC (S), US (S) and the EU (R). Sources would include using keywords that include Egypt for the political research and anything that would affect Egypt political situation based on the indicators and countries mentioned."
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Refugees (R)",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Timeline", "Bar Chart", "Map"],
+        "Source":"UNHCR and IOM",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Laws and policies concerning GBV for refugees (R)",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"UNHCR and UNDP",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Political representation\/quotas for women",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Bar Chart"],
+        "Source":"Multiple",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Political representation\/quotas for youth",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Bar Chart"],
+        "Source":"OHCHR and Ahram Online",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Women's financial inclusion services",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Bar Chart"],
+        "Source":"UN Women and Euro Money",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"GDP per capita",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Line Chart", "Timeline"],
+        "Source":"the World bank, International Monetary Fund",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Average Annual Income for Households (LE) according to main Income Sources by place of residence (Urban - Rural) in 2019\/2020",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box, Table",
+        "Source":"CAPMAS",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"The Tamween food subsidy system",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Timeline", "Bar Chart", "Info Box"],
+        "Source":"IFPRI",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Impact of childcare subsidies on women's employment",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Bar Chart", "Info Box"],
+        "Source":"World Bank, J-PAL",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Number of women farmers affected by rainfalls and heatwaves",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Bar Chart", "Timeline"],
+        "Source":"Multiple",
+        "Notes":"This can be measured indirectly. 1- % of women working in agriculture (we can focus on rural areas). 2- agriculture loss because of heatwaves and rainfalls."
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Empowering women in agricultural mitigations examples",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Multiple",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Population and gender breakdown",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline",
+        "Source":"OCHA",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Takaful and Karama conditional cash transfer program: The program and innovative implementation (e.g. digital registration or cash-based transfers using e-wallets)",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box", "Timeline"],
+        "Source":"Their source",
+        "Notes":"Partnerships cluster: need to contact the main source to use their data"
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Takaful and Karama conditional cash transfer program: The timeline",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box", "Timeline"],
+        "Source":"Their source",
+        "Notes":"Partnerships cluster: need to contact the main source to use their data"
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Takaful and Karama conditional cash transfer program: The budget",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box", "Timeline"],
+        "Source":"Their source",
+        "Notes":"Partnerships cluster: need to contact the main source to use their data"
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Takaful and Karama conditional cash transfer program: The goals (including number of targeted people and gender breakdown)",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box", "Timeline"],
+        "Source":"Their source",
+        "Notes":"Partnerships cluster: need to contact the main source to use their data"
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Takaful and Karama conditional cash transfer program: Actors (e.g. the government, international organizations\u2026etc) and the donors",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box", "Timeline"],
+        "Source":"Their source",
+        "Notes":"Partnerships cluster: need to contact the main source to use their data"
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Egypt's population divided into governorates",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Map",
+        "Source":"CAPMAS",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Demographics of Egypt",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"CAPMAS",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Insuarnce indicator: Average Gross Written Insurance per Capita",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Bar Chart"],
+        "Source":"Statista",
+        "Notes":"need to subscribe for access to full data"
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Hayah Karima: The program and number of innovative interventions",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box", "Timeline"],
+        "Source":"Their source",
+        "Notes":"Partnerships cluster: need to contact the main source to use their data"
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Hayah Karima: The timeline",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box", "Timeline"],
+        "Source":"Their source",
+        "Notes":"Partnerships cluster: need to contact the main source to use their data"
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Hayah Karima: The budget",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box", "Timeline"],
+        "Source":"Their source",
+        "Notes":"Partnerships cluster: need to contact the main source to use their data"
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Hayah Karima: The goals (including number of targeted people and gender breakdown)",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box", "Timeline"],
+        "Source":"Their source",
+        "Notes":"Partnerships cluster: need to contact the main source to use their data"
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Social justice",
+        "Indicators":"Hayah Karima: Actors (e.g. the government, international organizations\u2026etc) and the donors",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box", "Timeline"],
+        "Source":"Their source",
+        "Notes":"Partnerships cluster: need to contact the main source to use their data"
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Health",
+        "Indicators":"Private vs public hospitals",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Pie Chart", "Info Box"],
+        "Source":"Statista",
+        "Notes":"Find original source"
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Health",
+        "Indicators":"Malnutrition indicators",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Global Nutrition Report",
+        "Notes":"The indicators stunting, wasting, overweight and underweight are used to measure nutritional imbalance. Child growth is internationally recognized as an important indicator of nutritional status and health in populations."
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Health",
+        "Indicators":"Mortality rates and gender breakdown",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Pie Chart"],
+        "Source":"WHO",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Health",
+        "Indicators":"HIV AIDS rates",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline",
+        "Source":"UNAIDS",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Health",
+        "Indicators":"Vaccination coverage for Egypt",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Bubbles",
+        "Source":"WHO",
+        "Notes":"% for all available diseases up to the latest year available"
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Health",
+        "Indicators":"The number of health facilities",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"SIS",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Health",
+        "Indicators":"The number of beds",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box, Line Chart",
+        "Source":"SIS- world bank",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Health",
+        "Indicators":"Number of doctors per patient",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Pie Chart"],
+        "Source":"WHO",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Health",
+        "Indicators":"Number of available nurses and doctors gender breakdown",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Pie Chart"],
+        "Source":"Statista, Wilson Center and WHO",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Health",
+        "Indicators":"Life expectancy and gender breakdown",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Pie Chart"],
+        "Source":"HDI and WHO",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Education and training",
+        "Indicators":"Literacy rates and gender breakdown",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Pie Chart"],
+        "Source":"UNICEF, World Bank",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Education and training",
+        "Indicators":"Average years of school and gender breakdown",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Pie Chart"],
+        "Source":"Human development Index, World Bank",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Education and training",
+        "Indicators":"Out of school children and gender breakdown",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Pie Chart"],
+        "Source":"UNESCO",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Education and training",
+        "Indicators":"Completion rates, primary and secondary schools and gender breakdown",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Pie Chart"],
+        "Source":"World Bank",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Education and training",
+        "Indicators":"Number of total enrollment of university students in Egypt in 2022\/2023, by sector",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"CAPMAS",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Education and training",
+        "Indicators":"Pupil-teacher ratio, primary",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Line Chart", "Timeline"],
+        "Source":"the World bank",
+        "Notes":null
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Education and training",
+        "Indicators":"Number of technical and vocational education and training graduates in Egypt as of 2021\/2022, by specialty and gender",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Bar Chart"],
+        "Source":"Statista",
+        "Notes":"need to subscribe for access to full data"
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Culture",
+        "Indicators":"Tourist expenditure in Egypt",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Statista",
+        "Notes":"need to subscribe for access to full data"
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Culture",
+        "Indicators":"Number of tourist arrivals from Europe",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Statista",
+        "Notes":"need to subscribe for access to full data"
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Culture",
+        "Indicators":"Number of jobs in the travel and tourism sector",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Statista",
+        "Notes":"need to subscribe for access to full data"
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Culture",
+        "Indicators":"Number of tourist arrivals from Europe and international",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Statista",
+        "Notes":"need to subscribe for access to full data"
+    },
+    {
+        "Dimension":"SOCIAL DIMENSION",
+        "Pillars":"Culture",
+        "Indicators":"Number of jobs in the travel and tourism sector",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Statista",
+        "Notes":"need to subscribe for access to full data"
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"Water Issues (W)",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Timeline", "Bar Chart", "Map"],
+        "Source":"Climate Diplomacy",
+        "Notes":null
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"Rising sea levels",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Bar Chart"],
+        "Source":"USAID",
+        "Notes":"Data source can't be located and\/or UNEP"
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"Coastal destinations and coral reefs",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Enterprise",
+        "Notes":"Data source can't be located and\/or UNEP"
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"Vegetation index, rainfalls and heatwaves",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Map",
+        "Source":"WFP",
+        "Notes":null
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"Projects to combat the effect of rainfalls and heatwaves",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Multiple",
+        "Notes":null
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"wind speed and wind direction",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["GIS Map"],
+        "Source":"windy.app",
+        "Notes":null
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"Conventional resources: comprising the Nile river water, deep groundwater,rainfall and \ufb02ash \ufb02oods, and desalination.",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box", "Timeline", "Column Chart"],
+        "Source":"Research Gate",
+        "Notes":null
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"Non-conventional resources: comprising the shallow groundwater in the Nilevalley and delta, reusing of agricultural drainage water and treatment of wastew-ater since they are not considered as independent water resources and cannotexplicitly be added to the share of the fresh water in Egypt",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box, Timeline, Column Chart",
+        "Source":"Research Gate",
+        "Notes":null
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"salinity indices",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["GIS Map, Info Box, Line Chart",
+        "Source":"MDPI- Resaerch Gate",
+        "Notes":"Statistical techniques indicator is based on statical class used to examine and predict rates related to the salinity \nUsing Image Spectroscopy to Map the saline soil"
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"Imaging Spectroscopy",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["GIS Map, Info Box, Line Chart",
+        "Source":"MDPI- Resaerch Gate",
+        "Notes":"Statistical techniques indicator is based on statical class used to examine and predict rates related to the salinity \nUsing Image Spectroscopy to Map the saline soil"
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"statistical techniques",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["GIS Map, Info Box, Line Chart",
+        "Source":"MDPI- Resaerch Gate",
+        "Notes":"Statistical techniques indicator is based on statical class used to examine and predict rates related to the salinity \nUsing Image Spectroscopy to Map the saline soil"
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"Achieving Sustainable Economic Growth and Low-Emission Development in Various Sectors",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Minstry of Invironement- Egypt National Climate Change Strategy 2042",
+        "Notes":"measuring the green transition through the mentioned main 5 objectives with setting separate indicators for each main objective"
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"Enhancing Adaptive Capacity and Resilience to Climate Change and Alleviating the Associated Negative Impacts",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Minstry of Invironement- Egypt National Climate Change Strategy 2043",
+        "Notes":"measuring the green transition through the mentioned main 5 objectives with setting separate indicators for each main objective"
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"Enhancing Climate Change Action Governance",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Minstry of Invironement- Egypt National Climate Change Strategy 2044",
+        "Notes":"measuring the green transition through the mentioned main 5 objectives with setting separate indicators for each main objective"
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"Enhancing Climate Financing Infrastructure",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Minstry of Invironement- Egypt National Climate Change Strategy 2045",
+        "Notes":"measuring the green transition through the mentioned main 5 objectives with setting separate indicators for each main objective"
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"Enhancing Scientific Research, Technology Transfer, Knowledge Management and Awareness to Combat Climate Change",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Minstry of Invironement- Egypt National Climate Change Strategy 2046",
+        "Notes":"measuring the green transition through the mentioned main 5 objectives with setting separate indicators for each main objective"
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"SCALA and National Climate Strategy",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Their source",
+        "Notes":"Partnerships cluster: need to contact the main source to use their data"
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"Imaging Spectroscopy",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["GIS Map",
+        "Source":"MDPI- Resaerch Gate",
+        "Notes":"Using Image Spectroscopy to Map the saline soil"
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"statistical techniques",
+        "Quantitative Qualitative Type":["Quantitative", "Qualitative"],
+        "Data Visualization":["Info Box, Line Chart",
+        "Source":"MDPI- Resaerch Gate",
+        "Notes":"Statistical techniques indicator is based on statical class used to examine and predict rates related to the salinity"
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"Mean soil erosion rate, Share of Agricultural area under severe erosion",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Line Chart",
+        "Source":"The World bank",
+        "Notes":null
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"Areas of mangroves in Red sea",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"RED SEA PROJECT\u2122",
+        "Notes":null
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"Biodiversity Habitat Index",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"environmental performance index",
+        "Notes":"indicator which estimates the effects of habitat loss, degradation, and fragmentation on the expected retention of terrestrial biodiversity"
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"The Global ecosystem restoration index",
+        "Quantitative Qualitative Type":["Qualitative"],
+        "Data Visualization":["Info Box"],
+        "Source":"Global Biodiversity Change Indicators",
+        "Notes":null
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Environment",
+        "Indicators":"Carbon dioxide emissions in 2019\/2020",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Bar Chart"],
+        "Source":"Statista",
+        "Notes":"need to subscribe for access to full data"
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Urban development",
+        "Indicators":"Africa infrastructure development index",
+        "Quantitative Qualitative Type":["Quantitative"],
+        "Data Visualization":["Timeline", "Column Chart"],
+        "Source":"Statista",
+        "Notes":"need to subscribe for access to full data"
+    },
+    {
+        "Dimension":"ENVIRONMENT DIMENSION",
+        "Pillars":"Urban development",
+        "Indicators":null,
+        "Quantitative Qualitative Type":null,
+        "Data Visualization":null,
+        "Source":null,
+        "Notes":null
+    }
+]
