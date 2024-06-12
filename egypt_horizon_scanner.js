@@ -86,6 +86,7 @@ import governorate from './Route/Response Now/Interventions/governorate.js';
 import municipalDivisions from './Route/Response Now/Interventions/municipal_divisions.js';
 import emergenceIssueOfMonth from './Route/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month.js';
 import emergenceIssueOfMonthData from './Route/Response Now/Emergence Issue Of The Month/emergence_issue_of_the_month_data.js';
+import programmaticSimulation from './Route/Response Now/Programmatic Simulation/programmatic_simulation.js';
 import serviceOfferAttendants from './Route/Service Offer/attendantsRoutes.js';
 import serviceOfferEvents from './Route/Service Offer/eventsRoutes.js';
 import serviceOfferInstitutions from './Route/Service Offer/institutionsRoutes.js';
@@ -109,6 +110,9 @@ egyptHorizonScanner.use('/response-now/interventions', municipalDivisions);
 // Emergence Issue of the Month
 egyptHorizonScanner.use('/response-now/emergence-issue-of-the-month', emergenceIssueOfMonth);
 egyptHorizonScanner.use('/response-now/emergence-issue-of-the-month', emergenceIssueOfMonthData);
+
+// Programmatic Simulation
+egyptHorizonScanner.use('/response-now/programmatic-simulation', programmaticSimulation);
 
 // Service Offer
 egyptHorizonScanner.use('/service-offer/attendant', serviceOfferAttendants);
