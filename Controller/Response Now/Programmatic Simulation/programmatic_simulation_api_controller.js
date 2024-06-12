@@ -27,14 +27,16 @@ export const getProgrammaticSimulations = asyncHandler(async (req, res) => {
 
 // Route to receive requests from Flutter
 export const getProgrammaticSimulationsWithUpdate = async (req, res) => {
-  console.log('START: CALL emerging issues data.');
+  console.log('START: CALL PROGRAMMATIC SIMULATION.');
+
+  var data = req.body;
 
   try {
     // await programmaticSimulationDataUpdate();
-    console.log('END: Summary and Sentiment analysis for emerging issues data.');
+    console.log('START: Proceesing programmatic simulation.');
 
     // Call the Python script for processing
-    const pythonOutput = await ProgrammaticSimulation(req.body);
+    const pythonOutput = await ProgrammaticSimulation(data);
 
     console.log('Data retrieval and processing completed.');
     res.send(pythonOutput);
