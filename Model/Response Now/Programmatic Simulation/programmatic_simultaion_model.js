@@ -54,4 +54,4 @@ export const ProgrammaticSimulationSchema = new mongoose.Schema({
 export const ProgrammaticSimulationModel = mongoose.model('ProgrammaticSimulation', ProgrammaticSimulationSchema, 'ProgrammaticSimultaio');
 
 // Exporting the schema and model
-export default  { ProgrammaticSimulationSchema, EmergenceIssueOfTheMonthModel };
+export default  { ProgrammaticSimulationSchema, ProgrammaticSimulationModel };
