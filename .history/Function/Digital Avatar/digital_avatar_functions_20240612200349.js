@@ -1,6 +1,9 @@
 ////////////////////////////////////////////// IMPORTS //////////////////////////////////////////////
 
 import {
+  ProgrammaticSimulationModel
+} from '../../Model/Digital Avatar/dimension.js';
+import {
   spawn
 } from 'child_process';
 

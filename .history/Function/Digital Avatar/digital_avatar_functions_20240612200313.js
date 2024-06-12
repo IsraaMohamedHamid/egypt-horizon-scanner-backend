@@ -1,6 +1,9 @@
 ////////////////////////////////////////////// IMPORTS //////////////////////////////////////////////
 
 import {
+  DimensionsModel
+} from '../../Model/Digital Avatar/dimension.js';
+import {
   spawn
 } from 'child_process';
 
@@ -8,12 +11,12 @@ import {
 
 
 // Function to initiate Python script for processing data
-export const ProgrammaticSimulationDataUpdate = async () => {
+export const DimensionsDataUpdate = async () => {
   return new Promise((resolve, reject) => {
     try {
-      console.log(`START: Processing Programmatic Simulation.`);
+      console.log(`START: Processing emerging issues.`);
       // spawn new child process to call the python script
-      const pythonProcess = spawn('python3', ['Function/Response Now/Programmatic Simulation/summarizing_programmatic_simulation_data.py']);
+      const pythonProcess = spawn('python3', ['Function/r']);
 
       // collect data from script
       pythonProcess.stdout.on('data', (data) => {
@@ -38,5 +41,5 @@ export const ProgrammaticSimulationDataUpdate = async () => {
 
 
 export default {
-  ProgrammaticSimulationDataUpdate
+  DimensionsDataUpdate
 };
