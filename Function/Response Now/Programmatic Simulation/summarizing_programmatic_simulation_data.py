@@ -52,6 +52,7 @@ async def analyze_text(project_details):
         structured_response['amount'] = project_details['amount']
         structured_response['timeline'] = project_details['timeline']
         structured_response['description'] = project_details['description']
+        structured_response['amountFilter'] = project_details['amountFilter']
 
         return structured_response
     except Exception as e:
