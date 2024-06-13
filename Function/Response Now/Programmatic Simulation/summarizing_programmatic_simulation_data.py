@@ -32,13 +32,26 @@ async def analyze_text(project_details):
             f"{project_details['timeline']} weeks. This entails summarizing the key features of the 'Programmatic Simulation' feature they've outlined.\n\n"
             f"3. Critique the user's decision. While the user aims to address a specific issue, like {project_details['description']}, it's recommended to provide relevant statistics and suggest collaborating with organizations like Gavi for extended medicine or vaccine provision and the African Development Bank (AfDB) for grants on water provision to support sustainable agriculture and animal production. "
             f"This suggested intervention can be executed within the {project_details['timeline']} year timeframe and {project_details['amountFilter']} {project_details['minAmount']} and {project_details['maxAmount']} or {project_details['amount']} budget by collaborating with these partners and implementing specific activities. Alternatively, considering the budget, another impactful {themes} intervention could involve {project_details['description']}."
-            f"Provide the answer in a structured format, made up of Insights, Critique, a budget breakdown, summary, analysis and recommendations, and suggested intervention. and save as a JSON format."
+            f"Provide the answer in a structured format, made up of Insights, Critique, a budget breakdown, summary, analysis and recommendations, and suggested intervention. and save as a JSON format as budget_breakdown, analysis_and_recommendations, summary, suggested_intervention, insights, critique."
         )
+
+
 
         response, _, _ = await gpt_get(prompt)
 
         # Assuming the response is already in structured format
         structured_response = json.loads(response)
+
+
+        # Add the provided data to the structured response
+        structured_response['themes'] = project_details['themes']
+        structured_response['municipalDivisions'] = project_details['municipalDivisions']
+        structured_response['governorates'] = project_details['governorates']
+        structured_response['minAmount'] = project_details['minAmount']
+        structured_response['maxAmount'] = project_details['maxAmount']
+        structured_response['amount'] = project_details['amount']
+        structured_response['timeline'] = project_details['timeline']
+        structured_response['description'] = project_details['description']
 
         return structured_response
     except Exception as e:
