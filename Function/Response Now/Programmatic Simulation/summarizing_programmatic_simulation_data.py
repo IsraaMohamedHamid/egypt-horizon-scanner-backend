@@ -32,7 +32,7 @@ async def analyze_text(project_details):
             f"{project_details['timeline']} weeks. This entails summarizing the key features of the 'Programmatic Simulation' feature they've outlined.\n\n"
             f"3. Critique the user's decision. While the user aims to address a specific issue, like {project_details['description']}, it's recommended to provide relevant statistics and suggest collaborating with organizations like Gavi for extended medicine or vaccine provision and the African Development Bank (AfDB) for grants on water provision to support sustainable agriculture and animal production. "
             f"This suggested intervention can be executed within the {project_details['timeline']} year timeframe and {project_details['amountFilter']} {project_details['minAmount']} and {project_details['maxAmount']} or {project_details['amount']} budget by collaborating with these partners and implementing specific activities. Alternatively, considering the budget, another impactful {themes} intervention could involve {project_details['description']}."
-            f"Provide the answer in a structured format, made up of Insights, Critique, a budget breakdown, summary, analysis and recommendations, and suggested intervention. and save as a JSON format as budget_breakdown, analysis_and_recommendations, summary, suggested_intervention, insights, critique."
+            f"Provide the answer in a structured format, made up of Insights, Critique, a budget breakdown, summary, analysis and recommendations, and suggested intervention. each should have a paragragh and save as a JSON format as budget_breakdown, analysis_and_recommendations, summary, suggested_intervention, insights, critique, all with type string"
         )
 
 
