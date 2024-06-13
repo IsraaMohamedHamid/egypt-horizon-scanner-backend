@@ -8,7 +8,6 @@ import {
 
 
 /// Function to initiate Python script for processing data
-// Function to initiate Python script for processing data
 export const ProgrammaticSimulation = (projectDetails) => {
   return new Promise((resolve, reject) => {
     try {
