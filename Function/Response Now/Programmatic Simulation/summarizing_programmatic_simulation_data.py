@@ -25,16 +25,24 @@ async def analyze_text(project_details):
     try:
         themes = ', '.join(project_details['themes'])
         prompt = (
-            f"Provide an example of a recommended project suggestion as a programmatic intervention, encompassing the following elements:\n\n"
-            f"1. Contextualize by selecting a thematic intervention, such as '{themes}', and offer insights into the status of {themes}-related projects in Egypt, "
-            f"including their quantity, geographic distribution, key donors, implementing partners, and total value according to the EHS database.\n\n"
-            f"2. Evaluate the intervention proposed by the user, who allocates {project_details['timeline']} year timeframe and {project_details['amountFilter']} {project_details['minAmount']} and {project_details['maxAmount']} or {project_details['amount']} for {themes} projects in the Egyptian Delta over "
-            f"{project_details['timeline']} weeks. This entails summarizing the key features of the 'Programmatic Simulation' feature they've outlined.\n\n"
-            f"3. Critique the user's decision. While the user aims to address a specific issue, like {project_details['description']}, it's recommended to provide relevant statistics and suggest collaborating with organizations like Gavi for extended medicine or vaccine provision and the African Development Bank (AfDB) for grants on water provision to support sustainable agriculture and animal production. "
-            f"This suggested intervention can be executed within the {project_details['timeline']} year timeframe and {project_details['amountFilter']} {project_details['minAmount']} and {project_details['maxAmount']} or {project_details['amount']} budget by collaborating with these partners and implementing specific activities. Alternatively, considering the budget, another impactful {themes} intervention could involve {project_details['description']}."
-            f"Provide the answer in a structured format, made up of Insights, Critique, a budget breakdown, summary, analysis and recommendations, and suggested intervention. each should have a paragragh and save as a JSON format as budget_breakdown, analysis_and_recommendations, summary, suggested_intervention, insights, critique, all with type string"
+            f"Provide an in-depth example of a recommended project suggestion as a programmatic intervention, encompassing the following elements:\n\n"
+            f"### 1. Contextualization ###\n"
+            f"Select a thematic intervention, such as '{themes}', and offer comprehensive insights into the status of {themes}-related projects in Egypt. Include details on their quantity, geographic distribution, key donors, implementing partners, and total value according to the EHS database.\n\n"
+            f"### 2. Evaluation of the Proposed Intervention ###\n"
+            f"Evaluate the intervention proposed by the user, who allocates a {project_details['timeline']} year timeframe and a budget range of {project_details['amountFilter']} between {project_details['minAmount']} and {project_details['maxAmount']} or a fixed amount of {project_details['amount']} for {themes} projects in the Egyptian Delta. Summarize the key features of the 'Programmatic Simulation' they've outlined, and explain how the budget will be distributed over the {project_details['timeline']} weeks.\n\n"
+            f"### 3. Critique and Recommendations ###\n"
+            f"While the user's goal of addressing {project_details['description']} is commendable, provide relevant statistics and suggest collaborating with organizations such as Gavi for extended medicine or vaccine provision, and the African Development Bank (AfDB) for grants on water provision to support sustainable agriculture and animal production. Explain how this intervention can be executed within the {project_details['timeline']} year timeframe and budget range. Additionally, propose alternative impactful interventions in the {themes} area that align with the budget and timeframe, highlighting potential partnerships and activities.\n\n"
+            f"### 4. Budget Breakdown ###\n"
+            f"Provide a detailed budget breakdown, explaining how the allocated funds will be distributed across different activities and overheads to maximize impact.\n\n"
+            f"### 5. Summary ###\n"
+            f"Summarize the intervention, including its goals, expected outcomes, and how it aligns with national and international initiatives.\n\n"
+            f"### 6. Analysis and Recommendations ###\n"
+            f"Offer an in-depth, extensive analysis of the proposed intervention's strengths and weaknesses, and recommend specific actions or modifications to enhance its effectiveness and sustainability.\n\n"
+            f"### 7. Suggested Intervention ###\n"
+            f"Propose a concrete intervention that leverages the strengths of the user's proposal while addressing any identified gaps or weaknesses. Include details on implementation strategies, potential partners, and expected outcomes.\n\n"
+            f"Provide the answer in a structured format with the following JSON keys: "
+            f"'contextualization', 'evaluation_of_proposed_intervention', 'critique_and_recommendations', 'budget_breakdown', 'summary', 'analysis_and_recommendations', and 'suggested_intervention', all with type string."
         )
-
 
 
         response, _, _ = await gpt_get(prompt)
