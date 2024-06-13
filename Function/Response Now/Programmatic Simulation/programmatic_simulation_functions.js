@@ -11,7 +11,8 @@ import {
 export const ProgrammaticSimulation = (projectDetails) => {
   return new Promise((resolve, reject) => {
     try {
-      console.log(`START: Processing emerging issues.`);
+      console.log(`START: Programmatic Simulation.`);
+      console.log(`Data: ${JSON.stringify(projectDetails)}`);
       const pythonProcess = spawn('python3', ['Function/Response Now/Programmatic Simulation/summarizing_programmatic_simulation_data.py', JSON.stringify(projectDetails)]);
       let pythonOutput = '';
       let pythonError = '';
