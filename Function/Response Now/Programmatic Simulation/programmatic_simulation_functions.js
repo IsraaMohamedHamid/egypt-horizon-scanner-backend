@@ -13,8 +13,7 @@ export const ProgrammaticSimulation = (projectDetails) => {
   return new Promise((resolve, reject) => {
     try {
       console.log(`START: Processing emerging issues.`);
-      // spawn new child process to call the python script
-      const pythonProcess = spawn('python3', ['Function/Response Now/Programmatic Simulation/summarizing_programmatic_simulation_data.py', projectDetails]);
+      const pythonProcess = spawn('python3', ['Function/Response Now/Programmatic Simulation/summarizing_programmatic_simulation_data.py', JSON.stringify(projectDetails)]);
       let pythonOutput = '';
       let pythonError = '';
 
@@ -28,9 +27,9 @@ export const ProgrammaticSimulation = (projectDetails) => {
 
       pythonProcess.on('close', (code) => {
         if (code === 0) {
-          res.json(JSON.parse(pythonOutput));
+          resolve(JSON.parse(pythonOutput));
         } else {
-          res.status(500).json({ error: pythonError });
+          reject(pythonError);
         }
       });
     } catch (error) {
