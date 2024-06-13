@@ -14,7 +14,7 @@ export const ProgrammaticSimulation = (projectDetails) => {
     try {
       console.log(`START: Processing emerging issues.`);
       // spawn new child process to call the python script
-      const pythonProcess = spawn('python3', ['path/to/summarizing_programmatic_simulation_data.py', projectDetails]);
+      const pythonProcess = spawn('python3', ['Function/Response Now/Programmatic Simulation/summarizing_programmatic_simulation_data.py', projectDetails]);
       let pythonOutput = '';
       let pythonError = '';
 

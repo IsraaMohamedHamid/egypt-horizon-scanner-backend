@@ -13,11 +13,11 @@ client = OpenAI(api_key="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")
 # Function to get response from GPT-3.5-turbo
 async def gpt_get(prompt, model="gpt-3.5-turbo"):
     messages = [{"role": "user", "content": prompt}]
-    response = await client.chat_completions.create(
-        model=model,
-        messages=messages,
-        temperature=0,
-    )
+    response = client.chat.completions.create(
+            model=model,
+            messages=messages,
+            temperature=0,
+        )
     return response.choices[0].message.content.strip(), response.usage.prompt_tokens, response.usage.completion_tokens
 
 # Function to analyze text from project details
@@ -30,24 +30,17 @@ async def analyze_text(project_details):
             f"including their quantity, geographic distribution, key donors, implementing partners, and total value according to the EHS database.\n\n"
             f"2. Evaluate the intervention proposed by the user, who allocates {project_details['timeline']} year timeframe and {project_details['amountFilter']} {project_details['minAmount']} and {project_details['maxAmount']} or {project_details['amount']} for {themes} projects in the Egyptian Delta over "
             f"{project_details['timeline']} years, with a {project_details['overheadCost']}% overhead cost. This entails summarizing the key features of the 'Programmatic Simulation' feature they've outlined.\n\n"
-            f"3. Critique the user's decision. While the user aims to address a specific issue, like {project_details['summary']}, it's recommended to provide relevant statistics and suggest collaborating with organizations like Gavi for extended medicine or vaccine provision and the African Development Bank (AfDB) for grants on water provision to support sustainable agriculture and animal production. "
-            f"This suggested intervention can be executed within the {project_details['timeline']} year timeframe and {project_details['amountFilter']} {project_details['minAmount']} and {project_details['maxAmount']} or {project_details['amount']} budget by collaborating with these partners and implementing specific activities. Alternatively, considering the budget, another impactful {themes} intervention could involve {project_details['summary']}."
+            f"3. Critique the user's decision. While the user aims to address a specific issue, like {project_details['description']}, it's recommended to provide relevant statistics and suggest collaborating with organizations like Gavi for extended medicine or vaccine provision and the African Development Bank (AfDB) for grants on water provision to support sustainable agriculture and animal production. "
+            f"This suggested intervention can be executed within the {project_details['timeline']} year timeframe and {project_details['amountFilter']} {project_details['minAmount']} and {project_details['maxAmount']} or {project_details['amount']} budget by collaborating with these partners and implementing specific activities. Alternatively, considering the budget, another impactful {themes} intervention could involve {project_details['description']}."
+            f"Provide the answer in a structured format, made up of Insights, Critique, a budget breakdown, summary, analysis and recommendations, and suggested intervention. and save as a JSON format."
         )
 
         response, _, _ = await gpt_get(prompt)
-        
-        # Placeholder parsing logic
-        budget_breakdown = "Placeholder for budget breakdown"
-        summary = "Placeholder for summary"
-        analysis_and_recommendations = "Placeholder for analysis and recommendations"
-        suggested_intervention = "Placeholder for suggested intervention"
 
-        return {
-            'budget_breakdown': budget_breakdown,
-            'summary': summary,
-            'analysis_and_recommendations': analysis_and_recommendations,
-            'suggested_intervention': suggested_intervention
-        }
+        # Assuming the response is already in structured format
+        structured_response = json.loads(response)
+
+        return structured_response
     except Exception as e:
         print(f"Error analyzing text: {e}")
         raise
