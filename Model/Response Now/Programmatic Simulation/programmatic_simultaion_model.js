@@ -40,22 +40,22 @@ export const ProgrammaticSimulationSchema = new mongoose.Schema({
     type: String
   },
   budget_breakdown: {
-    type: mongoose.Schema.Types.Mixed // Use Mixed type for nested objects
+    type: String
   },
   analysis_and_recommendations: {
-    type: mongoose.Schema.Types.Mixed
+    type: String
   },
   suggested_intervention: {
-    type: mongoose.Schema.Types.Mixed
+    type: String
   },
   summary: {
     type: String
   },
   insights: {
-    type: mongoose.Schema.Types.Mixed
+    type: String
   },
   critique: {
-    type: mongoose.Schema.Types.Mixed
+    type: String
   }
 });
 
