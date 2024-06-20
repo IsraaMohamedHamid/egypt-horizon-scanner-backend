@@ -124,11 +124,11 @@ var registerUserSchema = new mongoose.Schema({
 
 ///------------------------------------------ MODEL ------------------------------------------///
 // This two schemas will save on the 'users' collection.
-var User = mongoose.model('User', loginUserSchema, 'user_data');
-var registerUser = mongoose.model('Registered', registerUserSchema, 'user_data');
+export var User = mongoose.model('User', loginUserSchema, 'user_data');
+export var registerUser = mongoose.model('Registered', registerUserSchema, 'user_data');
 
 ///------------------------------------------ EXPORT ------------------------------------------///
 export default  {
-    User: User,
-    registerUser: registerUser
+    User,
+    registerUser
 };

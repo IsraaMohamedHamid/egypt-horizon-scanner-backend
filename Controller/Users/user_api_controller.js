@@ -2,10 +2,10 @@
 
 ///---------------------- FILES ----------------------///
 import {User,
-  registerUser} from '../../models/user_model';
+  registerUser} from '../../Model/Users/user_model.js';
 
 ///---------------------- LIBRARIES ----------------------///
-import config from "../../config";
+import config from "../../config.js";
 
 import jwt from "jsonwebtoken";
 
@@ -17,7 +17,7 @@ import path from "path";
 
 ///---------------------- CONTROLLERS ----------------------///
 // Adding and update profile image
-const imageStorage = multer.diskStorage({
+export const  imageStorage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, "../Profile Picture Uploads");
   },
@@ -26,7 +26,7 @@ const imageStorage = multer.diskStorage({
   },
 });
 
-const fileFilter = (req, file, cb) => {
+export const  fileFilter = (req, file, cb) => {
   if (file.mimetype == "image/jpeg" || file.mimetype == "image/png") {
     cb(null, true);
   } else {
@@ -34,7 +34,7 @@ const fileFilter = (req, file, cb) => {
   }
 };
 
-const uploadImage = multer({
+export const  uploadImage = multer({
   storage: imageStorage,
   limits: {
     fileSize: 1024 * 1024 * 6,
@@ -44,7 +44,7 @@ const uploadImage = multer({
 
 
 // Adding and update profile image
-const addAndUpdateProfileImage = (async (req, res, next) => {
+export const addAndUpdateProfileImage = (async (req, res, next) => {
   /*const file = req.file
   if (!file) {
     const error = new Error('Please upload a file')
@@ -87,14 +87,14 @@ const addAndUpdateProfileImage = (async (req, res, next) => {
 });
 
 // Get a list of users from the DB
-const getUsers = ((req,res, next) => {
+export const getUsers = ((req,res, next) => {
   // Get all data
   User.find({}).then(function(users){
        res.send(users);
   });
 });
 
-const getUserUsingUsername = ( (req, res) => {
+export const getUserUsingUsername = ( (req, res) => {
   User.findOne({ username: req.params.username }, (err, result) => {
     if (err) return res.status(500).json({ msg: err });
     return res.json({
@@ -104,7 +104,7 @@ const getUserUsingUsername = ( (req, res) => {
   });
 });
 
-const getUserUsingEmail = ( (req, res) => {
+export const getUserUsingEmail = ( (req, res) => {
   User.findOne({ email: req.params.email }, (err, result) => {
     if (err) return res.status(500).json({ msg: err });
     return res.json({
@@ -115,7 +115,7 @@ const getUserUsingEmail = ( (req, res) => {
 });
 
 // Check to see if user exists
-const checkUsernameExists = ((req, res) => {
+export const checkUsernameExists = ((req, res) => {
   User.findOne({ username: req.params.username }, (err, result) => {
     if (err) return res.status(500).json({ msg: err });
     if (result !== null) {
@@ -129,7 +129,7 @@ const checkUsernameExists = ((req, res) => {
   });
 });
 
-const checkEmailExists = ((req, res) => {
+export const checkEmailExists = ((req, res) => {
   User.findOne({ email: req.params.email }, (err, result) => {
     if (err) return res.status(500).json({ msg: err });
     if (result !== null) {
@@ -144,7 +144,7 @@ const checkEmailExists = ((req, res) => {
 });
 
 // Login User
-const logIn = ((req, res) => {
+export const logIn = ((req, res) => {
   User.findOne({
     $or: [{ "email": req.body.email },
     //{"phone": userEmailPhone},
@@ -179,7 +179,7 @@ const logIn = ((req, res) => {
 });
 
 // Register User
-const register = ((req, res) => {
+export const register = ((req, res) => {
   console.log("inside the register");
   const user = new User({
     username: req.body.username,
@@ -198,7 +198,7 @@ const register = ((req, res) => {
 });
 
 // Update a user information in the DB
-const updateUserInformationByID= ((req,res, next) => {
+export const updateUserInformationByID= ((req,res, next) => {
     //to access :id ---> req.params.id
     registerUser.findByIdAndUpdate({ _id: req.params.id }, {$set:req.body}).then(function () {
       registerUser.findOne({ _id: req.params.id }).then(function (user) {
@@ -207,7 +207,7 @@ const updateUserInformationByID= ((req,res, next) => {
     });
   });
 
-const updateUserInformationByUsername= ((req,res, next) => {
+  export const updateUserInformationByUsername= ((req,res, next) => {
     //to access :id ---> req.params.id
     registerUser.findOneAndUpdate({ username: req.params.username }, {$set:req.body}).then(function () {
       registerUser.findOne({ username: req.params.username }).then(function (user) {
@@ -216,7 +216,7 @@ const updateUserInformationByUsername= ((req,res, next) => {
     });
   });
 
-  const updateUserInformationByEmail= ((req,res, next) => {
+  export const updateUserInformationByEmail= ((req,res, next) => {
     //to access :id ---> req.params.id
     registerUser.findOneAndUpdate({ email: req.params.email }, {$set:req.body}).then(function () {
       registerUser.findOne({ email: req.params.email }).then(function (user) {
@@ -226,7 +226,7 @@ const updateUserInformationByUsername= ((req,res, next) => {
   });
 
 // Update a user password in the DB
-const updateUserPasswordByUsername = ((req,res, next) => {
+export const updateUserPasswordByUsername = ((req,res, next) => {
   //to access :username ---> req.params.username
   console.log(req.params.username);
   registerUser.findOneAndUpdate(
@@ -247,7 +247,7 @@ const updateUserPasswordByUsername = ((req,res, next) => {
   );
 });
 
-const updateUserPasswordByEmail = ((req,res, next) => {
+export const updateUserPasswordByEmail = ((req,res, next) => {
   //to access :id ---> req.params.id
   console.log(req.params.email);
   registerUser.findOneAndUpdate(
@@ -269,14 +269,14 @@ const updateUserPasswordByEmail = ((req,res, next) => {
 });
 
 // Delete a user from the DB
-const deleteUserByID = ((req, res, next) => {
+export const deleteUserByID = ((req, res, next) => {
     //to access :id ---> req.params.id
     registerUser.findByIdAndRemove({ _id: req.params.id }).then(function (user) {
         res.send(user);
     });
 })
 
-const deleteUserByUsername = ((req,res, next) => {
+export const deleteUserByUsername = ((req,res, next) => {
   //to access :username ---> req.params.username
   registerUser.findOneAndDelete({
     $or: [{ "email": req.body.email },
@@ -293,7 +293,7 @@ const deleteUserByUsername = ((req,res, next) => {
     });
 });
 
-const deleteUserByEmail = ((req,res, next) => {
+export const deleteUserByEmail = ((req,res, next) => {
   //to access :email ---> req.params.email
   registerUser.findOneAndDelete({
     $or: [{ "email": req.body.email },

@@ -2,18 +2,13 @@
 
 
 ///---------------------- FILES ----------------------///
-import { addAndUpdateProfileImage, getUsers, getUserUsingUsername, getUserUsingEmail, checkUsernameExists, checkEmailExists, logIn, register, updateUserInformationByID, updateUserInformationByUsername, updateUserInformationByEmail, updateUserPasswordByUsername, updateUserPasswordByEmail, deleteUserByID, deleteUserByUsername, deleteUserByEmail } from "../../Controller/Users/user_api_controller";
+import { addAndUpdateProfileImage, getUsers, getUserUsingUsername, getUserUsingEmail, checkUsernameExists, checkEmailExists, logIn, register, updateUserInformationByID, updateUserInformationByUsername, updateUserInformationByEmail, updateUserPasswordByUsername, updateUserPasswordByEmail, deleteUserByID, deleteUserByUsername, deleteUserByEmail } from "../../Controller/Users/user_api_controller.js";
 
 ///---------------------- LIBRARIES ----------------------///
-import config from "../../config";
-import middleware from "../../middleware";
-
 import { Router } from "express";
 const router = Router();
-import jwt from "jsonwebtoken";
 
 import multer, { diskStorage } from "multer";
-import path from "path";
 
 ///------------------------------------------ ROUTES ------------------------------------------///
 const storage = diskStorage({
