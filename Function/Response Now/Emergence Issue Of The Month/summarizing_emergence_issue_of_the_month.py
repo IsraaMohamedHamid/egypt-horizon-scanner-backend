@@ -66,12 +66,6 @@ async def gpt_get(prompt, model="gpt-3.5-turbo"):
         )
     return response.choices[0].message.content.strip(), response.usage.prompt_tokens, response.usage.completion_tokens
 
-# Function to summarize webpage
-async def summarize_webpage(url):
-    prompt = f"Summarize the text from the following link in 5 lines: {url}"
-    summary, input_tokens, output_tokens = await gpt_get(prompt)
-    return summary, input_tokens, output_tokens
-
 # Function to detect language
 def detect_language(text):
     try:
@@ -129,7 +123,7 @@ async def update_emerging_issues_data(data_collection, issue_collection):
         if 'error' not in result:
             update_dict = {
                 'filter': {'emergingIssue': result['emergingIssue']},
-                'update': {'$set': result}
+                'update': {'$set': {'summary': result['description'], 'language': result['language']}}
             }
             updates.append(update_dict)
             total_input_tokens += result['summary_input_tokens']

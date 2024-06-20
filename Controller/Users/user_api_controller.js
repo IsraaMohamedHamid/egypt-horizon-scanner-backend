@@ -1,19 +1,19 @@
 ///------------------------------------------ IMPORT ------------------------------------------///
 
 ///---------------------- FILES ----------------------///
-const {User,
-  registerUser} from "../../Model/Users/user_model");
+import {User,
+  registerUser} from '../../models/user_model';
 
 ///---------------------- LIBRARIES ----------------------///
-const config from "../../config");
+import config from "../../config";
 
-const jwt from "jsonwebtoken");
+import jwt from "jsonwebtoken";
 
-const express from "express");
+import express from "express";
 const router = express.Router();
 
-const multer from "multer");
-const path from "path");
+import multer from "multer";
+import path from "path";
 
 ///---------------------- CONTROLLERS ----------------------///
 // Adding and update profile image
