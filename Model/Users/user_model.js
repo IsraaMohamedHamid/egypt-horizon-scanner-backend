@@ -72,24 +72,6 @@ var registerUserSchema = new mongoose.Schema({
      confirmedPassword: {
         type: String,
     },
-    userParallelMarketsScore: {
-        type: Number
-    },
-    userWeight: {
-        type: Number
-    },
-    userHeight: {
-        type: Number
-    },
-     userAge: {
-        type: String,
-    },
-     userAddress: {
-        type: String,
-    },
-    userBmi: {
-        type: Number
-    },
      userLanguage: {
         type: String,
     },
@@ -108,15 +90,11 @@ var registerUserSchema = new mongoose.Schema({
      phoneNumber: {
         type: String,
     },
-     bookmarkedParallelMarketsList: [String],
      dateUpdated:  {
         type: Date
     },
      dateCreate:  {
         type: Date
-    },
-     selectedTheme: {
-        type: String,
     },
 });
 

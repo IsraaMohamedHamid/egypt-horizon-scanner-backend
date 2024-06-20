@@ -1,5 +1,5 @@
-const jwt from "jsonwebtoken");
-const config from "./config");
+import jwt from "jsonwebtoken";
+import config from "./config";
 
 let checkToken = (req, res, next) => {
   let token = req.headers["authorization"];
