@@ -17,7 +17,7 @@ const router = Router();
 // Get a list of cities from the DB
 router.get('/emergenceIssueOfTheMonthOpportunityOrThreat', getEmergingIssuesOpportunityOrThreat);
 
-router.get('/emergenceIssueOfTheMonthOpportunityOrThreat/findbyname/:emergingIssue', getEmergingIssueOpportunityOrThreatByName);
+router.get('/emergenceIssueOfTheMonthOpportunityOrThreat/findbyname/:username/:email/:emergingIssueOpportunityOrThreat', getEmergingIssueOpportunityOrThreatByName);
 
 // Add new emergenceIssueOfTheMonthOpportunityOrThreat to the DB
 router.post('/emergenceIssueOfTheMonthOpportunityOrThreat', createEmergingIssueOpportunityOrThreat);
@@ -30,7 +30,7 @@ router.put('/emergenceIssueOfTheMonthOpportunityOrThreat/emergenceIssueOfTheMont
 // Delete a emergenceIssueOfTheMonthOpportunityOrThreat from the DB
 router.delete('/emergenceIssueOfTheMonthOpportunityOrThreat/emergenceIssueOfTheMonthOpportunityOrThreatid/:id', deleteEmergingIssueOpportunityOrThreatByID);
 
-router.delete('/emergenceIssueOfTheMonthOpportunityOrThreat/emergenceIssueOfTheMonthOpportunityOrThreatnameen/:politicalMappingEventName', deleteEmergingIssueOpportunityOrThreatByEmergingIssueOpportunityOrThreatName);
+router.delete('/emergenceIssueOfTheMonthOpportunityOrThreat/emergenceIssueOfTheMonthOpportunityOrThreatnameen/:username/:email/:emergingIssueOpportunityOrThreat', deleteEmergingIssueOpportunityOrThreatByEmergingIssueOpportunityOrThreatName);
 
 
 export default router;
