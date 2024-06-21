@@ -2,11 +2,7 @@ import express from 'express';
 import bodyParser from "body-parser";
 import mongoose from 'mongoose';
 
-
 const port = process.env.port || 3000;
-
-console.log(port);
-
 
 // Set up Express app
 const egyptHorizonScanner = express();

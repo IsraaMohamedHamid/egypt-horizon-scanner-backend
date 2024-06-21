@@ -1,23 +1,20 @@
 ///------------------------------------------ IMPORT ------------------------------------------///
 
 ///---------------------- FILES ----------------------///
-import {User,
-  registerUser} from '../../Model/Users/user_model.js';
+import { User, registerUser } from '../../Model/Users/user_model.js';
 
 ///---------------------- LIBRARIES ----------------------///
 import config from "../../config.js";
-
 import jwt from "jsonwebtoken";
-
 import express from "express";
 const router = express.Router();
-
 import multer from "multer";
 import path from "path";
+import fs from "fs";
 
 ///---------------------- CONTROLLERS ----------------------///
 // Adding and update profile image
-export const  imageStorage = multer.diskStorage({
+export const imageStorage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, "../Profile Picture Uploads");
   },
@@ -26,306 +23,286 @@ export const  imageStorage = multer.diskStorage({
   },
 });
 
-export const  fileFilter = (req, file, cb) => {
-  if (file.mimetype == "image/jpeg" || file.mimetype == "image/png") {
+export const fileFilter = (req, file, cb) => {
+  if (file.mimetype === "image/jpeg" || file.mimetype === "image/png") {
     cb(null, true);
   } else {
     cb(null, false);
   }
 };
 
-export const  uploadImage = multer({
+export const uploadImage = multer({
   storage: imageStorage,
   limits: {
     fileSize: 1024 * 1024 * 6,
   },
-  // fileFilter: fileFilter,
+  fileFilter: fileFilter,
 });
-
 
 // Adding and update profile image
-export const addAndUpdateProfileImage = (async (req, res, next) => {
-  /*const file = req.file
-  if (!file) {
-    const error = new Error('Please upload a file')
-    error.httpStatusCode = 400
-    return next("hey error")
-  }*/
+export const addAndUpdateProfileImage = async (req, res, next) => {
+  try {
+    var userPhotoName = req.body.userPhotoName;
+    var userPhotoFile = req.body.userPhotoFile;
+    var realFile = Buffer.from(userPhotoFile, "base64");
 
-  var userPhotoName = req.body.userPhotoName;
-  var userPhotoFile = req.body.userPhotoFile;
+    fs.writeFile(userPhotoName, realFile, function (err) {
+      if (err) console.log(err);
+    });
 
-  var realFile = Buffer.from(userPhotoFile, "base64");
-  fs.writeFile(userPhotoName, realFile, function (err) {
-    if (err)
-      console.log(err);
-  });
-  res.send("OK");
+    res.send("OK");
 
-
-  User.findOneAndUpdate({
-      email: req.params.email
-    }, {
-      $set: {
-        userPhotoName: req.body.userPhotoName,
-        userPhotoFile: req.body.userPhotoFile,
+    const profile = await User.findOneAndUpdate(
+      { email: req.params.email },
+      {
+        $set: {
+          userPhotoName: req.body.userPhotoName,
+          userPhotoFile: req.body.userPhotoFile,
+        },
       },
-    }, {
-      new: true
-    },
-    (err, profile) => {
-      if (err) return res.status(500).send(err);
-      const response = {
-        message: "image added successfully updated",
-        data: profile,
-      };
-      return res.status(200).send(response);
-    }
-  );
+      { new: true }
+    );
 
+    const response = {
+      message: "Image successfully updated",
+      data: profile,
+    };
 
-});
+    return res.status(200).send(response);
+  } catch (err) {
+    return res.status(500).send(err);
+  }
+};
 
 // Get a list of users from the DB
-export const getUsers = ((req,res, next) => {
-  // Get all data
-  User.find({}).then(function(users){
-       res.send(users);
-  });
-});
+export const getUsers = async (req, res, next) => {
+  try {
+    const users = await User.find({});
+    res.send(users);
+  } catch (err) {
+    return res.status(500).send(err);
+  }
+};
 
-export const getUserUsingUsername = ( (req, res) => {
-  User.findOne({ username: req.params.username }, (err, result) => {
-    if (err) return res.status(500).json({ msg: err });
+export const getUserUsingUsername = async (req, res) => {
+  try {
+    const result = await User.findOne({ username: req.params.username });
     return res.json({
       data: result,
       username: req.params.username,
     });
-  });
-});
+  } catch (err) {
+    return res.status(500).json({ msg: err });
+  }
+};
 
-export const getUserUsingEmail = ( (req, res) => {
-  User.findOne({ email: req.params.email }, (err, result) => {
-    if (err) return res.status(500).json({ msg: err });
+export const getUserUsingEmail = async (req, res) => {
+  try {
+    const result = await User.findOne({ email: req.params.email });
     return res.json({
       data: result,
       email: req.params.email,
     });
-  });
-});
+  } catch (err) {
+    return res.status(500).json({ msg: err });
+  }
+};
 
 // Check to see if user exists
-export const checkUsernameExists = ((req, res) => {
-  User.findOne({ username: req.params.username }, (err, result) => {
-    if (err) return res.status(500).json({ msg: err });
+export const checkUsernameExists = async (req, res) => {
+  try {
+    const result = await User.findOne({ username: req.params.username });
     if (result !== null) {
-      return res.json({
-        Status: true,
-      });
-    } else
-      return res.json({
-        Status: false,
-      });
-  });
-});
+      return res.json({ Status: true });
+    } else {
+      return res.json({ Status: false });
+    }
+  } catch (err) {
+    return res.status(500).json({ msg: err });
+  }
+};
 
-export const checkEmailExists = ((req, res) => {
-  User.findOne({ email: req.params.email }, (err, result) => {
-    if (err) return res.status(500).json({ msg: err });
+export const checkEmailExists = async (req, res) => {
+  try {
+    const result = await User.findOne({ email: req.params.email });
     if (result !== null) {
-      return res.json({
-        Status: true,
-      });
-    } else
-      return res.json({
-        Status: false,
-      });
-  });
-});
+      return res.json({ Status: true });
+    } else {
+      return res.json({ Status: false });
+    }
+  } catch (err) {
+    return res.status(500).json({ msg: err });
+  }
+};
 
 // Login User
-export const logIn = ((req, res) => {
-  User.findOne({
-    $or: [{ "email": req.body.email },
-    //{"phone": userEmailPhone},
-    { "userName": req.body.username }]
-  }, (err, result) => {
-    if (err) {
-      return res.status(500).json({ msg: err });
-    }
+export const logIn = async (req, res) => {
+  try {
+    const result = await User.findOne({
+      $or: [{ email: req.body.email }, { userName: req.body.username }],
+    });
 
-    // validate username, email, or phone number
     if (result === null) {
       return res.status(404).json("Username or email incorrect");
     }
 
-    //Validate password
+    // Validate password
     if (result.password === req.body.password) {
-      // here we implement the JWT token functionality
-      let token = jwt.sign({
-        $or: [{ "email": req.body.email },
-        //{"phone": userEmailPhone},
-        { "userName": req.body.username }]
-      }, config.key, {});
+      // Implement the JWT token functionality
+      let token = jwt.sign(
+        { $or: [{ email: req.body.email }, { userName: req.body.username }] },
+        config.key,
+        {}
+      );
 
       res.json({
         token: token,
         msg: "success",
       });
     } else {
-      res.status(403).json("password is incorrect");
+      res.status(403).json("Password is incorrect");
     }
-  });
-});
+  } catch (err) {
+    return res.status(500).json({ msg: err });
+  }
+};
 
 // Register User
-export const register = ((req, res) => {
-  console.log("inside the register");
-  const user = new User({
-    username: req.body.username,
-    password: req.body.password,
-    email: req.body.email,
-  });
-  user
-    .save()
-    .then(() => {
-      console.log("user registered");
-      res.status(200).json({ msg: "User Successfully Registered" });
-    })
-    .catch((err) => {
-      res.status(403).json({ msg: err });
+export const register = async (req, res) => {
+  try {
+    const user = new User({
+      username: req.body.username,
+      password: req.body.password,
+      email: req.body.email,
     });
-});
+
+    await user.save();
+    res.status(200).json({ msg: "User Successfully Registered" });
+  } catch (err) {
+    res.status(403).json({ msg: err });
+  }
+};
 
 // Update a user information in the DB
-export const updateUserInformationByID= ((req,res, next) => {
-    //to access :id ---> req.params.id
-    registerUser.findByIdAndUpdate({ _id: req.params.id }, {$set:req.body}).then(function () {
-      registerUser.findOne({ _id: req.params.id }).then(function (user) {
-            res.send(user);
-        });
-    });
-  });
+export const updateUserInformationByID = async (req, res, next) => {
+  try {
+    await registerUser.findByIdAndUpdate({ _id: req.params.id }, { $set: req.body });
+    const user = await registerUser.findOne({ _id: req.params.id });
+    res.send(user);
+  } catch (err) {
+    return res.status(500).send(err);
+  }
+};
 
-  export const updateUserInformationByUsername= ((req,res, next) => {
-    //to access :id ---> req.params.id
-    registerUser.findOneAndUpdate({ username: req.params.username }, {$set:req.body}).then(function () {
-      registerUser.findOne({ username: req.params.username }).then(function (user) {
-            res.send(user);
-        });
-    });
-  });
+export const updateUserInformationByUsername = async (req, res, next) => {
+  try {
+    await registerUser.findOneAndUpdate({ username: req.params.username }, { $set: req.body });
+    const user = await registerUser.findOne({ username: req.params.username });
+    res.send(user);
+  } catch (err) {
+    return res.status(500).send(err);
+  }
+};
 
-  export const updateUserInformationByEmail= ((req,res, next) => {
-    //to access :id ---> req.params.id
-    registerUser.findOneAndUpdate({ email: req.params.email }, {$set:req.body}).then(function () {
-      registerUser.findOne({ email: req.params.email }).then(function (user) {
-            res.send(user);
-        });
-    });
-  });
+export const updateUserInformationByEmail = async (req, res, next) => {
+  try {
+    await registerUser.findOneAndUpdate({ email: req.params.email }, { $set: req.body });
+    const user = await registerUser.findOne({ email: req.params.email });
+    res.send(user);
+  } catch (err) {
+    return res.status(500).send(err);
+  }
+};
 
 // Update a user password in the DB
-export const updateUserPasswordByUsername = ((req,res, next) => {
-  //to access :username ---> req.params.username
-  console.log(req.params.username);
-  registerUser.findOneAndUpdate(
-    {
-      $or: [{ "email": req.body.email },
-      //{"phone": userEmailPhone},
-      { "userName": req.body.username }]
-    },
-    { $set: { password: req.body.password } },
-    (err, result) => {
-      if (err) return res.status(500).json({ msg: err });
-      const msg = {
-        msg: "password successfully updated",
-        username: req.params.username,
-      };
-      return res.json(msg);
-    }
-  );
-});
+export const updateUserPasswordByUsername = async (req, res, next) => {
+  try {
+    await registerUser.findOneAndUpdate(
+      { $or: [{ email: req.body.email }, { userName: req.body.username }] },
+      { $set: { password: req.body.password } }
+    );
+    const msg = {
+      msg: "Password successfully updated",
+      username: req.params.username,
+    };
+    return res.json(msg);
+  } catch (err) {
+    return res.status(500).json({ msg: err });
+  }
+};
 
-export const updateUserPasswordByEmail = ((req,res, next) => {
-  //to access :id ---> req.params.id
-  console.log(req.params.email);
-  registerUser.findOneAndUpdate(
-    {
-      $or: [{ "email": req.body.email },
-      //{"phone": userEmailPhone},
-      { "userName": req.body.username }]
-    },
-    { $set: { password: req.body.password } },
-    (err, result) => {
-      if (err) return res.status(500).json({ msg: err });
-      const msg = {
-        msg: "password successfully updated",
-        email: req.params.email,
-      };
-      return res.json(msg);
-    }
-  );
-});
+export const updateUserPasswordByEmail = async (req, res, next) => {
+  try {
+    await registerUser.findOneAndUpdate(
+      { $or: [{ email: req.body.email }, { userName: req.body.username }] },
+      { $set: { password: req.body.password } }
+    );
+    const msg = {
+      msg: "Password successfully updated",
+      email: req.params.email,
+    };
+    return res.json(msg);
+  } catch (err) {
+    return res.status(500).json({ msg: err });
+  }
+};
 
 // Delete a user from the DB
-export const deleteUserByID = ((req, res, next) => {
-    //to access :id ---> req.params.id
-    registerUser.findByIdAndRemove({ _id: req.params.id }).then(function (user) {
-        res.send(user);
-    });
-})
+export const deleteUserByID = async (req, res, next) => {
+  try {
+    const user = await registerUser.findByIdAndRemove({ _id: req.params.id });
+    res.send(user);
+  } catch (err) {
+    return res.status(500).send(err);
+  }
+};
 
-export const deleteUserByUsername = ((req,res, next) => {
-  //to access :username ---> req.params.username
-  registerUser.findOneAndDelete({
-    $or: [{ "email": req.body.email },
-    //{"phone": userEmailPhone},
-    { "userName": req.body.username }]
-  }, 
-    (err, result) => {
-      if (err) return res.status(500).json({ msg: err });
-      const msg = {
-        msg: "user deleted",
-        username: req.params.username,
-      };
-      return res.json(msg);
+export const deleteUserByUsername = async (req, res, next) => {
+  try {
+    await registerUser.findOneAndDelete({
+      $or: [{ email: req.body.email }, { userName: req.body.username }],
     });
-});
+    const msg = {
+      msg: "User deleted",
+      username: req.params.username,
+    };
+    return res.json(msg);
+  } catch (err) {
+    return res.status(500).json({ msg: err });
+  }
+};
 
-export const deleteUserByEmail = ((req,res, next) => {
-  //to access :email ---> req.params.email
-  registerUser.findOneAndDelete({
-    $or: [{ "email": req.body.email },
-    //{"phone": userEmailPhone},
-    { "userName": req.body.username }]
-  }, 
-    (err, result) => {
-      if (err) return res.status(500).json({ msg: err });
-      const msg = {
-        msg: "user deleted",
-        email: req.params.email,
-      };
-      return res.json(msg);
+export const deleteUserByEmail = async (req, res, next) => {
+  try {
+    await registerUser.findOneAndDelete({
+      $or: [{ email: req.body.email }, { userName: req.body.username }],
     });
-});
+    const msg = {
+      msg: "User deleted",
+      email: req.params.email,
+    };
+    return res.json(msg);
+  } catch (err) {
+    return res.status(500).json({ msg: err });
+  }
+};
 
 ///---------------------- EXPORTS ----------------------///
-export default  {
+export default {
   addAndUpdateProfileImage: addAndUpdateProfileImage,
-    getUsers: getUsers,
-    getUserUsingUsername: getUserUsingUsername,
-    getUserUsingEmail: getUserUsingEmail,
-    checkUsernameExists: checkUsernameExists,
-    checkEmailExists: checkEmailExists,
-    logIn: logIn,
-    register: register,
-    updateUserInformationByID: updateUserInformationByID,
-    updateUserInformationByUsername: updateUserInformationByUsername,
-    updateUserInformationByEmail: updateUserInformationByEmail,
-    updateUserPasswordByUsername: updateUserPasswordByUsername,
-    updateUserPasswordByEmail: updateUserPasswordByEmail,
-    deleteUserByID: deleteUserByID,
-    deleteUserByUsername: deleteUserByUsername,
-    deleteUserByEmail: deleteUserByEmail
+  getUsers: getUsers,
+  getUserUsingUsername: getUserUsingUsername,
+  getUserUsingEmail: getUserUsingEmail,
+  checkUsernameExists: checkUsernameExists,
+  checkEmailExists: checkEmailExists,
+  logIn: logIn,
+  register: register,
+  updateUserInformationByID: updateUserInformationByID,
+  updateUserInformationByUsername: updateUserInformationByUsername,
+  updateUserInformationByEmail: updateUserInformationByEmail,
+  updateUserPasswordByUsername: updateUserPasswordByUsername,
+  updateUserPasswordByEmail: updateUserPasswordByEmail,
+  deleteUserByID: deleteUserByID,
+  deleteUserByUsername: deleteUserByUsername,
+  deleteUserByEmail: deleteUserByEmail,
 };

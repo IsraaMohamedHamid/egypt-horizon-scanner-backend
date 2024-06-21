@@ -55,6 +55,7 @@ router.route("/checkemail/:email").get(checkEmailExists);
 
 ///------ Login User ------///
 router.route("/login").post(logIn);
+// router.post('/login', logIn);
 
 ///------ Register User ------///
 router.route("/register").post(register);
