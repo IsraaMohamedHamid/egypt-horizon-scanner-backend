@@ -25,7 +25,7 @@ router.post('/emergenceIssueOfTheMonthOpportunityOrThreat', createEmergingIssueO
 // Update a emergenceIssueOfTheMonthOpportunityOrThreat in the DB
 router.put('/emergenceIssueOfTheMonthOpportunityOrThreat/emergenceIssueOfTheMonthOpportunityOrThreatid/:id', updateEmergingIssueOpportunityOrThreatByID);
 
-router.put('/emergenceIssueOfTheMonthOpportunityOrThreat/emergenceIssueOfTheMonthOpportunityOrThreatnameen/:emergingIssue', updateEmergingIssueOpportunityOrThreatByEmergingIssueOpportunityOrThreatName);
+router.put('/emergenceIssueOfTheMonthOpportunityOrThreat/emergenceIssueOfTheMonthOpportunityOrThreatnameen/:username/:email/:emergingIssueOpportunityOrThreat', updateEmergingIssueOpportunityOrThreatByEmergingIssueOpportunityOrThreatName);
 
 // Delete a emergenceIssueOfTheMonthOpportunityOrThreat from the DB
 router.delete('/emergenceIssueOfTheMonthOpportunityOrThreat/emergenceIssueOfTheMonthOpportunityOrThreatid/:id', deleteEmergingIssueOpportunityOrThreatByID);

@@ -1,6 +1,7 @@
 ////////////////////////////////////////////// IMPORTS //////////////////////////////////////////////
 
 // Consolidate model imports into a single line per model
+import isEmail from 'validator/lib/isEmail.js';
 import {
   EmergenceIssueOfTheMonthOpportunitiesAndThreatsSchema,
   EmergenceIssueOfTheMonthOpportunitiesAndThreatsModel
@@ -52,6 +53,8 @@ export const updateEmergingIssueOpportunityOrThreatByID = asyncHandler(async (re
 // Update an emerging issue by name
 export const updateEmergingIssueOpportunityOrThreatByEmergingIssueOpportunityOrThreatName = asyncHandler(async (req, res) => {
   await findOneAndUpdate({
+    username: req.params.username,
+    email: req.params.email,
     emergingIssueOpportunityOrThreat: req.params.emergingIssueOpportunityOrThreat
   }, {
     $set: req.body
