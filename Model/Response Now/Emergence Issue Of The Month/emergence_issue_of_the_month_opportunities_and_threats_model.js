@@ -13,6 +13,9 @@ export const EmergenceIssueOfTheMonthOpportunitiesAndThreatsSchema = new mongoos
     email:{
         type: String
     },
+    timeStamped:{
+        type: String
+    },
     isOpportunitiesOrThreats:{
         type: String
     },
