@@ -71,6 +71,15 @@ export const userExperiencesSchema = new mongoose.Schema({
     caseSummary: {
         type: String,
     },
+    timeStamped: {
+        type: String,
+    },
+    lastSeen: {
+        type: String,
+    },
+    lastUpdated: {
+        type: String,
+    },
 
 })
 

@@ -16,6 +16,12 @@ export const EmergenceIssueOfTheMonthOpportunitiesAndThreatsSchema = new mongoos
     timeStamped:{
         type: String
     },
+    lastSeen: {
+        type: String,
+    },
+    lastUpdated: {
+        type: String,
+    },
     isOpportunitiesOrThreats:{
         type: String
     },
