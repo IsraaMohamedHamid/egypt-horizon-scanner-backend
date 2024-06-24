@@ -27,7 +27,7 @@ egyptHorizonScanner.use(express.json());
 // host = mongodb+srv://dbaas-db-5626135-310aba91.mongo.ondigitalocean.com
 // database = egypt-horizon-scanner
 
-const dbURI = 'mongodb+srv://doadmin:w94yB2Y17dWE8C63@dbaas-db-5626135-310aba91.mongo.ondigitalocean.com/egypt-horizon-scanner?tls=true&authSource=admin&replicaSet=dbaas-db-5626135';
+const dbURI = 'mongodb+srv://doadmin:6d30Bi4ec59u7ag1@egypt-horizon-scanner-1948d167.mongo.ondigitalocean.com/egypt-horizon-scanner?tls=true&authSource=admin&replicaSet=egypt-horizon-scanner';
 mongoose.connect(dbURI, {
         useNewUrlParser: true,
         useUnifiedTopology: true,

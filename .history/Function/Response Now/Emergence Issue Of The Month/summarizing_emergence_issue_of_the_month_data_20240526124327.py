@@ -20,7 +20,7 @@ logging.basicConfig(level=logging.INFO)
 nltk.download('vader_lexicon')
 
 # MongoDB configuration from environment variables
-mongo_uri = os.getenv('MONGO_URI', 'mongodb+srv://doadmin:w94yB2Y17dWE8C63@dbaas-db-5626135-310aba91.mongo.ondigitalocean.com/egypt-horizon-scanner?tls=true&authSource=admin&replicaSet=dbaas-db-5626135')
+mongo_uri = os.getenv('MONGO_URI', 'mongodb+srv://doadmin:6d30Bi4ec59u7ag1@egypt-horizon-scanner-1948d167.mongo.ondigitalocean.com/egypt-horizon-scanner?tls=true&authSource=admin&replicaSet=egypt-horizon-scanner')
 
 try:
     client = MongoClient(mongo_uri, serverSelectionTimeoutMS=5000)  # 5 seconds timeout

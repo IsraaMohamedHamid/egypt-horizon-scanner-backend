@@ -34,7 +34,7 @@ language_mapping = {
 # MongoDB Connection
 def get_mongo_connection():
     try:
-        mongo_uri = 'mongodb+srv://doadmin:w94yB2Y17dWE8C63@dbaas-db-5626135-310aba91.mongo.ondigitalocean.com/egypt-horizon-scanner?tls=true&authSource=admin&replicaSet=dbaas-db-5626135'
+        mongo_uri = 'mongodb+srv://doadmin:6d30Bi4ec59u7ag1@egypt-horizon-scanner-1948d167.mongo.ondigitalocean.com/egypt-horizon-scanner?tls=true&authSource=admin&replicaSet=egypt-horizon-scanner'
         client = MongoClient(mongo_uri, tls=True, authSource='admin')
         db = client["egypt-horizon-scanner"]
         client.admin.command('ping')  # Check connection
