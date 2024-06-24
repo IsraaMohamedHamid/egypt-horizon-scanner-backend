@@ -12,27 +12,20 @@ from langdetect import detect, DetectorFactory
 from openai import OpenAI
 import nest_asyncio
 import re
-
 # Apply the nest_asyncio patch
 nest_asyncio.apply()
-
 # Initialize logging
 logging.basicConfig(level=logging.INFO)
-
 # Ensure you have the VADER lexicon downloaded
 nltk.download('vader_lexicon')
-
 # Ensure deterministic behavior in language detection
 DetectorFactory.seed = 0
-
 # Language mapping dictionary
 language_mapping = {
     'en': 'English', 'ar': 'Arabic', 'fr': 'French', 'es': 'Spanish',
     'de': 'German', 'zh': 'Chinese', 'ja': 'Japanese', 'ru': 'Russian',
     'it': 'Italian', 'pt': 'Portuguese'
 }
-
-
 # MongoDB Connection
 def get_mongo_connection():
     try:
@@ -50,13 +43,15 @@ def get_mongo_connection():
     except Exception as err:
         logging.error("An unexpected error occurred: %s", err)
         sys.exit(1)
+db_collection = get_mongo_connection()
+# Fetching all data from the collection
+data = list(db_collection.find())
 
+data
 # Cache configuration
 cache = TTLCache(maxsize=100, ttl=300)
-
 # OpenAI API client initialization
 client = OpenAI(api_key="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")
-
 # Function to get response from GPT-3.5-turbo
 async def gpt_get(prompt, model="gpt-3.5-turbo"):
     messages = [{"role": "user", "content": prompt}]
@@ -66,48 +61,43 @@ async def gpt_get(prompt, model="gpt-3.5-turbo"):
             temperature=0,
         )
     return response.choices[0].message.content.strip(), response.usage.prompt_tokens, response.usage.completion_tokens
-
 # Helper function to remove outer quotes
 def remove_outer_quotes(text):
     if text.startswith('"') and text.endswith('"'):
         return text[1:-1]
     return text
-
 # Function to parse classification and extraction response
 def parse_classification_and_extraction(response):
-    sections = {"Themes": [], "Main objectives": [], "Main outcomes": [], "Problem statement": [], "KPIs": []}
+    sections = {"Themes": [], "Main objectives": "", "Main outcomes": "", "Problem statement": "", "KPIs": ""}
     current_section = None
     
     for line in response.split("\n"):
         line = line.strip()
         if line.startswith("Themes:"):
             current_section = "Themes"
-            sections[current_section] = []
+            sections[current_section] = line[len("Themes:"):].strip().strip('[]').split(", ")
         elif line.startswith("Main objectives:"):
             current_section = "Main objectives"
-            sections[current_section] = []
+            sections[current_section] = line[len("Main objectives:"):].strip().strip('"')
         elif line.startswith("Main outcomes:"):
             current_section = "Main outcomes"
-            sections[current_section] = []
+            sections[current_section] = line[len("Main outcomes:"):].strip().strip('"')
         elif line.startswith("Problem statement:"):
             current_section = "Problem statement"
-            sections[current_section] = []
+            sections[current_section] = line[len("Problem statement:"):].strip().strip('"')
         elif line.startswith("KPIs:"):
             current_section = "KPIs"
-            sections[current_section] = []
-        elif current_section:
-            sections[current_section].append(remove_outer_quotes(line))
+            sections[current_section] = line[len("KPIs:"):].strip().strip('"')
     
-    # Join the sections content to create single strings
-    for key in sections:
-        sections[key] = " ".join(sections[key]).strip()
-    
-    return sections["Themes"], sections
+    # If Themes was not correctly parsed into a list, handle it
+    if isinstance(sections["Themes"], str):
+        sections["Themes"] = sections["Themes"].strip('[]').split(", ")
 
+    return sections["Themes"], sections
 # Function to extract and classify text from a webpage
 async def classify_and_extract_text(url):
     prompt = (
-        f"From the following Link {url}, classify the text into themes and extract relevant information:\n"
+        f"From the following Link {url}, classify the text into 5 of the following themes and extract relevant information:\n"
         "Themes:\n"
         "1. Adopt a gender-sensitive approach to climate change\n"
         "2. Biodiversity challenges in Egypt\n"
@@ -172,25 +162,31 @@ async def classify_and_extract_text(url):
         "- Main outcomes\n"
         "- Problem statement\n"
         "- KPIs"
+        "Save the extracted information in the following format in json format:\n"
+        "Themes: [Themes]\n"
+        "Main objectives: [Main objectives]\n"
+        "Main outcomes: [Main outcomes]\n"
+        "Problem statement: [Problem statement]\n"
+        "KPIs: [KPIs]"
     )
     
     response, input_tokens, output_tokens = await gpt_get(prompt)
+    # print(response)
     themes, extracted_info = parse_classification_and_extraction(response)
+    print(themes, extracted_info)
     
     return themes, extracted_info, input_tokens, output_tokens
-
+# asyncio.run(classify_and_extract_text("https://www.atlanticcouncil.org/in-depth-research-reports/report/egypt-stability-gcc-priority/"))
 # Function to summarize webpage
 async def summarize_webpage(url):
     prompt = f"Summarize the text from the following link in 5 lines: {url}"
     summary, input_tokens, output_tokens = await gpt_get(prompt)
     return summary, input_tokens, output_tokens
-
 # Function to perform sentiment analysis
 async def sentiment_analysis(summary):
     prompt = f"Analyze the sentiment of the following text and return 'positive', 'neutral', or 'negative': {summary}"
     sentiment, input_tokens, output_tokens = await gpt_get(prompt)
     return sentiment, input_tokens, output_tokens
-
 # Function to detect language
 def detect_language(text):
     try:
@@ -198,23 +194,12 @@ def detect_language(text):
     except Exception as e:
         logging.error("Error in language detection: %s", str(e))
         return 'Unknown'
-
+    
 # Function to analyze text from URL
 async def analyze_text(url):
     # themes, extracted_info, themes_input_tokens, themes_output_tokens = await classify_and_extract_text(url)
     summary, summary_input_tokens, summary_output_tokens = await summarize_webpage(url)
     sentiment, sentiment_input_tokens, sentiment_output_tokens = await sentiment_analysis(summary)
-    themesMap = {}
-    
-    
-    # for theme in themes:
-    #     dimension, pillars, indicators, issue_title = get_theme_details(theme)
-    #     themesMap[theme] = {
-    #         "Dimension": dimension,
-    #         "Pillars": pillars,
-    #         "Indicators": indicators,
-    #         "Issues title": issue_title
-    #     }
     
     return {
         'summary': summary.strip(),
@@ -227,7 +212,6 @@ async def analyze_text(url):
         # 'themes_input_tokens': themes_input_tokens,
         # 'themes_output_tokens': themes_output_tokens,
         # 'extracted_info': extracted_info,
-        'themesMap': themesMap
     }
 
 # Function to process each URL
@@ -250,22 +234,22 @@ async def process_url(session, item):
             'sentimentAnalysis': analysis_results['sentiment'],
             'sentiment_input_tokens': analysis_results['sentiment_input_tokens'],
             'sentiment_output_tokens': analysis_results['sentiment_output_tokens'],
-            'theme': analysis_results['themes'],
-            'theme_input_tokens': analysis_results['themes_input_tokens'],
-            'theme_output_tokens': analysis_results['themes_output_tokens'],
-            'issueObject': analysis_results['extracted_info'].get("Main objectives", "").strip(),
-            'issueOutcome': analysis_results['extracted_info'].get("Main outcomes", "").strip(),
-            'issueProblemStatment': analysis_results['extracted_info'].get("Problem statement", "").strip(),
-            'issueKPI': analysis_results['extracted_info'].get("KPIs", "").strip(),
-            'extracted_info_input_tokens': analysis_results['themes_input_tokens'] + analysis_results['themes_output_tokens'],
-            'extracted_info_output_tokens': analysis_results['summary_output_tokens'] + analysis_results['sentiment_output_tokens']
+            # 'theme': analysis_results['themes'],
+            # 'theme_input_tokens': analysis_results['themes_input_tokens'],
+            # 'theme_output_tokens': analysis_results['themes_output_tokens'],
+            # 'issueObject': analysis_results['extracted_info'].get("Main objectives", "").strip(),
+            # 'issueOutcome': analysis_results['extracted_info'].get("Main outcomes", "").strip(),
+            # 'issueProblemStatment': analysis_results['extracted_info'].get("Problem statement", "").strip(),
+            # 'issueKPI': analysis_results['extracted_info'].get("KPIs", "").strip(),
+            # 'extracted_info_input_tokens': analysis_results['themes_input_tokens'] + analysis_results['themes_output_tokens'],
+            # 'extracted_info_output_tokens': analysis_results['summary_output_tokens'] + analysis_results['sentiment_output_tokens']
         }
 
         return result
     except Exception as e:
         logging.error("Error processing URL %s: %s", item.get('link'), str(e))
         return {'_id': item.get('_id'), 'link': item.get('link'), 'error': str(e)}
-
+    
 # Function to update emerging issues data in MongoDB
 async def update_emerging_issues_data(collection):
     data = pd.DataFrame(list(collection.find()))
@@ -283,6 +267,7 @@ async def update_emerging_issues_data(collection):
         results = await asyncio.gather(*tasks)
 
         for result in results:
+            logging.info(result)
             if 'error' not in result:
                 row = data.loc[data['_id'] == result['_id']].iloc[0]
                 update_dict = {
@@ -319,7 +304,6 @@ async def update_emerging_issues_data(collection):
     total_cost = input_cost + output_cost
 
     logging.info(f"Total cost: ${total_cost:.6f}")
-
 if __name__ == "__main__":
     try:
         db_collection = get_mongo_connection()

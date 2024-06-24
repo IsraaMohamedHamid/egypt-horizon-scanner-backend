@@ -12,7 +12,6 @@ from langdetect import detect, DetectorFactory
 from openai import OpenAI
 import nest_asyncio
 import re
-
 # Apply the nest_asyncio patch
 nest_asyncio.apply()
 
@@ -24,14 +23,12 @@ nltk.download('vader_lexicon')
 
 # Ensure deterministic behavior in language detection
 DetectorFactory.seed = 0
-
 # Language mapping dictionary
 language_mapping = {
     'en': 'English', 'ar': 'Arabic', 'fr': 'French', 'es': 'Spanish',
     'de': 'German', 'zh': 'Chinese', 'ja': 'Japanese', 'ru': 'Russian',
     'it': 'Italian', 'pt': 'Portuguese'
 }
-
 # MongoDB Connection
 def get_mongo_connection():
     try:
@@ -49,10 +46,8 @@ def get_mongo_connection():
     except Exception as err:
         logging.error("An unexpected error occurred: %s", err)
         sys.exit(1)
-
 # Cache configuration
 cache = TTLCache(maxsize=100, ttl=300)
-
 # OpenAI API client initialization
 client = OpenAI(api_key="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")
 
@@ -65,15 +60,44 @@ async def gpt_get(prompt, model="gpt-3.5-turbo"):
             temperature=0,
         )
     return response.choices[0].message.content.strip(), response.usage.prompt_tokens, response.usage.completion_tokens
-
 def remove_outer_quotes(text):
     if text.startswith('"') and text.endswith('"'):
         return text[1:-1]
+    elif text.startswith("'") and text.endswith("'"):
+        return text[1:-1]
     return text
+# Function to parse classification and extraction response
+def parse_classification_and_extraction(response):
+    # Remove the outer curly braces and strip any leading/trailing whitespace
+    response = response.strip()[1:-1].strip()
 
+    # print(response)
+
+    sections = response.strip().split(",\n")
+    
+    data_dict = {}
+    for section in sections:
+        key, value = section.split(": ", 1)
+        key = key.strip().strip('"')
+        
+        if key == "Themes":
+            # Convert the string representation of the list into an actual list
+            value = value.strip('[]').replace('"', '').split(', ')
+        else:
+            value = value.strip('"').replace("'", '')
+        
+        data_dict[key] = value
+
+    # print(data_dict)
+    
+    # Convert dictionary to JSON
+    json_data = json.dumps(data_dict, indent=4)
+
+    return data_dict["Themes"], data_dict["Main objectives"], data_dict["Main outcomes"], data_dict["Problem statement"], data_dict["KPIs"]
+# Function to extract and classify text from a webpage
 async def classify_and_extract_text(url):
     prompt = (
-        f"From the following Link {url}, classify the text into 5 of the following themes and extract relevant information:\n"
+        f"From the following Link {url}, classify the text into maximum 5 of the following themes and extract relevant information:\n"
         "Themes:\n"
         "1. Adopt a gender-sensitive approach to climate change\n"
         "2. Biodiversity challenges in Egypt\n"
@@ -137,121 +161,37 @@ async def classify_and_extract_text(url):
         "- Main objectives\n"
         "- Main outcomes\n"
         "- Problem statement\n"
-        "- KPIs"
+        "- KPIs\n"
+        "Save the extracted information in the following format in json format the keys are Themes, Main objectives, Main outcomes, Problem statement, KPIs\n"
+        "The values are list of strings"
+        # "Themes: [Themes]\n"
+        # "Main objectives: [Main objectives]\n"
+        # "Main outcomes: [Main outcomes]\n"
+        # "Problem statement: [Problem statement]\n"
+        # "KPIs: [KPIs]"
     )
     
     response, input_tokens, output_tokens = await gpt_get(prompt)
-    themes, extracted_info = parse_classification_and_extraction(response)
+    # print(response)
+    themes, mainObjectives, mainOutcomes, problemStatment, kPIs = parse_classification_and_extraction(response)
+    # print(themes)
+    # print(mainObjectives)
+    # print(mainOutcomes)
+    # print(problemStatment)
+    # print(kPIs)
     
-    extracted_data = {
-        "Themes": themes,
-        "Main objectives": extracted_info.get("Main objectives", ""),
-        "Main outcomes": extracted_info.get("Main outcomes", ""),
-        "Problem statement": extracted_info.get("Problem statement", ""),
-        "KPIs": extracted_info.get("KPIs", "")
-    }
-    
-    return extracted_data, input_tokens, output_tokens
-
-# Helper function to parse the classification and extraction response
-def parse_classification_and_extraction(response):
-    themes = []
-    extracted_info = {
-        "Main objectives": "",
-        "Main outcomes": "",
-        "Problem statement": "",
-        "KPIs": ""
-    }
-    
-    lines = response.split("\n")
-    for line in lines:
-        if any(theme in line for theme in themes_list):
-            themes.append(line.strip())
-        elif "Main objectives:" in line:
-            extracted_info["Main objectives"] = line.split("Main objectives:")[1].strip()
-        elif "Main outcomes:" in line:
-            extracted_info["Main outcomes"] = line.split("Main outcomes:")[1].strip()
-        elif "Problem statement:" in line:
-            extracted_info["Problem statement"] = line.split("Problem statement:")[1].strip()
-        elif "KPIs:" in line:
-            extracted_info["KPIs"] = line.split("KPIs:")[1].strip()
-    
-    return themes, extracted_info
-
-# List of themes to check against in the response
-themes_list = [
-    "Adopt a gender-sensitive approach to climate change",
-    "Biodiversity challenges in Egypt",
-    "Challenges Facing the Implementation of Education for Sustainable Development in Egypt",
-    "Challenges of Egyptian food exports to EU, US",
-    "Climate change obstacles",
-    "Digital government services",
-    "Digital Infrastructure",
-    "Economic issues",
-    "Egypt's neighbouring countries and partners",
-    "Egyptian Foreign Policy: Opportunities and Challenges in 2024",
-    "Exchange rate and foreign currency",
-    "Exclusion of the Egyptian SMEs in the banking system",
-    "Food security and global trade challenges",
-    "Funding Fintech",
-    "Governmental changes",
-    "Green jobs",
-    "Hard currency shortage devaluation and decrease domestic demand",
-    "Health issues",
-    "Heatwaves reduce crops",
-    "High food prices",
-    "High number of doctors resign",
-    "Illegal informal employment",
-    "Infrastructure investments",
-    "Innovate financing tools for the energy sector",
-    "Lack of access to data, financial and technical support for the private sector",
-    "Lack of adequate funding to transition into green growth",
-    "Logistics in Africa: Status, Challenges & Routes for Egyptian Exports",
-    "Losses of the national economy",
-    "Low efficiency of public investment",
-    "Modern and advanced infrastructure",
-    "Natural gas and wheat supply",
-    "Natural gas decline and power cuts",
-    "Nile Dam",
-    "Overpopulation",
-    "Palestine, Sudan and EU policy",
-    "Plastic waste mismanagement in Egypt",
-    "Possible disconnects between the Government's macro policy aims for the green transition as well as the on-ground perceptions, concerns, and experiences of private sector actors",
-    "Problem of Illiteracy",
-    "Raising sea levels make Delta a vulnerable hotspot",
-    "Rising fuel prices",
-    "Rising sea levels",
-    "School system caution threatening losing control",
-    "Seasonal soil salinity and land degradation",
-    "Sovereign Green bond allocation",
-    "State of infrastructure in Egypt",
-    "Stigma and discrimination against HIV",
-    "Structural and cyclical determinants in Egypt for accessing to finance",
-    "Student density in classrooms",
-    "Sugar crisis",
-    "Sustainable finance",
-    "Targeting issues",
-    "The excessive bureaucracy and limited access to credit for the private investment",
-    "The insufficient marketing efforts for MICE tourism",
-    "Unemployment",
-    "Water management challenges",
-    "Water scarcity and food production",
-    "Water-Energy-Food nexus",
-    "Wheat shortage and high prices"
-]
-
+    return themes, remove_outer_quotes(mainObjectives), remove_outer_quotes(mainOutcomes), remove_outer_quotes(problemStatment), remove_outer_quotes(kPIs), input_tokens, output_tokens
+asyncio.run(classify_and_extract_text("https://www.atlanticcouncil.org/in-depth-research-reports/report/egypt-stability-gcc-priority/"))
 # Function to summarize webpage
 async def summarize_webpage(url):
     prompt = f"Summarize the text from the following Link in 5 lines: {url}"
     summary, input_tokens, output_tokens = await gpt_get(prompt)
     return summary, input_tokens, output_tokens
-
 # Function to perform sentiment analysis
 async def sentiment_analysis(summary):
     prompt = f"Analyze the sentiment of the following text and return 'positive', 'neutral', or 'negative': {summary}"
     sentiment, input_tokens, output_tokens = await gpt_get(prompt)
     return sentiment, input_tokens, output_tokens
-
 # Function to detect language
 def detect_language(text):
     try:
@@ -259,15 +199,13 @@ def detect_language(text):
     except Exception as e:
         logging.error("Error in language detection: %s", str(e))
         return 'Unknown'
-
 # Function to analyze text from URL
 async def analyze_text(url):
-    extracted_info, themes_input_tokens, themes_output_tokens = await classify_and_extract_text(url)
+    themes, mainObjectives, mainOutcomes, problemStatment, kPIs, themes_input_tokens, themes_output_tokens = await classify_and_extract_text(url)
    
-    # print(extracted_info)
     summary, summary_input_tokens, summary_output_tokens = await summarize_webpage(url)
     # sentiment, sentiment_input_tokens, sentiment_output_tokens = await sentiment_analysis(summary)
-   
+        
     return {
         'summary': summary.strip(),
         'summary_input_tokens': summary_input_tokens,
@@ -277,9 +215,13 @@ async def analyze_text(url):
         # 'sentiment_output_tokens': sentiment_output_tokens,
         'themes_input_tokens': themes_input_tokens,
         'themes_output_tokens': themes_output_tokens,
-        'extracted_info': extracted_info
+        'themes': themes,
+        'mainObjectives': mainObjectives,
+        'mainOutcomes': mainOutcomes,
+        'problemStatment': problemStatment,
+        'kPIs': kPIs
     }
-
+asyncio.run(analyze_text("https://www.atlanticcouncil.org/in-depth-research-reports/report/egypt-stability-gcc-priority/"))
 # Function to process each URL
 async def process_url(session, item):
     try:
@@ -298,13 +240,13 @@ async def process_url(session, item):
             'Description': analysis_results['summary'],
             'summary_input_tokens': analysis_results['summary_input_tokens'],
             'summary_output_tokens': analysis_results['summary_output_tokens'],
-            'Themes': analysis_results['extracted_info']['Themes'],
+            'Themes': analysis_results['themes'],
             'theme_input_tokens': analysis_results['themes_input_tokens'],
             'theme_output_tokens': analysis_results['themes_output_tokens'],
-            'MainObjects': [analysis_results['extracted_info']["Main objectives"]],
-            'MainOutcomes': [analysis_results['extracted_info']["Main outcomes"]],
-            'ProblemStatement': [analysis_results['extracted_info']["Problem statement"]],
-            'KPIs': [analysis_results['extracted_info']["KPIs"]],
+            'MainObjects': [analysis_results['mainObjectives']],
+            'MainOutcomes': [analysis_results['mainOutcomes']],
+            'ProblemStatement': [analysis_results["problemStatment"]],
+            'KPIs': [analysis_results['kPIs']],
         }
         
         # print(result)
@@ -313,7 +255,6 @@ async def process_url(session, item):
     except Exception as e:
         logging.error("Error processing URL %s: %s", item.get('Link'), str(e))
         return {'_id': item.get('_id'), 'Link': item.get('Link'), 'error': str(e)}
-
 # Function to update emerging issues data in MongoDB
 async def update_emerging_issues_data(collection):
     data = pd.DataFrame(list(collection.find()))
@@ -366,7 +307,6 @@ async def update_emerging_issues_data(collection):
     total_cost = input_cost + output_cost
 
     logging.info(f"Total cost: ${total_cost:.6f}")
-
 if __name__ == "__main__":
     try:
         db_collection = get_mongo_connection()
