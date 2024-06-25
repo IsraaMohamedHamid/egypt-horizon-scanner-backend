@@ -170,16 +170,39 @@ export const logIn = async (req, res) => {
 // Register User
 export const register = async (req, res) => {
   try {
+    // Check if user already exists
+    const existingUser = await User.findOne({ email: req.body.email });
+    if (existingUser) {
+      return res.status(409).json({ msg: "Email already in use" });
+    }
+
+    // Create new user with hashed password
     const user = new User({
+
       username: req.body.username,
       password: req.body.password,
       email: req.body.email,
+      userPhotoName: req.body.userPhotoName,
+      userPhotoFile: req.body.userPhotoFile,
+      userPhotoURL: req.body.userPhotoURL,
+      userLanguage: req.body.userLanguage,
+      userPhoneNumber: req.body.userPhoneNumber,
+      optionalPhoneNumber: req.body.optionalPhoneNumber,
+      userGender: req.body.userGender,
+      userDateOfBirth: req.body.userDateOfBirth,
+      phoneNumber: req.body.phoneNumber,
+      dateUpdated: new Date(),
+      dateCreate: new Date(),
+      fullName: req.body.fullName,
+      firstName: req.body.firstName,
+      lastName: req.body.lastName,
     });
 
+    // Save user and respond
     await user.save();
-    res.status(200).json({ msg: "User Successfully Registered" });
+    res.status(201).json({ msg: "User Successfully Registered" });
   } catch (err) {
-    res.status(403).json({ msg: err });
+    res.status(500).json({ msg: "Server error during registration" });
   }
 };
 
