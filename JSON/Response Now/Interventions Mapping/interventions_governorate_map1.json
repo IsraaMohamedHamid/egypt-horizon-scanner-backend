@@ -1,0 +1,272 @@
+[
+    {
+        "ID": 1,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Alexandria",
+        "Governorate_Name_AR": "الاسكندرية\n",
+        "Governorate_PCODE": "EG02",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 2,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Assiut",
+        "Governorate_Name_AR": "أسيوط",
+        "Governorate_PCODE": "EG25",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 3,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Aswan",
+        "Governorate_Name_AR": "أسوان",
+        "Governorate_PCODE": "EG28",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 4,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Behera",
+        "Governorate_Name_AR": "البحيرة\n",
+        "Governorate_PCODE": "EG18",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 5,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Beni Suef",
+        "Governorate_Name_AR": "بنى سويف\n",
+        "Governorate_PCODE": "EG22",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 6,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Cairo",
+        "Governorate_Name_AR": "القاهرة",
+        "Governorate_PCODE": "EG01",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 7,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Dakahlia",
+        "Governorate_Name_AR": "الدقهلية",
+        "Governorate_PCODE": "EG12",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 8,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Damietta",
+        "Governorate_Name_AR": "دمياط\n",
+        "Governorate_PCODE": "EG11",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 9,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Fayoum",
+        "Governorate_Name_AR": "الفيوم",
+        "Governorate_PCODE": "EG23",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 10,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Gharbia",
+        "Governorate_Name_AR": "الغربية",
+        "Governorate_PCODE": "EG16",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 11,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Giza",
+        "Governorate_Name_AR": "الجيزة",
+        "Governorate_PCODE": "EG21",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 12,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Ismailia",
+        "Governorate_Name_AR": "الإسماعيلية\n",
+        "Governorate_PCODE": "EG19",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 13,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Kafr El-Shikh",
+        "Governorate_Name_AR": "كفر الشيخ\n",
+        "Governorate_PCODE": "EG15",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 14,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Kalyoubia",
+        "Governorate_Name_AR": "القليوبية\n",
+        "Governorate_PCODE": "EG14",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 15,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Luxor",
+        "Governorate_Name_AR": "مدينة الأقصر",
+        "Governorate_PCODE": "EG29",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 16,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Matrouh",
+        "Governorate_Name_AR": "مطروح",
+        "Governorate_PCODE": "EG33",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 17,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Menia",
+        "Governorate_Name_AR": "المنيا\n",
+        "Governorate_PCODE": "EG24",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 18,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Menoufia",
+        "Governorate_Name_AR": "المنوفية\n",
+        "Governorate_PCODE": "EG17",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 19,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "New Valley",
+        "Governorate_Name_AR": "الوادى الجديد",
+        "Governorate_PCODE": "EG32",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 20,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "North Sinai",
+        "Governorate_Name_AR": "شمال سيناء\n",
+        "Governorate_PCODE": "EG34",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 21,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Port Said",
+        "Governorate_Name_AR": "بورسعيد",
+        "Governorate_PCODE": "EG03",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 22,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Qena",
+        "Governorate_Name_AR": "قنا",
+        "Governorate_PCODE": "EG27",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 23,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Red Sea",
+        "Governorate_Name_AR": "البحر الأحمر",
+        "Governorate_PCODE": "EG31",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 24,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Sharkia",
+        "Governorate_Name_AR": "الشرقية\n",
+        "Governorate_PCODE": "EG13",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 25,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "South Sinai",
+        "Governorate_Name_AR": "جنوب سيناء",
+        "Governorate_PCODE": "EG35",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 26,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Suez",
+        "Governorate_Name_AR": "السويس",
+        "Governorate_PCODE": "EG04",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    },
+    {
+        "ID": 27,
+        "Type": "MunicipalDivision",
+        "Governorate_Name_EN": "Suhag",
+        "Governorate_Name_AR": "سوهاج",
+        "Governorate_PCODE": "EG26",
+        "Country_EN": "Egypt",
+        "Country_AR": "مِصر",
+        "Country_PCODE": "EG"
+    }
+]

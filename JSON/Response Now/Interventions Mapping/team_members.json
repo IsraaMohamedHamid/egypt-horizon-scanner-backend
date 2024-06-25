@@ -1,0 +1,48 @@
+[
+    {
+        "teamMemberName": "Engy",
+          "teamMemberImage": "assets/images/Engy.png",
+          "teamMemberBio": "Engy is the Head of Exploration at the UNDP Accelerator Lab, part of a global network of 91 labs. She tackles sustainable development challenges using collective intelligence, systems thinking, future thinking, and unconventional data sources. Engy has nine years of experience in market research and consulting across Arab, African (including Tanzania), American, and Western European markets. She has provided consulting and market research services to startups, governments, the private sector, and international organizations such as GIZ, UNICEF, and UNIDO. She contributed to updating Egypt's 2030 Sustainable Development Strategy and developed an Export Strategy Roadmap for Egypt's tomato concentrate industry. Engy holds a Dual MA in Law and Economics from Hamburg and Cairo Universities, and a BS in Economics and Statistics from Cairo University - English Section. She also founded Unica Research, the first market research agency dedicated to startups, SMEs, and entrepreneurs. Unica Research addresses the specific needs of this segment, often hampered by affordability issues, through partnerships with management consultancies, marketing agencies, field agencies, and supporting organizations to provide top-tier research, training, and consulting practices locally, regionally, and globally."
+    },
+    {
+        "teamMemberName": "Wigdan",
+          "teamMemberImage": "assets/images/Wigdan.png",
+          "teamMemberBio": "Wigdan Seedahmed brings over 12 years of international development and strategic management experience across Sub-Saharan Africa, MENA, Europe, and Central Asia. She has worked in various challenging contexts, driving transformative impact and leveraging digital solutions. With expertise in innovation management, project implementation, stakeholder engagement, and digital-oriented solutions, she has led diverse teams in international organizations, social enterprises, the private sector, and non-profits. Her collaboration with multiple governments includes involvement in the peace and security sector. Wigdan holds a master’s degree in international affairs from Sciences Po Paris and a bachelor’s degree in chemical engineering, employing advanced political and economic analysis to address complex challenges effectively."
+    },
+    {
+        "teamMemberName": "Ahmed",
+          "teamMemberImage": "assets/images/Ahmed.png",
+          "teamMemberBio": "A recent graduate with a Master’s degree in Artificial Intelligence and Data Science, and a Diploma in Business Intelligence and Big Data Development from the Information Technology Institute (ITI), possesses a strong passion for machine learning, natural language processing, and large language models (LLMs). With a solid foundation in programming, they are eager to expand their skills and make meaningful contributions to the field. Actively seeking opportunities to gain practical experience and further develop their expertise."
+    },
+    {
+        "teamMemberName": "Pakinam",
+          "teamMemberImage": "assets/images/Pakinam.png",
+          "teamMemberBio": "Pakinam Moussa is an accomplished research consultant with expertise in data collection, analysis, and management, proficient in both qualitative and quantitative research methodologies. She has significant experience with international organizations, including the UNDP, Mo Ibrahim Foundation, and the UN World Food Programme, where she contributed to market analysis, economic studies, and project management across various regions. She holds a Master of Arts in Development Studies from the University of Sussex and a Bachelor of Science in Economics from John Carroll University. Fluent in Arabic and English with basic French, Pakinam also possesses skills in PowerPoint, Microsoft Excel, NVivo, STATA, ODK, and has a foundational knowledge of PowerBI, SPSS, SQL, and ArcGIS. She has also held internships with PwC and Renewable World, contributing to CSR advisory and corporate research. Her notable achievements include leading market assessments in Syria and conducting socio-economic impact research in Ghana, recognized by the Ghanaian Ministry of Education."
+    },
+    {
+        "teamMemberName": "Israa",
+          "teamMemberImage": "assets/images/Israa.png",
+          "teamMemberBio": "Israa  Bashir is a dedicated software engineer with a focus on machine learning and software development, passionate about solving developmental issues such as water scarcity, agricultural efficiency, and renewable energy. She combines technical expertise with a strong belief in cultural values and principles, driving successful decision-making and strategic planning. As a clean code advocate, Israa emphasizes writing code that is maintainable, readable, and efficient. She is also a strong proponent of AI for good, leveraging artificial intelligence to create positive social impact and address global challenges. Israa graduated with a bachelor's degree in Electrical and Electronic Engineering with a minor in Software Engineering from the University of Khartoum and is currently pursuing a master's degree in AI at the University of Edinburgh."
+    },
+    {
+        "teamMemberName": "Samhir",
+          "teamMemberImage": "assets/images/Samahir.png",
+          "teamMemberBio": "Samahir Elkurdi has over a decade of experience in Finance, Human Resources Management, Development, and Political Economy Research and Analysis. She has worked in various sectors, including diplomatic missions, innovation and technology corporations, and organizations focused on political economy and labor economics.  Notably, she led the PTP CU East Africa team at Ericsson, worked with the UK Diplomatic Mission to Sudan, and served as a financial analyst and accounts management specialist at Libya Oil Holdings. Currently, Samahir is a Finance and Administration Assistant at CLU, a network of universities, trade unions, and labor foundations promoting social justice and fair globalization.  Her career has taken her to Sudan, East Africa, Germany, and Egypt.  Samahir holds a B.Sc. Honors in Economics and Economic Development from the University of Khartoum. She is pursuing a graduate degree in Global Political Economy and Development at Universität Kassel and has completed Advanced Studies in Designing Strategies and Projects for Humanitarian Actions at the University of Geneva."
+    },
+    {
+        "teamMemberName": "Mariam",
+          "teamMemberImage": "assets/images/Mariam.png",
+          "teamMemberBio": "Mariam is a multipotentialite professional, development practitioner with more than 5 years of experience in entrepreneurship, capacity building and youth empowerment. She earned her bachelor's degree in economics from the faculty of economics and political science since then she started her diversified professional journey by working on a variety of projects with INGOs and NGOs including UNDP, Terre des hommes, Goethe Institute Cairo, Life Makers Foundation, and NilePreneurs initiative- Nile University to foster the application of SDGs through working closely with a variety of stakeholders from governmental sector, private sector, civil society, minority and the local community. Mariam strives continuously to learn and enlighten her mind with diverse perspectives to widen and renew her insights towards the world, she believes in the power of interlinking diverse fields, and non-linear approaches and aligning that with her values of continuous learning and participation"
+    }
+    ,
+    {
+        "teamMemberName": "Maad",
+          "teamMemberImage": "assets/images/Maad.png",
+          "teamMemberBio": "Maad Malik holds a Bachelor of Law from Cairo University. She is an independent filmmaker, trainer, and facilitator with experience working with grassroots and refugee communities, mainly children and youth, in both Sudan and Egypt. Passionate about art and culture, she uses creative art expression and gamification concepts to empower youth and women. An advocate for economic, social, and cultural rights, she supports the implementation of comprehensive programs geared towards women and youth economic empowerment through income generation. Currently, she works for Save the Children International in Egypt, supporting vulnerable populations."
+    },
+    {
+        "teamMemberName": "Isra",
+          "teamMemberImage": "assets/images/israam.png",
+          "teamMemberBio": "Isra Elamin is a mathematician who completed a B.Sc. (Honors) in Mathematics and Computer Sciences, followed by a Master’s degree in Computer Sciences. She has experience in research and the academic field, specializing in mathematics and data analysis. Her primary interests lie in mathematical modeling and algorithm development."
+    }
+]

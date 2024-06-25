@@ -92,6 +92,7 @@ import serviceOfferInstitutions from './Route/Service Offer/institutionsRoutes.j
 import serviceOfferStakeholders from './Route/Service Offer/stakeholdersRoutes.js';
 import user from './Route/Users/user.js';
 import userHistory from './Route/Users/user_history.js';
+import ehsTeam from './Route/Users/ehs_team.js';
 import userExperience from './Route/User Experience/userExperiencesRoutes.js';
 
 // Use the imported routers
@@ -125,6 +126,7 @@ egyptHorizonScanner.use('/service-offer/stakeholders', serviceOfferStakeholders)
 // User experience
 egyptHorizonScanner.use('/user', user);
 egyptHorizonScanner.use('/user', userHistory);
+egyptHorizonScanner.use('/user', ehsTeam);
 
 // User experience
 egyptHorizonScanner.use('/user-experience', userExperience);
