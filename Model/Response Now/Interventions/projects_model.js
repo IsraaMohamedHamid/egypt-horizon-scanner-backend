@@ -9,15 +9,13 @@ import mongoose from 'mongoose';
 export const ProjectSchema = new mongoose.Schema({
 
   id: {
-    type: String,
-    required: [true]
+    type: String
   },
   projectNo: {
     type: Number
   },
   projectName: {
-    type: String,
-    required: [true]
+    type: String
   },
   projectDetail: {
     type: String

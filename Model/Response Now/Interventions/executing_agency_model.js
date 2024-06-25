@@ -3,8 +3,7 @@ import mongoose from 'mongoose';
 // Create geolocation Schema
 export const ExecutingAgencySchema = new mongoose.Schema({
     executingAgencyName: {
-        type: String,
-        required: [true]
+        type: String
     },
     executingAgencyDepartment: {
         type: String
@@ -13,12 +12,10 @@ export const ExecutingAgencySchema = new mongoose.Schema({
         type: String
     },
     executingAgencyEmail: {
-        type: String,
-        unique: true
+        type: String
     },
     executingAgencyWebsite: {
-        type: String,
-        unique: true
+        type: String
     },
     executingAgencyPhotoUrl: {
         type: String
