@@ -91,6 +91,7 @@ import serviceOfferEvents from './Route/Service Offer/eventsRoutes.js';
 import serviceOfferInstitutions from './Route/Service Offer/institutionsRoutes.js';
 import serviceOfferStakeholders from './Route/Service Offer/stakeholdersRoutes.js';
 import user from './Route/Users/user.js';
+import userHistory from './Route/Users/user_history.js';
 import userExperience from './Route/User Experience/userExperiencesRoutes.js';
 
 // Use the imported routers
@@ -123,6 +124,7 @@ egyptHorizonScanner.use('/service-offer/stakeholders', serviceOfferStakeholders)
 
 // User experience
 egyptHorizonScanner.use('/user', user);
+egyptHorizonScanner.use('/user', userHistory);
 
 // User experience
 egyptHorizonScanner.use('/user-experience', userExperience);

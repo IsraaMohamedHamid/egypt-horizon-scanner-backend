@@ -53,6 +53,9 @@ export const userExperiencesSchema = new mongoose.Schema({
     newEmergingIssue: {
         type: String,
     },
+    newEmergingIssueDescription: {
+        type: String,
+    },
     interventionSuggestion: {
         type: String,
     },
