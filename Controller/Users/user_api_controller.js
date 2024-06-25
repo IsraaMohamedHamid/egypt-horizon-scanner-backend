@@ -176,26 +176,29 @@ export const register = async (req, res) => {
       return res.status(409).json({ msg: "Email already in use" });
     }
 
-    // Create new user with hashed password
-    const user = new User({
-
+    // Create new user
+    const user = new registerUser({
+      prefix: req.body.prefix,
       username: req.body.username,
-      password: req.body.password,
-      email: req.body.email,
+      fullName: req.body.fullName,
+      firstName: req.body.firstName,
+      lastName: req.body.lastName,
+      userPhotoURL: req.body.userPhotoURL,
       userPhotoName: req.body.userPhotoName,
       userPhotoFile: req.body.userPhotoFile,
-      userPhotoURL: req.body.userPhotoURL,
+      nationality: req.body.nationality,
+      occupation: req.body.occupation,
+      email: req.body.email,
+      password: req.body.password,
+      confirmedPassword: req.body.confirmedPassword,
       userLanguage: req.body.userLanguage,
       userPhoneNumber: req.body.userPhoneNumber,
       optionalPhoneNumber: req.body.optionalPhoneNumber,
       userGender: req.body.userGender,
       userDateOfBirth: req.body.userDateOfBirth,
       phoneNumber: req.body.phoneNumber,
-      dateUpdated: new Date(),
-      dateCreate: new Date(),
-      fullName: req.body.fullName,
-      firstName: req.body.firstName,
-      lastName: req.body.lastName,
+      dateUpdated: req.body.dateUpdated,
+      dateCreate: req.body.dateCreate,
     });
 
     // Save user and respond
