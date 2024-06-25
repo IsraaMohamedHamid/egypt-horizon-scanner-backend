@@ -28,10 +28,10 @@ router.get('/getAllUserHistories/', getAllUserHistories);
 router.get('/getUserHistoryById/:id', getUserHistoryById);
 
 // Update a UserHistory by ID
-router.put('/updateUserHistory/:id/', updateUserHistory);
+router.post('/updateUserHistory/:id/', updateUserHistory);
 
 // Update a UserHistory by Name
-router.put('/updateUserHistoryByName/:userHistoryName/:userHistoryEmail', updateUserHistoryByName);
+router.post('/updateUserHistoryByName/:userHistoryName/:userHistoryEmail', updateUserHistoryByName);
 
 // Delete a UserHistory by ID
 router.delete('/deleteUserHistory/:id/', deleteUserHistory);

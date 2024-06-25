@@ -27,9 +27,9 @@ export const userHistorySchema = new mongoose.Schema({
     },
 })
 
-export const UserHistoryhModel = mongoose.model('user_history', userHistorySchema, 'user_history');
+export const UserHistoryModel = mongoose.model('user_history', userHistorySchema, 'user_history');
 
 export default {
     userHistorySchema,
-    UserHistoryhModel
+    UserHistoryModel
 };

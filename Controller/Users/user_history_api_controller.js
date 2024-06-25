@@ -3,14 +3,14 @@
 ///---------------------- FILES ----------------------///
 import {
   userHistorySchema,
-  UserHistoryhModel
+  UserHistoryModel
 } from '../../Model/Users/user_history_model.js';
 
 ///---------------------- CONTROLLERS ----------------------///
 
 // Create a new UserHistory
 export async function createUserHistory(req, res) {
-  const newUserHistory = new userHistorySchema(req.body);
+  const newUserHistory = new UserHistoryModel(req.body);
   try {
     await newUserHistory.save();
     res.status(201).json(newUserHistory);
@@ -24,7 +24,7 @@ export async function createUserHistory(req, res) {
 // Get all UserHistories
 export async function getAllUserHistories(req, res) {
   try {
-    const userHistories = await UserHistoryhModel.find();
+    const userHistories = await UserHistoryModel.find();
     res.json(userHistories);
   } catch (error) {
     res.status(500).json({
@@ -36,7 +36,7 @@ export async function getAllUserHistories(req, res) {
 // Get a single UserHistory by ID
 export async function getUserHistoryById(req, res) {
   try {
-    const userHistories = await UserHistoryhModel.findById(req.params.id);
+    const userHistories = await UserHistoryModel.findById(req.params.id);
     if (!userHistories) return res.status(404).json({
       message: 'UserHistory not found'
     });
@@ -51,7 +51,7 @@ export async function getUserHistoryById(req, res) {
 // Update a UserHistory by ID
 export async function updateUserHistory(req, res) {
   try {
-    const updatedUserHistory = await UserHistoryhModel.findByIdAndUpdate(req.params.id, req.body, {
+    const updatedUserHistory = await UserHistoryModel.findByIdAndUpdate(req.params.id, req.body, {
       new: true
     });
     res.json(updatedUserHistory);
@@ -65,18 +65,14 @@ export async function updateUserHistory(req, res) {
 // Update an UserHistory by Name
 export async function updateUserHistoryByName(req, res) {
   try {
-    const updatedUserHistory = await UserHistoryhModel.findOneAndUpdate(
+    const updatedUserHistory = await UserHistoryModel.findOneAndUpdate(
       {
         username: req.params.userHistoryName,
         email: req.params.userHistoryEmail,
       }, // Use an object to specify the query criteria
       req.body, // Update document
-      { new: true } // Options
+      { new: true, upsert: true } // Options including upsert
     );
-
-    if (!updatedUserHistory) {
-      return res.status(404).json({ message: "UserHistory not found" });
-    }
 
     res.json(updatedUserHistory);
   } catch (error) {
@@ -89,7 +85,7 @@ export async function updateUserHistoryByName(req, res) {
 // Delete a UserHistory by ID
 export async function deleteUserHistory(req, res) {
   try {
-    await UserHistoryhModel.findByIdAndDelete(req.params.id);
+    await UserHistoryModel.findByIdAndDelete(req.params.id);
     res.json({
       message: 'UserHistory deleted'
     });
@@ -103,7 +99,7 @@ export async function deleteUserHistory(req, res) {
 // Update an UserHistory by Name
 export async function deleteUserHistoryByName(req, res) {
   try {
-    const deletedUserHistory = await UserHistoryhModel.findOneAndDelete(
+    const deletedUserHistory = await UserHistoryModel.findOneAndDelete(
       {
         userHistoryName: req.params.userHistoryName,
         userHistoryEmail: req.params.userHistoryEmail
