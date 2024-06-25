@@ -67,8 +67,8 @@ export async function updateUserHistoryByName(req, res) {
   try {
     const updatedUserHistory = await UserHistoryhModel.findOneAndUpdate(
       {
-        userHistoryName: req.params.userHistoryName,
-        userHistoryEmail: req.params.userHistoryEmail,
+        username: req.params.userHistoryName,
+        email: req.params.userHistoryEmail,
       }, // Use an object to specify the query criteria
       req.body, // Update document
       { new: true } // Options
