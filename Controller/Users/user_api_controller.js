@@ -11,6 +11,7 @@ const router = express.Router();
 import multer from "multer";
 import path from "path";
 import fs from "fs";
+import bycrpt from "bcrypt";
 
 ///---------------------- CONTROLLERS ----------------------///
 // Adding and update profile image
@@ -170,42 +171,46 @@ export const logIn = async (req, res) => {
 // Register User
 export const register = async (req, res) => {
   try {
-    // Check if user already exists
-    const existingUser = await User.findOne({ email: req.body.email });
-    if (existingUser) {
-      return res.status(409).json({ msg: "Email already in use" });
+
+    // Check if the username already exists
+    const usernameExists = await User.findOne({ username: req.body.username });
+    if (usernameExists) {
+      return res.status(403).json({ msg: "Username already exists" });
     }
 
-    // Create new user
+    // Check if the email already exists
+    const emailExists = await User.findOne({ email: req.body.email });
+    if (emailExists) {
+      return res.status(403).json({ msg: "Email already exists" });
+    }
+
+    // Check if the password and confirmed password match
+    if (req.body.password !== req.body.confirmedPassword) {
+      return res.status(403).json({ msg: "Passwords do not match" });
+    }
+
+    // Hash the password
+    const hashedPassword = await bycrpt.hash(req.body.password, 10);
+    const hashedConfirmedPassword = await bycrpt.hash(req.body.password, 10);
+
+    // Create a new user
     const user = new registerUser({
-      prefix: req.body.prefix,
       username: req.body.username,
-      fullName: req.body.fullName,
       firstName: req.body.firstName,
       lastName: req.body.lastName,
-      userPhotoURL: req.body.userPhotoURL,
-      userPhotoName: req.body.userPhotoName,
-      userPhotoFile: req.body.userPhotoFile,
-      nationality: req.body.nationality,
-      occupation: req.body.occupation,
+      password: hashedPassword,
+      confirmedPassword: hashedConfirmedPassword,
       email: req.body.email,
-      password: req.body.password,
-      confirmedPassword: req.body.confirmedPassword,
-      userLanguage: req.body.userLanguage,
-      userPhoneNumber: req.body.userPhoneNumber,
-      optionalPhoneNumber: req.body.optionalPhoneNumber,
-      userGender: req.body.userGender,
-      userDateOfBirth: req.body.userDateOfBirth,
-      phoneNumber: req.body.phoneNumber,
       dateUpdated: req.body.dateUpdated,
       dateCreate: req.body.dateCreate,
     });
 
-    // Save user and respond
+    console.log(user);
+
     await user.save();
-    res.status(201).json({ msg: "User Successfully Registered" });
+    res.status(200).json({ msg: "User Successfully Registered" });
   } catch (err) {
-    res.status(500).json({ msg: "Server error during registration" });
+    res.status(403).json({ msg: err });
   }
 };
 

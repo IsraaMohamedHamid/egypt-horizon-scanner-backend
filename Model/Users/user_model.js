@@ -8,10 +8,6 @@ import mongoose from 'mongoose';
 
 ///------------------------------------------ SCHEMA ------------------------------------------///
 var loginUserSchema = new mongoose.Schema({
-    sn: {
-        type: Number,
-        unique: true
-    },
     username: {
         type: String,
         unique: true,
@@ -27,10 +23,6 @@ var loginUserSchema = new mongoose.Schema({
 });
 
 var registerUserSchema = new mongoose.Schema({
-    sn: {
-        type: Number,
-        unique: true
-    },
      prefix: {
         type: String,
     },
