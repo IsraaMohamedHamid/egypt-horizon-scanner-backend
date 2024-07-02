@@ -205,7 +205,7 @@ export const register = async (req, res) => {
       dateCreate: req.body.dateCreate,
     });
 
-    console.log(user);
+    // console.log(user);
 
     await user.save();
     res.status(200).json({ msg: "User Successfully Registered" });
