@@ -10,11 +10,11 @@ export const userHistorySchema = new mongoose.Schema({
         type: String,
     },
     selectedDimension: {
-      type: String,
+      type: [String],
   
     },
     selectedPillars: {
-      type: String,
+      type: [String],
   
     },
     selectedIndicators: {
