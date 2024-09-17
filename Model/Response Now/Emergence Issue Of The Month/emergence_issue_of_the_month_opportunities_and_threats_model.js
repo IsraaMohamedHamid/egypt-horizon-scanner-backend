@@ -28,6 +28,15 @@ export const EmergenceIssueOfTheMonthOpportunitiesAndThreatsSchema = new mongoos
     isOpportunitiesOrThreatsReasoning:{
         type: String
     },
+    isOpportunitiesReasoning:{
+        type: String
+    },
+    isThreatsReasoning:{
+        type: String
+    },
+    isOpportunitiesAndThreatsReasoning:{
+        type: String
+    },
     emergingIssue: {
         type: String
     },
