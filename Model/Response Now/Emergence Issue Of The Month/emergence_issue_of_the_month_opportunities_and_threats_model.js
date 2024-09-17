@@ -23,7 +23,7 @@ export const EmergenceIssueOfTheMonthOpportunitiesAndThreatsSchema = new mongoos
         type: String,
     },
     isOpportunitiesOrThreats:{
-        type: String
+        type: [String]
     },
     isOpportunitiesOrThreatsReasoning:{
         type: String
