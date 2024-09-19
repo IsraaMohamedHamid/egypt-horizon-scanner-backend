@@ -129,7 +129,8 @@ export const MunicipalDivisionSchema = new mongoose.Schema({
     type: Map,
     of: Number,
     default: () => new Map()
-  }
+  },
+  unAgencies: [String],
 })
 
 export const municipalDivisionsModel = mongoose.model('interventions_municipal_division_map', MunicipalDivisionSchema, 'interventions_municipal_division_map');

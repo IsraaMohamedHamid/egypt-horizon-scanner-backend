@@ -11,7 +11,7 @@ nest_asyncio.apply()
 client = OpenAI(api_key="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")
 
 # Function to get response from GPT-3.5-turbo
-async def gpt_get(prompt, model="gpt-3.5-turbo"):
+async def gpt_get(prompt, model="gpt-4o-mini"): # gpt-3.5-turbo
     messages = [{"role": "user", "content": prompt}]
     response = client.chat.completions.create(
             model=model,

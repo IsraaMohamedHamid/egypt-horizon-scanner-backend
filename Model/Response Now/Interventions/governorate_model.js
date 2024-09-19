@@ -117,6 +117,7 @@ export const GovernorateSchema = new mongoose.Schema({
     of: Number,
     default: () => new Map()
   },
+  unAgencies: [String],
 });
 
 export const governoratesModel = mongoose.model('interventions_governorate_map', GovernorateSchema, 'interventions_governorate_map');
