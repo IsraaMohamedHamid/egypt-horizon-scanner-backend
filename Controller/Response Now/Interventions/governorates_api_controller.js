@@ -3,9 +3,7 @@ import { schedule } from 'node-cron';
 const myCache = new NodeCache({ stdTTL: 21600 }); // Cache with a TTL of 6 hours
 
 import { governoratesModel } from '../../../Model/Response Now/Interventions/governorate_model.js';
-
 import { projectsModel } from '../../../Model/Response Now/Interventions/projects_model.js';
-
 
 // Helper function to count projects by theme for a governorate
 export async function countProjectsByTheme(governorateName) {
@@ -22,15 +20,7 @@ export async function countProjectsByTheme(governorateName) {
 
 // Helper function to count projects by UN Agencies for a governorate
 export async function countProjectsByUNAgencies(governorateName) {
-  const unAgencies = ['UNICEF',
-  'UNDP',
-  'UNHCR',
-  'WFP',
-  'UN Women',
-  'FAO',
-  'WHO',
-  'ILO'
-];
+  const unAgencies = ['UNICEF', 'UNDP', 'UNHCR', 'WFP', 'UN Women', 'FAO', 'WHO', 'ILO'];
   const unAgenciesCounts = {};
   for (const unAgency of unAgencies) {
     unAgenciesCounts[unAgency] = await projectsModel.countDocuments({
@@ -41,15 +31,15 @@ export async function countProjectsByUNAgencies(governorateName) {
   return unAgenciesCounts;
 }
 
-// Helper function to hash themeCounts for comparison
-export function hashThemeCounts(themeCounts) {
-  return JSON.stringify(themeCounts);
+// Helper function to hash themeCounts and UNAgenciesCounts for comparison
+export function hashData(themeCounts, unAgenciesCounts) {
+  return JSON.stringify({ themeCounts, unAgenciesCounts });
 }
 
 // Function to update governorate with project count data
-export async function updateGovernorateData(governorateName, themeCounts) {
+export async function updateGovernorateData(governorateName, themeCounts, unAgenciesCounts) {
   const lastData = myCache.get(governorateName);
-  const currentHash = hashThemeCounts(themeCounts);
+  const currentHash = hashData(themeCounts, unAgenciesCounts);
 
   if (!lastData || lastData.hash !== currentHash || Date.now() > lastData.nextUpdateTime) {
     const sortedThemes = Object.entries(themeCounts).sort(([, a], [, b]) => b - a);
@@ -59,7 +49,8 @@ export async function updateGovernorateData(governorateName, themeCounts) {
       Most_Intervention_Type: themesWithProjects[0] ? [themesWithProjects[0][0]] : [],
       Least_Intervention_Type: themesWithProjects.length ? [themesWithProjects[themesWithProjects.length - 1][0]] : [],
       No_Intervention_Type: Object.keys(themeCounts).filter(key => themeCounts[key] === 0),
-      ThemeCounts: themeCounts
+      ThemeCounts: themeCounts,
+      UNAgenciesCounts: unAgenciesCounts
     };
 
     await governoratesModel.findOneAndUpdate({
@@ -79,17 +70,19 @@ schedule('0 */6 * * *', async () => {
   const governorates = await governoratesModel.find();
   for (const division of governorates) {
     const themeCounts = await countProjectsByTheme(division.Governorate_Name_EN);
-    await updateGovernorateData(division.Governorate_Name_EN, themeCounts, true);
+    const unAgenciesCounts = await countProjectsByUNAgencies(division.Governorate_Name_EN);
+    await updateGovernorateData(division.Governorate_Name_EN, themeCounts, unAgenciesCounts);
   }
 });
 
-// API to get a list of governorates and count projects per theme
+// API to get a list of governorates and count projects per theme and UN agencies
 export const getGovernorates = async (req, res) => {
   try {
     const governorates = await governoratesModel.find();
     await Promise.all(governorates.map(async division => {
       const themeCounts = await countProjectsByTheme(division.Governorate_Name_EN);
-      await updateGovernorateData(division.Governorate_Name_EN, themeCounts);
+      const unAgenciesCounts = await countProjectsByUNAgencies(division.Governorate_Name_EN);
+      await updateGovernorateData(division.Governorate_Name_EN, themeCounts, unAgenciesCounts);
     }));
     res.send(governorates);
   } catch (error) {
