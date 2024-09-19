@@ -18,26 +18,40 @@ export async function countProjectsByTheme(municipalDivisionName) {
   return themeCounts;
 }
 
-// Helper function to count projects by UN Agencies for a municipal division
+// Helper function to count projects by UN Agencies for a governorate and extract unique UN agencies
 export async function countProjectsByUNAgencies(municipalDivisionName) {
-  const unAgencies = ['UNICEF', 'UNDP', 'UNHCR', 'WFP', 'UN Women', 'FAO', 'WHO', 'ILO'];
+  const unAgenciesList = ['UNICEF', 'UNDP', 'UNHCR', 'WFP', 'UN Women', 'FAO', 'WHO', 'ILO'];
   const unAgenciesCounts = {};
-  for (const unAgency of unAgencies) {
-    unAgenciesCounts[unAgency] = await projectsModel.countDocuments({
+
+  try {
+    // Use MongoDB distinct to get unique unAgencies for the governorate
+    const uniqueUnAgencies = await projectsModel.distinct('unAgencies', {
       Municipal_Division_Name_EN: municipalDivisionName,
-      unAgency: { $in: [unAgency] }
+      unAgencies: { $in: unAgenciesList }  // Only check for valid UN agencies
     });
+
+    // Count the occurrences of each UN agency
+    for (const unAgency of unAgenciesList) {
+      unAgenciesCounts[unAgency] = await projectsModel.countDocuments({
+        Municipal_Division_Name_EN: municipalDivisionName,
+        unAgencies: { $in: [unAgency] }
+      });
+    }
+
+    return { unAgenciesCounts, uniqueUnAgencies };
+  } catch (error) {
+    console.error(`Error fetching unique UN agencies for ${municipalDivisionName}:`, error);
+    return { unAgenciesCounts, uniqueUnAgencies: [] };
   }
-  return unAgenciesCounts;
 }
 
-// Helper function to hash themeCounts and UNAgenciesCounts for comparison
+// Helper function to hash themeCounts and unAgenciesCounts for comparison
 export function hashData(themeCounts, unAgenciesCounts) {
   return JSON.stringify({ themeCounts, unAgenciesCounts });
 }
 
 // Function to update municipal division with project count data
-export async function updateMunicipalDivisionData(municipalDivisionName, themeCounts, unAgenciesCounts) {
+export async function updateMunicipalDivisionData(municipalDivisionName, themeCounts, unAgenciesCounts, uniqueUnAgencies) {
   const lastData = myCache.get(municipalDivisionName);
   const currentHash = hashData(themeCounts, unAgenciesCounts);
 
@@ -50,7 +64,8 @@ export async function updateMunicipalDivisionData(municipalDivisionName, themeCo
       Least_Intervention_Type: themesWithProjects.length ? [themesWithProjects[themesWithProjects.length - 1][0]] : [],
       No_Intervention_Type: Object.keys(themeCounts).filter(key => themeCounts[key] === 0),
       ThemeCounts: themeCounts,
-      UNAgenciesCounts: unAgenciesCounts
+      UNAgenciesCounts: unAgenciesCounts,
+      unAgencies: uniqueUnAgencies // Add the unique UN agencies to the update data
     };
 
     await municipalDivisionsModel.findOneAndUpdate({
@@ -70,8 +85,8 @@ schedule('0 */6 * * *', async () => {
   const municipalDivisions = await municipalDivisionsModel.find();
   for (const division of municipalDivisions) {
     const themeCounts = await countProjectsByTheme(division.Municipal_Division_Name_EN);
-    const unAgenciesCounts = await countProjectsByUNAgencies(division.Municipal_Division_Name_EN);
-    await updateMunicipalDivisionData(division.Municipal_Division_Name_EN, themeCounts, unAgenciesCounts);
+    const { unAgenciesCounts, uniqueUnAgencies } = await countProjectsByUNAgencies(division.Municipal_Division_Name_EN);
+    await updateMunicipalDivisionData(division.Municipal_Division_Name_EN, themeCounts, unAgenciesCounts, uniqueUnAgencies);
   }
 });
 
@@ -81,8 +96,8 @@ export const getMunicipalDivisions = async (req, res) => {
     const municipalDivisions = await municipalDivisionsModel.find();
     await Promise.all(municipalDivisions.map(async division => {
       const themeCounts = await countProjectsByTheme(division.Municipal_Division_Name_EN);
-      const unAgenciesCounts = await countProjectsByUNAgencies(division.Municipal_Division_Name_EN);
-      await updateMunicipalDivisionData(division.Municipal_Division_Name_EN, themeCounts, unAgenciesCounts);
+      const { unAgenciesCounts, uniqueUnAgencies } =  await countProjectsByUNAgencies(division.Municipal_Division_Name_EN);
+      await updateMunicipalDivisionData(division.Municipal_Division_Name_EN, themeCounts, unAgenciesCounts, uniqueUnAgencies);
     }));
     res.send(municipalDivisions);
   } catch (error) {

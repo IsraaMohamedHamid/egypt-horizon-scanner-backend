@@ -1,0 +1,810 @@
+[{
+  "_id": {
+    "$oid": "667a5a513477d182952a467d"
+  },
+  "ID": 1,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Alexandria",
+  "Governorate_Name_AR": "الاسكندرية\n",
+  "Governorate_PCODE": "EG02",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "R_C"
+  ],
+  "Most_Intervention_Type": [
+    "D_E"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 41,
+    "E_E": 42,
+    "D_E": 50,
+    "I_D": 0,
+    "H_D": 49,
+    "P_S": 47
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a467e"
+  },
+  "ID": 2,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Assiut",
+  "Governorate_Name_AR": "أسيوط",
+  "Governorate_PCODE": "EG25",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "H_D"
+  ],
+  "Most_Intervention_Type": [
+    "E_E"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 39,
+    "E_E": 45,
+    "D_E": 35,
+    "I_D": 0,
+    "H_D": 30,
+    "P_S": 38
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a467f"
+  },
+  "ID": 3,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Aswan",
+  "Governorate_Name_AR": "أسوان",
+  "Governorate_PCODE": "EG28",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "P_S"
+  ],
+  "Most_Intervention_Type": [
+    "E_E"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 25,
+    "E_E": 30,
+    "D_E": 26,
+    "I_D": 0,
+    "H_D": 23,
+    "P_S": 22
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a4680"
+  },
+  "ID": 4,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Behera",
+  "Governorate_Name_AR": "البحيرة\n",
+  "Governorate_PCODE": "EG18",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "E_E"
+  ],
+  "Most_Intervention_Type": [
+    "R_C"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 60,
+    "E_E": 34,
+    "D_E": 48,
+    "I_D": 0,
+    "H_D": 49,
+    "P_S": 48
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a4681"
+  },
+  "ID": 5,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Beni Suef",
+  "Governorate_Name_AR": "بنى سويف\n",
+  "Governorate_PCODE": "EG22",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "H_D"
+  ],
+  "Most_Intervention_Type": [
+    "P_S"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 23,
+    "E_E": 28,
+    "D_E": 25,
+    "I_D": 0,
+    "H_D": 19,
+    "P_S": 29
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a4682"
+  },
+  "ID": 6,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Cairo",
+  "Governorate_Name_AR": "القاهرة",
+  "Governorate_PCODE": "EG01",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "R_C"
+  ],
+  "Most_Intervention_Type": [
+    "P_S"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 95,
+    "E_E": 98,
+    "D_E": 106,
+    "I_D": 0,
+    "H_D": 97,
+    "P_S": 113
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a4683"
+  },
+  "ID": 7,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Dakahlia",
+  "Governorate_Name_AR": "الدقهلية",
+  "Governorate_PCODE": "EG12",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "D_E"
+  ],
+  "Most_Intervention_Type": [
+    "E_E"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 56,
+    "E_E": 61,
+    "D_E": 45,
+    "I_D": 0,
+    "H_D": 57,
+    "P_S": 49
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a4684"
+  },
+  "ID": 8,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Damietta",
+  "Governorate_Name_AR": "دمياط\n",
+  "Governorate_PCODE": "EG11",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "D_E"
+  ],
+  "Most_Intervention_Type": [
+    "H_D"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 24,
+    "E_E": 24,
+    "D_E": 21,
+    "I_D": 0,
+    "H_D": 26,
+    "P_S": 26
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a4685"
+  },
+  "ID": 9,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Fayoum",
+  "Governorate_Name_AR": "الفيوم",
+  "Governorate_PCODE": "EG23",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "D_E"
+  ],
+  "Most_Intervention_Type": [
+    "H_D"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 27,
+    "E_E": 25,
+    "D_E": 15,
+    "I_D": 0,
+    "H_D": 29,
+    "P_S": 20
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a4686"
+  },
+  "ID": 10,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Gharbia",
+  "Governorate_Name_AR": "الغربية",
+  "Governorate_PCODE": "EG16",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "D_E"
+  ],
+  "Most_Intervention_Type": [
+    "P_S"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 27,
+    "E_E": 27,
+    "D_E": 23,
+    "I_D": 0,
+    "H_D": 32,
+    "P_S": 36
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a4687"
+  },
+  "ID": 11,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Giza",
+  "Governorate_Name_AR": "الجيزة",
+  "Governorate_PCODE": "EG21",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "P_S"
+  ],
+  "Most_Intervention_Type": [
+    "E_E"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 57,
+    "E_E": 63,
+    "D_E": 59,
+    "I_D": 0,
+    "H_D": 52,
+    "P_S": 42
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a4688"
+  },
+  "ID": 12,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Ismailia",
+  "Governorate_Name_AR": "الإسماعيلية\n",
+  "Governorate_PCODE": "EG19",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "E_E"
+  ],
+  "Most_Intervention_Type": [
+    "R_C"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 25,
+    "E_E": 15,
+    "D_E": 20,
+    "I_D": 0,
+    "H_D": 21,
+    "P_S": 18
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a4689"
+  },
+  "ID": 13,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Kafr El-Shikh",
+  "Governorate_Name_AR": "كفر الشيخ\n",
+  "Governorate_PCODE": "EG15",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "R_C"
+  ],
+  "Most_Intervention_Type": [
+    "P_S"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 24,
+    "E_E": 26,
+    "D_E": 31,
+    "I_D": 0,
+    "H_D": 26,
+    "P_S": 32
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a468a"
+  },
+  "ID": 14,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Kalyoubia",
+  "Governorate_Name_AR": "القليوبية\n",
+  "Governorate_PCODE": "EG14",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "P_S"
+  ],
+  "Most_Intervention_Type": [
+    "H_D"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 36,
+    "E_E": 35,
+    "D_E": 39,
+    "I_D": 0,
+    "H_D": 41,
+    "P_S": 33
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a468b"
+  },
+  "ID": 15,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Luxor",
+  "Governorate_Name_AR": "مدينة الأقصر",
+  "Governorate_PCODE": "EG29",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "E_E"
+  ],
+  "Most_Intervention_Type": [
+    "D_E"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 9,
+    "E_E": 9,
+    "D_E": 13,
+    "I_D": 0,
+    "H_D": 11,
+    "P_S": 10
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a468c"
+  },
+  "ID": 16,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Matrouh",
+  "Governorate_Name_AR": "مطروح",
+  "Governorate_PCODE": "EG33",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "R_C"
+  ],
+  "Most_Intervention_Type": [
+    "P_S"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 16,
+    "E_E": 17,
+    "D_E": 21,
+    "I_D": 0,
+    "H_D": 19,
+    "P_S": 26
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a468d"
+  },
+  "ID": 17,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Menia",
+  "Governorate_Name_AR": "المنيا\n",
+  "Governorate_PCODE": "EG24",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "H_D"
+  ],
+  "Most_Intervention_Type": [
+    "P_S"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 32,
+    "E_E": 30,
+    "D_E": 30,
+    "I_D": 0,
+    "H_D": 30,
+    "P_S": 41
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a468e"
+  },
+  "ID": 18,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Menoufia",
+  "Governorate_Name_AR": "المنوفية\n",
+  "Governorate_PCODE": "EG17",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "H_D"
+  ],
+  "Most_Intervention_Type": [
+    "E_E"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 32,
+    "E_E": 34,
+    "D_E": 30,
+    "I_D": 0,
+    "H_D": 19,
+    "P_S": 30
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a468f"
+  },
+  "ID": 19,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "New Valley",
+  "Governorate_Name_AR": "الوادى الجديد",
+  "Governorate_PCODE": "EG32",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "H_D"
+  ],
+  "Most_Intervention_Type": [
+    "R_C"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 12,
+    "E_E": 11,
+    "D_E": 10,
+    "I_D": 0,
+    "H_D": 7,
+    "P_S": 12
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a4690"
+  },
+  "ID": 20,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "North Sinai",
+  "Governorate_Name_AR": "شمال سيناء\n",
+  "Governorate_PCODE": "EG34",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "E_E"
+  ],
+  "Most_Intervention_Type": [
+    "R_C"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 31,
+    "E_E": 24,
+    "D_E": 29,
+    "I_D": 0,
+    "H_D": 28,
+    "P_S": 30
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a4691"
+  },
+  "ID": 21,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Port Said",
+  "Governorate_Name_AR": "بورسعيد",
+  "Governorate_PCODE": "EG03",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "P_S"
+  ],
+  "Most_Intervention_Type": [
+    "E_E"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 24,
+    "E_E": 37,
+    "D_E": 29,
+    "I_D": 0,
+    "H_D": 31,
+    "P_S": 24
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a4692"
+  },
+  "ID": 22,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Qena",
+  "Governorate_Name_AR": "قنا",
+  "Governorate_PCODE": "EG27",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "H_D"
+  ],
+  "Most_Intervention_Type": [
+    "R_C"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 36,
+    "E_E": 34,
+    "D_E": 35,
+    "I_D": 0,
+    "H_D": 33,
+    "P_S": 36
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a4693"
+  },
+  "ID": 23,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Red Sea",
+  "Governorate_Name_AR": "البحر الأحمر",
+  "Governorate_PCODE": "EG31",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "H_D"
+  ],
+  "Most_Intervention_Type": [
+    "R_C"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 21,
+    "E_E": 20,
+    "D_E": 18,
+    "I_D": 0,
+    "H_D": 18,
+    "P_S": 20
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a4694"
+  },
+  "ID": 24,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Sharkia",
+  "Governorate_Name_AR": "الشرقية\n",
+  "Governorate_PCODE": "EG13",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "P_S"
+  ],
+  "Most_Intervention_Type": [
+    "E_E"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 55,
+    "E_E": 62,
+    "D_E": 52,
+    "I_D": 0,
+    "H_D": 59,
+    "P_S": 49
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a4695"
+  },
+  "ID": 25,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "South Sinai",
+  "Governorate_Name_AR": "جنوب سيناء",
+  "Governorate_PCODE": "EG35",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "H_D"
+  ],
+  "Most_Intervention_Type": [
+    "P_S"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 20,
+    "E_E": 18,
+    "D_E": 21,
+    "I_D": 0,
+    "H_D": 18,
+    "P_S": 22
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a4696"
+  },
+  "ID": 26,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Suez",
+  "Governorate_Name_AR": "السويس",
+  "Governorate_PCODE": "EG04",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "H_D"
+  ],
+  "Most_Intervention_Type": [
+    "P_S"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 17,
+    "E_E": 18,
+    "D_E": 13,
+    "I_D": 0,
+    "H_D": 13,
+    "P_S": 19
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a513477d182952a4697"
+  },
+  "ID": 27,
+  "Type": "MunicipalDivision",
+  "Governorate_Name_EN": "Suhag",
+  "Governorate_Name_AR": "سوهاج",
+  "Governorate_PCODE": "EG26",
+  "Country_EN": "Egypt",
+  "Country_AR": "مِصر",
+  "Country_PCODE": "EG",
+  "Least_Intervention_Type": [
+    "P_S"
+  ],
+  "Most_Intervention_Type": [
+    "H_D"
+  ],
+  "No_Intervention_Type": [
+    "I_D"
+  ],
+  "ThemeCounts": {
+    "R_C": 51,
+    "E_E": 56,
+    "D_E": 54,
+    "I_D": 0,
+    "H_D": 57,
+    "P_S": 39
+  }
+}]
