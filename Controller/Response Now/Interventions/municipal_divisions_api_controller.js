@@ -3,9 +3,7 @@ import { schedule } from 'node-cron';
 const myCache = new NodeCache({ stdTTL: 21600 }); // Cache with a TTL of 6 hours
 
 import { municipalDivisionsModel } from '../../../Model/Response Now/Interventions/municipal_divisions_model.js';
-
 import { projectsModel } from '../../../Model/Response Now/Interventions/projects_model.js';
-
 
 // Helper function to count projects by theme for a municipal division
 export async function countProjectsByTheme(municipalDivisionName) {
@@ -20,15 +18,28 @@ export async function countProjectsByTheme(municipalDivisionName) {
   return themeCounts;
 }
 
-// Helper function to hash themeCounts for comparison
-export function hashThemeCounts(themeCounts) {
-  return JSON.stringify(themeCounts);
+// Helper function to count projects by UN Agencies for a municipal division
+export async function countProjectsByUNAgencies(municipalDivisionName) {
+  const unAgencies = ['UNICEF', 'UNDP', 'UNHCR', 'WFP', 'UN Women', 'FAO', 'WHO', 'ILO'];
+  const unAgenciesCounts = {};
+  for (const unAgency of unAgencies) {
+    unAgenciesCounts[unAgency] = await projectsModel.countDocuments({
+      Municipal_Division_Name_EN: municipalDivisionName,
+      unAgency: { $in: [unAgency] }
+    });
+  }
+  return unAgenciesCounts;
+}
+
+// Helper function to hash themeCounts and UNAgenciesCounts for comparison
+export function hashData(themeCounts, unAgenciesCounts) {
+  return JSON.stringify({ themeCounts, unAgenciesCounts });
 }
 
 // Function to update municipal division with project count data
-export async function updateMunicipalDivisionData(municipalDivisionName, themeCounts) {
+export async function updateMunicipalDivisionData(municipalDivisionName, themeCounts, unAgenciesCounts) {
   const lastData = myCache.get(municipalDivisionName);
-  const currentHash = hashThemeCounts(themeCounts);
+  const currentHash = hashData(themeCounts, unAgenciesCounts);
 
   if (!lastData || lastData.hash !== currentHash || Date.now() > lastData.nextUpdateTime) {
     const sortedThemes = Object.entries(themeCounts).sort(([, a], [, b]) => b - a);
@@ -38,7 +49,8 @@ export async function updateMunicipalDivisionData(municipalDivisionName, themeCo
       Most_Intervention_Type: themesWithProjects[0] ? [themesWithProjects[0][0]] : [],
       Least_Intervention_Type: themesWithProjects.length ? [themesWithProjects[themesWithProjects.length - 1][0]] : [],
       No_Intervention_Type: Object.keys(themeCounts).filter(key => themeCounts[key] === 0),
-      ThemeCounts: themeCounts
+      ThemeCounts: themeCounts,
+      UNAgenciesCounts: unAgenciesCounts
     };
 
     await municipalDivisionsModel.findOneAndUpdate({
@@ -58,17 +70,19 @@ schedule('0 */6 * * *', async () => {
   const municipalDivisions = await municipalDivisionsModel.find();
   for (const division of municipalDivisions) {
     const themeCounts = await countProjectsByTheme(division.Municipal_Division_Name_EN);
-    await updateMunicipalDivisionData(division.Municipal_Division_Name_EN, themeCounts, true);
+    const unAgenciesCounts = await countProjectsByUNAgencies(division.Municipal_Division_Name_EN);
+    await updateMunicipalDivisionData(division.Municipal_Division_Name_EN, themeCounts, unAgenciesCounts);
   }
 });
 
-// API to get a list of municipal divisions and count projects per theme
+// API to get a list of municipal divisions and count projects per theme and UN agencies
 export const getMunicipalDivisions = async (req, res) => {
   try {
     const municipalDivisions = await municipalDivisionsModel.find();
     await Promise.all(municipalDivisions.map(async division => {
       const themeCounts = await countProjectsByTheme(division.Municipal_Division_Name_EN);
-      await updateMunicipalDivisionData(division.Municipal_Division_Name_EN, themeCounts);
+      const unAgenciesCounts = await countProjectsByUNAgencies(division.Municipal_Division_Name_EN);
+      await updateMunicipalDivisionData(division.Municipal_Division_Name_EN, themeCounts, unAgenciesCounts);
     }));
     res.send(municipalDivisions);
   } catch (error) {

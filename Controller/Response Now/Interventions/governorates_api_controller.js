@@ -20,6 +20,27 @@ export async function countProjectsByTheme(governorateName) {
   return themeCounts;
 }
 
+// Helper function to count projects by UN Agencies for a governorate
+export async function countProjectsByUNAgencies(governorateName) {
+  const unAgencies = ['UNICEF',
+  'UNDP',
+  'UNHCR',
+  'WFP',
+  'UN Women',
+  'FAO',
+  'WHO',
+  'ILO'
+];
+  const unAgenciesCounts = {};
+  for (const unAgency of unAgencies) {
+    unAgenciesCounts[unAgency] = await projectsModel.countDocuments({
+      Governorate_Name_EN: governorateName,
+      unAgency: { $in: [unAgency] }
+    });
+  }
+  return unAgenciesCounts;
+}
+
 // Helper function to hash themeCounts for comparison
 export function hashThemeCounts(themeCounts) {
   return JSON.stringify(themeCounts);
