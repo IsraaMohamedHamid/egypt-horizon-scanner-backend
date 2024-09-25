@@ -26,7 +26,7 @@ export const dimensionSchema = new mongoose.Schema({
 
   },
   Source: {
-    type: String,
+    type: [String],
 
   },
   Link: {
