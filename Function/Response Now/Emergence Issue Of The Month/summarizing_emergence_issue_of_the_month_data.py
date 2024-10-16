@@ -60,10 +60,10 @@ data
 cache = TTLCache(maxsize=100, ttl=300)
 
 # OpenAI API client initialization
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 # Function to get response from GPT-3.5-turbo
-async def gpt_get(prompt, model="gpt-3.5-turbo"):
+async def gpt_get(prompt, model="gpt-4o-mini"): # "gpt-3.5-turbo"
     messages = [{"role": "user", "content": prompt}]
     try:
         # Correctly await the async API call
