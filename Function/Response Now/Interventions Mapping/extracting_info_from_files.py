@@ -138,11 +138,37 @@ answers = {
     
 }
 
+# Few-shot examples that help guide the model
+few_shot_examples = [
+    {
+        "question": "What is the project ID?",
+        "context": "Project XYZ is a large-scale construction project initiated in 2022...",
+        "expected_answer": "Project ID: 12345"
+    },
+    {
+        "question": "What is the status of the project?",
+        "context": "The project started in 2021 and is currently ongoing with...",
+        "expected_answer": "Status: In Progress"
+    },
+    {
+        "question": "What is the project budget?",
+        "context": "The total budget allocated for this project is estimated to be $5 million...",
+        "expected_answer": "Budget: $5 million"
+    }
+]
+
+
 client = OpenAI(api_key="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")
 
 # Function to get response from GPT-3.5-turbo
-def gpt_get(prompt, model="gpt-4o-mini"): # gpt-3.5-turbo
+def gpt_get(prompt, model="gpt-3.5-turbo"):
+    # Create a prompt with few-shot examples
     messages = [{"role": "user", "content": prompt}]
+
+    # Create a prompt with few-shot examples
+    full_prompt = build_few_shot_prompt(prompt)
+
+    # Get the response from GPT-3.5-turbo
     response = client.chat.completions.create(
             model=model,
             messages=messages,
@@ -150,6 +176,13 @@ def gpt_get(prompt, model="gpt-4o-mini"): # gpt-3.5-turbo
             #response_format={ "type": "json_object" }
         )
     return response.choices[0].message.content.strip(), response.usage.prompt_tokens, response.usage.completion_tokens
+
+# Function to construct the prompt with few-shot examples
+def build_few_shot_prompt(prompt):
+    few_shot_prompts = ""
+    for example in few_shot_examples:
+        few_shot_prompts += f"Question: {example['question']}\nContext: {example['context']}\nAnswer: {example['expected_answer']}\n\n"
+    return f"{few_shot_prompts}Question: {prompt}"
 
 # Function to extract information
 def extract_info(text, questions):
@@ -216,9 +249,8 @@ def extract_text_from_file(file_path):
         return extract_data_from_xlsx(file_path)
     else:
         raise ValueError("Unsupported file format")
-    
 
-# Function to extract text from an image
+# Function to extract text from an image using OCR
 def extract_text_from_image(image_path):
     return pytesseract.image_to_string(Image.open(image_path))
 
@@ -249,6 +281,11 @@ if __name__ == "__main__":
         
         logging.info(f"START: Total records: {len(data)}")
         
+        # Add your file paths here
+
+        # Output JSON file path
+        json_path = 'output.json'
+        
         # Validate URLs
         valid_data = [item for item in data if isinstance(item, dict) and item.get('link')]
         
@@ -258,6 +295,7 @@ if __name__ == "__main__":
         
         # Attempt to process URLs
         extract_info_from_files(file_paths, json_path)
+
     except Exception as e:
         logging.error("An error occurred: %s", e)
         sys.exit(1)

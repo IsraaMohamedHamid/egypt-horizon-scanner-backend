@@ -89,6 +89,7 @@ import programmaticSimulation from './Route/Response Now/Programmatic Simulation
 import serviceOfferAttendants from './Route/Service Offer/attendantsRoutes.js';
 import serviceOfferEvents from './Route/Service Offer/eventsRoutes.js';
 import serviceOfferInstitutions from './Route/Service Offer/institutionsRoutes.js';
+import serviceOfferPartners from './Route/Service Offer/partnerRoutes.js';
 import serviceOfferStakeholders from './Route/Service Offer/stakeholdersRoutes.js';
 import user from './Route/Users/user.js';
 import userHistory from './Route/Users/user_history.js';
@@ -121,6 +122,7 @@ egyptHorizonScanner.use('/response-now/programmatic-simulation', programmaticSim
 egyptHorizonScanner.use('/service-offer/attendant', serviceOfferAttendants);
 egyptHorizonScanner.use('/service-offer/events', serviceOfferEvents);
 egyptHorizonScanner.use('/service-offer/institutions', serviceOfferInstitutions);
+egyptHorizonScanner.use('/service-offer/partners', serviceOfferPartners);
 egyptHorizonScanner.use('/service-offer/stakeholders', serviceOfferStakeholders);
 
 // User experience
