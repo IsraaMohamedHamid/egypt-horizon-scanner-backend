@@ -5,9 +5,10 @@ import {ExecutingAgencySchema} from './executing_agency_model.js';
 // Import Mongoose
 import mongoose from 'mongoose';
 
+
+
 // Create Project Schema and Model
 export const ProjectSchema = new mongoose.Schema({
-
   id: {
     type: String
   },
@@ -45,6 +46,7 @@ export const ProjectSchema = new mongoose.Schema({
   endDate: {
     type: Date
   },
+  
   Latitude: {
     type: Number
   },
@@ -143,6 +145,46 @@ export const ProjectSchema = new mongoose.Schema({
     type: String
   },
   unAgencies: [String],
+  projectType: {
+    type: String
+  },
+  projectTypeDescription: {
+    type: String
+  },
+  projectTypeDescription_AR: {
+    type: String
+  },
+  projectKPIS: {
+    type: [String]
+  },
+  projectKPIs_AR: {
+    type: [String]
+  },
+  projectMAndEData: {
+    type: [String]
+  },
+  projectMAndEData_AR: {
+    type: [String]
+  },
+  projectCDPFocusAreas: {
+    type: [String]
+  },
+  projectCDPFocusAreas_AR: {
+    type: [String]
+  },
+  projectSDGReporting: {
+    type: [String]
+  },
+  projectSDGReporting_AR: {
+    type: [String]
+  },
+  projectPrioritiesSetByUNDPOffice: {
+    type: [String]
+  },
+  projectPrioritiesSetByUNDPOffice_AR: {
+    type: [String]
+  },
+
 });
 
 export const projectsModel = mongoose.model('project_data', ProjectSchema, 'project_data');
